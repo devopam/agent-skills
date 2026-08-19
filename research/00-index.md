@@ -17,8 +17,8 @@ Additional categories beyond this v1 scope are tracked in
 | Architecture Template Selection | `research/architecture-templates.md` | user-approved | A |
 | Agentic & MCP Platforms — stack | `research/stacks/agentic-mcp-platforms/stack.md` | user-approved | B |
 | Agentic & MCP Platforms — libraries | `research/stacks/agentic-mcp-platforms/libraries.md` | user-approved | B |
-| Backend & API Services — stack | `research/stacks/backend-api-services/stack.md` | not started | C |
-| Backend & API Services — libraries | `research/stacks/backend-api-services/libraries.md` | not started | C |
+| Backend & API Services — stack | `research/stacks/backend-api-services/stack.md` | user-approved | C |
+| Backend & API Services — libraries | `research/stacks/backend-api-services/libraries.md` | user-approved | C |
 | Data & Analytics Platforms — stack | `research/stacks/data-analytics-platforms/stack.md` | not started | D |
 | Data & Analytics Platforms — libraries | `research/stacks/data-analytics-platforms/libraries.md` | not started | D |
 | Business Applications — stack | `research/stacks/business-applications/stack.md` | not started | D |
