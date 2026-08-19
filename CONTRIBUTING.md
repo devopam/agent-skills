@@ -63,9 +63,15 @@ research phase before any `references/*.md` file is written:
    documentation/research-only project vs. a software project, or by
    project scale), say so explicitly rather than defaulting to one
    generic answer.
-5. Once content is authored and committed, delete the promoted baseline from
-   `research/` — but carry its key citations forward into the authored file's
-   own **Sources** section, so provenance survives the cleanup.
+5. `research/` stays in the repo indefinitely once an area is promoted —
+   it's the provenance record for why an authored file says what it says.
+   Still carry key citations forward into the authored file's own
+   **Sources** section (a reader of `references/` shouldn't need to open
+   `research/` for basic provenance), but don't delete the baseline just
+   because it's been promoted. `research/` only gets pruned much later,
+   once the skill has stabilized in real use and there's minimal need to
+   look back at how a recommendation was arrived at — a deliberate,
+   separately-decided cleanup, not a routine step of authoring.
 
 ## Versioning
 

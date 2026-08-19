@@ -1,5 +1,5 @@
 # Baseline: Agentic & MCP Platforms — Architecture & Stack
-Status: draft      Date: 2026-08-19
+Status: user-approved      Date: 2026-08-19
 
 ## Local precedent used throughout
 
@@ -378,6 +378,27 @@ correct.
   source, not independently reproduced" caveat as done here, or should
   authoring drop the specific percentages and keep only the qualitative
   threat descriptions?
+
+## Resolutions (Checkpoint B review, 2026-08-19)
+
+- **Default pattern**: name hexagonal/ports-and-adapters as the recommended
+  default for MCP-server backends, with the port/adapter reasoning stated
+  explicitly — matches the repo's opinionated-default-plus-escape-hatch
+  convention.
+- **Stateless spec weight**: keep the hedge as drafted ("the direction the
+  ecosystem is moving," not yet universal client support) — no change.
+- **A2A protocols**: confirmed out of scope for this pass; a short
+  acknowledgment (exists, addresses peer coordination not tool access) is
+  fine at authoring time but not a researched section.
+- **Memory/context split labeling**: confirmed as written — keep the
+  explicit "this sub-topic serves the agent-backend half more than the
+  MCP-server half" framing so MCP-only builders know they can skip it.
+- **Vulnerability-prevalence stats**: keep with the "single-source,
+  vendor-published, not independently reproduced" caveat rather than
+  dropping the figures — matches the transparency-over-omission pattern
+  already used in Checkpoint A (e.g. the excluded fabricated claim was
+  dropped entirely; a real-but-single-sourced stat is kept and caveated,
+  which is a different case).
 
 ## Target file(s) + estimated length
 

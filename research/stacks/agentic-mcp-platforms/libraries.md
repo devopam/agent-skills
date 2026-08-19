@@ -1,5 +1,5 @@
 # Baseline: Agentic & MCP Platforms — Preferred Libraries
-Status: draft      Date: 2026-08-19      Snapshot date: 2026-08-19
+Status: user-approved      Date: 2026-08-19      Snapshot date: 2026-08-19
 
 ## Local precedent used throughout
 
@@ -240,6 +240,29 @@ approval) is genuinely complex.
   interest for evaluating OpenAI's own models) is the right level of
   caution for the authored doc, or whether it should be dropped from the
   default recommendation entirely given the optics.
+
+## Resolutions (Checkpoint B review, 2026-08-19)
+
+- **Adoption-figure verification**: policy going forward (this category and
+  all remaining ones) — Phase 2 authoring does a direct-fetch verification
+  pass (repo page / API, not secondary blog sources) on every star/download
+  figure that ends up published in a `references/preferred-libraries/*.md`
+  file. Single-source secondary figures are fine in the research baseline
+  stage, not in the authored content.
+- **Claude Agent SDK license**: verify current terms directly at authoring
+  time before stating anything specific about redistribution/embedding
+  rights, given this skill's own Claude-ecosystem context.
+- **Doc shape**: one opinionated default per category, with the full
+  comparison table retained right after as supporting detail/escape hatch
+  — applies to this file and the remaining 4 stack categories' libraries
+  docs. For this category specifically that likely means naming something
+  like "MCP Inspector CLI + DeepEval + Langfuse" as the default trio during
+  authoring, informed by the verified adoption/license data above.
+- **LangGraph licensing trap**: yes, a dedicated prominent callout in the
+  authored doc — too easy to miss otherwise.
+- **Promptfoo governance note**: keep as a brief noted caveat (conflict-of-
+  interest disclosure), not dropped from the recommendation — matches the
+  disclose-rather-than-omit pattern used throughout this research.
 
 ## Target file(s) + estimated length
 

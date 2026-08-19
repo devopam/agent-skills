@@ -3,10 +3,12 @@
 Running log of decisions about `project-incubation`'s *behavior* (Q&A flow,
 routing logic) made during the research phase — as opposed to reference
 *content* decisions, which live in each area's own baseline. Content
-baselines get promoted into `references/*.md` and their `research/` source
-deleted; these flow decisions get promoted directly into `SKILL.md` itself
-during Phase 2 authoring, then this file is deleted alongside the rest of
-`research/`. Do not lose these before SKILL.md is written.
+baselines get promoted into `references/*.md`; these flow decisions get
+promoted directly into `SKILL.md` itself during Phase 2 authoring. This file
+(like the rest of `research/`) stays in the repo as a provenance record —
+`research/` is retained indefinitely, pruned only much later once the skill
+has stabilized (see `CONTRIBUTING.md`). Do not lose these before SKILL.md
+is written, even though the file itself won't be deleted immediately after.
 
 ## 1. LLM/agent-component detection (Checkpoint A, 2026-08-19)
 

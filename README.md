@@ -26,6 +26,17 @@ For Claude Code specifically: `claude plugin validate .` / `claude plugin eval`
 can be run against this repo directly, since it carries a
 `.claude-plugin/plugin.json` manifest.
 
+## Roadmap
+
+`project-incubation`'s v1 covers 5 stack categories (Data & Analytics
+Platforms, Business Applications, Integration & Event-Driven Systems,
+Backend & API Services, Agentic & MCP Platforms) plus a software/
+non-software fork for documentation/research-only projects. Confirmed for
+later addition: Infrastructure & Platform Engineering, ML / AI Model
+Development, MLOps / ML Platform Engineering, Developer Tooling &
+Libraries, and Frontend / Client Applications — see
+`research/taxonomy-roadmap.md` for scope notes on each.
+
 ## Repo conventions
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for how skills are authored, reviewed,
