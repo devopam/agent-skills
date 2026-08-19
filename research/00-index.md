@@ -1,5 +1,10 @@
 # Research Index
 
+**v1 research phase: COMPLETE (all 13 areas user-approved as of 2026-08-19).**
+Phase 2 (content authoring) can begin. See `skill-flow-decisions.md` for
+routing-logic decisions that must carry into `SKILL.md`, and
+`taxonomy-roadmap.md` for what comes after v1.
+
 Status tracker for `project-incubation`'s coverage baselines. Each row
 corresponds to a file under `research/`, promoted into
 `skills/project-incubation/references/` once `user-approved` (Phase 2). The
@@ -21,8 +26,8 @@ Additional categories beyond this v1 scope are tracked in
 | Backend & API Services — libraries | `research/stacks/backend-api-services/libraries.md` | user-approved | C |
 | Data & Analytics Platforms — stack | `research/stacks/data-analytics-platforms/stack.md` | user-approved | D |
 | Data & Analytics Platforms — libraries | `research/stacks/data-analytics-platforms/libraries.md` | user-approved | D |
-| Business Applications — stack | `research/stacks/business-applications/stack.md` | draft (billing sub-topic pending) | D |
-| Business Applications — libraries | `research/stacks/business-applications/libraries.md` | draft (billing sub-topic pending) | D |
+| Business Applications — stack | `research/stacks/business-applications/stack.md` | user-approved | D |
+| Business Applications — libraries | `research/stacks/business-applications/libraries.md` | user-approved | D |
 | Integration & Event-Driven Systems — stack | `research/stacks/integration-event-driven-systems/stack.md` | user-approved | D |
 | Integration & Event-Driven Systems — libraries | `research/stacks/integration-event-driven-systems/libraries.md` | user-approved | D |
 
