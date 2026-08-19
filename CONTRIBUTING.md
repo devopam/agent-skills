@@ -47,10 +47,23 @@ research phase before any `references/*.md` file is written:
 2. Write a structured **coverage baseline** per area (scope, explicit
    non-scope, sources with retrieval dates, target file + estimated length)
    under a temporary `research/` directory at the repo root, mirroring the
-   target `references/` tree.
+   target `references/` tree. This baseline stays at scope-level — what's
+   in/out and why, not yet the fully fleshed-out recommendation.
 3. Get the baseline reviewed and approved (expand/modify as needed) before
    authoring the corresponding `references/*.md` file.
-4. Once content is authored and committed, delete the promoted baseline from
+4. **Authoring is itself a second, deeper research pass — not a rewrite of
+   the baseline's notes into prose.** Every recommendation that makes it
+   into a `references/*.md` file gets its own concrete, specific backing:
+   named tools/patterns/thresholds rather than generic advice, real
+   worked examples where one exists, and honest trade-offs — the goal is a
+   skill that gives an agent (and the humans it's guiding) an actionable
+   mandate, not a survey. A generic reference doc that could apply to any
+   project is a sign the authoring pass didn't go deep enough. Where a
+   recommendation genuinely differs by project shape (e.g. a
+   documentation/research-only project vs. a software project, or by
+   project scale), say so explicitly rather than defaulting to one
+   generic answer.
+5. Once content is authored and committed, delete the promoted baseline from
    `research/` — but carry its key citations forward into the authored file's
    own **Sources** section, so provenance survives the cleanup.
 

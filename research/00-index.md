@@ -11,8 +11,8 @@ the authored file's own Sources section (see `CONTRIBUTING.md`).
 | Project Structure | `research/project-structure.md` | user-approved | A |
 | Architecture Principles | `research/architecture-principles.md` | user-approved | A |
 | Architecture Template Selection | `research/architecture-templates.md` | user-approved | A |
-| Agentic & MCP Platforms — stack | `research/stacks/agentic-mcp-platforms/stack.md` | not started | B |
-| Agentic & MCP Platforms — libraries | `research/stacks/agentic-mcp-platforms/libraries.md` | not started | B |
+| Agentic & MCP Platforms — stack | `research/stacks/agentic-mcp-platforms/stack.md` | draft | B |
+| Agentic & MCP Platforms — libraries | `research/stacks/agentic-mcp-platforms/libraries.md` | draft | B |
 | Backend & API Services — stack | `research/stacks/backend-api-services/stack.md` | not started | C |
 | Backend & API Services — libraries | `research/stacks/backend-api-services/libraries.md` | not started | C |
 | Data & Analytics Platforms — stack | `research/stacks/data-analytics-platforms/stack.md` | not started | D |

@@ -183,6 +183,18 @@ This entire family should be flagged as **inapplicable** by the eventual skill f
 5. **Scope boundary on reliability**: the baseline draws a line between "state your SLO" (in scope, architecture-level) and "on-call/incident-runbook practice" (out of scope, operational). Does that boundary match where the project-incubation skill should stop?
 6. **Relevance/confidence numeric guidance**: current sources explicitly refuse to name a universal threshold (recommending a domain-specific calibration set instead). Should the eventual skill still offer a rough starting-point number (e.g., the 0.7/0.5 precision@k anchor found above) for projects too early-stage to build a calibration set, or leave it fully open-ended per the sources?
 
+## Applicability note (added post-Checkpoint-A, see skill-flow-decisions.md #3)
+
+A software/non-software top-level fork was added to SKILL.md's routing
+logic after this baseline was approved. Zero-hardcoding/config-driven,
+security-by-design, and maintainability/simplicity still apply in spirit to
+non-software projects. TDD, SDD, testability, scalability/reliability, and
+observability are software-path-specific and must be explicitly marked
+skipped (not silently omitted) for the non-software path, so an audit never
+flags a documentation repo for "missing tests." LLM-specific principles
+remain independent of this fork — they apply whenever a project has an
+LLM/agent component, software or not.
+
 ## Resolutions (Checkpoint A review, 2026-08-19)
 
 - **LLM-component detection**: ask explicitly during inception ("does this

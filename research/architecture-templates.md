@@ -238,6 +238,14 @@ Status: user-approved      Date: 2026-08-19
   qualitative treatment (no dedicated source) is fine for that one
   signal.
 
+## Applicability note (added post-Checkpoint-A, see skill-flow-decisions.md #3)
+
+A software/non-software top-level fork was added to SKILL.md's routing
+logic after this baseline was approved. This entire document is
+**software-path-only** — the non-software path (documentation, research,
+knowledge-base, dataset projects) skips architecture-template selection
+entirely; there's no pattern to select when there's no code architecture.
+
 ## Resolutions (Checkpoint A review, 2026-08-19)
 
 - **Output shape**: compositional, with a primary pick — recommend one

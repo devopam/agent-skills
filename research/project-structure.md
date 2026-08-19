@@ -68,6 +68,16 @@ Status: user-approved      Date: 2026-08-19
 - **License selection**: should this doc even name specific licenses (MIT/Apache-2.0/etc.) as defaults, or strictly defer to choosealicense.com and treat license *choice* as out of scope, only covering *placement/format* (LICENSE file at root, SPDX identifier)? Current draft treats choice as out of scope — confirm that's correct for a structure-focused doc rather than a legal/licensing doc.
 - Non-GitHub platforms (GitLab, Bitbucket, self-hosted Gitea) were not researched — all governance/CODEOWNERS findings above are GitHub-specific. If the skill needs to be platform-agnostic, this section needs a second research pass; if agentskills.io skills are implicitly GitHub-centric, no action needed. Please confirm assumption.
 
+## Applicability note (added post-Checkpoint-A, see skill-flow-decisions.md #3)
+
+A software/non-software top-level fork was added to SKILL.md's routing
+logic after this baseline was approved. Root-level files, docs/, and
+governance sections apply to both paths. `src/`, `scripts/` (executables),
+and `tests/` sections are software-path-specific — Phase 2 authoring must
+tag each accordingly (e.g. a non-software project might use `validation/`
+in place of `tests/`) rather than silently applying software framing to a
+documentation/research repo.
+
 ## Resolutions (Checkpoint A review, 2026-08-19)
 
 - **Branching model**: fold into this doc's governance section as a short
