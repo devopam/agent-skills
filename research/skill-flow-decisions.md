@@ -27,6 +27,22 @@ with event-driven overlay for ingestion") rather than forcing a single
 pure-pattern answer. The baseline record's "chosen template + reasoning"
 field may record more than one composed element.
 
+## 3a. Preferred-libraries staleness threshold (post-Checkpoint-D, 2026-08-19)
+
+Every `preferred-libraries/*.md` entry carries a "last reviewed: YYYY-MM-DD"
+date (established during the original portability/versioning decisions).
+**New, concrete policy**: audit mode flags any entry whose "last reviewed"
+date is **more than 6 months old** as "worth re-checking" — not a hard
+block, a surfaced flag alongside the rest of the audit's gap report. Chosen
+because Checkpoint D's research itself found real licensing/ownership
+changes (dbt's Fusion-engine relicensing, Great Expectations' FICO
+acquisition/Fivetran stewardship handoff, NATS's near-relicensing dispute,
+Redpanda's BSL terms) landing within a single ~12-month window across just
+one category's research pass — a 6-month audit cadence is calibrated to
+that real observed churn rate, not a round-number default. Applies
+uniformly across all preferred-libraries files, current and future
+(including roadmap categories once researched).
+
 ## 3. Software vs. non-software top-level fork (post-Checkpoint-A, 2026-08-19)
 
 **The gap:** all 5 stack categories (Data & Analytics Platforms, Business
@@ -69,6 +85,20 @@ pair gets researched or authored for it. Instead:
     findings) — the software/non-software fork and the
     LLM-component-detection question (#1 above) are independent axes, not
     mutually exclusive.
+- **Cross-checkpoint conflict, resolved (2026-08-19)**: during Checkpoint D
+  review, Data & Analytics Platforms and Integration & Event-Driven Systems
+  each deferred deep streaming-engine coverage (Kafka Streams, Flink, Spark
+  Structured Streaming) to the other — a genuine gap, not a
+  default-resolvable overlap. Resolved: **Integration & Event-Driven
+  Systems owns this topic** (stream-processing mechanics over a broker's
+  event log are closer kin to that category's pub/sub, schema-evolution,
+  and delivery-semantics content). Data & Analytics Platforms' stack.md
+  keeps its existing brief mention and explicit deferral — now confirmed
+  correct rather than provisional. Integration & Event-Driven Systems'
+  stack.md/libraries.md should add streaming-engine coverage during Phase 2
+  authoring — it wasn't researched at this depth during Checkpoint D
+  itself, so this is authoring-time work, not yet baselined.
+
 - **Authoring implication for Phase 2**: `SKILL.md`'s inception-mode
   Q&A phase needs an explicit applicability branch, and each promoted
   `references/*.md` file (project-structure.md, architecture-principles.md)

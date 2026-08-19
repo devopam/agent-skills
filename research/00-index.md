@@ -19,12 +19,12 @@ Additional categories beyond this v1 scope are tracked in
 | Agentic & MCP Platforms — libraries | `research/stacks/agentic-mcp-platforms/libraries.md` | user-approved | B |
 | Backend & API Services — stack | `research/stacks/backend-api-services/stack.md` | user-approved | C |
 | Backend & API Services — libraries | `research/stacks/backend-api-services/libraries.md` | user-approved | C |
-| Data & Analytics Platforms — stack | `research/stacks/data-analytics-platforms/stack.md` | not started | D |
-| Data & Analytics Platforms — libraries | `research/stacks/data-analytics-platforms/libraries.md` | not started | D |
-| Business Applications — stack | `research/stacks/business-applications/stack.md` | not started | D |
-| Business Applications — libraries | `research/stacks/business-applications/libraries.md` | not started | D |
-| Integration & Event-Driven Systems — stack | `research/stacks/integration-event-driven-systems/stack.md` | not started | D |
-| Integration & Event-Driven Systems — libraries | `research/stacks/integration-event-driven-systems/libraries.md` | not started | D |
+| Data & Analytics Platforms — stack | `research/stacks/data-analytics-platforms/stack.md` | user-approved | D |
+| Data & Analytics Platforms — libraries | `research/stacks/data-analytics-platforms/libraries.md` | user-approved | D |
+| Business Applications — stack | `research/stacks/business-applications/stack.md` | draft (billing sub-topic pending) | D |
+| Business Applications — libraries | `research/stacks/business-applications/libraries.md` | draft (billing sub-topic pending) | D |
+| Integration & Event-Driven Systems — stack | `research/stacks/integration-event-driven-systems/stack.md` | user-approved | D |
+| Integration & Event-Driven Systems — libraries | `research/stacks/integration-event-driven-systems/libraries.md` | user-approved | D |
 
 **Status values:** `not started` → `draft` (researched, awaiting review) →
 `user-approved` (ready for Phase 2 authoring) → `promoted` (authored into
