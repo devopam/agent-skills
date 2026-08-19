@@ -1,0 +1,9 @@
+{
+  "name": "agent-skills",
+  "version": "0.1.0",
+  "description": "Skills for software-project best practices — repo structure, architecture principles, tech-stack template selection, and preferred-library curation, applied at project inception and re-audited throughout the lifecycle.",
+  "author": {
+    "name": "Devopam Mittra",
+    "email": "devopam@gmail.com"
+  }
+}
