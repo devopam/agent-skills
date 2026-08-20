@@ -80,11 +80,11 @@ repo/plugin level (`.claude-plugin/plugin.json`'s `version` field):
 
 - **Patch** (`0.1.x`): wording fixes, added sources/citations, corrected
   library entries that don't change recommended structure or flow.
-  - **Minor** (`0.x.0`): new reference file, new stack category, new
-    meaningfully-scoped section within an existing skill.
-  - **Major** (`x.0.0`): breaking changes to a skill's flow (e.g. the
-    inception/audit Q&A structure changes in a way that invalidates existing
-    baseline records written by a prior version).
+- **Minor** (`0.x.0`): new reference file, new stack category, new
+  meaningfully-scoped section within an existing skill.
+- **Major** (`x.0.0`): breaking changes to a skill's flow (e.g. the
+  inception/audit Q&A structure changes in a way that invalidates existing
+  baseline records written by a prior version).
 
 Record every change in [CHANGELOG.md](CHANGELOG.md) under `[Unreleased]`
 until it's tagged.
@@ -105,3 +105,11 @@ claude plugin eval <path> --no-publish --runs 1
 
 Never publish eval reports (`--no-publish` is the default expectation here)
 without explicit sign-off — publishing sends results to claude.ai.
+
+`claude plugin eval` (including `claude plugin eval init`) requires
+early-access enrollment — it may return `"plugin eval" is currently in
+early access` depending on the account running it. An `evals/` suite can
+still be hand-authored against the documented `prompt.md` +
+`graders/*.md` format without that access; note in the suite's own
+README if it hasn't actually been executed yet, the way this repo's own
+`evals/README.md` does.
