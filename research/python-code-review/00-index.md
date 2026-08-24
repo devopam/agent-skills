@@ -1,5 +1,8 @@
 # Research Index: python-code-review
 
+**v1 research phase: COMPLETE (all 11 domains user-approved as of 2026-08-24).**
+Phase 2 (content authoring) can begin.
+
 Status tracker for the portable `python-code-review` skill's 11 domain
 baselines (see `research/python-code-review-domain-scoping.md` for how this
 list was arrived at). Same conventions as `project-incubation`'s research:
@@ -28,8 +31,8 @@ expanded the original's 9 domains to 11.
 | Standards Compliance | `research/python-code-review/standards-compliance.md` | user-approved | C |
 | Idioms & Patterns | `research/python-code-review/idioms-and-patterns.md` | user-approved | C |
 | Architecture | `research/python-code-review/architecture.md` | user-approved | C |
-| Observability | `research/python-code-review/observability.md` | not started | D |
-| Scalability & Resilience | `research/python-code-review/scalability-and-resilience.md` | not started | D |
+| Observability | `research/python-code-review/observability.md` | user-approved | D |
+| Scalability & Resilience | `research/python-code-review/scalability-and-resilience.md` | user-approved | D |
 
 **Status values:** `not started` → `draft` (researched, awaiting review) →
 `user-approved` (ready for authoring) → `promoted` (authored into
