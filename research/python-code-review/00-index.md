@@ -19,9 +19,9 @@ expanded the original's 9 domains to 11.
 
 | Domain | Research file | Status | Checkpoint |
 |---|---|---|---|
-| Security | `research/python-code-review/security.md` | not started | A |
-| Dependency & Supply Chain Security | `research/python-code-review/dependency-supply-chain-security.md` | not started | A |
-| Testing | `research/python-code-review/testing.md` | not started | A |
+| Security | `research/python-code-review/security.md` | user-approved | A |
+| Dependency & Supply Chain Security | `research/python-code-review/dependency-supply-chain-security.md` | user-approved | A |
+| Testing | `research/python-code-review/testing.md` | user-approved | A |
 | Code Quality | `research/python-code-review/code-quality.md` | not started | B |
 | Concurrency & Async Correctness | `research/python-code-review/concurrency-async-correctness.md` | not started | B |
 | Performance | `research/python-code-review/performance.md` | not started | B |
