@@ -1,0 +1,98 @@
+/* Python Code Review Report — PDF Stylesheet */
+/* Used by weasyprint to convert markdown-rendered HTML to PDF */
+
+@page {
+    size: A4;
+    margin: 2cm;
+    @bottom-center {
+        content: "Page " counter(page) " of " counter(pages);
+        font-size: 9pt;
+        color: #666;
+    }
+}
+
+body {
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.5;
+    color: #1a1a1a;
+}
+
+h1 {
+    font-size: 20pt;
+    color: #1a1a2e;
+    border-bottom: 2px solid #16213e;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 15pt;
+    color: #16213e;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 4px;
+    margin-top: 24px;
+}
+
+h3 {
+    font-size: 12pt;
+    color: #0f3460;
+    margin-top: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 10pt;
+}
+
+th {
+    background-color: #16213e;
+    color: #ffffff;
+    padding: 8px 12px;
+    text-align: left;
+    font-weight: 600;
+}
+
+td {
+    padding: 6px 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+/* Verdict colors */
+td:last-child {
+    font-weight: 600;
+}
+
+code {
+    background-color: #f4f4f4;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: "Cascadia Code", "Fira Code", "Consolas", monospace;
+    font-size: 9.5pt;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 12px;
+    border-radius: 4px;
+    border-left: 3px solid #16213e;
+    overflow-x: auto;
+    font-size: 9pt;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 20px 0;
+}
+
+/* Severity markers */
+strong {
+    color: #1a1a2e;
+}

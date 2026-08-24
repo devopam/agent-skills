@@ -1,0 +1,69 @@
+# Python Code Review Configuration
+# Copy this file to your project root and customize.
+# If absent, the skill uses these defaults.
+
+[project]
+name = ""                # Project name (auto-detected from pyproject.toml if empty)
+tier = "web"             # "script" | "web" | "enterprise" — adjusts review depth
+
+[thresholds]
+pass_score = 7           # Domain score >= this = Pass
+floor_score = 5          # Domain score < this = Fail
+critical_fails_review = true  # Any Critical issue = overall Fail
+
+[thresholds.overrides]
+# Per-domain threshold overrides. Uncomment and adjust as needed:
+# standards-compliance = { pass_score = 7, floor_score = 5 }
+# code-quality = { pass_score = 7, floor_score = 5 }
+# security = { pass_score = 8, floor_score = 6 }
+# performance = { pass_score = 7, floor_score = 5 }
+# idioms-and-patterns = { pass_score = 7, floor_score = 5 }
+# architecture = { pass_score = 7, floor_score = 5 }
+# observability = { pass_score = 6, floor_score = 4 }
+# scalability-and-resilience = { pass_score = 7, floor_score = 5 }
+
+[scope]
+mode = "full"            # "full" | "diff"
+diff_base = "main"       # Base branch for diff mode
+include_dependencies = true  # In diff mode, also review immediate imports/callers
+
+[domains]
+enabled = [
+    "standards-compliance",
+    "code-quality",
+    "security",
+    "performance",
+    "idioms-and-patterns",
+    "architecture",
+    "observability",
+    "scalability-and-resilience",
+]
+
+[output]
+formats = ["console", "markdown"]  # Add "pdf" to enable PDF output
+report_dir = "./reports"
+
+[standards]
+# Recommended libraries per capability — suggestions, not mandates.
+# The skill checks for CAPABILITY presence, not specific library usage.
+# Add your team's preferred libraries here.
+[standards.recommended_libraries]
+logging = ["loguru", "structlog"]
+config = ["pydantic-settings", "dynaconf"]
+http = ["httpx", "aiohttp"]
+cli = ["typer", "click"]
+console = ["rich"]
+retries = ["tenacity"]
+file_ops = ["pathlib"]
+validation = ["pydantic", "marshmallow", "attrs"]
+testing = ["pytest"]
+formatting = ["black", "ruff"]
+linting = ["flake8", "ruff", "pylint"]
+type_checking = ["mypy", "pyright"]
+
+# When a capability has no detectable solution:
+missing_capability_severity = "important"  # "critical" | "important" | "minor"
+
+python_min_version = "3.10"
+line_length = 88
+formatter = "black"
