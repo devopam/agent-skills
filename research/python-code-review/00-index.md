@@ -22,9 +22,9 @@ expanded the original's 9 domains to 11.
 | Security | `research/python-code-review/security.md` | user-approved | A |
 | Dependency & Supply Chain Security | `research/python-code-review/dependency-supply-chain-security.md` | user-approved | A |
 | Testing | `research/python-code-review/testing.md` | user-approved | A |
-| Code Quality | `research/python-code-review/code-quality.md` | not started | B |
-| Concurrency & Async Correctness | `research/python-code-review/concurrency-async-correctness.md` | not started | B |
-| Performance | `research/python-code-review/performance.md` | not started | B |
+| Code Quality | `research/python-code-review/code-quality.md` | user-approved | B |
+| Concurrency & Async Correctness | `research/python-code-review/concurrency-async-correctness.md` | user-approved | B |
+| Performance | `research/python-code-review/performance.md` | user-approved | B |
 | Standards Compliance | `research/python-code-review/standards-compliance.md` | not started | C |
 | Idioms & Patterns | `research/python-code-review/idioms-and-patterns.md` | not started | C |
 | Architecture | `research/python-code-review/architecture.md` | not started | C |

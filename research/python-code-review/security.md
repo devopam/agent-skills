@@ -195,6 +195,15 @@ surfaces the original tool's RAG subsection already brushes against
   target state. DNS-rebinding guidance reconfirmed (re-resolve A+AAAA
   records and re-validate, don't validate once and cache).
 - **PII / sensitive data handling** — impact: high — depth: checklist.
+  Includes an item handed off from the sibling Performance domain's
+  Checkpoint B research: caching (in-process `functools.cache`/`lru_cache`
+  or an external store like Redis) of user-specific or security-sensitive
+  data with no TTL/expiry and no explicit invalidation path is a
+  data-exposure risk (stale authorization state, a cache key that leaks
+  across users) — Performance's own baseline reasoned this belongs here
+  ("can this leak or be misused" is this domain's lens, not "is it
+  fast") and explicitly flagged the handoff rather than silently dropping
+  it. Confirmed captured here at authoring time.
 - **Cryptography** — impact: high — depth: table (numeric parameters below
   are now precise rather than threshold-only, per direct OWASP Cryptographic
   Storage / Password Storage Cheat Sheet fetch):
