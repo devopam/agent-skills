@@ -1,1 +1,81 @@
-<!-- STUB: Config template — authored in Phase 2, after the matching research baseline is approved. -->
+# python-code-review configuration
+# Copy this file to your project root as `python-review-config.toml` and
+# customize. If absent, the skill uses these defaults.
+
+[project]
+name = ""                # Project name (auto-detected from pyproject.toml if empty)
+tier = "web"              # "script" | "web" | "enterprise" — adjusts review depth per domain
+
+[thresholds]
+pass_score = 7            # Domain score >= this = Pass
+floor_score = 5            # Domain score < this = Fail
+critical_fails_review = true  # Any Critical finding = overall Fail, regardless of score
+
+[thresholds.overrides]
+# Per-domain threshold overrides. Uncomment and adjust as needed:
+# standards-compliance = { pass_score = 7, floor_score = 5 }
+# code-quality = { pass_score = 7, floor_score = 5 }
+# security = { pass_score = 8, floor_score = 6 }
+# dependency-supply-chain-security = { pass_score = 8, floor_score = 6 }
+# performance = { pass_score = 7, floor_score = 5 }
+# concurrency-async-correctness = { pass_score = 7, floor_score = 5 }
+# idioms-and-patterns = { pass_score = 7, floor_score = 5 }
+# architecture = { pass_score = 7, floor_score = 5 }
+# observability = { pass_score = 6, floor_score = 4 }
+# scalability-and-resilience = { pass_score = 6, floor_score = 4 }
+# testing = { pass_score = 7, floor_score = 5 }
+
+[scope]
+mode = "full"              # "full" | "diff"
+diff_base = "main"         # Base branch for diff mode
+include_dependencies = true  # In diff mode, also review immediate imports/callers of changed files
+
+[domains]
+# Review order matches the domains' natural dependency shape (structural/
+# tooling checks first, correctness and cross-cutting concerns last).
+enabled = [
+    "standards-compliance",
+    "code-quality",
+    "security",
+    "dependency-supply-chain-security",
+    "performance",
+    "concurrency-async-correctness",
+    "idioms-and-patterns",
+    "architecture",
+    "observability",
+    "scalability-and-resilience",
+    "testing",
+]
+
+[output]
+formats = ["console", "markdown"]  # PDF output is not supported by this portable rebuild — see README
+report_dir = "./reports"
+
+[standards]
+# Recommended libraries per capability — suggestions, not mandates. The
+# skill checks for CAPABILITY presence (this library or an equivalent),
+# not a specific library requirement. Verified current as of 2026-08-24;
+# see references/standards-compliance.md's Capability Detection table for
+# the sourcing and currency notes behind each row — re-check periodically,
+# this list drifts.
+[standards.recommended_libraries]
+logging = ["structlog", "loguru"]          # structlog is the lead recommendation — see standards-compliance.md
+config = ["pydantic-settings", "dynaconf"]
+http = ["httpx", "aiohttp"]
+cli = ["typer", "click"]
+retries = ["tenacity"]
+file_ops = ["pathlib"]
+validation = ["pydantic", "marshmallow", "attrs"]
+testing = ["pytest"]
+formatting = ["ruff format", "black"]      # ruff format is the lead recommendation — see standards-compliance.md
+linting = ["ruff check", "flake8", "pylint"]  # ruff check is the lead recommendation
+type_checking = ["mypy", "pyright"]
+circuit_breaking = ["pybreaker", "circuitbreaker"]
+task_queue = ["celery", "rq", "dramatiq"]
+pii_detection = ["presidio-analyzer"]       # only relevant when free-text PII surface is real — see observability.md
+
+# When a capability has no detectable solution:
+missing_capability_severity = "important"  # "critical" | "important" | "minor"
+
+python_min_version = "3.11"  # 3.10 exits security-only support Oct 2026 — see references/idioms-and-patterns.md
+line_length = 88
