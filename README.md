@@ -12,6 +12,7 @@ Claude Code, and the broader [client showcase](https://agentskills.io/clients).
 | Skill | What it does | Use when |
 |---|---|---|
 | [`project-incubation`](skills/project-incubation/) | Guides a project through best-practice repo structure, architecture principles, and tech-stack template selection at inception, then re-audits an existing repo against that baseline throughout its lifecycle. | Starting a new repo, or periodically checking an existing one against the baseline it was incubated with. |
+| [`python-code-review`](skills/python-code-review/) | Reviews Python code across 11 domains (standards compliance, code quality, security, dependency/supply-chain security, performance, concurrency & async correctness, idioms & patterns, architecture, observability, scalability & resilience, testing) with a scored report. Portable rebuild of a Claude-Code-native tool — no subagent dispatch, no host-specific slash command. | Reviewing Python code for quality/security/production-readiness, before a commit or PR, or for a periodic project health check. |
 
 ## Using a skill
 

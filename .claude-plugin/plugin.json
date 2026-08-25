@@ -1,7 +1,7 @@
 {
   "name": "agent-skills",
-  "version": "0.1.0",
-  "description": "Skills for software-project best practices — repo structure, architecture principles, tech-stack template selection, and preferred-library curation, applied at project inception and re-audited throughout the lifecycle.",
+  "version": "0.2.0",
+  "description": "Portable Agent Skills for software-project best practices: project-incubation guides repo structure, architecture, and stack selection from inception through lifecycle audits; python-code-review audits Python code across 11 domains with a scored report.",
   "author": {
     "name": "Devopam Mittra",
     "email": "devopam@gmail.com"
