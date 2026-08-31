@@ -7,6 +7,42 @@ versioning follows [Semantic Versioning](https://semver.org/).
 ## [Unreleased]
 
 ### Added
+- `project-incubation` skill: **Frontend / Client Applications**, the
+  10th and **final** stack category from `research/taxonomy-roadmap.md`'s
+  v2 backlog — that backlog is now fully shipped. This category is a pure
+  client (web SPA, mobile, or desktop app) with **no owned backend of its
+  own**; the boundary against Business Applications is drawn on backend
+  ownership specifically, not frontend tech-stack shape — a frontend
+  whose own team also owns and deploys its backend stays Business
+  Applications even when the frontend code is architecturally identical.
+  Two authored reference docs:
+  `references/stacks/frontend-client-applications.md` (local-first state
+  management with local storage as the *primary* data layer rather than a
+  cache, anchored on the canonical Ink & Switch essay; offline-first sync
+  conflict resolution — LWW vs. OT vs. CRDTs, with Figma's and Linear's
+  own real production choices as worked examples; app-store distribution
+  as a structurally distinct constraint no other category in this skill
+  has; mobile and desktop cross-platform-framework decision axes; why
+  this category has no server-side architecture-template question to
+  answer, but hexagonal/ports-and-adapters does have a genuine
+  client-side analogue per Flutter's and Android's own official
+  guidance; and testing a backend-less client) and
+  `references/preferred-libraries/frontend-client-applications.md`
+  (mobile and desktop cross-platform frameworks, state management,
+  offline-first/sync libraries, PWA tooling, app-store distribution
+  tooling, and testing tooling). Notable findings: React Native's
+  governance moved from single-vendor Meta ownership to a new
+  multi-stakeholder Linux Foundation "React Foundation" in February
+  2026; Replicache is archived, superseded by Zero; a GitHub license-
+  detector false positive on Yjs (reported `NOASSERTION`) was corrected
+  via direct fetch to MIT; and the local precedent's own hand-written
+  service worker ships PWA installability with zero offline caching,
+  its own code comment stating this is deliberate for an
+  "enterprise app," not an oversight.
+- `research/stacks/frontend-client-applications/` provenance record for
+  both baselines, including a follow-up verification pass on Google
+  Play's review-SLA (confirmed Google genuinely publishes no comparable
+  figure to Apple's, not a missed fetch) before authoring.
 - `project-incubation` skill: **MLOps / ML Platform Engineering**, a 9th
   stack category (production model-registry promotion, feature stores,
   general-ML model serving, drift monitoring, retraining triggers, and

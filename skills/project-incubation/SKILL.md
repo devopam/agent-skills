@@ -63,7 +63,7 @@ Ask, one at a time:
 
 ### Phase 2: Category selection *(software path only — skip on non-software)*
 
-Ask which of these nine fits best, offering a one-line description of
+Ask which of these ten fits best, offering a one-line description of
 each and reading the linked doc once a category is chosen:
 
 - **Data & Analytics Platforms** — data pipelines, BI/analytics, the
@@ -100,12 +100,18 @@ each and reading the linked doc once a category is chosen:
   stores, model serving, drift monitoring, retraining triggers, and
   model-quality-driven canary rollouts. →
   [`references/stacks/mlops-platform-engineering.md`](references/stacks/mlops-platform-engineering.md)
+- **Frontend / Client Applications** — a pure client (web SPA, mobile, or
+  desktop app) with no owned backend of its own, calling only a
+  third-party API or BaaS. The test is backend ownership, not tech-stack
+  shape: a frontend whose own team also owns and deploys its backend is
+  Business Applications instead, even if the frontend code looks
+  identical. →
+  [`references/stacks/frontend-client-applications.md`](references/stacks/frontend-client-applications.md)
 
 If nothing fits cleanly, say so plainly, pick the closest match, and
-record that caveat in the baseline. `research/taxonomy-roadmap.md` in this
-repo tracks categories confirmed for future addition (Frontend/Client
-Applications) — a project that clearly belongs to that doesn't have a home
-in this skill yet.
+record that caveat in the baseline. `research/taxonomy-roadmap.md`'s
+original backlog is now fully shipped as of 2026-08-31 — this skill
+covers all 10 categories that roadmap named.
 
 ### Phase 3: Architecture template selection *(software path only)*
 
@@ -232,11 +238,12 @@ date, and append anything that changed to its Drift Log.
 | [`references/project-structure.md`](references/project-structure.md) | Root-level files, directory structure, governance, Git LFS |
 | [`references/architecture-principles.md`](references/architecture-principles.md) | 11 principle families — universal, software-specific, and LLM-conditional |
 | [`references/architecture-templates.md`](references/architecture-templates.md) | 7-pattern catalog, decision framework, ADR recording |
-| `references/stacks/<category>.md` | Architecture patterns specific to each of the 9 stack categories |
+| `references/stacks/<category>.md` | Architecture patterns specific to each of the 10 stack categories |
 | `references/preferred-libraries/<category>.md` | Curated, dated library recommendations per category |
 | [`assets/baseline-template.md`](assets/baseline-template.md) | The record structure for `docs/project-incubation-baseline.md` |
 | [`assets/adr-template.md`](assets/adr-template.md) | Fillable ADR template, mirrors a real production project's shape |
 | [`assets/license-guide.md`](assets/license-guide.md) | License chooser table + canonical-text links |
 
-Additional stack categories beyond this skill's current nine are tracked
-in this repo's `research/taxonomy-roadmap.md` for future versions.
+`research/taxonomy-roadmap.md`'s original 5-category backlog is now fully
+shipped (2026-08-31); any category beyond this skill's current ten would
+be a new roadmap decision, not a continuation of the existing one.

@@ -29,14 +29,16 @@ can be run against this repo directly, since it carries a
 
 ## Roadmap
 
-`project-incubation` covers 9 stack categories (Data & Analytics
-Platforms, Business Applications, Integration & Event-Driven Systems,
-Backend & API Services, Agentic & MCP Platforms, Developer Tooling &
-Libraries, Infrastructure & Platform Engineering, ML / AI Model
-Development, MLOps / ML Platform Engineering) plus a software/non-software
-fork for documentation/research-only projects. Confirmed for later
-addition: Frontend / Client Applications — see
-`research/taxonomy-roadmap.md` for scope notes.
+`project-incubation` covers all 10 stack categories originally envisioned
+across v1 and `research/taxonomy-roadmap.md`'s v2 backlog, now fully
+shipped as of 2026-08-31: Data & Analytics Platforms, Business
+Applications, Integration & Event-Driven Systems, Backend & API Services,
+Agentic & MCP Platforms, Developer Tooling & Libraries, Infrastructure &
+Platform Engineering, ML / AI Model Development, MLOps / ML Platform
+Engineering, and Frontend / Client Applications — plus a
+software/non-software fork for documentation/research-only projects. See
+`research/taxonomy-roadmap.md` for the provenance of the 5 categories
+added beyond v1.
 
 ## Repo conventions
 

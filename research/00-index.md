@@ -38,6 +38,8 @@ Additional categories beyond this v1 scope are tracked in
 | ML / AI Model Development — libraries | `research/stacks/ml-model-development/libraries.md` | promoted | G |
 | MLOps / ML Platform Engineering — stack | `research/stacks/mlops-platform-engineering/stack.md` | promoted | H |
 | MLOps / ML Platform Engineering — libraries | `research/stacks/mlops-platform-engineering/libraries.md` | promoted | H |
+| Frontend / Client Applications — stack | `research/stacks/frontend-client-applications/stack.md` | promoted | I |
+| Frontend / Client Applications — libraries | `research/stacks/frontend-client-applications/libraries.md` | promoted | I |
 
 **v2 note**: the two rows above are the first `research/taxonomy-roadmap.md`
 category to get a research pass (2026-08-31), started now that v1 is stable

@@ -3,19 +3,22 @@
 Tracks stack categories beyond the original v1 scope (5 categories + the
 software/non-software fork, see `skill-flow-decisions.md` #3). These were
 confirmed as worth adding, deferred until v1 was researched, authored, and
-stable. **Developer Tooling & Libraries (item #4 below) was promoted to
-`project-incubation`'s 6th stack category on 2026-08-31**,
-**Infrastructure & Platform Engineering (item #1) was promoted to its
-7th on the same date**, **ML / AI Model Development (item #2) was
-promoted to its 8th, also 2026-08-31**, and **MLOps / ML Platform
-Engineering (item #3) was promoted to its 9th, also 2026-08-31** — see
+stable. **All 5 were promoted to `project-incubation` stack categories on
+2026-08-31**: Developer Tooling & Libraries (6th), Infrastructure &
+Platform Engineering (7th), ML / AI Model Development (8th), MLOps / ML
+Platform Engineering (9th), and Frontend / Client Applications (10th and
+final) — see
 `research/stacks/{developer-tooling-libraries,infrastructure-platform-
-engineering,ml-model-development,mlops-platform-engineering}/` and
+engineering,ml-model-development,mlops-platform-engineering,
+frontend-client-applications}/` and
 `skills/project-incubation/references/{stacks,preferred-libraries}/
 {developer-tooling-libraries,infrastructure-platform-engineering,
-ml-model-development,mlops-platform-engineering}.md`; all four entries
-below are kept for history, not still pending. Only 1 category (Frontend
-/ Client Applications) remains not yet researched or authored.
+ml-model-development,mlops-platform-engineering,
+frontend-client-applications}.md`. **This roadmap's original scope is now
+fully shipped** — all 5 entries below are kept for history and
+provenance, not still pending. `project-incubation` now covers 10 stack
+categories total (5 from v1 + these 5). Any further categories would be a
+new roadmap decision, not a continuation of this one.
 
 ## Why these emerged
 
@@ -75,17 +78,33 @@ cleanly cover.
    docs-as-product. Notably self-referential: this very repo
    (`agent-skills`) and MCPg's PyPI package are both this category.
 
-5. **Frontend / Client Applications** — web SPAs, mobile apps, desktop
-   apps. Currently implicitly folded into Business Applications, but a pure
-   client app with no owned backend has different structural needs (state
-   management, offline/sync, app-store distribution, no server-side
-   architecture-template question to answer).
+5. **Frontend / Client Applications** *(promoted 2026-08-31 — no longer
+   pending, kept here for history)* — web SPAs, mobile apps, desktop
+   apps. Was implicitly folded into Business Applications; the promoted
+   category's own research drew that boundary precisely on **backend
+   ownership**, not frontend tech-stack shape — a project whose own team
+   owns and deploys a backend is Business Applications even when its
+   frontend half is architecturally identical to a "pure" client; a
+   project with no owned backend at all (calling only a third-party API
+   or BaaS) is this category. Distinct structural needs confirmed during
+   research: state management with local storage as the *primary* data
+   layer (not a cache), offline/sync conflict resolution (LWW/CRDTs),
+   app-store distribution mechanics, and no server-side
+   architecture-template question to answer at all — though hexagonal/
+   ports-and-adapters does have a genuine client-side analogue, per
+   Flutter's and Android's own official architecture guidance.
 
 ## Sequencing
 
-Not committed to a strict order yet — revisit prioritization once v1 (the
-current 5 categories + non-software fork) is authored, validated, and in
-real use. Adding a category is a `references/stacks/<name>.md` +
+All 5 categories above were researched and authored in a single sweep on
+2026-08-31, in the order listed (items #1–#5 correspond to stack
+categories #7, #8, #9, #6, and #10 respectively — see each item's own
+promotion note for its exact category number). This roadmap's own
+"not committed to a strict order yet" note from its original 2026-08-19
+drafting is now moot: the full backlog shipped together rather than in a
+staggered sequence. Adding a *future* category beyond this roadmap's
+original 5 would follow the same `references/stacks/<name>.md` +
 `references/preferred-libraries/<name>.md` pair plus a taxonomy-table
-update in `SKILL.md`, following the same research-baseline-then-author
-workflow documented in `CONTRIBUTING.md`.
+update in `SKILL.md`, per the same research-baseline-then-author workflow
+documented in `CONTRIBUTING.md` — but would be a new roadmap decision,
+not a continuation of this one.
