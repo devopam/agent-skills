@@ -5,17 +5,17 @@ software/non-software fork, see `skill-flow-decisions.md` #3). These were
 confirmed as worth adding, deferred until v1 was researched, authored, and
 stable. **Developer Tooling & Libraries (item #4 below) was promoted to
 `project-incubation`'s 6th stack category on 2026-08-31**,
-**Infrastructure & Platform Engineering (item #1 below) was promoted to
-its 7th on the same date**, and **ML / AI Model Development (item #2
-below) was promoted to its 8th, also 2026-08-31** — see
+**Infrastructure & Platform Engineering (item #1) was promoted to its
+7th on the same date**, **ML / AI Model Development (item #2) was
+promoted to its 8th, also 2026-08-31**, and **MLOps / ML Platform
+Engineering (item #3) was promoted to its 9th, also 2026-08-31** — see
 `research/stacks/{developer-tooling-libraries,infrastructure-platform-
-engineering,ml-model-development}/` and
+engineering,ml-model-development,mlops-platform-engineering}/` and
 `skills/project-incubation/references/{stacks,preferred-libraries}/
 {developer-tooling-libraries,infrastructure-platform-engineering,
-ml-model-development}.md`; all three entries below are kept for history,
-not still pending. The remaining 2 categories (MLOps / ML Platform
-Engineering, Frontend / Client Applications) are not yet researched or
-authored.
+ml-model-development,mlops-platform-engineering}.md`; all four entries
+below are kept for history, not still pending. Only 1 category (Frontend
+/ Client Applications) remains not yet researched or authored.
 
 ## Why these emerged
 
@@ -46,16 +46,26 @@ cleanly cover.
    own research to belong to Agentic & MCP Platforms instead — assembling
    a retrieval corpus produces no trained artifact.
 
-3. **MLOps / ML Platform Engineering** — the operational discipline once a
+3. **MLOps / ML Platform Engineering** *(promoted 2026-08-31 — no longer
+   pending, kept here for history)* — the operational discipline once a
    model exists: model registries, feature stores, serving infrastructure,
    drift monitoring, retraining triggers, canary rollouts for models.
    Related to both #1 (Infrastructure & Platform Engineering, generically)
    and #2 (ML / AI Model Development, the artifact being operated) but with
-   its own concern set. **Open question for when this gets researched**:
-   confirm whether it stays a separate category or merges into #1 or #2
-   once real content is drafted and the overlap can be judged concretely —
-   don't force a three-way split if two of these end up mostly the same
-   guidance with different nouns.
+   its own concern set. **Separate-vs-merge question resolved 2026-08-31,
+   now that #1 and #2 are both drafted**: stays its own category, not
+   merged into either. It owns genuinely distinct concerns neither shipped
+   category claims — feature stores (a shared training/serving feature
+   layer, not IaC-shaped or training-pipeline-shaped); *model* drift
+   monitoring (a statistical data/concept-drift concern, a different
+   meaning of "drift" than Infrastructure & Platform Engineering's own
+   IaC-config-drift, worth the same same-word-different-meaning precision
+   that doc already gives "idempotency"); production model-registry
+   promotion gates (distinct from ML/AI Model Development's own
+   artifact-storage-stage registry framing); and canary/rollback triggers
+   keyed on model-quality/drift signals specifically, layered on top of
+   (not duplicating) Infrastructure & Platform Engineering's own
+   progressive-delivery mechanics (Argo Rollouts/Flagger).
 
 4. **Developer Tooling & Libraries** *(promoted 2026-08-31 — no longer
    pending, kept here for history)* — SDKs, CLI tools, publishable

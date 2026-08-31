@@ -6,6 +6,42 @@ versioning follows [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+### Added
+- `project-incubation` skill: **MLOps / ML Platform Engineering**, a 9th
+  stack category (production model-registry promotion, feature stores,
+  general-ML model serving, drift monitoring, retraining triggers, and
+  model-quality-driven canary rollouts) — the fourth category promoted
+  from `research/taxonomy-roadmap.md`'s v2 backlog, resolving that
+  roadmap's own standing "does this merge into Infrastructure & Platform
+  Engineering or ML/AI Model Development?" question: it stays separate,
+  since it owns concerns neither sibling claims (feature stores; *model*
+  drift monitoring, a statistically distinct concern from IaC config-drift
+  despite sharing the word "drift"; production registry promotion gates,
+  distinct from ML/AI Model Development's model-dev-stage registry
+  framing; and model-quality-driven canary/shadow triggers layered on top
+  of, not duplicating, Infrastructure & Platform Engineering's own Argo
+  Rollouts/Flagger mechanics). Two authored reference docs:
+  `references/stacks/mlops-platform-engineering.md` and
+  `references/preferred-libraries/mlops-platform-engineering.md`. Notable
+  findings surfaced during research and authoring: AWS SageMaker Model
+  Monitor is no longer open to new customers, replaced by an open-source
+  Evidently+MLflow+QuickSight reference stack; MLflow's promotion gate is
+  built from webhooks that fire *after* a change (not a blocking
+  pre-check) plus an external CI check; Seldon Core *and* Alibi Detect
+  both carry the same BSL 1.1 licensing this repo already found for
+  Terraform and Vault; Kayenta (the one tool that once did automated
+  model-quality canary judgment) is retired, and no current tool replaces
+  it — canary-for-models today is a metrics-provider query layered on
+  generic traffic-shifting primitives; and Hopsworks' core platform repo
+  is ~2.5 years stale on its latest release while its separately-licensed
+  client library is far more current, a split the original research pass
+  missed entirely.
+- `research/stacks/mlops-platform-engineering/` provenance record for
+  both baselines, including a self-caught correction during review (an
+  early draft incorrectly claimed to be "resolving" an Arize Phoenix
+  license question that the already-shipped Agentic & MCP Platforms doc
+  had, in fact, already answered correctly).
+
 ### Fixed
 - `project-incubation` skill: `references/preferred-libraries/
   infrastructure-platform-engineering.md` was missing its Progressive

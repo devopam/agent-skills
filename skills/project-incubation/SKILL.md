@@ -63,7 +63,7 @@ Ask, one at a time:
 
 ### Phase 2: Category selection *(software path only — skip on non-software)*
 
-Ask which of these eight fits best, offering a one-line description of
+Ask which of these nine fits best, offering a one-line description of
 each and reading the linked doc once a category is chosen:
 
 - **Data & Analytics Platforms** — data pipelines, BI/analytics, the
@@ -93,14 +93,19 @@ each and reading the linked doc once a category is chosen:
 - **ML / AI Model Development** — training, fine-tuning, experiment
   tracking, model evaluation: the model-*building* side, producing a
   trained artifact — not serving one (Agentic & MCP Platforms) or
-  operating it in production (the still-pending MLOps category). →
+  operating it in production (MLOps). →
   [`references/stacks/ml-model-development.md`](references/stacks/ml-model-development.md)
+- **MLOps / ML Platform Engineering** — the operational discipline once a
+  trained model exists: production model-registry promotion, feature
+  stores, model serving, drift monitoring, retraining triggers, and
+  model-quality-driven canary rollouts. →
+  [`references/stacks/mlops-platform-engineering.md`](references/stacks/mlops-platform-engineering.md)
 
 If nothing fits cleanly, say so plainly, pick the closest match, and
 record that caveat in the baseline. `research/taxonomy-roadmap.md` in this
-repo tracks categories confirmed for future addition (MLOps / ML Platform
-Engineering, Frontend/Client Applications) — a project that clearly
-belongs to one of those doesn't have a home in this skill yet.
+repo tracks categories confirmed for future addition (Frontend/Client
+Applications) — a project that clearly belongs to that doesn't have a home
+in this skill yet.
 
 ### Phase 3: Architecture template selection *(software path only)*
 
@@ -227,11 +232,11 @@ date, and append anything that changed to its Drift Log.
 | [`references/project-structure.md`](references/project-structure.md) | Root-level files, directory structure, governance, Git LFS |
 | [`references/architecture-principles.md`](references/architecture-principles.md) | 11 principle families — universal, software-specific, and LLM-conditional |
 | [`references/architecture-templates.md`](references/architecture-templates.md) | 7-pattern catalog, decision framework, ADR recording |
-| `references/stacks/<category>.md` | Architecture patterns specific to each of the 8 stack categories |
+| `references/stacks/<category>.md` | Architecture patterns specific to each of the 9 stack categories |
 | `references/preferred-libraries/<category>.md` | Curated, dated library recommendations per category |
 | [`assets/baseline-template.md`](assets/baseline-template.md) | The record structure for `docs/project-incubation-baseline.md` |
 | [`assets/adr-template.md`](assets/adr-template.md) | Fillable ADR template, mirrors a real production project's shape |
 | [`assets/license-guide.md`](assets/license-guide.md) | License chooser table + canonical-text links |
 
-Additional stack categories beyond this skill's current eight are tracked
+Additional stack categories beyond this skill's current nine are tracked
 in this repo's `research/taxonomy-roadmap.md` for future versions.

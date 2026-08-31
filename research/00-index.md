@@ -36,6 +36,8 @@ Additional categories beyond this v1 scope are tracked in
 | Infrastructure & Platform Engineering — libraries | `research/stacks/infrastructure-platform-engineering/libraries.md` | promoted | F |
 | ML / AI Model Development — stack | `research/stacks/ml-model-development/stack.md` | promoted | G |
 | ML / AI Model Development — libraries | `research/stacks/ml-model-development/libraries.md` | promoted | G |
+| MLOps / ML Platform Engineering — stack | `research/stacks/mlops-platform-engineering/stack.md` | promoted | H |
+| MLOps / ML Platform Engineering — libraries | `research/stacks/mlops-platform-engineering/libraries.md` | promoted | H |
 
 **v2 note**: the two rows above are the first `research/taxonomy-roadmap.md`
 category to get a research pass (2026-08-31), started now that v1 is stable
