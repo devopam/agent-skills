@@ -7,6 +7,15 @@ versioning follows [Semantic Versioning](https://semver.org/).
 ## [Unreleased]
 
 ### Added
+- `python-code-review` skill: **Storage I/O** capability-detection row
+  (`smart_open`/`fsspec`, conditionally gated on detected cross-provider
+  cloud-SDK branching) and a **Validation** row (`pydantic`/`marshmallow`/
+  `attrs`/`msgspec`) added to `standards-compliance.md`'s Capability
+  Detection table, filling a real pre-existing gap where `validation` was
+  already listed in `assets/review-config-template.toml`'s
+  `[standards.recommended_libraries]` but had no documented row explaining
+  it. Sourced from the same 2026-08-31 merit-first research pass behind
+  `project-incubation`'s new cross-cutting-utility-libraries doc.
 - `project-incubation` skill: **`references/cross-cutting-utility-libraries.md`**,
   a new reference read at Phase 6 regardless of category — 13
   application-level utility domains (cloud-agnostic storage I/O,
@@ -35,6 +44,18 @@ versioning follows [Semantic Versioning](https://semver.org/).
   adoption figures to a secondary "trust check" table. New eval case
   `retrieval-cross-cutting-utility-libraries` (14→15 total
   `project-incubation` cases).
+
+### Fixed
+- `python-code-review` skill: the **HTTP capability-detection row** was
+  missing `requests` entirely — a real false-positive risk, since a
+  Script-tier project correctly using `requests` for synchronous-only
+  calls would have been flagged as missing HTTP tooling and pointed toward
+  httpx/aiohttp, both async-capable libraries that solve a problem the
+  project doesn't have. `requests` is now recognized as the correct
+  default for synchronous call sites, with the httpx/aiohttp suggestion
+  reserved for code already inside an async call chain.
+
+### Added
 - `project-incubation` skill: **multi-category support**, replacing the
   old single-category-plus-caveat design. Phase 2 now asks for a primary
   category plus, when a project has a genuinely distinct, separately-
