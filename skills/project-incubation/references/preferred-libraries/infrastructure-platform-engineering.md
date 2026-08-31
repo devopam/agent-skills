@@ -44,6 +44,7 @@ correction, detailed in the State-management section below.
 - [Policy-as-code and blast-radius gating](#policy-as-code-and-blast-radius-gating)
 - [Secrets management](#secrets-management)
 - [Kubernetes tooling](#kubernetes-tooling)
+- [Progressive delivery / canary controllers](#progressive-delivery--canary-controllers)
 - [Container registries and build tooling](#container-registries-and-build-tooling)
 - [Internal developer platform (IDP) tooling](#internal-developer-platform-idp-tooling)
 - [CI/CD-layer add-ons for IaC/platform work](#cicd-layer-add-ons-for-iacplatform-work)
@@ -301,6 +302,33 @@ UI-agnostic GitOps controller architecture → **Flux**; terminal-based
 cluster operations → **k9s**; GUI-based cluster operations → **FreeLens**,
 not Lens/OpenLens.
 
+## Progressive delivery / canary controllers
+
+Added as a follow-up patch (2026-08-31): the companion
+[stacks/infrastructure-platform-engineering.md](../stacks/infrastructure-platform-engineering.md)
+names Flagger and Argo Rollouts as the concept anchors for canary/
+blue-green delivery and explicitly defers their comparative table to this
+doc — that table was missing from this doc's initial publish and is filled
+in here now, discovered while researching the sibling MLOps / ML Platform
+Engineering category (whose own canary-for-models section builds directly
+on top of whichever of these two a project already runs).
+
+| Library | For | License | Why recommended |
+|---|---|---|---|
+| **Flagger** (`fluxcd/flagger`) | Progressive-delivery controller for the Flux GitOps family — canary/blue-green/A-B releases driven by metric analysis from Prometheus, Datadog, and other providers | Apache-2.0 | The natural pairing for a team already on Flux (per the Kubernetes tooling table above); its own CNCF standing is inherited through Flux's Graduated status rather than independently listed — see the companion stack doc's own correction on this point. Direct GitHub fetch: 5,396 stars, 803 forks, 387 open issues, pushed 2026-08-31 (active); latest release `v1.44.0` |
+| **Argo Rollouts** (`argoproj/argo-rollouts`) | Progressive-delivery controller replacing the standard `Deployment` object with a `Rollout` CRD — step-based traffic weights, pauses, automated analysis-driven promotion/abort | Apache-2.0 | The natural pairing for a team already on Argo CD (per the Kubernetes tooling table above); same borrowed-not-independent CNCF standing as Flagger, inherited through the umbrella Argo project. Direct GitHub fetch: 3,565 stars, 1,200 forks, 661 open issues, pushed 2026-08-31 (active); latest release `v1.10.0` |
+| Kayenta (`spinnaker/kayenta`) — **archived, not a recommendation** | Spinnaker's own automated canary-analysis engine — named only to flag it as dead, not as an option | Apache-2.0 | **Do not adopt.** Confirmed archived via direct GitHub fetch: `archived: true`, last push 2025-12-20. Named here because it recurs in older canary-analysis comparison content as if still live |
+
+**Decision rule**: already on Flux → **Flagger**; already on Argo CD →
+**Argo Rollouts**; neither controller is model-quality-aware by default —
+both are metric-source-agnostic (they analyze whatever a configured
+provider like Prometheus reports), so a model-serving canary that decides
+on drift or prediction-quality signals rather than latency/error-rate
+needs a metrics provider that exposes those signals to whichever
+controller is already in place, not a separate canary tool. See the
+still-pending MLOps / ML Platform Engineering category for that
+model-quality-signal layer.
+
 ## Container registries and build tooling
 
 `ubi-csr-tmf`'s own pipeline is real local precedent here too, not a
@@ -379,6 +407,14 @@ percentages this doc did not independently verify.
 
 ## Sources
 
+- **Follow-up patch (2026-08-31)**: `gh api repos/fluxcd/flagger`,
+  `repos/argoproj/argo-rollouts`, and `repos/spinnaker/kayenta` (license,
+  stars, forks, open issues, `pushed_at`, `archived`), plus each repo's
+  `releases/latest` for current version tags — direct fetches, filling the
+  Progressive delivery / canary controllers section this doc's initial
+  publish omitted despite the companion stack doc deferring that
+  comparison here; discovered while researching the sibling MLOps / ML
+  Platform Engineering category.
 - `gh api repos/<owner>/<repo>` direct GitHub API fetches (license,
   stars, forks, open issues, `pushed_at`, `archived`) for: hashicorp/
   terraform, opentofu/opentofu, pulumi/pulumi, aws/aws-cdk, hashicorp/

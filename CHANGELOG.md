@@ -6,6 +6,16 @@ versioning follows [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+### Fixed
+- `project-incubation` skill: `references/preferred-libraries/
+  infrastructure-platform-engineering.md` was missing its Progressive
+  Delivery / Canary Controllers section — the companion stack doc names
+  Flagger and Argo Rollouts as concept anchors and explicitly defers their
+  license/adoption comparison to this file, but that table was never
+  actually added at initial publish. Added now (Flagger, Argo Rollouts,
+  and Kayenta flagged as archived/do-not-adopt), discovered while
+  researching the sibling MLOps / ML Platform Engineering category.
+
 ### Added
 - `project-incubation` skill: **ML / AI Model Development**, an 8th stack
   category (training, fine-tuning, experiment tracking, model evaluation —
