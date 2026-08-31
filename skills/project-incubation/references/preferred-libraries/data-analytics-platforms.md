@@ -29,47 +29,69 @@ need a re-check before you rely on them.
 
 ## Dataframe/processing libraries: pandas vs. polars vs. DuckDB
 
-*Last reviewed 2026-08-19.*
+*Last reviewed 2026-08-31. These are recommendations, not mandates — a
+project can reasonably choose differently if it has a genuine,
+merit-based reason to; the bar is "this fits our workload better," not
+"this is what I already know" or "this is what's most downloaded."*
 
-| Library | License | GitHub stars | Monthly PyPI downloads |
-|---|---|---|---|
-| **pandas** | BSD-3-Clause | 49,519 | ~796M |
-| **polars** | MIT | 39,394 | ~79M |
-| **DuckDB** | MIT | 40,430 | embedded engine, not a dataframe library — see below |
+**Architecture first, since that's what actually decides this, not
+adoption counts.** pandas' `DataFrame` is backed by NumPy arrays through
+an internal `BlockManager`: eager (every operation materializes its
+result immediately, no query planning) and single-threaded by default for
+most transformations and `groupby` operations. polars is a from-scratch
+Rust implementation using the Apache Arrow columnar format, with
+multi-threaded SIMD-vectorized execution by default and a **lazy** query
+engine that applies real, named optimizations before running anything —
+predicate pushdown (filters applied as early as possible, at scan level),
+projection pushdown (only the columns actually needed are read), slice
+pushdown, and common-subplan elimination — plus a streaming engine that
+processes data in batches to handle datasets that don't fit in memory.
+This is a structurally different execution model, not just a faster
+implementation of pandas' model.
 
-The download gap (roughly 10x) is a real signal but needs its caveat
-stated plainly: PyPI download counts are install *events*, heavily
-inflated for pandas by the thousands of downstream packages that pull it
-in transitively — it's the ecosystem's default dependency, not necessarily
-10x more teams' primary tool of choice. Read this figure as supporting
-"pandas remains the ecosystem default," not a literal 10x
-usage-intensity claim. Star growth is the cleaner momentum signal: pandas
-(49.5k stars) is a much older project than polars (39.4k stars, within
-~10k of pandas despite starting later), and it points the same direction
-independent sources converge on — polars is the fastest-growing
-alternative, not yet the incumbent.
-
-**Decision rule**: default to **pandas** for compatibility. It remains the
-lingua franca that the widest range of other libraries — plotting, ML,
-BI-tool connectors, notebook tooling — accept natively without a
-conversion step, and for datasets that comfortably fit in memory the
-ergonomics/ecosystem win outweighs the performance gap. Switch to
-**polars** specifically when at least one of these holds:
+**Decision rule**: default to **pandas** for compatibility — not because
+it's more downloaded, but because it remains the lingua franca the
+widest range of other libraries (plotting, ML, BI-tool connectors,
+notebook tooling) accept natively without a conversion step, and for
+datasets that comfortably fit in memory the ecosystem win outweighs the
+performance gap. Switch to **polars** specifically when at least one of
+these holds:
 
 1. The dataset doesn't comfortably fit in memory and needs polars' lazy
    execution plus streaming/out-of-core query engine, rather than a
    hand-rolled chunking loop.
-2. The pipeline is CPU-bound on transformation, and polars' native
-   multi-core parallelism (pandas is single-threaded by default)
-   meaningfully changes wall-clock time.
+2. The pipeline is CPU-bound on transformation, and polars' default
+   multi-threaded, SIMD-vectorized execution meaningfully changes
+   wall-clock time in practice — treat this as a profiling question, not
+   an assumption.
 3. The team is starting a genuinely new pipeline with no existing
    pandas-specific dependency chain to preserve — greenfield is the
-   cheapest time to pick the faster default.
+   cheapest point to default to the architecture with fewer bottlenecks
+   built in.
 
 Do not migrate an existing working pandas pipeline to polars on
 performance grounds alone without first profiling. The migration cost —
 API differences: no index, different mutation semantics — is real, and
 unforced conversion is a common false-economy mistake teams report.
+
+**Adoption/maintenance signal — read as a secondary trust check, not the
+deciding factor:**
+
+| Library | License | GitHub stars | Monthly PyPI downloads |
+|---|---|---|---|
+| **pandas** | BSD-3-Clause | 49,607 | ~796M |
+| **polars** | MIT | 39,569 | ~79M |
+| **DuckDB** | MIT | 40,862 | embedded engine, not a dataframe library — see below |
+
+The ~10x download gap reflects pandas being the ecosystem's default
+transitive dependency (thousands of downstream packages pull it in),
+not literally 10x more teams choosing it as their primary tool for a
+given workload — read it as "pandas remains the ecosystem default," not
+a usage-intensity multiplier. Neither figure should override the
+architecture-driven decision rule above; both libraries are current and
+well-maintained (pandas pushed same-day as this review, polars likewise),
+so this table is confirming "both are safe to depend on," not ranking
+which is "better."
 
 **DuckDB is a different category: an in-process OLAP SQL engine, not a
 dataframe library.** It's worth naming explicitly since it's easy to lump

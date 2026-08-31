@@ -7,6 +7,54 @@ versioning follows [Semantic Versioning](https://semver.org/).
 ## [Unreleased]
 
 ### Added
+- `project-incubation` skill: **`references/cross-cutting-utility-libraries.md`**,
+  a new reference read at Phase 6 regardless of category — 13
+  application-level utility domains (cloud-agnostic storage I/O,
+  config/secrets loading, retry/resilience, HTTP clients, structured
+  logging, data validation, date/time handling, local caching, terminal
+  output, testing utilities, environment detection, background
+  scheduling, and structured/tabular data manipulation) that recur across
+  every stack category rather than belonging to any one of them. Built
+  around an explicit **merit-first evaluation methodology**, stated in
+  the doc's own "How to read this doc" section: functional/architectural
+  reasoning leads every recommendation, adoption metrics (stars,
+  downloads) are reported only as a secondary trust check, staleness is
+  assessed as "saturated" vs. genuinely abandoned rather than treated as
+  an automatic red flag, a named CVE (diskcache) is given its precise
+  exploitability/threat model rather than a blanket caution, and every
+  entry is framed as a recommendation a project can deliberately override
+  on merit grounds — not a mandate. The tabular-data-manipulation domain
+  (pandas vs. Polars vs. Vaex vs. DuckDB, plus the npm/TypeScript side)
+  gets full treatment as the doc's own worked example of the methodology,
+  cross-referencing rather than duplicating the existing Data & Analytics
+  Platforms category doc's own decision rule. Also fixed that existing
+  doc's dataframe-library table, which had led with a stars/downloads
+  comparison ahead of any architectural reasoning — now leads with the
+  concrete mechanism (Arrow-columnar format, SIMD multi-threading, lazy
+  query optimization via predicate/projection pushdown) and moves
+  adoption figures to a secondary "trust check" table. New eval case
+  `retrieval-cross-cutting-utility-libraries` (14→15 total
+  `project-incubation` cases).
+- `project-incubation` skill: **multi-category support**, replacing the
+  old single-category-plus-caveat design. Phase 2 now asks for a primary
+  category plus, when a project has a genuinely distinct, separately-
+  architected subsystem (a real bar, not "does another category also
+  sound relevant"), any secondary categories — each contributing its own
+  preferred-libraries reads and architecture notes for the subsystem it
+  applies to. A new **"Monorepos: category selection per package"**
+  section handles the distinct, commonly-occurring case of a repo with
+  genuinely coequal, independently-deployable packages (e.g. `apps/web`,
+  `apps/api`, `infra/`, each owned by a different part of the team) —
+  no forced single "primary" package, a full **package category map**
+  instead of one category pair, with the two mechanisms composing (one
+  package in a monorepo's own map can itself have a primary-plus-
+  secondary combination). `assets/baseline-template.md` gained a "Repo
+  shape" field and a mutually-exclusive "Package category map" section
+  for the monorepo path, plus its previously-stale 5-category list was
+  corrected to all 10. Two new eval cases
+  (`gap-monorepo-coequal-packages`, and an updated
+  `gap-straddles-two-categories` reflecting the new primary+secondary
+  behavior instead of the old single-choice-plus-caveat one).
 - `project-incubation` skill: **Frontend / Client Applications**, the
   10th and **final** stack category from `research/taxonomy-roadmap.md`'s
   v2 backlog — that backlog is now fully shipped. This category is a pure
