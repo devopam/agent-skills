@@ -7,6 +7,31 @@ versioning follows [Semantic Versioning](https://semver.org/).
 ## [Unreleased]
 
 ### Added
+- `project-incubation` skill: **Developer Tooling & Libraries**, a 6th
+  stack category (SDKs, CLI tools, publishable packages/libraries
+  consumed by other developers) — the first category promoted from
+  `research/taxonomy-roadmap.md`'s v2 backlog now that v1's original 5
+  categories are stable and in use. Two authored reference docs:
+  `references/stacks/developer-tooling-libraries.md` (semver discipline
+  across Python/npm/Rust, API-stability marking including a brand-new
+  PEP 844, deprecation mechanics, the cross-ecosystem shift to OIDC
+  trusted publishing, docs-as-product, release automation with a named
+  default per repo shape, module-boundary/dependency-minimalism design,
+  CLI-UX conventions, and LSP/IDE-tooling architecture) and
+  `references/preferred-libraries/developer-tooling-libraries.md`
+  (build backends, publishing mechanics, release-automation tooling,
+  docs generators, API-stability/compat-checking tooling, CLI and
+  LSP-server framework libraries, cross-version testing, changelog
+  tooling, and Claude Code plugins/MCP registries as a distribution
+  channel). Notably self-referential: this repo's own
+  `.claude-plugin/plugin.json`-based distribution (no `pyproject.toml`/
+  `package.json`) is real, directly-inspected local precedent cited
+  throughout both docs.
+- `research/stacks/developer-tooling-libraries/` provenance record for
+  both baselines, including a follow-up direct-fetch verification pass
+  (PEP 8/387/702, crates.io's Trusted Publishing rollout) and a
+  user-requested scope expansion (CLI-UX and LSP/IDE-tooling
+  subsections, a named release-automation default) before authoring.
 - `python-code-review` skill: `SKILL.md` (portable sequential-review
   router — no subagent dispatch, no host-specific slash command) + 11
   authored reference docs + 2 assets (`report-template.md`,

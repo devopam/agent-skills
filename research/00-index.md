@@ -30,6 +30,19 @@ Additional categories beyond this v1 scope are tracked in
 | Business Applications — libraries | `research/stacks/business-applications/libraries.md` | user-approved | D |
 | Integration & Event-Driven Systems — stack | `research/stacks/integration-event-driven-systems/stack.md` | user-approved | D |
 | Integration & Event-Driven Systems — libraries | `research/stacks/integration-event-driven-systems/libraries.md` | user-approved | D |
+| Developer Tooling & Libraries — stack | `research/stacks/developer-tooling-libraries/stack.md` | promoted | E |
+| Developer Tooling & Libraries — libraries | `research/stacks/developer-tooling-libraries/libraries.md` | promoted | E |
+
+**v2 note**: the two rows above are the first `research/taxonomy-roadmap.md`
+category to get a research pass (2026-08-31), started now that v1 is stable
+and in use. Both baselines went through two review rounds — a follow-up
+direct-fetch verification pass (PEP 8/387/702, crates.io Trusted
+Publishing) and a user-requested scope addition (CLI-UX and LSP/IDE-tooling
+subsections, a named release-automation default) — before the user
+approved authoring. Promoted into
+`skills/project-incubation/references/stacks/developer-tooling-libraries.md`
+and `skills/project-incubation/references/preferred-libraries/
+developer-tooling-libraries.md`, project-incubation's 6th stack category.
 
 **Status values:** `not started` → `draft` (researched, awaiting review) →
 `user-approved` (ready for Phase 2 authoring) → `promoted` (authored into

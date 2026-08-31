@@ -63,7 +63,7 @@ Ask, one at a time:
 
 ### Phase 2: Category selection *(software path only — skip on non-software)*
 
-Ask which of these five fits best, offering a one-line description of
+Ask which of these six fits best, offering a one-line description of
 each and reading the linked doc once a category is chosen:
 
 - **Data & Analytics Platforms** — data pipelines, BI/analytics, the
@@ -81,13 +81,17 @@ each and reading the linked doc once a category is chosen:
   [`references/stacks/backend-api-services.md`](references/stacks/backend-api-services.md)
 - **Agentic & MCP Platforms** — LLM agent backends and MCP servers. →
   [`references/stacks/agentic-mcp-platforms.md`](references/stacks/agentic-mcp-platforms.md)
+- **Developer Tooling & Libraries** — SDKs, CLI tools, and publishable
+  packages/libraries consumed by other developers, not an end-user-facing
+  application. →
+  [`references/stacks/developer-tooling-libraries.md`](references/stacks/developer-tooling-libraries.md)
 
 If nothing fits cleanly, say so plainly, pick the closest match, and
 record that caveat in the baseline. `research/taxonomy-roadmap.md` in this
 repo tracks categories confirmed for future addition (Infrastructure &
-Platform Engineering, ML/AI Model Development, MLOps, Developer Tooling &
-Libraries, Frontend/Client Applications) — a project that clearly belongs
-to one of those doesn't have a home in this skill's v1 yet.
+Platform Engineering, ML/AI Model Development, MLOps, Frontend/Client
+Applications) — a project that clearly belongs to one of those doesn't
+have a home in this skill yet.
 
 ### Phase 3: Architecture template selection *(software path only)*
 
@@ -214,11 +218,11 @@ date, and append anything that changed to its Drift Log.
 | [`references/project-structure.md`](references/project-structure.md) | Root-level files, directory structure, governance, Git LFS |
 | [`references/architecture-principles.md`](references/architecture-principles.md) | 11 principle families — universal, software-specific, and LLM-conditional |
 | [`references/architecture-templates.md`](references/architecture-templates.md) | 7-pattern catalog, decision framework, ADR recording |
-| `references/stacks/<category>.md` | Architecture patterns specific to each of the 5 stack categories |
+| `references/stacks/<category>.md` | Architecture patterns specific to each of the 6 stack categories |
 | `references/preferred-libraries/<category>.md` | Curated, dated library recommendations per category |
 | [`assets/baseline-template.md`](assets/baseline-template.md) | The record structure for `docs/project-incubation-baseline.md` |
 | [`assets/adr-template.md`](assets/adr-template.md) | Fillable ADR template, mirrors a real production project's shape |
 | [`assets/license-guide.md`](assets/license-guide.md) | License chooser table + canonical-text links |
 
-Additional stack categories beyond this skill's current five are tracked
+Additional stack categories beyond this skill's current six are tracked
 in this repo's `research/taxonomy-roadmap.md` for future versions.

@@ -1,9 +1,15 @@
 # Taxonomy Roadmap
 
-Tracks stack categories beyond the current v1 scope (5 categories + the
-software/non-software fork, see `skill-flow-decisions.md` #3). These are
-confirmed as worth adding, deferred until v1 is researched, authored, and
-stable — not researched or authored yet.
+Tracks stack categories beyond the original v1 scope (5 categories + the
+software/non-software fork, see `skill-flow-decisions.md` #3). These were
+confirmed as worth adding, deferred until v1 was researched, authored, and
+stable. **Developer Tooling & Libraries (item #4 below) was promoted to
+`project-incubation`'s 6th stack category on 2026-08-31** — see
+`research/stacks/developer-tooling-libraries/` and
+`skills/project-incubation/references/{stacks,preferred-libraries}/
+developer-tooling-libraries.md`; its entry below is kept for history, not
+still pending. The remaining 4 categories are not yet researched or
+authored.
 
 ## Why these emerged
 
@@ -40,7 +46,8 @@ cleanly cover.
    don't force a three-way split if two of these end up mostly the same
    guidance with different nouns.
 
-4. **Developer Tooling & Libraries** — SDKs, CLI tools, publishable
+4. **Developer Tooling & Libraries** *(promoted 2026-08-31 — no longer
+   pending, kept here for history)* — SDKs, CLI tools, publishable
    packages/libraries consumed by other developers. Distinct concerns from
    building an application: semver discipline, API stability/backward
    compatibility, packaging/publishing (PyPI/npm/crates.io/etc.),
