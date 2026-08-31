@@ -4,12 +4,14 @@ Tracks stack categories beyond the original v1 scope (5 categories + the
 software/non-software fork, see `skill-flow-decisions.md` #3). These were
 confirmed as worth adding, deferred until v1 was researched, authored, and
 stable. **Developer Tooling & Libraries (item #4 below) was promoted to
-`project-incubation`'s 6th stack category on 2026-08-31** — see
-`research/stacks/developer-tooling-libraries/` and
+`project-incubation`'s 6th stack category on 2026-08-31**, and
+**Infrastructure & Platform Engineering (item #1 below) was promoted to
+its 7th on the same date** — see `research/stacks/{developer-tooling-
+libraries,infrastructure-platform-engineering}/` and
 `skills/project-incubation/references/{stacks,preferred-libraries}/
-developer-tooling-libraries.md`; its entry below is kept for history, not
-still pending. The remaining 4 categories are not yet researched or
-authored.
+{developer-tooling-libraries,infrastructure-platform-engineering}.md`;
+both entries below are kept for history, not still pending. The remaining
+3 categories are not yet researched or authored.
 
 ## Why these emerged
 
@@ -22,7 +24,8 @@ cleanly cover.
 
 ## Roadmap categories (confirmed 2026-08-19, not yet researched)
 
-1. **Infrastructure & Platform Engineering** — IaC (Terraform, Pulumi,
+1. **Infrastructure & Platform Engineering** *(promoted 2026-08-31 — no
+   longer pending, kept here for history)* — IaC (Terraform, Pulumi,
    CloudFormation), Kubernetes/container orchestration, CI/CD platform
    tooling, internal developer platforms. Distinct concerns: idempotency,
    drift detection, blast-radius limiting, state management — not covered

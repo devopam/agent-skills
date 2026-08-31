@@ -32,6 +32,8 @@ Additional categories beyond this v1 scope are tracked in
 | Integration & Event-Driven Systems — libraries | `research/stacks/integration-event-driven-systems/libraries.md` | user-approved | D |
 | Developer Tooling & Libraries — stack | `research/stacks/developer-tooling-libraries/stack.md` | promoted | E |
 | Developer Tooling & Libraries — libraries | `research/stacks/developer-tooling-libraries/libraries.md` | promoted | E |
+| Infrastructure & Platform Engineering — stack | `research/stacks/infrastructure-platform-engineering/stack.md` | promoted | F |
+| Infrastructure & Platform Engineering — libraries | `research/stacks/infrastructure-platform-engineering/libraries.md` | promoted | F |
 
 **v2 note**: the two rows above are the first `research/taxonomy-roadmap.md`
 category to get a research pass (2026-08-31), started now that v1 is stable

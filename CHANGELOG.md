@@ -7,6 +7,41 @@ versioning follows [Semantic Versioning](https://semver.org/).
 ## [Unreleased]
 
 ### Added
+- `project-incubation` skill: **Infrastructure & Platform Engineering**, a
+  7th stack category (IaC provisioning, Kubernetes/container
+  orchestration, CI/CD at the platform layer, internal developer
+  platforms) — the second category promoted from
+  `research/taxonomy-roadmap.md`'s v2 backlog. Two authored reference
+  docs: `references/stacks/infrastructure-platform-engineering.md`
+  (IaC tool selection with **OpenTofu named as the default** over the now
+  BSL-licensed/IBM-owned Terraform — while keeping Terraform fully
+  legitimate for an existing HCP/Sentinel investment; state management,
+  drift detection, blast-radius/policy-as-code gating; a new secrets
+  management section naming the identical BSL-vs-open-fork split recurring
+  for HashiCorp Vault vs. its own fork OpenBao; a Kubernetes-vs-simpler-
+  targets decision rule; CI/CD platform-layer concerns; internal developer
+  platforms; and how this category owns "infra-as-a-deployment-target," a
+  cross-cutting specialization no other category claims) and
+  `references/preferred-libraries/infrastructure-platform-engineering.md`
+  (IaC/state/policy/secrets/Kubernetes/registry/IDP/CI-scanning tooling,
+  including corrected facts found only by direct-fetching each tool's own
+  source — CDKTF's archival, tfsec's deprecation into Trivy, Lens's death
+  in favor of the FreeLens fork, and a real pricing correction: Spacelift's
+  actual lowest paid tier is $20,000/year, not the initial research pass's
+  ~$250/month estimate). Real, partial local precedent throughout both
+  docs: a sibling repo on the same machine (`ubi-csr-tmf`) has genuine
+  Helm charts and OIDC-based EKS deploy workflows, but zero IaC files —
+  its IAM role is literally named `GitHubActionsTerraformRole`, implying
+  provisioning happens in a separate repo not present on this machine —
+  plus a `release: blue-green` Helm label with no actual blue-green
+  mechanism behind it, a genuinely useful cautionary example.
+- `research/stacks/infrastructure-platform-engineering/` provenance record
+  for both baselines, including a follow-up verification pass (OpenTofu's
+  S3-lockfile parity confirmed via its own release notes, HCP Terraform's
+  pricing confirmed via HashiCorp's own pricing page, a correction that
+  Flagger and Argo Rollouts are NOT independently CNCF Graduated — they
+  inherit maturity through their parent projects) and a user-requested
+  scope expansion (a full secrets-management subsection) before authoring.
 - `project-incubation` skill: **Developer Tooling & Libraries**, a 6th
   stack category (SDKs, CLI tools, publishable packages/libraries
   consumed by other developers) — the first category promoted from
