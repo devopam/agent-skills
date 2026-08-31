@@ -4,14 +4,18 @@ Tracks stack categories beyond the original v1 scope (5 categories + the
 software/non-software fork, see `skill-flow-decisions.md` #3). These were
 confirmed as worth adding, deferred until v1 was researched, authored, and
 stable. **Developer Tooling & Libraries (item #4 below) was promoted to
-`project-incubation`'s 6th stack category on 2026-08-31**, and
+`project-incubation`'s 6th stack category on 2026-08-31**,
 **Infrastructure & Platform Engineering (item #1 below) was promoted to
-its 7th on the same date** — see `research/stacks/{developer-tooling-
-libraries,infrastructure-platform-engineering}/` and
+its 7th on the same date**, and **ML / AI Model Development (item #2
+below) was promoted to its 8th, also 2026-08-31** — see
+`research/stacks/{developer-tooling-libraries,infrastructure-platform-
+engineering,ml-model-development}/` and
 `skills/project-incubation/references/{stacks,preferred-libraries}/
-{developer-tooling-libraries,infrastructure-platform-engineering}.md`;
-both entries below are kept for history, not still pending. The remaining
-3 categories are not yet researched or authored.
+{developer-tooling-libraries,infrastructure-platform-engineering,
+ml-model-development}.md`; all three entries below are kept for history,
+not still pending. The remaining 2 categories (MLOps / ML Platform
+Engineering, Frontend / Client Applications) are not yet researched or
+authored.
 
 ## Why these emerged
 
@@ -31,12 +35,16 @@ cleanly cover.
    drift detection, blast-radius limiting, state management — not covered
    by any current category.
 
-2. **ML / AI Model Development** — training, fine-tuning, experiment
+2. **ML / AI Model Development** *(promoted 2026-08-31 — no longer
+   pending, kept here for history)* — training, fine-tuning, experiment
    tracking, model evaluation. Data-science/research-heavy, distinct from
    Data & Analytics Platforms (which leans BI/reporting/analytics-consumer
    facing) and from Agentic & MCP Platforms (serving/orchestration, not
    model-building) — this was the specific gap that surfaced the roadmap
-   need.
+   need. RAG-corpus construction, the other original gap this roadmap's
+   "Why these emerged" section named, was resolved during this category's
+   own research to belong to Agentic & MCP Platforms instead — assembling
+   a retrieval corpus produces no trained artifact.
 
 3. **MLOps / ML Platform Engineering** — the operational discipline once a
    model exists: model registries, feature stores, serving infrastructure,

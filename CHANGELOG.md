@@ -7,6 +7,43 @@ versioning follows [Semantic Versioning](https://semver.org/).
 ## [Unreleased]
 
 ### Added
+- `project-incubation` skill: **ML / AI Model Development**, an 8th stack
+  category (training, fine-tuning, experiment tracking, model evaluation —
+  the model-*building* side of the ML lifecycle) — the third category
+  promoted from `research/taxonomy-roadmap.md`'s v2 backlog. Two authored
+  reference docs: `references/stacks/ml-model-development.md` (pipeline/DAG
+  specialization with checkpointing and distributed-training coordination
+  as the distinctive concerns; experiment tracking's architectural role;
+  the fine-tuning/full-training/PEFT decision axis anchored on the
+  original LoRA paper's own reported figures; data versioning via content-
+  hash fingerprinting; model evaluation methodology including benchmark
+  contamination as a real documented failure mode and Hugging Face's own
+  Open LLM Leaderboard retirement as a first-party cautionary precedent; a
+  NeurIPS-checklist-anchored reproducibility section; a compute/
+  infrastructure decision table; and model cards anchored on Mitchell et
+  al.'s original paper) and
+  `references/preferred-libraries/ml-model-development.md` (deep learning
+  frameworks, experiment tracking, fine-tuning/PEFT tooling, data
+  versioning, ML-specific pipeline orchestration, model evaluation/
+  benchmarking tooling, Hugging Face Hub tooling, and compute providers for
+  training). Two category-boundary questions were resolved directly during
+  research review rather than left open: RAG-corpus construction belongs to
+  Agentic & MCP Platforms, not this category, since assembling a retrieval
+  corpus produces no trained artifact; and the MLOps boundary is confirmed
+  at "producing/evaluating a trained artifact" (this category) versus
+  "registration and serving onward" (the still-pending MLOps category). A
+  genuinely clean "no local precedent" finding is documented throughout: no
+  notebook, training script, tracker config, or model-weight file exists
+  anywhere on this machine, and `ubi-csr-tmf`'s `agents/`-named component
+  was directly confirmed to be an inference-time LLM-agent application, not
+  training code.
+- `research/stacks/ml-model-development/` provenance record for both
+  baselines, including a follow-up direct-fetch verification pass
+  (Mitchell et al.'s own paper, Kubeflow Pipelines' own docs) and a fresh
+  governance-event finding made during authoring: lakeFS's parent company
+  Treeverse acquired the DVC open-source project from Iterative on
+  2025-11-18, confirmed independently via GitHub's own repository-transfer
+  redirect.
 - `project-incubation` skill: **Infrastructure & Platform Engineering**, a
   7th stack category (IaC provisioning, Kubernetes/container
   orchestration, CI/CD at the platform layer, internal developer

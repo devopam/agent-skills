@@ -5,11 +5,12 @@ skill (`evals/<skill-name>/<case-name>/`) since a single `.claude-plugin/plugin.
 manifest covers the whole repo and `claude plugin eval` scans its eval
 directory recursively.
 
-- **`project-incubation/`** — 10 cases: one retrieval scenario per stack
-  category (7, including `retrieval-developer-tooling-libraries` and
-  `retrieval-infrastructure-platform-engineering` for the two categories
-  added 2026-08-31), plus 3 gap scenarios probing edge cases the skill's
-  own flow documents explicitly (a project straddling two categories, an
+- **`project-incubation/`** — 11 cases: one retrieval scenario per stack
+  category (8, including `retrieval-developer-tooling-libraries`,
+  `retrieval-infrastructure-platform-engineering`, and
+  `retrieval-ml-model-development` for the three categories added
+  2026-08-31), plus 3 gap scenarios probing edge cases the skill's own
+  flow documents explicitly (a project straddling two categories, an
   existing repo with no baseline record, an audit against a stale
   preferred-libraries snapshot).
 - **`python-code-review/`** — 10 cases: 6 detection scenarios (does the
