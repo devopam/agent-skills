@@ -7,6 +7,25 @@ versioning follows [Semantic Versioning](https://semver.org/).
 ## [Unreleased]
 
 ### Added
+- **`ci-cd-plumber` skill (v0 core):** portable CI/CD incubator + auditor.
+  Dual mode (Inception / Audit), baseline at `docs/ci-cd-baseline.md`,
+  integration hand-off from `project-incubation`, and first-class release
+  documentation checking/generation. Includes `SKILL.md`,
+  `assets/baseline-template.md`, domain references (security & permissions,
+  pipeline structure, supply chain & reproducibility, speed & efficiency,
+  testing & quality gates, artifacts & promotion, progressive delivery,
+  pipeline observability, release documentation, anti-patterns), and
+  platform guides for GitHub Actions and GitLab CI.
+
+## [0.10.0] - 2026-09-01
+
+### Added
+- `ci-cd-plumber` skill v0 core (see Unreleased notes; tagged with this
+  plugin version bump).
+
+## Prior history
+
+### Added
 - `python-code-review` skill: **Storage I/O** capability-detection row
   (`smart_open`/`fsspec`, conditionally gated on detected cross-provider
   cloud-SDK branching) and a **Validation** row (`pydantic`/`marshmallow`/
