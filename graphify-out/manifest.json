@@ -898,5 +898,167 @@
     "seen": 1788264358.527383,
     "ast_hash": "0312be78f514bd8bd0592c5c6bd91cd2",
     "semantic_hash": "0312be78f514bd8bd0592c5c6bd91cd2"
+  },
+  "evals/ci-cd-plumber/README.md": {
+    "mtime": 1788243079.9374788,
+    "seen": 1788281298.4539552,
+    "ast_hash": "30943b181adb53dd45eb47a574a11643",
+    "semantic_hash": "30943b181adb53dd45eb47a574a11643"
+  },
+  "evals/ci-cd-plumber/audit-unpinned-actions/graders/criteria.md": {
+    "mtime": 1788243079.9376268,
+    "seen": 1788281298.4539561,
+    "ast_hash": "dd67acda111a6508513df09b875b2ff0",
+    "semantic_hash": "dd67acda111a6508513df09b875b2ff0"
+  },
+  "evals/ci-cd-plumber/audit-unpinned-actions/prompt.md": {
+    "mtime": 1788243079.9377108,
+    "seen": 1788281298.4539561,
+    "ast_hash": "ae67e8c6e1fa2924c774267df2b25f13",
+    "semantic_hash": "ae67e8c6e1fa2924c774267df2b25f13"
+  },
+  "evals/ci-cd-plumber/inception-github-actions-python/graders/criteria.md": {
+    "mtime": 1788243079.9378514,
+    "seen": 1788281298.453957,
+    "ast_hash": "11393f0c9b73bd1987b670a726eee7bd",
+    "semantic_hash": "11393f0c9b73bd1987b670a726eee7bd"
+  },
+  "evals/ci-cd-plumber/inception-github-actions-python/prompt.md": {
+    "mtime": 1788243079.9379437,
+    "seen": 1788281298.453957,
+    "ast_hash": "87bf67fb5db00e71b5dd5529e45c95de",
+    "semantic_hash": "87bf67fb5db00e71b5dd5529e45c95de"
+  },
+  "evals/ci-cd-plumber/release-docs-keep-a-changelog/graders/criteria.md": {
+    "mtime": 1788243079.9380913,
+    "seen": 1788281298.453957,
+    "ast_hash": "83380a3cbbae65982f2f2edc2cd17309",
+    "semantic_hash": "83380a3cbbae65982f2f2edc2cd17309"
+  },
+  "evals/ci-cd-plumber/release-docs-keep-a-changelog/prompt.md": {
+    "mtime": 1788243079.9381828,
+    "seen": 1788281298.4539578,
+    "ast_hash": "4b175e6ab077ccec8e6e99543453713f",
+    "semantic_hash": "4b175e6ab077ccec8e6e99543453713f"
+  },
+  "evals/project-incubation/retrieval-mlops-platform-engineering/graders/criteria.md": {
+    "mtime": 1788177513.261244,
+    "seen": 1788281298.454304,
+    "ast_hash": "450beb5c722b97d23d0b18d25c6ec669",
+    "semantic_hash": "450beb5c722b97d23d0b18d25c6ec669"
+  },
+  "research/ci-cd-plumber/00-index.md": {
+    "mtime": 1788244810.6114333,
+    "seen": 1788281298.45458,
+    "ast_hash": "79f12a338d1095aec8250abcacb710c6",
+    "semantic_hash": "79f12a338d1095aec8250abcacb710c6"
+  },
+  "skills/ci-cd-plumber/SKILL.md": {
+    "mtime": 1788244810.6116586,
+    "seen": 1788281298.455125,
+    "ast_hash": "15b62b76cda4134ad6cb2ff7dacc2106",
+    "semantic_hash": "15b62b76cda4134ad6cb2ff7dacc2106"
+  },
+  "skills/ci-cd-plumber/assets/baseline-template.md": {
+    "mtime": 1788244810.6118393,
+    "seen": 1788281298.455125,
+    "ast_hash": "ee1266aa7dbddc282679a4c4d5c632ca",
+    "semantic_hash": "ee1266aa7dbddc282679a4c4d5c632ca"
+  },
+  "skills/ci-cd-plumber/assets/example-workflows/README.md": {
+    "mtime": 1788243079.9387026,
+    "seen": 1788281298.455126,
+    "ast_hash": "73e5a40fd5b94d6fcfdebb41f635dc0a",
+    "semantic_hash": "73e5a40fd5b94d6fcfdebb41f635dc0a"
+  },
+  "skills/ci-cd-plumber/assets/example-workflows/github-actions-ci.yml": {
+    "mtime": 1788243079.9387922,
+    "seen": 1788281298.455126,
+    "ast_hash": "6244115bbba2292f80fc8defe818dc8a",
+    "semantic_hash": "6244115bbba2292f80fc8defe818dc8a"
+  },
+  "skills/ci-cd-plumber/assets/example-workflows/github-actions-release.yml": {
+    "mtime": 1788243079.9388793,
+    "seen": 1788281298.455127,
+    "ast_hash": "e64eeb125923f50c364ccdb6b1a55d29",
+    "semantic_hash": "e64eeb125923f50c364ccdb6b1a55d29"
+  },
+  "skills/ci-cd-plumber/assets/example-workflows/gitlab-ci.yml": {
+    "mtime": 1788243079.9389641,
+    "seen": 1788281298.455127,
+    "ast_hash": "896bd4bf602b5b61ae18e77dec234ae5",
+    "semantic_hash": "896bd4bf602b5b61ae18e77dec234ae5"
+  },
+  "skills/ci-cd-plumber/references/anti-patterns.md": {
+    "mtime": 1788243079.9390786,
+    "seen": 1788281298.455128,
+    "ast_hash": "feeb4874c9060eeb2e7d7884d899a517",
+    "semantic_hash": "feeb4874c9060eeb2e7d7884d899a517"
+  },
+  "skills/ci-cd-plumber/references/artifacts-and-promotion.md": {
+    "mtime": 1788243079.9391663,
+    "seen": 1788281298.455128,
+    "ast_hash": "8a553b12a3baf7c757c447b10b9de067",
+    "semantic_hash": "8a553b12a3baf7c757c447b10b9de067"
+  },
+  "skills/ci-cd-plumber/references/pipeline-observability.md": {
+    "mtime": 1788243079.9392688,
+    "seen": 1788281298.455128,
+    "ast_hash": "11b5441d99b60610e9898a4a79b7c67c",
+    "semantic_hash": "11b5441d99b60610e9898a4a79b7c67c"
+  },
+  "skills/ci-cd-plumber/references/pipeline-structure.md": {
+    "mtime": 1788243079.9395375,
+    "seen": 1788281298.4551291,
+    "ast_hash": "08a73f60780aadac5b767b738d9195bd",
+    "semantic_hash": "08a73f60780aadac5b767b738d9195bd"
+  },
+  "skills/ci-cd-plumber/references/platforms/github-actions.md": {
+    "mtime": 1788243079.939692,
+    "seen": 1788281298.4551291,
+    "ast_hash": "d7f249f3118f174d46c824b16b1fd4c7",
+    "semantic_hash": "d7f249f3118f174d46c824b16b1fd4c7"
+  },
+  "skills/ci-cd-plumber/references/platforms/gitlab-ci.md": {
+    "mtime": 1788243079.939807,
+    "seen": 1788281298.45513,
+    "ast_hash": "db80038efd4991ac40967b57e5496627",
+    "semantic_hash": "db80038efd4991ac40967b57e5496627"
+  },
+  "skills/ci-cd-plumber/references/progressive-delivery.md": {
+    "mtime": 1788243079.9399166,
+    "seen": 1788281298.455133,
+    "ast_hash": "397d16ffb68f9ed2bf26daf017a8e031",
+    "semantic_hash": "397d16ffb68f9ed2bf26daf017a8e031"
+  },
+  "skills/ci-cd-plumber/references/release-documentation.md": {
+    "mtime": 1788243079.940174,
+    "seen": 1788281298.455134,
+    "ast_hash": "c0130426d5480b9094909932845b16f3",
+    "semantic_hash": "c0130426d5480b9094909932845b16f3"
+  },
+  "skills/ci-cd-plumber/references/security-and-permissions.md": {
+    "mtime": 1788243079.9404426,
+    "seen": 1788281298.455134,
+    "ast_hash": "14c369fbdcd4e9188629ee5c98a4c4df",
+    "semantic_hash": "14c369fbdcd4e9188629ee5c98a4c4df"
+  },
+  "skills/ci-cd-plumber/references/speed-and-efficiency.md": {
+    "mtime": 1788243079.940557,
+    "seen": 1788281298.4551349,
+    "ast_hash": "7b6b65202162eb1d93e0c4fc28101840",
+    "semantic_hash": "7b6b65202162eb1d93e0c4fc28101840"
+  },
+  "skills/ci-cd-plumber/references/supply-chain-and-reproducibility.md": {
+    "mtime": 1788243079.9407248,
+    "seen": 1788281298.4551349,
+    "ast_hash": "bd711846b5255bce7d624e4cff5faad0",
+    "semantic_hash": "bd711846b5255bce7d624e4cff5faad0"
+  },
+  "skills/ci-cd-plumber/references/testing-and-quality-gates.md": {
+    "mtime": 1788243079.9408324,
+    "seen": 1788281298.4551349,
+    "ast_hash": "642772dd5752e1c3f9789f8b93f86483",
+    "semantic_hash": "642772dd5752e1c3f9789f8b93f86483"
   }
 }
