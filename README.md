@@ -41,10 +41,11 @@ software/non-software fork for documentation/research-only projects. See
 `research/taxonomy-roadmap.md` for the provenance of the 5 categories
 added beyond v1.
 
-`ci-cd-plumber` v0 core is in place (SKILL.md, baseline template, domain
-references, GitHub Actions and GitLab CI platform guides). Further work:
-example workflow assets, evals, and deeper research provenance under
-`research/` as the skill is exercised on real repos.
+`ci-cd-plumber` v0 is complete for first live use: SKILL.md, baseline
+template, domain references, GitHub Actions and GitLab CI platform guides,
+example workflow assets, research provenance under `research/ci-cd-plumber/`,
+and initial eval scaffolding. Next: exercise on real repos (starting with
+MCPg) and deepen examples/evals from findings.
 
 ## Repo conventions
 

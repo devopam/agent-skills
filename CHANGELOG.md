@@ -7,6 +7,15 @@ versioning follows [Semantic Versioning](https://semver.org/).
 ## [Unreleased]
 
 ### Added
+- **`ci-cd-plumber` v0 complete for first live use:** example workflow
+  assets (`assets/example-workflows/` for GitHub Actions CI, release-please,
+  and GitLab CI), research provenance (`research/ci-cd-plumber/00-index.md`),
+  and initial eval scaffolding (`evals/ci-cd-plumber/` with inception, audit
+  unpinned-actions, and release-docs cases).
+
+## [0.10.0] - 2026-09-01
+
+### Added
 - **`ci-cd-plumber` skill (v0 core):** portable CI/CD incubator + auditor.
   Dual mode (Inception / Audit), baseline at `docs/ci-cd-baseline.md`,
   integration hand-off from `project-incubation`, and first-class release
@@ -16,12 +25,6 @@ versioning follows [Semantic Versioning](https://semver.org/).
   testing & quality gates, artifacts & promotion, progressive delivery,
   pipeline observability, release documentation, anti-patterns), and
   platform guides for GitHub Actions and GitLab CI.
-
-## [0.10.0] - 2026-09-01
-
-### Added
-- `ci-cd-plumber` skill v0 core (see Unreleased notes; tagged with this
-  plugin version bump).
 
 ## Prior history
 
@@ -79,7 +82,7 @@ versioning follows [Semantic Versioning](https://semver.org/).
   old single-category-plus-caveat design. Phase 2 now asks for a primary
   category plus, when a project has a genuinely distinct, separately-
   architected subsystem (a real bar, not "does another category also
-  sound relevant"), any secondary categories — each contributing its own
+  look relevant"), any secondary categories — each contributing its own
   preferred-libraries reads and architecture notes for the subsystem it
   applies to. A new **"Monorepos: category selection per package"**
   section handles the distinct, commonly-occurring case of a repo with

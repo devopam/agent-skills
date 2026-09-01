@@ -1,0 +1,30 @@
+# Illustrative release workflow using release-please.
+# Requires: Conventional Commits, contents:write (and often pull-requests:write).
+# Prefer a dedicated GitHub App / fine-scoped token over broad PATs when possible.
+# Pin the action SHA before production use.
+
+name: release-please
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pull-requests: write
+  # id-token: write  # enable if publishing with OIDC (e.g. to package registries)
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: googleapis/release-please-action@v4  # resolve to full SHA before use
+        id: release
+        with:
+          release-type: simple   # or python, node, go, etc.
+          # token: ${{ secrets.RELEASE_PLEASE_TOKEN }}  # if not using GITHUB_TOKEN
+
+      # Optional: publish artifacts only when a release was created
+      # - if: ${{ steps.release.outputs.release_created }}
+      #   name: Publish
+      #   run: ...
