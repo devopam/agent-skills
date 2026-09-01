@@ -13,6 +13,7 @@ Claude Code, and the broader [client showcase](https://agentskills.io/clients).
 |---|---|---|
 | [`project-incubation`](skills/project-incubation/) | Guides a project through best-practice repo structure, architecture principles, and tech-stack template selection at inception, then re-audits an existing repo against that baseline throughout its lifecycle. | Starting a new repo, or periodically checking an existing one against the baseline it was incubated with. |
 | [`python-code-review`](skills/python-code-review/) | Reviews Python code across 11 domains (standards compliance, code quality, security, dependency/supply-chain security, performance, concurrency & async correctness, idioms & patterns, architecture, observability, scalability & resilience, testing) with a scored report. Portable rebuild of a Claude-Code-native tool — no subagent dispatch, no host-specific slash command. | Reviewing Python code for quality/security/production-readiness, before a commit or PR, or for a periodic project health check. |
+| [`ci-cd-plumber`](skills/ci-cd-plumber/) | Scaffolds production-grade CI/CD pipelines and audits existing ones for structure, security, speed, reproducibility, progressive delivery, and release documentation. | Setting up CI/CD for a new project, hardening or reviewing an existing pipeline, improving release automation, or generating/checking changelogs and release notes. |
 
 ## Using a skill
 
@@ -39,6 +40,10 @@ Engineering, and Frontend / Client Applications — plus a
 software/non-software fork for documentation/research-only projects. See
 `research/taxonomy-roadmap.md` for the provenance of the 5 categories
 added beyond v1.
+
+`ci-cd-plumber` is in active development: core SKILL.md and baseline
+template are in place; domain reference files (security, supply chain,
+release documentation, platform guides, etc.) are being authored next.
 
 ## Repo conventions
 
