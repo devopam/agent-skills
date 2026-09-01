@@ -6,12 +6,15 @@ versioning follows [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
-### Added
-- **`ci-cd-plumber` v0 complete for first live use:** example workflow
-  assets (`assets/example-workflows/` for GitHub Actions CI, release-please,
-  and GitLab CI), research provenance (`research/ci-cd-plumber/00-index.md`),
-  and initial eval scaffolding (`evals/ci-cd-plumber/` with inception, audit
-  unpinned-actions, and release-docs cases).
+## [0.10.1] - 2026-09-01
+
+### Changed
+- **`ci-cd-plumber`:** Audit mode now **requires** a domain scorecard (0–10
+  per domain + composite average), findings ordered by the skill's four
+  severity levels (Critical / Important / Minor / Not Implemented), and a
+  baseline close-out (Last audited date, Drift Log, optional Last audit
+  scores table). `assets/baseline-template.md` gains an optional scores
+  section for trend tracking.
 
 ## [0.10.0] - 2026-09-01
 
@@ -23,8 +26,10 @@ versioning follows [Semantic Versioning](https://semver.org/).
   `assets/baseline-template.md`, domain references (security & permissions,
   pipeline structure, supply chain & reproducibility, speed & efficiency,
   testing & quality gates, artifacts & promotion, progressive delivery,
-  pipeline observability, release documentation, anti-patterns), and
-  platform guides for GitHub Actions and GitLab CI.
+  pipeline observability, release documentation, anti-patterns), platform
+  guides for GitHub Actions and GitLab CI, example workflow assets,
+  research provenance (`research/ci-cd-plumber/00-index.md`), and initial
+  eval scaffolding (`evals/ci-cd-plumber/`).
 
 ## Prior history
 

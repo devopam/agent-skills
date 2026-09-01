@@ -187,7 +187,8 @@ inferred current state (see mode detection) before continuing.
 
 Work through the domains below **sequentially**. For each domain, read
 the corresponding reference file, compare the live pipeline against both
-the baseline and the reference guidance, and record findings.
+the baseline and the reference guidance, and record findings **and a
+numeric score** (see [Scoring](#scoring)).
 
 ### Domains (in order)
 
@@ -205,7 +206,28 @@ Also consult [`references/anti-patterns.md`](references/anti-patterns.md)
 and the platform file under `references/platforms/` for the detected
 platform.
 
+### Scoring
+
+Score **each domain from 0–10** relative to the maturity target recorded
+in the baseline (prototype is lighter; high-assurance is stricter).
+
+| Score band | Meaning |
+|---|---|
+| 9–10 | Meets or exceeds expectations for this maturity; only residual polish |
+| 7–8 | Solid; clear, bounded gaps |
+| 5–6 | Partial; important controls missing or inconsistent |
+| 3–4 | Weak; systemic gaps for this maturity |
+| 0–2 | Absent or actively harmful patterns |
+
+Compute a **composite** as the simple average of the nine domain scores
+(one decimal place is enough). If a domain is genuinely not applicable
+(e.g. progressive delivery for a pure library with no deploy path), still
+score it against what the baseline claims, and note N/A reasoning in the
+scorecard notes column — do not silently drop the domain.
+
 ### Severity
+
+Use **only** these four levels (do not rename to High/Medium/Low):
 
 | Level | Meaning |
 |---|---|
@@ -214,17 +236,34 @@ platform.
 | Minor | Speed/cache improvements, clearer structure, documentation polish |
 | Not Implemented | A recommended pattern for this maturity level is simply absent (especially progressive-delivery or release automation) |
 
-### Report and fixes
+### Report format (required)
 
-Present a single checklist of findings grouped by severity, then domain.
+Present findings in this order so humans can scan quickly:
+
+1. **Header** — mode, maturity target, audit date, composite score.
+2. **Domain scorecard** — a table with columns: Domain | Score | Max (10) | Notes.
+3. **Findings by severity** — Critical, then Important, then Minor, then
+   Not Implemented. Within each level, group by domain if helpful.
+   Each finding: short title, where (path/job), why it matters, concrete
+   remediation suggestion, rough effort (low / medium / high).
+4. **Strengths worth preserving** (optional short table) — so good
+   practice is not only implied by high scores.
+5. **Suggested next actions** — ordered priority list (usually the top
+   Critical/Important items).
+
 Offer to fix items **individually** on request — never bulk-apply.
 
-When the audit finishes (whether or not fixes were applied):
+### Close-out (required after every audit)
 
-- Update `docs/ci-cd-baseline.md` "Last audited" date
-- Append material changes to its Drift Log
-- If release documentation was generated or substantially rewritten,
-  note that in the Drift Log
+Whether or not fixes were applied:
+
+1. Update `docs/ci-cd-baseline.md` **Last audited** date.
+2. Append a Drift Log line summarizing material findings or fixes (or
+   "audit only; no material drift" if clean).
+3. Optionally fill the baseline's **Last audit scores** section with the
+   domain scores + composite from this run (supports trend tracking).
+4. If release documentation was generated or substantially rewritten,
+   note that in the Drift Log.
 
 ## Release documentation add-on (available in both modes)
 

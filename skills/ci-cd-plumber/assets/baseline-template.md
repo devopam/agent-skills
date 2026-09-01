@@ -12,6 +12,9 @@ Field-filling notes:
   controls are expected — prototype is lighter; high-assurance is stricter.
 - Pinning, OIDC, and SBOM/provenance entries should reflect what was actually
   scaffolded or observed, not aspirational defaults the user declined.
+- "Last audit scores" is optional but recommended after each Audit-mode run
+  so successive composites can be compared without re-reading conversation
+  history.
 -->
 
 # CI/CD Baseline
@@ -81,6 +84,23 @@ Field-filling notes:
 - **Changelog:** Keep a Changelog (`CHANGELOG.md`) | other | missing
 - **Release automation:** release-please | semantic-release | manual | other (<name>)
 - **Tagging / platform Releases:** <e.g. annotated tags + GitHub Releases>
+
+## Last audit scores
+
+<!-- Optional. Fill or replace after each Audit-mode run (scores 0–10). -->
+
+| Domain | Score |
+|---|---:|
+| Pipeline structure | <n> |
+| Security & permissions | <n> |
+| Supply chain & reproducibility | <n> |
+| Speed & efficiency | <n> |
+| Testing & quality gates | <n> |
+| Artifacts & promotion | <n> |
+| Progressive delivery | <n> |
+| Pipeline observability | <n> |
+| Release documentation | <n> |
+| **Composite (average)** | **<n.n>** |
 
 ## Drift log
 

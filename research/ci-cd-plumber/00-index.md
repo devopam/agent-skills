@@ -30,6 +30,7 @@ architecture, IaC design, or app-level observability.
 | Platform: GitLab CI | promoted | stages, rules, cache, environments |
 | Example workflows | added | assets/example-workflows/ |
 | Evals | scaffolded | see `evals/ci-cd-plumber/` |
+| Audit report shape | promoted | domain 0–10 scorecard, severity-ordered findings, required baseline close-out |
 
 ## Key sources (synthesized 2026-09)
 
@@ -58,10 +59,14 @@ architecture, IaC design, or app-level observability.
    are defaults; user declines are written into the baseline Drift Log.
 5. **Sequential domain audit** — fixed order reduces missed domains and
    keeps reports comparable over time.
+6. **Scored tabular report** — each domain 0–10 vs maturity target;
+   composite average; findings ordered Critical → Important → Minor →
+   Not Implemented; baseline close-out required after every audit.
 
 ## Follow-ups beyond v0
 
 - Additional platform stubs (CircleCI, Azure Pipelines, Buildkite) as demand
   appears.
 - Deeper progressive-delivery recipes once exercised on real monorepos.
-- Expanded eval suite after first live smoke tests (MCPg and others).
+- Expanded eval suite after further live use (including a grader for the
+  required scorecard + severity ordering).

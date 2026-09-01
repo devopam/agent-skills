@@ -1,7 +1,7 @@
 {
   "name": "agent-skills",
-  "version": "0.10.0",
-  "description": "Portable Agent Skills for software-project best practices: project-incubation guides repo structure, architecture, and stack selection from inception through lifecycle audits; python-code-review audits Python code across 11 domains with a scored report; ci-cd-plumber scaffolds and audits CI/CD pipelines including release documentation.",
+  "version": "0.10.1",
+  "description": "Portable Agent Skills for software-project best practices: project-incubation guides repo structure, architecture, and stack selection from inception through lifecycle audits; python-code-review audits Python code across 11 domains with a scored report; ci-cd-plumber scaffolds and audits CI/CD pipelines with scored domain reports and release documentation.",
   "author": {
     "name": "Devopam Mittra",
     "email": "devopam@gmail.com"
