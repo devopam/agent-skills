@@ -12,3 +12,10 @@ desktop.ini
 *.log
 .tmp/
 .entire/
+
+# graphify: machine-local extraction cache and interpreter state, not part
+# of the committed graph output (graph.html/graph.json/GRAPH_REPORT.md)
+graphify-out/cache/
+graphify-out/.graphify_python
+graphify-out/.graphify_root
+graphify-out/cost.json

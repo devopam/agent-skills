@@ -1,0 +1,902 @@
+{
+  ".claude-plugin/plugin.json": {
+    "mtime": 1788244810.610645,
+    "seen": 1788264358.527324,
+    "ast_hash": "727f153a26e8c887a9e01c1d1b0141e8",
+    "semantic_hash": "727f153a26e8c887a9e01c1d1b0141e8"
+  },
+  ".github/ISSUE_TEMPLATE/bug_report.md": {
+    "mtime": 1787739721.8484025,
+    "seen": 1788264358.5273259,
+    "ast_hash": "e468801d29e6b66b0d496136e22e8b34",
+    "semantic_hash": "e468801d29e6b66b0d496136e22e8b34"
+  },
+  ".github/ISSUE_TEMPLATE/feature_request.md": {
+    "mtime": 1787739721.8484972,
+    "seen": 1788264358.527327,
+    "ast_hash": "174545e1d9daff8020525fdd1e020411",
+    "semantic_hash": "174545e1d9daff8020525fdd1e020411"
+  },
+  "CHANGELOG.md": {
+    "mtime": 1788244810.6109414,
+    "seen": 1788264358.527327,
+    "ast_hash": "eadd286bc058577ccee1a55487e43f41",
+    "semantic_hash": "eadd286bc058577ccee1a55487e43f41"
+  },
+  "CONTRIBUTING.md": {
+    "mtime": 1787739721.8488607,
+    "seen": 1788264358.527328,
+    "ast_hash": "954a01581b60e818c26e16155facb8b9",
+    "semantic_hash": "954a01581b60e818c26e16155facb8b9"
+  },
+  "README.md": {
+    "mtime": 1788244810.6111214,
+    "seen": 1788264358.527328,
+    "ast_hash": "63bbcdfebfbe6293e44e01f7d92ad3bd",
+    "semantic_hash": "63bbcdfebfbe6293e44e01f7d92ad3bd"
+  },
+  "evals/README.md": {
+    "mtime": 1788197921.0319912,
+    "seen": 1788264358.527329,
+    "ast_hash": "89ba1271494c9225b5e6aafd85f61e52",
+    "semantic_hash": "89ba1271494c9225b5e6aafd85f61e52"
+  },
+  "evals/project-incubation/gap-audit-stale-baseline/graders/criteria.md": {
+    "mtime": 1787739721.8495145,
+    "seen": 1788264358.527329,
+    "ast_hash": "2843791504c208e4fd2b5768b7a239a4",
+    "semantic_hash": "2843791504c208e4fd2b5768b7a239a4"
+  },
+  "evals/project-incubation/gap-audit-stale-baseline/prompt.md": {
+    "mtime": 1787739721.8496022,
+    "seen": 1788264358.5273302,
+    "ast_hash": "435e365f0c178fb93e369eae0e02273d",
+    "semantic_hash": "435e365f0c178fb93e369eae0e02273d"
+  },
+  "evals/project-incubation/gap-monorepo-coequal-packages/graders/criteria.md": {
+    "mtime": 1788196125.8716955,
+    "seen": 1788264358.5273302,
+    "ast_hash": "0dd70241d8e95622b0e5edb7593817d4",
+    "semantic_hash": "0dd70241d8e95622b0e5edb7593817d4"
+  },
+  "evals/project-incubation/gap-monorepo-coequal-packages/prompt.md": {
+    "mtime": 1788196095.699664,
+    "seen": 1788264358.527331,
+    "ast_hash": "81f8c031b7f4d0063c4ca7dd9e944b34",
+    "semantic_hash": "81f8c031b7f4d0063c4ca7dd9e944b34"
+  },
+  "evals/project-incubation/gap-no-baseline-existing-repo/graders/criteria.md": {
+    "mtime": 1787739721.8498223,
+    "seen": 1788264358.527331,
+    "ast_hash": "bd4033526ab84aab6c03b544d326890a",
+    "semantic_hash": "bd4033526ab84aab6c03b544d326890a"
+  },
+  "evals/project-incubation/gap-no-baseline-existing-repo/prompt.md": {
+    "mtime": 1787739721.849911,
+    "seen": 1788264358.527331,
+    "ast_hash": "69d7beb6be3d061bf3a40166b082b707",
+    "semantic_hash": "69d7beb6be3d061bf3a40166b082b707"
+  },
+  "evals/project-incubation/gap-straddles-two-categories/graders/criteria.md": {
+    "mtime": 1788195841.5506685,
+    "seen": 1788264358.527332,
+    "ast_hash": "dc6b523a5fb6fa3564aa09c206aa90fd",
+    "semantic_hash": "dc6b523a5fb6fa3564aa09c206aa90fd"
+  },
+  "evals/project-incubation/gap-straddles-two-categories/prompt.md": {
+    "mtime": 1787739721.8501983,
+    "seen": 1788264358.527332,
+    "ast_hash": "0fc1e19a99c9db3306fbdbe44a9feda1",
+    "semantic_hash": "0fc1e19a99c9db3306fbdbe44a9feda1"
+  },
+  "evals/project-incubation/retrieval-agentic-mcp-platforms/graders/criteria.md": {
+    "mtime": 1787739721.8504026,
+    "seen": 1788264358.527333,
+    "ast_hash": "b65ea660e2270ac9125b9cebcd97f26c",
+    "semantic_hash": "b65ea660e2270ac9125b9cebcd97f26c"
+  },
+  "evals/project-incubation/retrieval-agentic-mcp-platforms/prompt.md": {
+    "mtime": 1787739721.850486,
+    "seen": 1788264358.527333,
+    "ast_hash": "0c046abd3a59033b6f5a605d4bb34c06",
+    "semantic_hash": "0c046abd3a59033b6f5a605d4bb34c06"
+  },
+  "evals/project-incubation/retrieval-backend-api-services/graders/criteria.md": {
+    "mtime": 1787739721.8506827,
+    "seen": 1788264358.527333,
+    "ast_hash": "547866c6030e89090c6d807a00494e68",
+    "semantic_hash": "547866c6030e89090c6d807a00494e68"
+  },
+  "evals/project-incubation/retrieval-backend-api-services/prompt.md": {
+    "mtime": 1787739721.8507636,
+    "seen": 1788264358.527334,
+    "ast_hash": "6d8faf006c43c7d0dcdf04a6f0b9439d",
+    "semantic_hash": "6d8faf006c43c7d0dcdf04a6f0b9439d"
+  },
+  "evals/project-incubation/retrieval-business-applications/graders/criteria.md": {
+    "mtime": 1787739721.8509636,
+    "seen": 1788264358.527334,
+    "ast_hash": "b97a691042a6887356d3090900989257",
+    "semantic_hash": "b97a691042a6887356d3090900989257"
+  },
+  "evals/project-incubation/retrieval-business-applications/prompt.md": {
+    "mtime": 1787739721.8510444,
+    "seen": 1788264358.527334,
+    "ast_hash": "39a926ef250d854f4b1c3706d27d59b4",
+    "semantic_hash": "39a926ef250d854f4b1c3706d27d59b4"
+  },
+  "evals/project-incubation/retrieval-cross-cutting-utility-libraries/graders/criteria.md": {
+    "mtime": 1788197912.873991,
+    "seen": 1788264358.527335,
+    "ast_hash": "2254e2c37817d8503e08684e5008e1c3",
+    "semantic_hash": "2254e2c37817d8503e08684e5008e1c3"
+  },
+  "evals/project-incubation/retrieval-cross-cutting-utility-libraries/prompt.md": {
+    "mtime": 1788197900.003797,
+    "seen": 1788264358.527335,
+    "ast_hash": "e189a2fe2ce11a04cc2d3de60bc12088",
+    "semantic_hash": "e189a2fe2ce11a04cc2d3de60bc12088"
+  },
+  "evals/project-incubation/retrieval-data-analytics-platforms/graders/criteria.md": {
+    "mtime": 1787739721.8512573,
+    "seen": 1788264358.527336,
+    "ast_hash": "e84a405744c28e041adb0ff702bc7c1c",
+    "semantic_hash": "e84a405744c28e041adb0ff702bc7c1c"
+  },
+  "evals/project-incubation/retrieval-data-analytics-platforms/prompt.md": {
+    "mtime": 1787739721.8513453,
+    "seen": 1788264358.527336,
+    "ast_hash": "a4800014e1026472f749a82c8cec52bc",
+    "semantic_hash": "a4800014e1026472f749a82c8cec52bc"
+  },
+  "evals/project-incubation/retrieval-developer-tooling-libraries/graders/criteria.md": {
+    "mtime": 1788153317.8777754,
+    "seen": 1788264358.527336,
+    "ast_hash": "4b42862f9320689d2516f1b832e559ce",
+    "semantic_hash": "4b42862f9320689d2516f1b832e559ce"
+  },
+  "evals/project-incubation/retrieval-developer-tooling-libraries/prompt.md": {
+    "mtime": 1788153307.4152622,
+    "seen": 1788264358.527337,
+    "ast_hash": "3cde27278a7b69388c0cf5a36970d750",
+    "semantic_hash": "3cde27278a7b69388c0cf5a36970d750"
+  },
+  "evals/project-incubation/retrieval-frontend-client-applications/graders/criteria.md": {
+    "mtime": 1788195276.3768284,
+    "seen": 1788264358.527337,
+    "ast_hash": "16593d4835de8fe20d52fb9f95882670",
+    "semantic_hash": "16593d4835de8fe20d52fb9f95882670"
+  },
+  "evals/project-incubation/retrieval-frontend-client-applications/prompt.md": {
+    "mtime": 1788195264.8635128,
+    "seen": 1788264358.527337,
+    "ast_hash": "487ad44b28f600411bc2890ee8e02c4a",
+    "semantic_hash": "487ad44b28f600411bc2890ee8e02c4a"
+  },
+  "evals/project-incubation/retrieval-infrastructure-platform-engineering/graders/criteria.md": {
+    "mtime": 1788155234.0174553,
+    "seen": 1788264358.527338,
+    "ast_hash": "d456c95a52c0a3257dceebf30ca09120",
+    "semantic_hash": "d456c95a52c0a3257dceebf30ca09120"
+  },
+  "evals/project-incubation/retrieval-infrastructure-platform-engineering/prompt.md": {
+    "mtime": 1788155222.2441142,
+    "seen": 1788264358.527338,
+    "ast_hash": "f249c80089de612a5fdb2e49ce02a4e4",
+    "semantic_hash": "f249c80089de612a5fdb2e49ce02a4e4"
+  },
+  "evals/project-incubation/retrieval-integration-event-driven-systems/graders/criteria.md": {
+    "mtime": 1787739721.851548,
+    "seen": 1788264358.527339,
+    "ast_hash": "ed682c838696b145d2cf6c8626b7dff3",
+    "semantic_hash": "ed682c838696b145d2cf6c8626b7dff3"
+  },
+  "evals/project-incubation/retrieval-integration-event-driven-systems/prompt.md": {
+    "mtime": 1787739721.8516326,
+    "seen": 1788264358.527339,
+    "ast_hash": "0b308573fc12522de63e307587217d35",
+    "semantic_hash": "0b308573fc12522de63e307587217d35"
+  },
+  "evals/project-incubation/retrieval-ml-model-development/graders/criteria.md": {
+    "mtime": 1788156589.937852,
+    "seen": 1788264358.527339,
+    "ast_hash": "a693eaef0e395c85aa87d9346819b096",
+    "semantic_hash": "a693eaef0e395c85aa87d9346819b096"
+  },
+  "evals/project-incubation/retrieval-ml-model-development/prompt.md": {
+    "mtime": 1788156578.2131095,
+    "seen": 1788264358.52734,
+    "ast_hash": "7d6a1f9ee494450e3c7d0c04e7bd2ff4",
+    "semantic_hash": "7d6a1f9ee494450e3c7d0c04e7bd2ff4"
+  },
+  "evals/project-incubation/retrieval-mlops-platform-engineering/prompt.md": {
+    "mtime": 1788177501.7601366,
+    "seen": 1788264358.52734,
+    "ast_hash": "30813f38b3dc53fcab6ff140c673e2b8",
+    "semantic_hash": "30813f38b3dc53fcab6ff140c673e2b8"
+  },
+  "evals/python-code-review/detect-blocking-call-in-async/graders/criteria.md": {
+    "mtime": 1787739721.851875,
+    "seen": 1788264358.52734,
+    "ast_hash": "ecf5d41fccceadb45c7e7665f0f13acb",
+    "semantic_hash": "ecf5d41fccceadb45c7e7665f0f13acb"
+  },
+  "evals/python-code-review/detect-blocking-call-in-async/prompt.md": {
+    "mtime": 1787739721.8519611,
+    "seen": 1788264358.5273411,
+    "ast_hash": "1d42c22dbd498df2c3b24b8bca48e7de",
+    "semantic_hash": "1d42c22dbd498df2c3b24b8bca48e7de"
+  },
+  "evals/python-code-review/detect-boolean-trap-semver/graders/criteria.md": {
+    "mtime": 1787739721.8521607,
+    "seen": 1788264358.5273411,
+    "ast_hash": "5a045c2bfb9fe6f3bd5742d155dfb37f",
+    "semantic_hash": "5a045c2bfb9fe6f3bd5742d155dfb37f"
+  },
+  "evals/python-code-review/detect-boolean-trap-semver/prompt.md": {
+    "mtime": 1787739721.8522506,
+    "seen": 1788264358.5273411,
+    "ast_hash": "d3ce2f7f0a1008450d8bdbe0768669a6",
+    "semantic_hash": "d3ce2f7f0a1008450d8bdbe0768669a6"
+  },
+  "evals/python-code-review/detect-django-n-plus-one/graders/criteria.md": {
+    "mtime": 1787739721.8524246,
+    "seen": 1788264358.527342,
+    "ast_hash": "361b45ac020cf38fbe8ece1e389b2dab",
+    "semantic_hash": "361b45ac020cf38fbe8ece1e389b2dab"
+  },
+  "evals/python-code-review/detect-django-n-plus-one/prompt.md": {
+    "mtime": 1787739721.8525057,
+    "seen": 1788264358.527342,
+    "ast_hash": "afdff608f15d82abfab97cccfd53fb10",
+    "semantic_hash": "afdff608f15d82abfab97cccfd53fb10"
+  },
+  "evals/python-code-review/detect-over-mocked-weak-assertions/graders/criteria.md": {
+    "mtime": 1787739721.8527362,
+    "seen": 1788264358.527343,
+    "ast_hash": "2bd1a21fdaa3f805c8baa294c5236a80",
+    "semantic_hash": "2bd1a21fdaa3f805c8baa294c5236a80"
+  },
+  "evals/python-code-review/detect-over-mocked-weak-assertions/prompt.md": {
+    "mtime": 1787739721.8528237,
+    "seen": 1788264358.527343,
+    "ast_hash": "2aad0a80f3a78703a99249c6cba547c4",
+    "semantic_hash": "2aad0a80f3a78703a99249c6cba547c4"
+  },
+  "evals/python-code-review/detect-sql-injection/graders/criteria.md": {
+    "mtime": 1787739721.8530345,
+    "seen": 1788264358.5273442,
+    "ast_hash": "421cd4a3ea641402f55f3c407d40a24c",
+    "semantic_hash": "421cd4a3ea641402f55f3c407d40a24c"
+  },
+  "evals/python-code-review/detect-sql-injection/prompt.md": {
+    "mtime": 1787739721.8531148,
+    "seen": 1788264358.5273442,
+    "ast_hash": "f7645b73e6675530cd46bdda8357e274",
+    "semantic_hash": "f7645b73e6675530cd46bdda8357e274"
+  },
+  "evals/python-code-review/detect-unpinned-ci-action/graders/criteria.md": {
+    "mtime": 1787739721.8532958,
+    "seen": 1788264358.5273442,
+    "ast_hash": "ee04866b8bda36769ad94eac071dd40e",
+    "semantic_hash": "ee04866b8bda36769ad94eac071dd40e"
+  },
+  "evals/python-code-review/detect-unpinned-ci-action/prompt.md": {
+    "mtime": 1787739721.85337,
+    "seen": 1788264358.527345,
+    "ast_hash": "0b99fba32f80a19d6f2e4e13a8e18fa8",
+    "semantic_hash": "0b99fba32f80a19d6f2e4e13a8e18fa8"
+  },
+  "evals/python-code-review/gap-absence-reporting-mechanic/graders/criteria.md": {
+    "mtime": 1787739721.8535457,
+    "seen": 1788264358.527345,
+    "ast_hash": "d63ac46c43d017774899dfc42a938466",
+    "semantic_hash": "d63ac46c43d017774899dfc42a938466"
+  },
+  "evals/python-code-review/gap-absence-reporting-mechanic/prompt.md": {
+    "mtime": 1787739721.8536236,
+    "seen": 1788264358.527345,
+    "ast_hash": "78d219b7222f69ae16bdaaba7c1a437a",
+    "semantic_hash": "78d219b7222f69ae16bdaaba7c1a437a"
+  },
+  "evals/python-code-review/gap-diff-mode-scoping/graders/criteria.md": {
+    "mtime": 1787739721.8538086,
+    "seen": 1788264358.527346,
+    "ast_hash": "805429ea3b2c450dba6164cdfff19fda",
+    "semantic_hash": "805429ea3b2c450dba6164cdfff19fda"
+  },
+  "evals/python-code-review/gap-diff-mode-scoping/prompt.md": {
+    "mtime": 1787739721.8538885,
+    "seen": 1788264358.527346,
+    "ast_hash": "4a25967b60093bf2e95002ad19c0fd59",
+    "semantic_hash": "4a25967b60093bf2e95002ad19c0fd59"
+  },
+  "evals/python-code-review/gap-rate-limit-not-duplicated/graders/criteria.md": {
+    "mtime": 1787739721.8540628,
+    "seen": 1788264358.527346,
+    "ast_hash": "d1cd51daf74090690c9104d45973cbc0",
+    "semantic_hash": "d1cd51daf74090690c9104d45973cbc0"
+  },
+  "evals/python-code-review/gap-rate-limit-not-duplicated/prompt.md": {
+    "mtime": 1787739721.8541412,
+    "seen": 1788264358.5273468,
+    "ast_hash": "f5721b2df9964c4daa137c6743dc72d2",
+    "semantic_hash": "f5721b2df9964c4daa137c6743dc72d2"
+  },
+  "evals/python-code-review/gap-script-tier-no-resilience-noise/graders/criteria.md": {
+    "mtime": 1787739721.854323,
+    "seen": 1788264358.5273468,
+    "ast_hash": "68ab55696343a37d9d3786827a376801",
+    "semantic_hash": "68ab55696343a37d9d3786827a376801"
+  },
+  "evals/python-code-review/gap-script-tier-no-resilience-noise/prompt.md": {
+    "mtime": 1787739721.8543992,
+    "seen": 1788264358.527348,
+    "ast_hash": "993c11e46764dd4bb346b01c30866530",
+    "semantic_hash": "993c11e46764dd4bb346b01c30866530"
+  },
+  "research/00-index.md": {
+    "mtime": 1788195179.6851878,
+    "seen": 1788264358.527348,
+    "ast_hash": "83d5491a9a56d30c7b37fe08782fff68",
+    "semantic_hash": "83d5491a9a56d30c7b37fe08782fff68"
+  },
+  "research/architecture-principles.md": {
+    "mtime": 1787739721.8547256,
+    "seen": 1788264358.527348,
+    "ast_hash": "4bb9d1ca01ddba96f633768cc140142f",
+    "semantic_hash": "4bb9d1ca01ddba96f633768cc140142f"
+  },
+  "research/architecture-templates.md": {
+    "mtime": 1787739721.8548975,
+    "seen": 1788264358.527349,
+    "ast_hash": "73f96dd214294968668067d61f557907",
+    "semantic_hash": "73f96dd214294968668067d61f557907"
+  },
+  "research/cross-cutting-utility-libraries/batch-a.md": {
+    "mtime": 1788196828.869247,
+    "seen": 1788264358.527349,
+    "ast_hash": "ffc7a0a8faf68471dbe7c0fbd51d5391",
+    "semantic_hash": "ffc7a0a8faf68471dbe7c0fbd51d5391"
+  },
+  "research/cross-cutting-utility-libraries/batch-b.md": {
+    "mtime": 1788196556.2589507,
+    "seen": 1788264358.527349,
+    "ast_hash": "8eae8e78317190acaf9bed2c26030d9b",
+    "semantic_hash": "8eae8e78317190acaf9bed2c26030d9b"
+  },
+  "research/cross-cutting-utility-libraries/batch-c.md": {
+    "mtime": 1788197548.3132126,
+    "seen": 1788264358.52735,
+    "ast_hash": "67697c0de8041fef675cecba5843f3e2",
+    "semantic_hash": "67697c0de8041fef675cecba5843f3e2"
+  },
+  "research/project-structure.md": {
+    "mtime": 1787739721.8551025,
+    "seen": 1788264358.52735,
+    "ast_hash": "4a63cda63ffe574a8c2c001a5bccd8a8",
+    "semantic_hash": "4a63cda63ffe574a8c2c001a5bccd8a8"
+  },
+  "research/python-code-review-domain-scoping.md": {
+    "mtime": 1787739721.8552423,
+    "seen": 1788264358.52735,
+    "ast_hash": "7d2155e94a318c1561916fb540cebe85",
+    "semantic_hash": "7d2155e94a318c1561916fb540cebe85"
+  },
+  "research/python-code-review/00-index.md": {
+    "mtime": 1787739721.8557792,
+    "seen": 1788264358.5273511,
+    "ast_hash": "76d6ca50a176c6730f5ab6246d548041",
+    "semantic_hash": "76d6ca50a176c6730f5ab6246d548041"
+  },
+  "research/python-code-review/architecture.md": {
+    "mtime": 1787739721.8559458,
+    "seen": 1788264358.5273511,
+    "ast_hash": "f61084a617672bca0f88462acb8459b9",
+    "semantic_hash": "f61084a617672bca0f88462acb8459b9"
+  },
+  "research/python-code-review/code-quality.md": {
+    "mtime": 1787739721.85613,
+    "seen": 1788264358.527352,
+    "ast_hash": "5886a4da2befb29f477cb624c5e2e679",
+    "semantic_hash": "5886a4da2befb29f477cb624c5e2e679"
+  },
+  "research/python-code-review/concurrency-async-correctness.md": {
+    "mtime": 1787739721.8563032,
+    "seen": 1788264358.527352,
+    "ast_hash": "5c87536b0c298337b0aff30720a3f1a9",
+    "semantic_hash": "5c87536b0c298337b0aff30720a3f1a9"
+  },
+  "research/python-code-review/dependency-supply-chain-security.md": {
+    "mtime": 1787739721.8565166,
+    "seen": 1788264358.527352,
+    "ast_hash": "a08a0d9deceea868368da27728161365",
+    "semantic_hash": "a08a0d9deceea868368da27728161365"
+  },
+  "research/python-code-review/idioms-and-patterns.md": {
+    "mtime": 1787739721.8566809,
+    "seen": 1788264358.527353,
+    "ast_hash": "8bd4cddb8f1dad399073da77cf95aebe",
+    "semantic_hash": "8bd4cddb8f1dad399073da77cf95aebe"
+  },
+  "research/python-code-review/observability.md": {
+    "mtime": 1787739721.8570714,
+    "seen": 1788264358.527353,
+    "ast_hash": "a726f1f42fce734313d65c4c17a94cd6",
+    "semantic_hash": "a726f1f42fce734313d65c4c17a94cd6"
+  },
+  "research/python-code-review/original-tool/INSTALL.md": {
+    "mtime": 1787739721.8572557,
+    "seen": 1788264358.527353,
+    "ast_hash": "f452848b9575156da4b4debff2b6666f",
+    "semantic_hash": "f452848b9575156da4b4debff2b6666f"
+  },
+  "research/python-code-review/original-tool/SKILL.md": {
+    "mtime": 1787739721.8573854,
+    "seen": 1788264358.527354,
+    "ast_hash": "5f70cae9562a4c02c84de56c39cab40c",
+    "semantic_hash": "5f70cae9562a4c02c84de56c39cab40c"
+  },
+  "research/python-code-review/original-tool/commands/python-review.md": {
+    "mtime": 1787739721.8575368,
+    "seen": 1788264358.527354,
+    "ast_hash": "3af5f546d1674b205811d5c141c1e7b0",
+    "semantic_hash": "3af5f546d1674b205811d5c141c1e7b0"
+  },
+  "research/python-code-review/original-tool/report-template.md": {
+    "mtime": 1787739721.857853,
+    "seen": 1788264358.527355,
+    "ast_hash": "b27b39a979adddbcd3bbdf8b89b7a10b",
+    "semantic_hash": "b27b39a979adddbcd3bbdf8b89b7a10b"
+  },
+  "research/python-code-review/original-tool/review-domains/architecture.md": {
+    "mtime": 1787739721.8580098,
+    "seen": 1788264358.527355,
+    "ast_hash": "4c56d499b473bc632e4394650480e023",
+    "semantic_hash": "4c56d499b473bc632e4394650480e023"
+  },
+  "research/python-code-review/original-tool/review-domains/code-quality.md": {
+    "mtime": 1787739721.858112,
+    "seen": 1788264358.527355,
+    "ast_hash": "1fc9a05001ccc9edb0bb4a367f049ecb",
+    "semantic_hash": "1fc9a05001ccc9edb0bb4a367f049ecb"
+  },
+  "research/python-code-review/original-tool/review-domains/idioms-and-patterns.md": {
+    "mtime": 1787739721.8582613,
+    "seen": 1788264358.527356,
+    "ast_hash": "15026c42a3df786665a9f082472beaad",
+    "semantic_hash": "15026c42a3df786665a9f082472beaad"
+  },
+  "research/python-code-review/original-tool/review-domains/observability.md": {
+    "mtime": 1787739721.8584018,
+    "seen": 1788264358.527356,
+    "ast_hash": "b783a1a831d27800fe11fc2d8cdcd401",
+    "semantic_hash": "b783a1a831d27800fe11fc2d8cdcd401"
+  },
+  "research/python-code-review/original-tool/review-domains/performance.md": {
+    "mtime": 1787739721.8585112,
+    "seen": 1788264358.5273569,
+    "ast_hash": "6f3443fb3eb340b4218bc30b268f2c92",
+    "semantic_hash": "6f3443fb3eb340b4218bc30b268f2c92"
+  },
+  "research/python-code-review/original-tool/review-domains/scalability-and-resilience.md": {
+    "mtime": 1787739721.858634,
+    "seen": 1788264358.5273569,
+    "ast_hash": "4c40cf5c01f424430d2b77fc76ead403",
+    "semantic_hash": "4c40cf5c01f424430d2b77fc76ead403"
+  },
+  "research/python-code-review/original-tool/review-domains/security.md": {
+    "mtime": 1787739721.8588257,
+    "seen": 1788264358.5273569,
+    "ast_hash": "75d9c45ac1957c919988847eaf0df3bd",
+    "semantic_hash": "75d9c45ac1957c919988847eaf0df3bd"
+  },
+  "research/python-code-review/original-tool/review-domains/standards-compliance.md": {
+    "mtime": 1787739721.8589268,
+    "seen": 1788264358.527358,
+    "ast_hash": "adb63e189032af8cb716b064b29fdd35",
+    "semantic_hash": "adb63e189032af8cb716b064b29fdd35"
+  },
+  "research/python-code-review/performance.md": {
+    "mtime": 1787739721.859074,
+    "seen": 1788264358.527358,
+    "ast_hash": "4937e46c58aefb9263f45596cec5cbb5",
+    "semantic_hash": "4937e46c58aefb9263f45596cec5cbb5"
+  },
+  "research/python-code-review/scalability-and-resilience.md": {
+    "mtime": 1787739721.8592267,
+    "seen": 1788264358.527358,
+    "ast_hash": "2f6210873777840e20037d284df8e8bb",
+    "semantic_hash": "2f6210873777840e20037d284df8e8bb"
+  },
+  "research/python-code-review/security.md": {
+    "mtime": 1787739721.8594153,
+    "seen": 1788264358.527359,
+    "ast_hash": "f8a1257b6c315a2418139d30d7f35e4a",
+    "semantic_hash": "f8a1257b6c315a2418139d30d7f35e4a"
+  },
+  "research/python-code-review/standards-compliance.md": {
+    "mtime": 1787739721.85963,
+    "seen": 1788264358.52736,
+    "ast_hash": "2998a78feca84fc1d3817738eec4f8ef",
+    "semantic_hash": "2998a78feca84fc1d3817738eec4f8ef"
+  },
+  "research/python-code-review/testing.md": {
+    "mtime": 1787739721.8599222,
+    "seen": 1788264358.52736,
+    "ast_hash": "05d22c801640c5f9a12614e0f77393d6",
+    "semantic_hash": "05d22c801640c5f9a12614e0f77393d6"
+  },
+  "research/skill-flow-decisions.md": {
+    "mtime": 1787739721.860081,
+    "seen": 1788264358.52736,
+    "ast_hash": "7f5ab9f23aa69ebde51370b7fd02cca8",
+    "semantic_hash": "7f5ab9f23aa69ebde51370b7fd02cca8"
+  },
+  "research/stacks/agentic-mcp-platforms/libraries.md": {
+    "mtime": 1787739721.8603528,
+    "seen": 1788264358.527361,
+    "ast_hash": "ca51f89b21d966521da34fb0ef7358e3",
+    "semantic_hash": "ca51f89b21d966521da34fb0ef7358e3"
+  },
+  "research/stacks/agentic-mcp-platforms/stack.md": {
+    "mtime": 1787739721.8605332,
+    "seen": 1788264358.527361,
+    "ast_hash": "3d71edc99ae3fdad925961bb03aa65a3",
+    "semantic_hash": "3d71edc99ae3fdad925961bb03aa65a3"
+  },
+  "research/stacks/backend-api-services/libraries.md": {
+    "mtime": 1787739721.860763,
+    "seen": 1788264358.527361,
+    "ast_hash": "860a35c7f7974562a4261526a2925812",
+    "semantic_hash": "860a35c7f7974562a4261526a2925812"
+  },
+  "research/stacks/backend-api-services/stack.md": {
+    "mtime": 1787739721.8609414,
+    "seen": 1788264358.527362,
+    "ast_hash": "3b1163a4633c1c115a6949dde643317c",
+    "semantic_hash": "3b1163a4633c1c115a6949dde643317c"
+  },
+  "research/stacks/business-applications/libraries.md": {
+    "mtime": 1787739721.861305,
+    "seen": 1788264358.527362,
+    "ast_hash": "c78a6a26f13015cccf77ce56e1a8544d",
+    "semantic_hash": "c78a6a26f13015cccf77ce56e1a8544d"
+  },
+  "research/stacks/business-applications/stack.md": {
+    "mtime": 1787739721.861447,
+    "seen": 1788264358.527363,
+    "ast_hash": "eadad7b8acf2cbc5bc0605c1d6b83644",
+    "semantic_hash": "eadad7b8acf2cbc5bc0605c1d6b83644"
+  },
+  "research/stacks/data-analytics-platforms/libraries.md": {
+    "mtime": 1787739721.8616943,
+    "seen": 1788264358.527363,
+    "ast_hash": "fcdce853647bdff89b91395978597098",
+    "semantic_hash": "fcdce853647bdff89b91395978597098"
+  },
+  "research/stacks/data-analytics-platforms/stack.md": {
+    "mtime": 1787739721.8618782,
+    "seen": 1788264358.527363,
+    "ast_hash": "0bf74175ca834d57b5340bb2f5c170bc",
+    "semantic_hash": "0bf74175ca834d57b5340bb2f5c170bc"
+  },
+  "research/stacks/developer-tooling-libraries/libraries.md": {
+    "mtime": 1788152875.8102624,
+    "seen": 1788264358.527364,
+    "ast_hash": "7abd2c7430ab0429cf5beaa97a04dfd9",
+    "semantic_hash": "7abd2c7430ab0429cf5beaa97a04dfd9"
+  },
+  "research/stacks/developer-tooling-libraries/stack.md": {
+    "mtime": 1788152826.790956,
+    "seen": 1788264358.527364,
+    "ast_hash": "a6b7f716a2904597a10cce88cb9769e9",
+    "semantic_hash": "a6b7f716a2904597a10cce88cb9769e9"
+  },
+  "research/stacks/frontend-client-applications/libraries.md": {
+    "mtime": 1788178289.2505302,
+    "seen": 1788264358.527364,
+    "ast_hash": "eb661995274db4f40de3254a7f596b71",
+    "semantic_hash": "eb661995274db4f40de3254a7f596b71"
+  },
+  "research/stacks/frontend-client-applications/stack.md": {
+    "mtime": 1788178276.7415543,
+    "seen": 1788264358.5273652,
+    "ast_hash": "6b3ea49ae5c1c76f521334a938443237",
+    "semantic_hash": "6b3ea49ae5c1c76f521334a938443237"
+  },
+  "research/stacks/infrastructure-platform-engineering/libraries.md": {
+    "mtime": 1788154630.564394,
+    "seen": 1788264358.5273652,
+    "ast_hash": "e8023521564bb442f088e3791ef64bdf",
+    "semantic_hash": "e8023521564bb442f088e3791ef64bdf"
+  },
+  "research/stacks/infrastructure-platform-engineering/stack.md": {
+    "mtime": 1788154519.4980242,
+    "seen": 1788264358.5273652,
+    "ast_hash": "d2c211fa27d33b6a68cb287ee801b952",
+    "semantic_hash": "d2c211fa27d33b6a68cb287ee801b952"
+  },
+  "research/stacks/integration-event-driven-systems/libraries.md": {
+    "mtime": 1787739721.8621151,
+    "seen": 1788264358.527366,
+    "ast_hash": "35df72143dea7eb6686219df8d2f7b3f",
+    "semantic_hash": "35df72143dea7eb6686219df8d2f7b3f"
+  },
+  "research/stacks/integration-event-driven-systems/stack.md": {
+    "mtime": 1787739721.8623009,
+    "seen": 1788264358.527366,
+    "ast_hash": "cddddd97f554d64ee11ce2747d57c605",
+    "semantic_hash": "cddddd97f554d64ee11ce2747d57c605"
+  },
+  "research/stacks/ml-model-development/libraries.md": {
+    "mtime": 1788155977.9595838,
+    "seen": 1788264358.5273669,
+    "ast_hash": "8bd3060bd37b5484542620eb3474c627",
+    "semantic_hash": "8bd3060bd37b5484542620eb3474c627"
+  },
+  "research/stacks/ml-model-development/stack.md": {
+    "mtime": 1788155959.3463519,
+    "seen": 1788264358.5273669,
+    "ast_hash": "99f58ec3f065de8757365170aa1858bf",
+    "semantic_hash": "99f58ec3f065de8757365170aa1858bf"
+  },
+  "research/stacks/mlops-platform-engineering/libraries.md": {
+    "mtime": 1788176912.7370791,
+    "seen": 1788264358.5273669,
+    "ast_hash": "054596413e9878b4d3eb0eb706cd0e65",
+    "semantic_hash": "054596413e9878b4d3eb0eb706cd0e65"
+  },
+  "research/stacks/mlops-platform-engineering/stack.md": {
+    "mtime": 1788176900.5986292,
+    "seen": 1788264358.5273678,
+    "ast_hash": "27a3ca73ba66549274aa10b4517728c2",
+    "semantic_hash": "27a3ca73ba66549274aa10b4517728c2"
+  },
+  "research/taxonomy-roadmap.md": {
+    "mtime": 1788195212.144024,
+    "seen": 1788264358.5273678,
+    "ast_hash": "780ad7ce1f5c8d0c8b643e6505f0bf57",
+    "semantic_hash": "780ad7ce1f5c8d0c8b643e6505f0bf57"
+  },
+  "skills/project-incubation/SKILL.md": {
+    "mtime": 1788196146.0571885,
+    "seen": 1788264358.527369,
+    "ast_hash": "f266c109d72eec1c888425155abb6ca7",
+    "semantic_hash": "f266c109d72eec1c888425155abb6ca7"
+  },
+  "skills/project-incubation/assets/adr-template.md": {
+    "mtime": 1787739721.8628774,
+    "seen": 1788264358.527369,
+    "ast_hash": "07d0b82047bb5c609317dd8df15b41d0",
+    "semantic_hash": "07d0b82047bb5c609317dd8df15b41d0"
+  },
+  "skills/project-incubation/assets/license-guide.md": {
+    "mtime": 1787739721.863107,
+    "seen": 1788264358.527369,
+    "ast_hash": "20afef8b0e38799d3bc362ed243f5493",
+    "semantic_hash": "20afef8b0e38799d3bc362ed243f5493"
+  },
+  "skills/project-incubation/references/architecture-principles.md": {
+    "mtime": 1787739721.863338,
+    "seen": 1788264358.52737,
+    "ast_hash": "6fa2f0f4a49e87f6f740bcaf4323785b",
+    "semantic_hash": "6fa2f0f4a49e87f6f740bcaf4323785b"
+  },
+  "skills/project-incubation/references/architecture-templates.md": {
+    "mtime": 1787739721.8634977,
+    "seen": 1788264358.52737,
+    "ast_hash": "4f0092690ae41d976ee586e6852c7cc9",
+    "semantic_hash": "4f0092690ae41d976ee586e6852c7cc9"
+  },
+  "skills/project-incubation/references/cross-cutting-utility-libraries.md": {
+    "mtime": 1788197823.9741926,
+    "seen": 1788264358.52737,
+    "ast_hash": "82ea692db6bffdf9376cb4f35117a734",
+    "semantic_hash": "82ea692db6bffdf9376cb4f35117a734"
+  },
+  "skills/project-incubation/references/preferred-libraries/agentic-mcp-platforms.md": {
+    "mtime": 1787739721.863694,
+    "seen": 1788264358.527371,
+    "ast_hash": "3698c9e138e5555c5e466634978a661c",
+    "semantic_hash": "3698c9e138e5555c5e466634978a661c"
+  },
+  "skills/project-incubation/references/preferred-libraries/backend-api-services.md": {
+    "mtime": 1787739721.8638844,
+    "seen": 1788264358.527371,
+    "ast_hash": "db5e02e687ef98aef8e8b5d1e3cc605d",
+    "semantic_hash": "db5e02e687ef98aef8e8b5d1e3cc605d"
+  },
+  "skills/project-incubation/references/preferred-libraries/business-applications.md": {
+    "mtime": 1787739721.8640301,
+    "seen": 1788264358.527371,
+    "ast_hash": "845e6129caa13d94dfb9176ebec4f5c0",
+    "semantic_hash": "845e6129caa13d94dfb9176ebec4f5c0"
+  },
+  "skills/project-incubation/references/preferred-libraries/data-analytics-platforms.md": {
+    "mtime": 1788197608.0320222,
+    "seen": 1788264358.5273721,
+    "ast_hash": "857ba9ae13e54dc0565da8d20cb6d782",
+    "semantic_hash": "857ba9ae13e54dc0565da8d20cb6d782"
+  },
+  "skills/project-incubation/references/preferred-libraries/developer-tooling-libraries.md": {
+    "mtime": 1788153142.7887518,
+    "seen": 1788264358.5273721,
+    "ast_hash": "b23444053bc0735c62106f744709dbc8",
+    "semantic_hash": "b23444053bc0735c62106f744709dbc8"
+  },
+  "skills/project-incubation/references/preferred-libraries/frontend-client-applications.md": {
+    "mtime": 1788178659.5426285,
+    "seen": 1788264358.527373,
+    "ast_hash": "65b5540921e9cbe7c547da37d57656de",
+    "semantic_hash": "65b5540921e9cbe7c547da37d57656de"
+  },
+  "skills/project-incubation/references/preferred-libraries/infrastructure-platform-engineering.md": {
+    "mtime": 1788176788.9243279,
+    "seen": 1788264358.527373,
+    "ast_hash": "5c95a9315c825fbbff4da0492945d6e9",
+    "semantic_hash": "5c95a9315c825fbbff4da0492945d6e9"
+  },
+  "skills/project-incubation/references/preferred-libraries/integration-event-driven-systems.md": {
+    "mtime": 1787739721.8643134,
+    "seen": 1788264358.527373,
+    "ast_hash": "da7b3190c7cf5c2eb3261500ef7fa4e7",
+    "semantic_hash": "da7b3190c7cf5c2eb3261500ef7fa4e7"
+  },
+  "skills/project-incubation/references/preferred-libraries/ml-model-development.md": {
+    "mtime": 1788156482.303187,
+    "seen": 1788264358.527374,
+    "ast_hash": "30e19ce4be5c6ff2a6056d2b3e5b9a7d",
+    "semantic_hash": "30e19ce4be5c6ff2a6056d2b3e5b9a7d"
+  },
+  "skills/project-incubation/references/preferred-libraries/mlops-platform-engineering.md": {
+    "mtime": 1788177260.832334,
+    "seen": 1788264358.527374,
+    "ast_hash": "02a74b6c079d1b792af06f096bff5386",
+    "semantic_hash": "02a74b6c079d1b792af06f096bff5386"
+  },
+  "skills/project-incubation/references/project-structure.md": {
+    "mtime": 1787739721.8644426,
+    "seen": 1788264358.5273752,
+    "ast_hash": "7abb3f089d45dd13e8449a189af1dc57",
+    "semantic_hash": "7abb3f089d45dd13e8449a189af1dc57"
+  },
+  "skills/project-incubation/references/stacks/agentic-mcp-platforms.md": {
+    "mtime": 1787739721.864629,
+    "seen": 1788264358.5273752,
+    "ast_hash": "5cf5835ba8efe5315146137d8d40d52b",
+    "semantic_hash": "5cf5835ba8efe5315146137d8d40d52b"
+  },
+  "skills/project-incubation/references/stacks/backend-api-services.md": {
+    "mtime": 1787739721.864763,
+    "seen": 1788264358.5273752,
+    "ast_hash": "06b392b2f5cfbb152bca51f8f4c1f631",
+    "semantic_hash": "06b392b2f5cfbb152bca51f8f4c1f631"
+  },
+  "skills/project-incubation/references/stacks/business-applications.md": {
+    "mtime": 1787739721.864883,
+    "seen": 1788264358.527376,
+    "ast_hash": "e1c7443733b283be1035e5570c9aedb6",
+    "semantic_hash": "e1c7443733b283be1035e5570c9aedb6"
+  },
+  "skills/project-incubation/references/stacks/data-analytics-platforms.md": {
+    "mtime": 1787739721.8650382,
+    "seen": 1788264358.527376,
+    "ast_hash": "8970ca55a4af9a9719b84d8389ea5047",
+    "semantic_hash": "8970ca55a4af9a9719b84d8389ea5047"
+  },
+  "skills/project-incubation/references/stacks/developer-tooling-libraries.md": {
+    "mtime": 1788153210.291702,
+    "seen": 1788264358.527376,
+    "ast_hash": "13b05ab82deba92330e25b52a22086d3",
+    "semantic_hash": "13b05ab82deba92330e25b52a22086d3"
+  },
+  "skills/project-incubation/references/stacks/frontend-client-applications.md": {
+    "mtime": 1788178664.4352207,
+    "seen": 1788264358.527377,
+    "ast_hash": "7a3fcc1bd133f47082fa9cba935c2634",
+    "semantic_hash": "7a3fcc1bd133f47082fa9cba935c2634"
+  },
+  "skills/project-incubation/references/stacks/infrastructure-platform-engineering.md": {
+    "mtime": 1788155090.7681177,
+    "seen": 1788264358.527377,
+    "ast_hash": "81a71e0ac935b99b3d6a951bd06626f4",
+    "semantic_hash": "81a71e0ac935b99b3d6a951bd06626f4"
+  },
+  "skills/project-incubation/references/stacks/integration-event-driven-systems.md": {
+    "mtime": 1787739721.865215,
+    "seen": 1788264358.5273778,
+    "ast_hash": "6981ee5e52b43308e21ef4848996e461",
+    "semantic_hash": "6981ee5e52b43308e21ef4848996e461"
+  },
+  "skills/project-incubation/references/stacks/ml-model-development.md": {
+    "mtime": 1788156215.7371871,
+    "seen": 1788264358.5273778,
+    "ast_hash": "64fc8da8d5b714e37feeac77d75b2785",
+    "semantic_hash": "64fc8da8d5b714e37feeac77d75b2785"
+  },
+  "skills/project-incubation/references/stacks/mlops-platform-engineering.md": {
+    "mtime": 1788177357.1597872,
+    "seen": 1788264358.5273778,
+    "ast_hash": "134a56ae753751a910c2b4a3c55231c9",
+    "semantic_hash": "134a56ae753751a910c2b4a3c55231c9"
+  },
+  "skills/python-code-review/SKILL.md": {
+    "mtime": 1787739721.8653815,
+    "seen": 1788264358.527379,
+    "ast_hash": "476d5176b322dbd9a90ce3b1c11d0cba",
+    "semantic_hash": "476d5176b322dbd9a90ce3b1c11d0cba"
+  },
+  "skills/python-code-review/assets/report-template.md": {
+    "mtime": 1787739721.865496,
+    "seen": 1788264358.527379,
+    "ast_hash": "7f874321a1a5d33ec1c68886da0f96f3",
+    "semantic_hash": "7f874321a1a5d33ec1c68886da0f96f3"
+  },
+  "skills/python-code-review/references/architecture.md": {
+    "mtime": 1787739721.8657315,
+    "seen": 1788264358.527379,
+    "ast_hash": "9249290c4a65eb1f69d34936a3dbd39c",
+    "semantic_hash": "9249290c4a65eb1f69d34936a3dbd39c"
+  },
+  "skills/python-code-review/references/code-quality.md": {
+    "mtime": 1787739721.8658838,
+    "seen": 1788264358.52738,
+    "ast_hash": "92fa5591089b0799697a97298e51e6f9",
+    "semantic_hash": "92fa5591089b0799697a97298e51e6f9"
+  },
+  "skills/python-code-review/references/concurrency-async-correctness.md": {
+    "mtime": 1787739721.8660276,
+    "seen": 1788264358.52738,
+    "ast_hash": "8e6f3986a03204e609cbc63d853bd578",
+    "semantic_hash": "8e6f3986a03204e609cbc63d853bd578"
+  },
+  "skills/python-code-review/references/dependency-supply-chain-security.md": {
+    "mtime": 1787739721.8661652,
+    "seen": 1788264358.527381,
+    "ast_hash": "68ffd0fb8b8398cbe4d9082215a30ce6",
+    "semantic_hash": "68ffd0fb8b8398cbe4d9082215a30ce6"
+  },
+  "skills/python-code-review/references/idioms-and-patterns.md": {
+    "mtime": 1787739721.8663123,
+    "seen": 1788264358.527381,
+    "ast_hash": "3153aaa2590efbe5f00d06c382d68d97",
+    "semantic_hash": "3153aaa2590efbe5f00d06c382d68d97"
+  },
+  "skills/python-code-review/references/observability.md": {
+    "mtime": 1787739721.8664458,
+    "seen": 1788264358.527381,
+    "ast_hash": "e8256aa9eaec9813241a56c13dc1362a",
+    "semantic_hash": "e8256aa9eaec9813241a56c13dc1362a"
+  },
+  "skills/python-code-review/references/performance.md": {
+    "mtime": 1787739721.8665905,
+    "seen": 1788264358.527382,
+    "ast_hash": "6a8c3b656a23c81e1a05fa628184d56b",
+    "semantic_hash": "6a8c3b656a23c81e1a05fa628184d56b"
+  },
+  "skills/python-code-review/references/scalability-and-resilience.md": {
+    "mtime": 1787739721.8667212,
+    "seen": 1788264358.527382,
+    "ast_hash": "eb6e74d8abf651ee09dcf12a66965f1c",
+    "semantic_hash": "eb6e74d8abf651ee09dcf12a66965f1c"
+  },
+  "skills/python-code-review/references/security.md": {
+    "mtime": 1787739721.8668942,
+    "seen": 1788264358.527382,
+    "ast_hash": "62c6552a27e8964e66912f8e221777f6",
+    "semantic_hash": "62c6552a27e8964e66912f8e221777f6"
+  },
+  "skills/python-code-review/references/standards-compliance.md": {
+    "mtime": 1788198233.501464,
+    "seen": 1788264358.527383,
+    "ast_hash": "0c710720cb47e122cf76961a742540b8",
+    "semantic_hash": "0c710720cb47e122cf76961a742540b8"
+  },
+  "skills/python-code-review/references/testing.md": {
+    "mtime": 1787739721.8671765,
+    "seen": 1788264358.527383,
+    "ast_hash": "0312be78f514bd8bd0592c5c6bd91cd2",
+    "semantic_hash": "0312be78f514bd8bd0592c5c6bd91cd2"
+  }
+}
