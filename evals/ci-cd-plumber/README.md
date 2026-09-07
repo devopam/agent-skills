@@ -3,9 +3,8 @@
 Eval cases for the `ci-cd-plumber` skill. Format matches the repo-wide
 convention under `evals/` (prompt.md + graders/criteria.md).
 
-These are hand-authored scaffolding for v0; they have not been executed
-via `claude plugin eval` (same early-access constraint noted for other
-skills). Expand after the first live smoke test on real repositories.
+Hand-authored; not executed via `claude plugin eval` until enrollment
+allows (see repo `evals/README.md`).
 
 ## Cases
 
@@ -14,3 +13,6 @@ skills). Expand after the first live smoke test on real repositories.
 | `inception-github-actions-python` | Green-field inception for a Python + GitHub Actions service |
 | `audit-unpinned-actions` | Detect missing SHA pins and overly broad permissions |
 | `release-docs-keep-a-changelog` | Check / offer generation of Keep a Changelog structure |
+| `audit-scorecard-report-shape` | Require domain 0-10 table + severity ordering |
+| `audit-baseline-close-out` | Last audited + Drift Log after audit without fixes |
+| `progressive-delivery-na-library` | Do not mandate canary for pure library publish |
