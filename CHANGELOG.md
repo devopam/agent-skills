@@ -6,6 +6,18 @@ versioning follows [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [0.12.0] - 2026-09-07
+
+### Added
+- **`postgresql-review` skill (v0):** live PostgreSQL review across seven
+  domains (health & configuration, schema integrity, indexing, workload &
+  query performance, maintenance, security & access, hygiene & conventions).
+  **Phase 0 MCPg readiness** requires install, client config, and verified
+  reachability for the target database and schema scope before scoring.
+  Prefer `MCPG_ACCESS_MODE=read-only`; remediations are suggested SQL/ops only.
+  Includes `SKILL.md`, `references/mcpg-tooling.md` + domain refs, report
+  template, eval cases, and research under `research/postgresql-review/`.
+
 ## [0.11.0] - 2026-09-07
 
 ### Added
@@ -35,16 +47,6 @@ versioning follows [Semantic Versioning](https://semver.org/).
 
 ### Added
 - **`ci-cd-plumber` skill (v0 core):** portable CI/CD incubator + auditor.
-  Dual mode (Inception / Audit), baseline at `docs/ci-cd-baseline.md`,
-  integration hand-off from `project-incubation`, and first-class release
-  documentation checking/generation. Includes `SKILL.md`,
-  `assets/baseline-template.md`, domain references (security & permissions,
-  pipeline structure, supply chain & reproducibility, speed & efficiency,
-  testing & quality gates, artifacts & promotion, progressive delivery,
-  pipeline observability, release documentation, anti-patterns), platform
-  guides for GitHub Actions and GitLab CI, example workflow assets,
-  research provenance (`research/ci-cd-plumber/00-index.md`), and initial
-  eval scaffolding (`evals/ci-cd-plumber/`).
 
 ## Prior history
 
