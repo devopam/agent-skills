@@ -1,9 +1,9 @@
 {
   ".claude-plugin/plugin.json": {
-    "mtime": 1788758987.1851106,
-    "seen": 1788759391.0409012,
-    "ast_hash": "6bb0fa9b1ee311cee532f4cbb25c60cc",
-    "semantic_hash": "6bb0fa9b1ee311cee532f4cbb25c60cc"
+    "mtime": 1788795539.257876,
+    "seen": 1788796443.3749802,
+    "ast_hash": "62e982fefa1ce1a6a82aee20dbe07b91",
+    "semantic_hash": "62e982fefa1ce1a6a82aee20dbe07b91"
   },
   ".github/ISSUE_TEMPLATE/bug_report.md": {
     "mtime": 1787739721.8484025,
@@ -18,10 +18,10 @@
     "semantic_hash": "174545e1d9daff8020525fdd1e020411"
   },
   "CHANGELOG.md": {
-    "mtime": 1788758987.1853282,
-    "seen": 1788759391.0409029,
-    "ast_hash": "d597de2f2181641e74712abe3fc56b06",
-    "semantic_hash": "d597de2f2181641e74712abe3fc56b06"
+    "mtime": 1788795539.258247,
+    "seen": 1788796443.374984,
+    "ast_hash": "b47771cc7ee354b283f7b546fdc73a5e",
+    "semantic_hash": "b47771cc7ee354b283f7b546fdc73a5e"
   },
   "CONTRIBUTING.md": {
     "mtime": 1787739721.8488607,
@@ -30,16 +30,16 @@
     "semantic_hash": "954a01581b60e818c26e16155facb8b9"
   },
   "README.md": {
-    "mtime": 1788758987.1855228,
-    "seen": 1788759391.040904,
-    "ast_hash": "270dbb2368ff6011d013ca66a3190783",
-    "semantic_hash": "270dbb2368ff6011d013ca66a3190783"
+    "mtime": 1788795539.2584515,
+    "seen": 1788796443.374986,
+    "ast_hash": "ab8703522cb8265d978fd63ecea81715",
+    "semantic_hash": "ab8703522cb8265d978fd63ecea81715"
   },
   "evals/README.md": {
-    "mtime": 1788758987.1856446,
-    "seen": 1788759391.040905,
-    "ast_hash": "903366c78da7cfe2110ef347ee2a4e6a",
-    "semantic_hash": "903366c78da7cfe2110ef347ee2a4e6a"
+    "mtime": 1788795539.258654,
+    "seen": 1788796443.374986,
+    "ast_hash": "27b0914dfabb2837f8e99a0a6181c9d1",
+    "semantic_hash": "27b0914dfabb2837f8e99a0a6181c9d1"
   },
   "evals/project-incubation/gap-audit-stale-baseline/graders/criteria.md": {
     "mtime": 1787739721.8495145,
@@ -1222,5 +1222,143 @@
     "seen": 1788759391.040916,
     "ast_hash": "78a9957c5c884ad3cbaa21d62077427f",
     "semantic_hash": "78a9957c5c884ad3cbaa21d62077427f"
+  },
+  "evals/postgresql-review/README.md": {
+    "mtime": 1788795539.2588577,
+    "seen": 1788796443.3749938,
+    "ast_hash": "20ae818b7f3f747b176c04393143146a",
+    "semantic_hash": "20ae818b7f3f747b176c04393143146a"
+  },
+  "evals/postgresql-review/audit-scorecard-shape/graders/criteria.md": {
+    "mtime": 1788795539.2590928,
+    "seen": 1788796443.3749938,
+    "ast_hash": "6697f1a497f35d578dcf8a51c491400b",
+    "semantic_hash": "6697f1a497f35d578dcf8a51c491400b"
+  },
+  "evals/postgresql-review/audit-scorecard-shape/prompt.md": {
+    "mtime": 1788795539.2592328,
+    "seen": 1788796443.374995,
+    "ast_hash": "cfcbca61af9bb824bf6c305fc60fe285",
+    "semantic_hash": "cfcbca61af9bb824bf6c305fc60fe285"
+  },
+  "evals/postgresql-review/readiness-fail-no-mcpg/graders/criteria.md": {
+    "mtime": 1788795539.2594652,
+    "seen": 1788796443.374995,
+    "ast_hash": "7ae8ae678dadeadad4b5deb696e082d7",
+    "semantic_hash": "7ae8ae678dadeadad4b5deb696e082d7"
+  },
+  "evals/postgresql-review/readiness-fail-no-mcpg/prompt.md": {
+    "mtime": 1788795539.2596323,
+    "seen": 1788796443.374995,
+    "ast_hash": "13d46f4902890e7e40ba8922f27ab6fe",
+    "semantic_hash": "13d46f4902890e7e40ba8922f27ab6fe"
+  },
+  "evals/postgresql-review/readiness-wrong-schema/graders/criteria.md": {
+    "mtime": 1788795539.2598817,
+    "seen": 1788796443.374996,
+    "ast_hash": "90592199898f6fc371303798f96963e2",
+    "semantic_hash": "90592199898f6fc371303798f96963e2"
+  },
+  "evals/postgresql-review/readiness-wrong-schema/prompt.md": {
+    "mtime": 1788795539.260016,
+    "seen": 1788796443.374996,
+    "ast_hash": "a6ca8c1643034b53a5bdc63e868b7de6",
+    "semantic_hash": "a6ca8c1643034b53a5bdc63e868b7de6"
+  },
+  "evals/postgresql-review/suggest-not-apply-ddl/graders/criteria.md": {
+    "mtime": 1788795539.2602642,
+    "seen": 1788796443.374996,
+    "ast_hash": "32bcddaf353e9dc9c989fa9b5e671749",
+    "semantic_hash": "32bcddaf353e9dc9c989fa9b5e671749"
+  },
+  "evals/postgresql-review/suggest-not-apply-ddl/prompt.md": {
+    "mtime": 1788795539.2603998,
+    "seen": 1788796443.374997,
+    "ast_hash": "8b668dbf6660beca5a4b54996af432db",
+    "semantic_hash": "8b668dbf6660beca5a4b54996af432db"
+  },
+  "research/postgresql-review/00-index.md": {
+    "mtime": 1788795539.260604,
+    "seen": 1788796443.375028,
+    "ast_hash": "6f63377665aaf731c09821dacd03b4f2",
+    "semantic_hash": "6f63377665aaf731c09821dacd03b4f2"
+  },
+  "research/postgresql-review/01-scope-and-mcpg-mapping.md": {
+    "mtime": 1788795539.2608557,
+    "seen": 1788796443.375029,
+    "ast_hash": "1ccbfdf15df48b53f1cee0a9c809042f",
+    "semantic_hash": "1ccbfdf15df48b53f1cee0a9c809042f"
+  },
+  "research/postgresql-review/02-domain-baselines.md": {
+    "mtime": 1788795539.261073,
+    "seen": 1788796443.375029,
+    "ast_hash": "ec4d7d45005853edecf337ad9781728a",
+    "semantic_hash": "ec4d7d45005853edecf337ad9781728a"
+  },
+  "research/postgresql-review/03-mcpg-readiness.md": {
+    "mtime": 1788795539.2612898,
+    "seen": 1788796443.375029,
+    "ast_hash": "bdf0d341f55addc2ef7e69718ac24fd2",
+    "semantic_hash": "bdf0d341f55addc2ef7e69718ac24fd2"
+  },
+  "skills/postgresql-review/SKILL.md": {
+    "mtime": 1788795539.2615323,
+    "seen": 1788796443.375058,
+    "ast_hash": "077acad6aa2e29da927307f7e7cd93e3",
+    "semantic_hash": "077acad6aa2e29da927307f7e7cd93e3"
+  },
+  "skills/postgresql-review/assets/report-template.md": {
+    "mtime": 1788795539.261711,
+    "seen": 1788796443.375058,
+    "ast_hash": "caffd19ffe4ea5a1c10f21afe8187ff6",
+    "semantic_hash": "caffd19ffe4ea5a1c10f21afe8187ff6"
+  },
+  "skills/postgresql-review/references/health-and-configuration.md": {
+    "mtime": 1788795539.261885,
+    "seen": 1788796443.375058,
+    "ast_hash": "c941b4a5cadaba8fe33a5b22e9b4d70c",
+    "semantic_hash": "c941b4a5cadaba8fe33a5b22e9b4d70c"
+  },
+  "skills/postgresql-review/references/hygiene-and-conventions.md": {
+    "mtime": 1788795539.2620163,
+    "seen": 1788796443.375059,
+    "ast_hash": "6386debb2ca42a1953a2f75665840a97",
+    "semantic_hash": "6386debb2ca42a1953a2f75665840a97"
+  },
+  "skills/postgresql-review/references/indexing.md": {
+    "mtime": 1788795539.262148,
+    "seen": 1788796443.375059,
+    "ast_hash": "337f9f6f4330326b7d43c1690451fc27",
+    "semantic_hash": "337f9f6f4330326b7d43c1690451fc27"
+  },
+  "skills/postgresql-review/references/maintenance.md": {
+    "mtime": 1788795539.2622757,
+    "seen": 1788796443.37506,
+    "ast_hash": "a5fbfcdefd5570c4ea56bfe7fb7e7f8e",
+    "semantic_hash": "a5fbfcdefd5570c4ea56bfe7fb7e7f8e"
+  },
+  "skills/postgresql-review/references/mcpg-tooling.md": {
+    "mtime": 1788795539.2624197,
+    "seen": 1788796443.37506,
+    "ast_hash": "8117bdfa785108a68563ce33163150b9",
+    "semantic_hash": "8117bdfa785108a68563ce33163150b9"
+  },
+  "skills/postgresql-review/references/schema-integrity.md": {
+    "mtime": 1788795539.262568,
+    "seen": 1788796443.37506,
+    "ast_hash": "fceeba87a34df058076fc5d45cf51b57",
+    "semantic_hash": "fceeba87a34df058076fc5d45cf51b57"
+  },
+  "skills/postgresql-review/references/security-and-access.md": {
+    "mtime": 1788795539.2627015,
+    "seen": 1788796443.375061,
+    "ast_hash": "c9e5b94e950424bf8899bc48268e68d9",
+    "semantic_hash": "c9e5b94e950424bf8899bc48268e68d9"
+  },
+  "skills/postgresql-review/references/workload-and-query-performance.md": {
+    "mtime": 1788795539.2628274,
+    "seen": 1788796443.375061,
+    "ast_hash": "17a025953f91696ae2cd1d4cd3b5aa0c",
+    "semantic_hash": "17a025953f91696ae2cd1d4cd3b5aa0c"
   }
 }
