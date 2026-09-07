@@ -1,9 +1,9 @@
 {
   ".claude-plugin/plugin.json": {
-    "mtime": 1788244810.610645,
-    "seen": 1788264358.527324,
-    "ast_hash": "727f153a26e8c887a9e01c1d1b0141e8",
-    "semantic_hash": "727f153a26e8c887a9e01c1d1b0141e8"
+    "mtime": 1788758987.1851106,
+    "seen": 1788759391.0409012,
+    "ast_hash": "6bb0fa9b1ee311cee532f4cbb25c60cc",
+    "semantic_hash": "6bb0fa9b1ee311cee532f4cbb25c60cc"
   },
   ".github/ISSUE_TEMPLATE/bug_report.md": {
     "mtime": 1787739721.8484025,
@@ -18,10 +18,10 @@
     "semantic_hash": "174545e1d9daff8020525fdd1e020411"
   },
   "CHANGELOG.md": {
-    "mtime": 1788244810.6109414,
-    "seen": 1788264358.527327,
-    "ast_hash": "eadd286bc058577ccee1a55487e43f41",
-    "semantic_hash": "eadd286bc058577ccee1a55487e43f41"
+    "mtime": 1788758987.1853282,
+    "seen": 1788759391.0409029,
+    "ast_hash": "d597de2f2181641e74712abe3fc56b06",
+    "semantic_hash": "d597de2f2181641e74712abe3fc56b06"
   },
   "CONTRIBUTING.md": {
     "mtime": 1787739721.8488607,
@@ -30,16 +30,16 @@
     "semantic_hash": "954a01581b60e818c26e16155facb8b9"
   },
   "README.md": {
-    "mtime": 1788244810.6111214,
-    "seen": 1788264358.527328,
-    "ast_hash": "63bbcdfebfbe6293e44e01f7d92ad3bd",
-    "semantic_hash": "63bbcdfebfbe6293e44e01f7d92ad3bd"
+    "mtime": 1788758987.1855228,
+    "seen": 1788759391.040904,
+    "ast_hash": "270dbb2368ff6011d013ca66a3190783",
+    "semantic_hash": "270dbb2368ff6011d013ca66a3190783"
   },
   "evals/README.md": {
-    "mtime": 1788197921.0319912,
-    "seen": 1788264358.527329,
-    "ast_hash": "89ba1271494c9225b5e6aafd85f61e52",
-    "semantic_hash": "89ba1271494c9225b5e6aafd85f61e52"
+    "mtime": 1788758987.1856446,
+    "seen": 1788759391.040905,
+    "ast_hash": "903366c78da7cfe2110ef347ee2a4e6a",
+    "semantic_hash": "903366c78da7cfe2110ef347ee2a4e6a"
   },
   "evals/project-incubation/gap-audit-stale-baseline/graders/criteria.md": {
     "mtime": 1787739721.8495145,
@@ -900,10 +900,10 @@
     "semantic_hash": "0312be78f514bd8bd0592c5c6bd91cd2"
   },
   "evals/ci-cd-plumber/README.md": {
-    "mtime": 1788243079.9374788,
-    "seen": 1788281298.4539552,
-    "ast_hash": "30943b181adb53dd45eb47a574a11643",
-    "semantic_hash": "30943b181adb53dd45eb47a574a11643"
+    "mtime": 1788758987.1858375,
+    "seen": 1788759391.040905,
+    "ast_hash": "ba502f134480775dac058c47cfb28f55",
+    "semantic_hash": "ba502f134480775dac058c47cfb28f55"
   },
   "evals/ci-cd-plumber/audit-unpinned-actions/graders/criteria.md": {
     "mtime": 1788243079.9376268,
@@ -1060,5 +1060,167 @@
     "seen": 1788281298.4551349,
     "ast_hash": "642772dd5752e1c3f9789f8b93f86483",
     "semantic_hash": "642772dd5752e1c3f9789f8b93f86483"
+  },
+  "evals/ci-cd-plumber/audit-baseline-close-out/graders/criteria.md": {
+    "mtime": 1788758987.1859725,
+    "seen": 1788759391.040906,
+    "ast_hash": "5584245a7cf950d85c2b6300d9e3498e",
+    "semantic_hash": "5584245a7cf950d85c2b6300d9e3498e"
+  },
+  "evals/ci-cd-plumber/audit-baseline-close-out/prompt.md": {
+    "mtime": 1788758987.18605,
+    "seen": 1788759391.040906,
+    "ast_hash": "b01b72dc652d619a0095eb4d49a70f6d",
+    "semantic_hash": "b01b72dc652d619a0095eb4d49a70f6d"
+  },
+  "evals/ci-cd-plumber/audit-scorecard-report-shape/graders/criteria.md": {
+    "mtime": 1788758987.1861932,
+    "seen": 1788759391.040907,
+    "ast_hash": "551cdc1379c81497acec044959949b18",
+    "semantic_hash": "551cdc1379c81497acec044959949b18"
+  },
+  "evals/ci-cd-plumber/audit-scorecard-report-shape/prompt.md": {
+    "mtime": 1788758987.1862888,
+    "seen": 1788759391.040907,
+    "ast_hash": "077b7031f55a824570f1fe20b51c30ee",
+    "semantic_hash": "077b7031f55a824570f1fe20b51c30ee"
+  },
+  "evals/ci-cd-plumber/progressive-delivery-na-library/graders/criteria.md": {
+    "mtime": 1788758987.1864526,
+    "seen": 1788759391.040908,
+    "ast_hash": "7c680b56b76c8a61e94ee9642eaa460b",
+    "semantic_hash": "7c680b56b76c8a61e94ee9642eaa460b"
+  },
+  "evals/ci-cd-plumber/progressive-delivery-na-library/prompt.md": {
+    "mtime": 1788758987.1865747,
+    "seen": 1788759391.040908,
+    "ast_hash": "d4f710ca2db231e3338ac31230c7a466",
+    "semantic_hash": "d4f710ca2db231e3338ac31230c7a466"
+  },
+  "evals/pr-review/README.md": {
+    "mtime": 1788758987.1867077,
+    "seen": 1788759391.040908,
+    "ast_hash": "a7c8a8416d6fc3186102a964b4853787",
+    "semantic_hash": "a7c8a8416d6fc3186102a964b4853787"
+  },
+  "evals/pr-review/changelog-gap-user-facing/graders/criteria.md": {
+    "mtime": 1788758987.186878,
+    "seen": 1788759391.040909,
+    "ast_hash": "61283a7f06eabd68859643f862f5d68b",
+    "semantic_hash": "61283a7f06eabd68859643f862f5d68b"
+  },
+  "evals/pr-review/changelog-gap-user-facing/prompt.md": {
+    "mtime": 1788758987.1869757,
+    "seen": 1788759391.040909,
+    "ast_hash": "8bb32ab5935742096bbe1fa8d271ed9f",
+    "semantic_hash": "8bb32ab5935742096bbe1fa8d271ed9f"
+  },
+  "evals/pr-review/merge-ready-clean/graders/criteria.md": {
+    "mtime": 1788758987.1871438,
+    "seen": 1788759391.040909,
+    "ast_hash": "8c09d896cc9986b18c0f0add8a479ca6",
+    "semantic_hash": "8c09d896cc9986b18c0f0add8a479ca6"
+  },
+  "evals/pr-review/merge-ready-clean/prompt.md": {
+    "mtime": 1788758987.1872385,
+    "seen": 1788759391.04091,
+    "ast_hash": "53cc7fd6d61f0a8d711fbba431c4e81d",
+    "semantic_hash": "53cc7fd6d61f0a8d711fbba431c4e81d"
+  },
+  "evals/pr-review/missing-tests-for-logic/graders/criteria.md": {
+    "mtime": 1788758987.187414,
+    "seen": 1788759391.04091,
+    "ast_hash": "f818cee994792d2c2c787fed80010097",
+    "semantic_hash": "f818cee994792d2c2c787fed80010097"
+  },
+  "evals/pr-review/missing-tests-for-logic/prompt.md": {
+    "mtime": 1788758987.1875181,
+    "seen": 1788759391.0409112,
+    "ast_hash": "f79329b44f7a7b4a4b57499f9bc9fe5c",
+    "semantic_hash": "f79329b44f7a7b4a4b57499f9bc9fe5c"
+  },
+  "evals/pr-review/pre-submit-hooks-not-run/graders/criteria.md": {
+    "mtime": 1788758987.187689,
+    "seen": 1788759391.0409112,
+    "ast_hash": "12021e216580528fb9c3accdfe93eb27",
+    "semantic_hash": "12021e216580528fb9c3accdfe93eb27"
+  },
+  "evals/pr-review/pre-submit-hooks-not-run/prompt.md": {
+    "mtime": 1788758987.1877894,
+    "seen": 1788759391.0409112,
+    "ast_hash": "aef89b9df212994fe52b769e3e56937c",
+    "semantic_hash": "aef89b9df212994fe52b769e3e56937c"
+  },
+  "evals/pr-review/secret-in-diff/graders/criteria.md": {
+    "mtime": 1788758987.1879578,
+    "seen": 1788759391.040912,
+    "ast_hash": "a0edb0dee1a65f894bee201cc8322427",
+    "semantic_hash": "a0edb0dee1a65f894bee201cc8322427"
+  },
+  "evals/pr-review/secret-in-diff/prompt.md": {
+    "mtime": 1788758987.1880634,
+    "seen": 1788759391.040912,
+    "ast_hash": "4399c8c4caff9792831bff61508c8022",
+    "semantic_hash": "4399c8c4caff9792831bff61508c8022"
+  },
+  "evals/project-incubation/gap-handoff-to-ci-cd-plumber/graders/criteria.md": {
+    "mtime": 1788758987.1882336,
+    "seen": 1788759391.0409129,
+    "ast_hash": "086c75bd92befe5b9e8919e352aef590",
+    "semantic_hash": "086c75bd92befe5b9e8919e352aef590"
+  },
+  "evals/project-incubation/gap-handoff-to-ci-cd-plumber/prompt.md": {
+    "mtime": 1788758987.188341,
+    "seen": 1788759391.0409129,
+    "ast_hash": "409c945d1753cde7391411cfd365f16a",
+    "semantic_hash": "409c945d1753cde7391411cfd365f16a"
+  },
+  "evals/python-code-review/gap-overall-scorecard-verdict/graders/criteria.md": {
+    "mtime": 1788758987.1885407,
+    "seen": 1788759391.0409129,
+    "ast_hash": "1f7b30e408ae8fd3c439533417776448",
+    "semantic_hash": "1f7b30e408ae8fd3c439533417776448"
+  },
+  "evals/python-code-review/gap-overall-scorecard-verdict/prompt.md": {
+    "mtime": 1788758987.1887164,
+    "seen": 1788759391.0409138,
+    "ast_hash": "0321ac1176c35fe4f858d790f9c4e282",
+    "semantic_hash": "0321ac1176c35fe4f858d790f9c4e282"
+  },
+  "skills/pr-review/SKILL.md": {
+    "mtime": 1788758987.188899,
+    "seen": 1788759391.0409138,
+    "ast_hash": "8084ceb7219faac9f33d8ceaf0104ddc",
+    "semantic_hash": "8084ceb7219faac9f33d8ceaf0104ddc"
+  },
+  "skills/pr-review/assets/report-template.md": {
+    "mtime": 1788758987.1890433,
+    "seen": 1788759391.0409138,
+    "ast_hash": "1dedb0ef75237a271ce985b22a712e5d",
+    "semantic_hash": "1dedb0ef75237a271ce985b22a712e5d"
+  },
+  "skills/pr-review/references/change-risk-and-tests.md": {
+    "mtime": 1788758987.1891923,
+    "seen": 1788759391.040915,
+    "ast_hash": "55b74994b571750930d7c50325d679d4",
+    "semantic_hash": "55b74994b571750930d7c50325d679d4"
+  },
+  "skills/pr-review/references/pr-hygiene.md": {
+    "mtime": 1788758987.1892931,
+    "seen": 1788759391.040915,
+    "ast_hash": "9c71812770db6c47774e43bdebffd111",
+    "semantic_hash": "9c71812770db6c47774e43bdebffd111"
+  },
+  "skills/pr-review/references/pre-submit-gates.md": {
+    "mtime": 1788758987.189403,
+    "seen": 1788759391.040916,
+    "ast_hash": "8b57ff19729c7761a9aca165bb1adbdf",
+    "semantic_hash": "8b57ff19729c7761a9aca165bb1adbdf"
+  },
+  "skills/project-incubation/assets/baseline-template.md": {
+    "mtime": 1788196083.5406325,
+    "seen": 1788759391.040916,
+    "ast_hash": "78a9957c5c884ad3cbaa21d62077427f",
+    "semantic_hash": "78a9957c5c884ad3cbaa21d62077427f"
   }
 }
