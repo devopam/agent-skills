@@ -1,44 +1,43 @@
 # agent-skills evals
 
-Hand-authored eval cases for both skills in this repo, one subdirectory per
+Hand-authored eval cases for skills in this repo, one subdirectory per
 skill (`evals/<skill-name>/<case-name>/`) since a single `.claude-plugin/plugin.json`
 manifest covers the whole repo and `claude plugin eval` scans its eval
 directory recursively.
-
-- **`project-incubation/`** — 15 cases: one retrieval scenario per stack
-  category (10, including `retrieval-developer-tooling-libraries`,
-  `retrieval-infrastructure-platform-engineering`,
-  `retrieval-ml-model-development`,
-  `retrieval-mlops-platform-engineering`, and
-  `retrieval-frontend-client-applications` for the five categories added
-  2026-08-31, completing `research/taxonomy-roadmap.md`'s full backlog),
-  plus one retrieval scenario (`retrieval-cross-cutting-utility-libraries`)
-  probing the new category-independent `cross-cutting-utility-libraries.md`
-  reference and its merit-first (not popularity-first) evaluation framing,
-  plus 4 gap scenarios probing edge cases the skill's own flow documents
-  explicitly (a project with a genuinely distinct embedded subsystem
-  warranting a secondary category, a monorepo with coequal independently-
-  deployable packages, an existing repo with no baseline record, and an
-  audit against a stale preferred-libraries snapshot).
-- **`python-code-review/`** — 10 cases: 6 detection scenarios (does the
-  skill find a real, deliberately planted issue in each of six domains)
-  plus 4 mechanism scenarios (tier-gating, diff-mode scoping, the
-  Scalability & Resilience domain's distinctive absence-reporting
-  mechanic, and domain-boundary non-duplication).
 
 Each case is a directory with `prompt.md` (the scenario) and
 `graders/criteria.md` (what a pass looks like) — the `prompt.md` +
 `graders/*.md` shape `claude plugin eval` documents as one of its two
 supported case formats.
 
+## Inventory
+
+| Skill | Cases (approx.) | Focus |
+|---|---:|---|
+| `project-incubation` | 16 | Category retrieval, multi-category/monorepo gaps, baseline absence/stale audit, handoff to ci-cd-plumber |
+| `python-code-review` | 11 | Domain detection (planted issues), tier/diff/absence mechanics, overall scorecard verdict |
+| `ci-cd-plumber` | 6 | Inception, unpinned actions audit, release docs, scorecard shape, baseline close-out, progressive-delivery N/A for libraries |
+| `pr-review` | 5 | Pre-submit hooks, missing tests, changelog gaps, clean Ready path, secrets in diff |
+
+- **`project-incubation/`** — retrieval scenarios per stack category and
+  cross-cutting utilities, plus gap scenarios (secondary category,
+  monorepo coequal packages, no baseline, stale baseline, **handoff to
+  ci-cd-plumber**).
+- **`python-code-review/`** — detection + mechanism scenarios, plus
+  **overall scorecard/verdict** shape.
+- **`ci-cd-plumber/`** — inception/audit/release-docs, plus **scorecard
+  report shape**, **baseline close-out**, and **progressive delivery N/A**
+  for pure libraries.
+- **`pr-review/`** — pre-submit gates, tests, changelog, clean Ready,
+  secret-in-diff.
+
 ## Known limitation: not run in this environment
 
-`claude plugin eval` requires early-access enrollment that was not
-available when these cases were authored (`claude plugin eval init`
-returned `"plugin eval" is currently in early access`). These cases were
+`claude plugin eval` requires early-access enrollment that may not be
+available on every account (`claude plugin eval init` can return
+`"plugin eval" is currently in early access`). These cases are
 hand-authored against the documented format and the actual skill content,
-but **have not been executed** — they haven't been machine-scored, and
-the case format hasn't been confirmed against a real run.
+but **have not been machine-scored** until a real run is performed.
 
 Once eval access is available, run from the repo root:
 
@@ -49,5 +48,5 @@ claude plugin eval . --ablation with-without --runs 3 --no-publish
 `--ablation with-without` reports the score delta against a no-plugin
 baseline. `--no-publish` keeps the report local — never publish without
 explicit sign-off (publishing sends results to claude.ai). Iterate with
-`--runs 1` and `--case <glob>` to target one case (or `--case 'project-incubation/*'`
-/ `--case 'python-code-review/*'` to target one skill's cases) while tuning.
+`--runs 1` and `--case <glob>` to target one case (or
+`--case 'project-incubation/*'` / `--case 'pr-review/*'`) while tuning.
