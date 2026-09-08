@@ -28,6 +28,14 @@ Only what **this diff** introduces or exposes:
   string concat **in changed lines**
 - Disabled auth/TLS checks, overly broad CORS, world-writable perms in scripts
 
+**If a likely secret is found in the diff:** flag it Critical, but never
+quote the secret's value in the finding, the saved report, or anywhere
+else — name the file/line and variable, with the value redacted (e.g.
+`AKIA****` or `[redacted]`). Recommend **rotating** the credential (assume
+it's compromised the moment it's committed) and note that deleting the
+line alone does not scrub it from git history — a rewrite or provider-side
+secret purge is a separate, explicit step the user must decide on.
+
 Escalate full-project security review to specialized skills when needed.
 
 ## Scoring guidance (domain-level, informal)

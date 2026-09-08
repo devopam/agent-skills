@@ -89,6 +89,13 @@ fix). Follow those per-domain, don't invent a different format per run.
 
 ## Aggregating the scorecard
 
+Before scoring, **dedupe** findings that legitimately belong to more than
+one domain (same file+line, or the same underlying gap described from two
+angles): merge into a single finding with both domain tags rather than
+counting it against each domain's score independently. A blocking call
+inside an `async def` that also happens to be an N+1 query pattern is one
+finding tagged `Concurrency & Async Correctness` + `Performance`, not two.
+
 Per domain: **Pass** if score ≥ `pass_score` (default 7, overridable per
 domain in config); **Needs attention** if between `floor_score` (default 5)
 and `pass_score`; **Fail** if below `floor_score` OR the domain has any

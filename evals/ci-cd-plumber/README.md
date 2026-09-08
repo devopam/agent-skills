@@ -16,3 +16,5 @@ allows (see repo `evals/README.md`).
 | `audit-scorecard-report-shape` | Require domain 0-10 table + severity ordering |
 | `audit-baseline-close-out` | Last audited + Drift Log after audit without fixes |
 | `progressive-delivery-na-library` | Do not mandate canary for pure library publish |
+| `audit-unsafe-pull-request-target` | `pull_request_target` + untrusted checkout + install/build scores Critical |
+| `inception-gitlab-ci-node` | Inception mode produces GitLab CI-specific guidance, not GitHub Actions |

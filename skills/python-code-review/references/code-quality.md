@@ -37,6 +37,7 @@ at whether the tests that exercise it are well-built.
 - [Naming, Exceptions, and Other Baseline Hygiene](#naming-exceptions-and-other-baseline-hygiene)
 - [Out of Scope](#out-of-scope)
 - [Scoring Guide](#scoring-guide)
+- [Required Evidence in Findings](#required-evidence-in-findings)
 - [Sources](#sources)
 
 ## Tier Applicability
@@ -512,6 +513,26 @@ round:
 - **1–3** — No type hints; bare `except` clauses present; naming chaos;
   no documentation; complexity and function size make the code
   effectively unreviewable without a rewrite.
+
+## Required Evidence in Findings
+
+Each finding in this domain must include:
+
+- **Severity** — Critical / Important / Minor.
+- **Category** — one of: Type-Checking / Type-Coverage / py.typed-PEP561 /
+  Annotations / Complexity / Import-Organization / Docstrings / Dead-Code /
+  Naming-Hygiene.
+- **Standard/tool reference** where applicable (mypy strict-mode flag,
+  pyright mode, Ruff rule code — `ANN`/`TC`/`PYI`/`I`/`D`, pyflakes `F` /
+  vulture finding).
+- **File and line number.**
+- **Tier context** — one sentence naming which tier (script / web /
+  enterprise) this check applies to per Tier Applicability, so a
+  script-tier project isn't penalized for a check the table marks "No"
+  for it.
+- **Fix** — a concrete remediation (add the missing annotation, split the
+  function, reorder the import block, etc.), not a restatement of the
+  finding as advice.
 
 ## Sources
 

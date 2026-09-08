@@ -1,6 +1,6 @@
 ---
 name: postgresql-review
-description: Reviews a live PostgreSQL database across health, schema integrity, indexing, workload, maintenance, security, and hygiene — after verifying MCPg is installed, configured, and reachable for the target database (and optional schemas) — producing a scored domain report with severity-ordered findings and suggested (not applied) remediations. Use when auditing or health-checking Postgres, preparing for production, investigating performance or security posture, or when MCPg is available against a database under review.
+description: Reviews a live PostgreSQL database across health, schema integrity, indexing, workload, maintenance, security, and hygiene via MCPg (required), producing a scored domain report with severity-ordered findings and suggested (not applied) remediations. Use when auditing or health-checking Postgres, preparing for production, investigating performance or security posture, or when MCPg is available against a database under review.
 ---
 
 # PostgreSQL Review

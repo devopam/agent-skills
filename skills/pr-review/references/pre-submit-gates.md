@@ -24,7 +24,7 @@ In priority order:
 |---|---|
 | pre-commit configured; user has not run; obvious format/lint issues in diff | Important |
 | Required test command fails on the change | Critical or Important |
-| No local gates and CI is heavy | Important (Not Implemented local gate) |
+| No local gates and CI is heavy | Not Implemented |
 | Local gates pass; CI has extra matrix not runnable locally | Minor (note residual risk) |
 
 ## Do / don't

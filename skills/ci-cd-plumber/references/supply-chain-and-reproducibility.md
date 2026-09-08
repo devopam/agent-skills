@@ -69,7 +69,7 @@ versions, and job images.
 | Ecosystem | Prefer |
 |---|---|
 | Node | `npm ci`, `pnpm install --frozen-lockfile`, `yarn install --frozen-lockfile` |
-| Python | `uv sync --frozen` / poetry install with lock / pip + committed requirements hash workflow |
+| Python | `uv sync --locked` (errors on a stale lockfile, unlike `--frozen` which silently installs it) / poetry install with lock / pip + committed requirements hash workflow |
 | Go | committed `go.sum`; avoid ad-hoc `go get` in CI without tidy discipline |
 | Rust | committed `Cargo.lock` for apps/binaries |
 | Docker | pinned bases; fewer `apt-get` unbounded upgrades in builder stages |

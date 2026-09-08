@@ -31,6 +31,6 @@
 ### Not Implemented
 - ...
 
-## Next actions
+## Suggested next actions
 
 1. ...

@@ -1,7 +1,7 @@
 # Illustrative release workflow using release-please.
 # Requires: Conventional Commits, contents:write (and often pull-requests:write).
 # Prefer a dedicated GitHub App / fine-scoped token over broad PATs when possible.
-# Pin the action SHA before production use.
+# Re-verify the pinned SHA against the upstream release before production use.
 
 name: release-please
 
@@ -18,7 +18,7 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - uses: googleapis/release-please-action@v4  # resolve to full SHA before use
+      - uses: googleapis/release-please-action@5c625bfb5d1ff62eadeeb3772007f7f66fdcf071 # v4.4.1
         id: release
         with:
           release-type: simple   # or python, node, go, etc.

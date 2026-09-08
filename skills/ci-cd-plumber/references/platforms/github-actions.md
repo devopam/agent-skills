@@ -13,6 +13,7 @@ this file maps them onto Actions YAML and GitHub product features.
 - [Pinning](#pinning)
 - [Environments and protection](#environments-and-protection)
 - [Caching](#caching)
+- [Concurrency](#concurrency)
 - [Release automation hooks](#release-automation-hooks)
 - [Starter skeleton (illustrative)](#starter-skeleton-illustrative)
 - [Sources](#sources)
@@ -96,6 +97,23 @@ Use GitHub Environments (`environment: production`) for prod deploys:
 
 `actions/cache` with keys incorporating lockfile hashes. Be aware of cache
 scope differences across PRs from forks vs same-repo branches.
+
+---
+
+## Concurrency
+
+```yaml
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+```
+
+Cancels superseded runs on the same ref (e.g. a new push to a PR branch)
+instead of letting stale runs finish and burn minutes. Do **not**
+`cancel-in-progress` on release/deploy workflows where a mid-flight run
+being killed could leave the deploy half-applied — scope the group to the
+ref for CI, and to something narrower (or omit `cancel-in-progress`
+entirely) for anything that mutates external state.
 
 ---
 

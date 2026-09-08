@@ -27,6 +27,7 @@ logging construction pattern closes the hole, not how the exploit works.
 - [SLIs and SLOs (Checklist Depth)](#slis-and-slos-checklist-depth)
 - [Out of Scope](#out-of-scope)
 - [Scoring Guide](#scoring-guide)
+- [Required Evidence in Findings](#required-evidence-in-findings)
 - [Sources](#sources)
 
 ---
@@ -296,6 +297,24 @@ altitude, the checkable surface is:
   losing tracebacks needed for incident response.
 
 ---
+
+## Required Evidence in Findings
+
+Each finding in this domain must include:
+
+- **Severity** — Critical / Important / Minor.
+- **Category** — one of: Structured-Logging / PII-Secret-Redaction /
+  Log-Context (levels/correlation-IDs) / Log-Injection / Tracing-Metrics /
+  Auto-Instrumentation / SLI-SLO.
+- **Standard/tool reference** where applicable (OpenTelemetry SDK/semantic
+  convention, structlog/loguru configuration key).
+- **File and line number.**
+- **Exposure/gap scenario** — one sentence on what a reader of the logs
+  learns that they shouldn't, or what an incident responder can't
+  reconstruct because of the gap.
+- **Fix** — a concrete remediation (add a redaction processor, thread a
+  correlation ID, switch to `logger.exception()`, etc.), not a
+  restatement of the finding as advice.
 
 ## Sources
 

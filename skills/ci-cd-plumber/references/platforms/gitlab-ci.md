@@ -60,6 +60,24 @@ so they do not run on every feature branch.
   long-lived file variables.
 - Scope variables to environments when using GitLab Environments.
 
+GitLab's native OIDC mechanism is the `id_tokens:` keyword (replaces the
+deprecated `CI_JOB_JWT`) — it mints a short-lived signed JWT the job can
+exchange with a cloud provider's identity federation, the same shape as
+GitHub Actions' `id-token: write` + official cloud actions:
+
+```yaml
+deploy:
+  id_tokens:
+    AWS_ID_TOKEN:
+      aud: https://gitlab.com
+  script:
+    - aws sts assume-role-with-web-identity --web-identity-token "$AWS_ID_TOKEN" ...
+```
+
+Constrain the cloud-side trust policy to this project/ref (e.g. AWS OIDC
+provider condition on `aud` and `sub`), the same way a GitHub Actions role
+trust policy is scoped to `repo:ORG/REPO:environment:prod`.
+
 ---
 
 ## Caching

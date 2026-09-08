@@ -84,7 +84,7 @@ swaths of code unasked.
 
 ## Output (required)
 
-1. **Header** — mode (pre-submit / PR review), base..HEAD summary, verdict.
+1. **Header** — mode (pre-submit / PR review), base..HEAD summary, verdict, date.
 2. **Change summary** — short intent restatement + risk hotspots.
 3. **Gate status table** — Gate | Detected | Run/status | Notes.
 4. **Findings by severity** — Critical → Important → Minor → Not Implemented.
@@ -98,6 +98,8 @@ swaths of code unasked.
 - Does **not** own full Python domain scoring (`python-code-review`).
 - Does **not** merge or approve on the user's behalf.
 - Does **not** skip local gate discovery when a real checkout is available.
+- Suggests fixes and the exact commands to run them; does **not** edit the
+  diff/PR content itself unless the user explicitly asks.
 
 ## Reference files
 

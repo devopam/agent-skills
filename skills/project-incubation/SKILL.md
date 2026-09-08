@@ -246,7 +246,9 @@ recommend MIT if the user has no preference), `CONTRIBUTING.md`,
 *(software path)* Also `src/` (per the language-appropriate layout named
 in the reference doc), `scripts/` (strictly for executables — not a
 dumping ground for anything else), `tests/`, and a CI stub with the
-block-vs-warn gate split the reference doc describes.
+block-vs-warn gate split the reference doc describes. This stub is a
+placeholder only — hand off actual pipeline design, security hardening,
+and release automation to the `ci-cd-plumber` skill once the repo exists.
 
 *(non-software path)* Skip `src/`/`scripts/`/`tests/` — use the reference
 doc's `validation/`-equivalent framing instead if the project has anything
@@ -369,6 +371,20 @@ decides what to act on. Once the audit is done (whether or not fixes were
 applied), update `docs/project-incubation-baseline.md`'s "Last audited"
 date, and append anything that changed to its Drift Log.
 
+## Boundaries
+
+- Not CI/CD pipeline design (`ci-cd-plumber`) — Phase 4's CI stub is a
+  block-vs-warn gate placeholder only; hand off actual pipeline structure,
+  security/permissions hardening, and release automation to `ci-cd-plumber`
+  once the repo exists. The baseline's language/stack/category context is
+  useful input to that handoff.
+- Not per-PR or per-change review (`pr-review`, `python-code-review`) —
+  this skill sets up and periodically re-audits the repo's structure and
+  architecture, not individual changes.
+- Not a full security/dependency audit — Step 3's "hardcoded secrets"
+  check and Step 4's staleness check are structural/architectural signals,
+  not a substitute for a dedicated security review.
+
 ## Reference files
 
 | File | Covers |
@@ -383,6 +399,6 @@ date, and append anything that changed to its Drift Log.
 | [`assets/adr-template.md`](assets/adr-template.md) | Fillable ADR template, mirrors a real production project's shape |
 | [`assets/license-guide.md`](assets/license-guide.md) | License chooser table + canonical-text links |
 
-`research/taxonomy-roadmap.md`'s original 5-category backlog is now fully
+`research/project-incubation/taxonomy-roadmap.md`'s original 5-category backlog is now fully
 shipped (2026-08-31); any category beyond this skill's current ten would
 be a new roadmap decision, not a continuation of the existing one.

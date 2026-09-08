@@ -43,6 +43,7 @@ Three boundaries matter enough to state up front:
 - [Packaging & Distribution](#packaging--distribution)
 - [Minor Checks](#minor-checks)
 - [Scoring Guide](#scoring-guide)
+- [Required Evidence in Findings](#required-evidence-in-findings)
 - [Sources](#sources)
 
 ## Tier Applicability
@@ -199,6 +200,11 @@ structlog, loguru").
 | HTTP | `httpx`, `aiohttp`, `requests` | **Resolved, not stale — a closer look changes the read from the baseline.** aiohttp is unambiguously current: 3.14.3 (2026-07-23), five listed maintainers, Python 3.10–3.14 support. httpx's latest *stable* release is also 0.28.1 from 2024-12-06 — the same date pattern that flagged loguru — but a direct re-fetch of httpx's full release history shows active `1.0.dev` pre-releases continuing well past that date: `1.0.dev1` (2025-07-02) through **`1.0.dev5` (2026-08-21)**, three days before this document's authoring date. httpx isn't stagnant; it's mid-stabilization toward a 1.0 cut and shipping pre-releases on a real cadence rather than stable point releases. Treat httpx as fully current with no caveat — the loguru/httpx date coincidence was real but coincidental, not a shared signal of the same problem. **`requests` belongs in this list, not as a legacy fallback but as the correct choice for the common case**: synchronous call sites (a Script-tier CLI hitting one API, or any code with no `async def` in its call chain) should not be flagged for using `requests` over httpx/aiohttp — it remains actively maintained (pushed same-day in a direct currency check) and is the more appropriate, lower-ceremony pick when nothing in the call path is async. Reserve the "consider httpx/aiohttp" suggestion specifically for code already inside an async call chain that's reaching for `requests` anyway (a real anti-pattern: sync HTTP calls block the event loop) — don't suggest it as a blanket upgrade from a correctly-synchronous `requests` usage. |
 | CLI | `typer`, `click` | Both current: typer 0.27.1 (2026-08-03, FastAPI-org-backed, Python 3.10–3.14, still "Beta" classified upstream despite the active cadence); click 8.4.2 (2026-06-24, Pallets Projects, "Production/Stable"). No change. |
 | Storage I/O | `smart_open`, `fsspec` | **Only flagged when a real capability gap is detected, not on every project.** This capability activates specifically when the codebase directly imports a cloud-provider SDK (`boto3`, `azure-storage-blob`, `google-cloud-storage`) for file read/write operations across more than one path in the code, or across more than one provider — the concrete pain this row exists to catch is application code that has to know and branch on *which* cloud SDK to call for a given path, boilerplate that `smart_open` (a drop-in `open()` replacement across S3/GCS/Azure/local, streaming-scoped) or `fsspec` (a fuller filesystem abstraction — `ls`/`glob`/`cp`/`rm` — across the same backends) eliminates. A project that only ever talks to one cloud provider's SDK directly, with no cross-provider branching, isn't a real instance of this pain and shouldn't be flagged — this is a narrower, more conditional capability than logging/config/retries, closer in shape to the ML-artifact-deserialization or task-queue rows' capability-gated activation than to an always-checked row. smart_open: 3,456 stars, pushed 2026-08-04, PyPI 8.0.1. fsspec: pushed 2026-08-28, PyPI 2026.7.0 — also worth recognizing as already present transitively (pandas/dask/pyarrow/Hugging Face `datasets` all pull it in), so its mere presence in a lockfile doesn't by itself prove the project chose it deliberately for this purpose. |
+| File ops | `pathlib` | Presence-only check; the actual `os.path` vs `pathlib` review lives in [Idioms & Patterns](idioms-and-patterns.md#file-and-path-operations). |
+| Testing | `pytest` | Presence-only check; test quality (fixtures, mocking, assertions, isolation) is [Testing](testing.md)'s own domain, not scored here. |
+| Circuit breaking | `pybreaker`, `circuitbreaker` | Only flagged when a real outbound-dependency capability gap is detected — see [Scalability & Resilience](scalability-and-resilience.md#circuit-breakers) for the activation condition and scoring. |
+| Task queue | `celery`, `rq`, `dramatiq` | Only flagged when background/deferred work is detected with no queue behind it — see [Scalability & Resilience](scalability-and-resilience.md#distributed-task-queues). |
+| PII detection | `presidio-analyzer` | Only relevant when a free-text PII surface is real (e.g. user-generated content flowing into logs or storage) — see [Observability](observability.md#pii-and-secret-redaction). |
 | Validation | `pydantic` (lead), `marshmallow`, `attrs`, `msgspec` | **Not four interchangeable equals — weight the fallback toward pydantic, but recognize the others by what they're actually for.** pydantic (v2, Rust core) is the default for general-purpose validation of any object crossing a trust boundary — config, internal pipeline payloads, request bodies. `marshmallow`/`attrs` remain valid, non-wrong detections for codebases that adopted them before pydantic v2's rewrite. `msgspec` is a real, narrower, performance-focused alternative — not a pydantic replacement — for the specific case where raw serialization/validation throughput on a hot path is the binding constraint and pydantic's fuller validator/plugin surface isn't needed; detect it as a pass, but don't suggest it in the generic fallback message ahead of pydantic, since it solves a narrower problem most projects don't have. |
 
 `uv` is worth recognizing but not recommending here: PyPA's own
@@ -407,6 +413,27 @@ packaging, capability-gated) checks above.
   secrets with no Trusted Publishing, or shipping neither a wheel nor a
   working sdist.
 
+## Required Evidence in Findings
+
+Each finding in this domain must include:
+
+- **Severity** — Important / Minor (never Critical, per this domain's own
+  scoring rule).
+- **Category** — one of: Project-Structure / Packaging-Config /
+  Env-Config / Dev-Tooling / Capability-Detection / CI-Wellformedness /
+  Packaging-Distribution.
+- **Standard/tool reference** where applicable (PEP number — 517 / 518 /
+  621 / 561 / 639 / 751 — or the specific config key/file involved).
+- **File and line number** (or the config file path — `pyproject.toml`,
+  `.pre-commit-config.yaml`, CI workflow — when the finding isn't Python
+  source).
+- **Tier/capability context** — one sentence naming which tier this check
+  applies to per Tier Applicability, so a script-tier project isn't
+  penalized for a check the table marks "No" for it.
+- **Fix** — a concrete remediation (add the missing `[build-system]`
+  table, wire up pre-commit, add `.env.example`, etc.), not a
+  restatement of the finding as advice.
+
 ## Sources
 
 - <https://packaging.python.org/en/latest/guides/writing-pyproject-toml/>
@@ -485,7 +512,7 @@ packaging, capability-gated) checks above.
 - `gh api repos/psf/requests` — 54,269 stars, pushed 2026-08-31 (same-day
   currency check); <https://pypi.org/project/requests/> — current version
   2.34.2 — retrieved 2026-08-31, cross-checked against
-  `research/cross-cutting-utility-libraries/batch-a.md`'s own HTTP-client
+  `research/project-incubation/cross-cutting-utility-libraries/batch-a.md`'s own HTTP-client
   research pass the same day
 - `gh api repos/piskvorky/smart_open` — 3,456 stars, pushed 2026-08-04;
   <https://pypi.org/project/smart_open/> — current version 8.0.1 —

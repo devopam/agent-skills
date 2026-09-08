@@ -22,16 +22,16 @@
 ## Findings
 
 ### Critical
--
+- [Domain] —
 
 ### Important
--
+- [Domain] —
 
 ### Minor
--
+- [Domain] —
 
 ### Not Implemented
--
+- [Domain] —
 
 ## Suggested remediations (not applied)
 

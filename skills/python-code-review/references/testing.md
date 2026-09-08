@@ -29,6 +29,7 @@ pass for the right reasons in six months?
 - [Flaky Test Patterns](#flaky-test-patterns)
 - [Out of Scope](#out-of-scope)
 - [Scoring Guide](#scoring-guide)
+- [Required Evidence in Findings](#required-evidence-in-findings)
 - [Sources](#sources)
 
 ## Tier Applicability
@@ -524,7 +525,7 @@ real, unfixed bug.
 - **Framework-specific test tooling** — `pytest-django`'s `db` fixture,
   `factory_boy`, `responses`/`httpretty` for HTTP mocking, SQLAlchemy
   session-per-test helpers. Real and mature, but stack-specific; deferred
-  to a future `research/stacks/`-derived overlay rather than asserted at
+  to a future `research/project-incubation/stacks/`-derived overlay rather than asserted at
   this domain level, consistent with how database isolation's concrete
   mechanism is deferred above.
 
@@ -562,6 +563,28 @@ this rubric, deliberately, per the ratchet-not-gate guidance above.
   that the "test" exercises nothing; time-dependent tests are flaky near
   boundaries; a rising coverage percentage is the suite's only stated
   justification for existing.
+
+## Required Evidence in Findings
+
+Each finding in this domain must include:
+
+- **Severity** — Critical / Important / Minor.
+- **Category** — one of: Coverage-Tooling / Fixture-Scope /
+  Fixture-Composition / Mocking-Discipline / Over-Mocking / Test-Isolation
+  / Filesystem-Isolation / Database-Isolation / Network-Isolation /
+  Assertion-Quality / Property-Based-Testing / Naming-Organization /
+  Flaky-Patterns.
+- **Standard/tool reference** where applicable (`pytest-cov`, Hypothesis,
+  Ruff `flake8-pytest-style` (`PT`) rule code, `pytest-socket` /
+  `pytest-randomly` / time-freezing library name).
+- **File and line number.**
+- **Failure-mode scenario** — one concrete sentence on how this gap lets
+  a real bug slip through undetected (e.g. "asserts only that the call
+  didn't raise, not that the discount was actually applied"), not just a
+  rule citation.
+- **Fix** — a concrete remediation (assert on the specific value, narrow
+  the fixture scope, mock at the boundary instead of the internal
+  collaborator, etc.), not a restatement of the finding as advice.
 
 ## Sources
 

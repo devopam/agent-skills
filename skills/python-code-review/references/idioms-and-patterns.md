@@ -37,6 +37,7 @@ level — write current forms, enforced mechanically by Ruff's `UP` category
 - [String Operations and Other Durable Conventions](#string-operations-and-other-durable-conventions)
 - [Out of Scope](#out-of-scope)
 - [Scoring Guide](#scoring-guide)
+- [Required Evidence in Findings](#required-evidence-in-findings)
 - [Sources](#sources)
 
 ## Tier Applicability
@@ -404,6 +405,24 @@ or plausible for any of these:
 - **1–3** — No Pythonic patterns in evidence — Java/C-style code, mutable
   default arguments, bare `except:` clauses, positional-tuple returns
   with no names attached to any element.
+
+## Required Evidence in Findings
+
+Each finding in this domain must include:
+
+- **Severity** — Critical / Important / Minor.
+- **Category** — one of: Modern-Syntax / Ruff-Idiom-Rules (`UP`/`C4`/`SIM`/`PTH`)
+  / File-Path-Ops / Data-Handling / Dataclass-vs-Pydantic / Immutability /
+  Error-Handling / Walrus-Operator / String-Ops.
+- **Standard/tool reference** where applicable (Ruff rule code, PEP number —
+  572, 585, 604, 695).
+- **File and line number.**
+- **Tier context** — one sentence naming which tier (script / web /
+  enterprise) this check applies to per Tier Applicability, so a
+  script-tier project isn't penalized for a check the table marks "No"
+  for it.
+- **Fix** — a concrete remediation (the specific idiomatic replacement),
+  not a restatement of the finding as advice.
 
 ## Sources
 

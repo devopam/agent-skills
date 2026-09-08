@@ -38,6 +38,7 @@ outage, not until someone reads a stack trace.
 - [Enterprise-Tier HA, DR, and Data Consistency](#enterprise-tier-ha-dr-and-data-consistency)
 - [Out of Scope](#out-of-scope)
 - [Scoring Guide](#scoring-guide)
+- [Required Evidence in Findings](#required-evidence-in-findings)
 - [Sources](#sources)
 
 ---
@@ -358,10 +359,15 @@ against infrastructure the skill simply can't see.
 
 ## Scoring Guide
 
-Scoring here weighs *presence of pattern*, not just absence of an active
-bug — a codebase with nothing broken and nothing implemented still
-scores low, because the risk is latent rather than triggered. See
-[Reporting Absence as a Finding](#reporting-absence-as-a-finding).
+Scored against tier-applicable checks only (per [Tier
+Applicability](#tier-applicability)) — a script-tier project isn't
+penalized for skipping the checks the table marks "No" for it.
+
+Within what tier-applicability actually requires, scoring weighs
+*presence of pattern*, not just absence of an active bug — a codebase
+with nothing broken and nothing implemented **for the checks its own
+tier requires** still scores low, because the risk is latent rather than
+triggered. See [Reporting Absence as a Finding](#reporting-absence-as-a-finding).
 
 - **10** — Timeouts on every external call, circuit breakers around
   downstream dependencies, retry-with-backoff via tenacity, a readiness
@@ -384,6 +390,28 @@ scores low, because the risk is latent rather than triggered. See
   service, and no resilience pattern present anywhere in the codebase.
 
 ---
+
+## Required Evidence in Findings
+
+Each finding in this domain must include:
+
+- **Severity** — Critical / Important / Minor / Not Implemented (see
+  [Reporting Absence as a Finding](#reporting-absence-as-a-finding)).
+- **Category** — one of: Circuit-Breaker / Task-Queue / Timeout /
+  Retry-Backoff / Readiness-Probe / Statelessness / Graceful-Degradation /
+  Idempotency / HA-DR.
+- **Standard/tool reference** where applicable (named library — pybreaker
+  / circuitbreaker, Celery / RQ / Dramatiq, tenacity — or the Kubernetes
+  probe field involved).
+- **File and line number** (or the deployment manifest / process-manager
+  config when the finding isn't Python source).
+- **Tier context** — one sentence naming which tier (script / web /
+  enterprise) this check applies to per Tier Applicability, so a
+  script-tier project isn't penalized for a pattern the table marks "No"
+  for it.
+- **Fix** — a concrete remediation (wrap the call in a circuit breaker,
+  move background work to a queue, add a readiness probe, etc.), not a
+  restatement of the finding as advice.
 
 ## Sources
 
