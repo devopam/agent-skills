@@ -45,7 +45,7 @@ directly inspectable this pass:
    exist on this machine** — confirmed this pass: only `agent-skills` and
    `ubi-csr-tmf` exist under `/Users/devopammittra/GitHub/` (verified via
    direct `ls`). The prior baselines referencing it
-   (`research/stacks/agentic-mcp-platforms/{stack.md,libraries.md}`) were
+   (`research/project-incubation/stacks/agentic-mcp-platforms/{stack.md,libraries.md}`) were
    authored in a different environment where MCPg was locally available;
    this pass cannot re-inspect it directly. Secondhand context only, from
    grepping those files (not independently re-verified this pass):
@@ -642,7 +642,7 @@ directly inspectable this pass:
   2026-08-31; `/Users/devopammittra/GitHub/ubi-csr-tmf` directory
   structure — checked 2026-08-31; `/Users/devopammittra/GitHub/` listing
   confirming MCPg's absence — checked 2026-08-31; secondhand MCPg context
-  grepped from `research/stacks/agentic-mcp-platforms/{stack.md,
+  grepped from `research/project-incubation/stacks/agentic-mcp-platforms/{stack.md,
   libraries.md}` (authored 2026-08-19, in a different environment) —
   grepped 2026-08-31, not independently re-verified
 

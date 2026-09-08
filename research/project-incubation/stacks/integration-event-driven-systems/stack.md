@@ -535,7 +535,7 @@ sources with direct fetches.
 ## Resolutions (Checkpoint D review, 2026-08-19)
 
 - **Stream-processing frameworks placement**: resolved — this baseline
-  owns the topic (see `research/skill-flow-decisions.md`'s cross-checkpoint
+  owns the topic (see `research/project-incubation/skill-flow-decisions.md`'s cross-checkpoint
   conflict resolution). Not researched at this depth during Checkpoint D
   itself; add Kafka Streams/Flink/Spark Structured Streaming coverage
   during Phase 2 authoring as new content, not a promotion of existing

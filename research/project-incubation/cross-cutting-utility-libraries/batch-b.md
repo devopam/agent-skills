@@ -261,7 +261,7 @@ Integration & Event-Driven Systems' territory, not this domain's.
   `/Users/devopammittra/GitHub/agent-skills/skills/project-incubation/
   references/stacks/integration-event-driven-systems.md` (opening scope
   section read for the background-scheduling scope boundary),
-  `/Users/devopammittra/GitHub/agent-skills/research/stacks/
+  `/Users/devopammittra/GitHub/agent-skills/research/project-incubation/stacks/
   developer-tooling-libraries/libraries.md` (read in full as the structural/
   rigor-bar precedent this doc follows) — all read 2026-08-31.
 - `gh api repos/<owner>/<repo>` direct GitHub API fetches (license, stars,

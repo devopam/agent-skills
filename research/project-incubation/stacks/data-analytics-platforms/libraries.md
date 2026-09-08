@@ -462,7 +462,7 @@ Superset did not.
 - **dbt Core v2 / GX Core stewardship**: both deferred to a fresh check at
   Phase 2 authoring time, per the standing verify-before-publish policy —
   and per the new 6-month staleness-threshold policy (see
-  `research/skill-flow-decisions.md`), the authored entries for both will
+  `research/project-incubation/skill-flow-decisions.md`), the authored entries for both will
   need re-verification well before a typical audit cycle would otherwise
   flag them, given how recent both transitions are.
 - **Spark/PySpark**: confirmed out of scope for v1 — flagged as a natural

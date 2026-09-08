@@ -321,7 +321,7 @@ Status: user-approved      Date: 2026-08-24
   `factory_boy`, `responses`/`httpretty` for HTTP mocking, SQLAlchemy
   session-per-test helpers) — real and mature, but stack-specific;
   consistent with the scoping doc's rejection of framework-specific
-  overlays at the domain level, defer to a future `research/stacks/`
+  overlays at the domain level, defer to a future `research/project-incubation/stacks/`
   supplement.
 - **Coverage-tool alternatives to pytest-cov/coverage.py** — not asserted
   as nonexistent, but not surveyed this session (web-search budget

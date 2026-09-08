@@ -1,5 +1,7 @@
 # Backend & API Services — Preferred Libraries
 
+*Last reviewed 2026-08-20.*
+
 Companion to [stacks/backend-api-services.md](../stacks/backend-api-services.md),
 which covers architecture and selection criteria; this doc names the actual
 libraries, their licenses, and honest maintenance/adoption signal. Every

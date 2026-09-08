@@ -1,7 +1,7 @@
 # Baseline: ML / AI Model Development — Preferred Libraries
 Status: draft      Date: 2026-08-31      Snapshot date: 2026-08-31
 
-This is category #2 from `research/taxonomy-roadmap.md` — the model-*building*
+This is category #2 from `research/project-incubation/taxonomy-roadmap.md` — the model-*building*
 side of the ML lifecycle (training, fine-tuning, experiment tracking, model
 evaluation), distinct from Data & Analytics Platforms (BI/reporting-facing,
 already shipped) and from Agentic & MCP Platforms (serving/orchestration of
@@ -418,8 +418,8 @@ explicitly for HCP Terraform/Spacelift elsewhere.
   html, hivenet.com, thundercompute.com); Hugging Face model-card tooling
   current state (huggingface.co/docs/huggingface_hub, github.com/
   huggingface/huggingface_hub) — all retrieved 2026-08-31
-- `research/stacks/data-analytics-platforms/libraries.md` and
-  `research/stacks/agentic-mcp-platforms/libraries.md` — read directly to
+- `research/project-incubation/stacks/data-analytics-platforms/libraries.md` and
+  `research/project-incubation/stacks/agentic-mcp-platforms/libraries.md` — read directly to
   confirm this baseline's own out-of-scope boundaries (dbt/Airflow/
   warehouse tooling already owned by the former; DeepEval/Inspect AI/
   Promptfoo/Langfuse/LangSmith/Arize Phoenix agent-eval tooling already

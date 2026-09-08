@@ -663,10 +663,10 @@ local worked example.
   flagged honestly rather than silently carried forward from training-data
   familiarity, consistent with this repo's own no-unverified-claims
   standard
-- `research/architecture-templates.md`,
-  `research/stacks/infrastructure-platform-engineering/stack.md`,
-  `research/stacks/ml-model-development/stack.md`,
-  `research/taxonomy-roadmap.md` — read directly this pass (not web
+- `research/project-incubation/architecture-templates.md`,
+  `research/project-incubation/stacks/infrastructure-platform-engineering/stack.md`,
+  `research/project-incubation/stacks/ml-model-development/stack.md`,
+  `research/project-incubation/taxonomy-roadmap.md` — read directly this pass (not web
   sources) to confirm this category's scope boundaries against both named
   neighbors and to avoid re-deriving cross-cutting content those docs
   already cover — read 2026-08-31

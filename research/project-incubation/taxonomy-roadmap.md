@@ -8,7 +8,7 @@ stable. **All 5 were promoted to `project-incubation` stack categories on
 Platform Engineering (7th), ML / AI Model Development (8th), MLOps / ML
 Platform Engineering (9th), and Frontend / Client Applications (10th and
 final) — see
-`research/stacks/{developer-tooling-libraries,infrastructure-platform-
+`research/project-incubation/stacks/{developer-tooling-libraries,infrastructure-platform-
 engineering,ml-model-development,mlops-platform-engineering,
 frontend-client-applications}/` and
 `skills/project-incubation/references/{stacks,preferred-libraries}/

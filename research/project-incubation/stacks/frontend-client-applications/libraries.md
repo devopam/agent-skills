@@ -1,7 +1,7 @@
 # Baseline: Frontend / Client Applications — Preferred Libraries
 Status: draft      Date: 2026-08-31      Snapshot date: 2026-08-31
 
-This is category #5 from `research/taxonomy-roadmap.md` — the **last
+This is category #5 from `research/project-incubation/taxonomy-roadmap.md` — the **last
 category still pending** on the current roadmap. Scope, per the roadmap
 entry: "web SPAs, mobile apps, desktop apps. Currently implicitly folded
 into Business Applications, but a pure client app with no owned backend
@@ -633,7 +633,7 @@ recommendation either way.
   and Automerge 3.0's July 2025 columnar-compression rewrite
   (taskade.com CRDT history post, pkgpulse.com, stack.convex.dev) —
   all retrieved 2026-08-31.
-- `research/stacks/mlops-platform-engineering/libraries.md` and
+- `research/project-incubation/stacks/mlops-platform-engineering/libraries.md` and
   `skills/project-incubation/references/preferred-libraries/
   business-applications.md` — read directly to confirm this baseline's
   own scope boundaries, the local-precedent project's owned-backend

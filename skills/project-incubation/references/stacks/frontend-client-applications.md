@@ -596,12 +596,12 @@ this doc, not silently folded in as if already covered.
   `src/services/`, `public/manifest.webmanifest`, and `public/sw.js`;
   directory listings of `aws/container/` and repo-root `charts/`
   confirming a co-owned backend — read 2026-08-31
-- `research/architecture-templates.md`,
-  `research/stacks/business-applications/stack.md`,
+- `research/project-incubation/architecture-templates.md`,
+  `research/project-incubation/stacks/business-applications/stack.md`,
   `skills/project-incubation/references/stacks/business-applications.md`,
-  `skills/project-incubation/SKILL.md`, `research/taxonomy-roadmap.md`,
+  `skills/project-incubation/SKILL.md`, `research/project-incubation/taxonomy-roadmap.md`,
   and this category's own approved baselines
-  (`research/stacks/frontend-client-applications/{stack.md,libraries.md}`)
+  (`research/project-incubation/stacks/frontend-client-applications/{stack.md,libraries.md}`)
   — read directly to confirm scope boundaries and author from — read
   2026-08-31
 - https://www.inkandswitch.com/essay/local-first/ — direct fetch (this
@@ -662,7 +662,7 @@ this doc, not silently folded in as if already covered.
   Meta's transfer of React/React Native/JSX, deal closing early 2026;
   board spanning Amazon, Callstack, Expo, Meta, Microsoft, Software
   Mansion, Vercel; Meta's $3M+/five-year commitment) — corroborated via
-  `research/stacks/frontend-client-applications/libraries.md`'s own
+  `research/project-incubation/stacks/frontend-client-applications/libraries.md`'s own
   direct fetch of Meta's engineering.fb.com announcement plus
   linuxfoundation.org, thenewstack.io, theregister.com — retrieved
   2026-08-31
@@ -676,7 +676,7 @@ this doc, not silently folded in as if already covered.
   third-party/vendor-adjacent blog sources, not independently
   benchmarked — retrieved 2026-08-31
 - Electron's OpenJS Foundation Impact Project status — corroborated via
-  `research/stacks/frontend-client-applications/libraries.md` — retrieved
+  `research/project-incubation/stacks/frontend-client-applications/libraries.md` — retrieved
   2026-08-31
 - https://docs.flutter.dev/app-architecture/guide — direct fetch:
   Flutter's official Services/Repositories layered architecture and the

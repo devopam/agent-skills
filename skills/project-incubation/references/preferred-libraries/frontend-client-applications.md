@@ -1,5 +1,7 @@
 # Frontend / Client Applications — Preferred Libraries
 
+*Last reviewed 2026-08-31.*
+
 Companion to [stacks/frontend-client-applications.md](../stacks/frontend-client-applications.md),
 which covers architecture and selection criteria; this doc names the actual
 tools, their licenses, and honest maintenance/adoption signal for the
@@ -551,7 +553,7 @@ independently researched.
   browserstack.com's own Percy page); Yjs/Automerge current relative
   download/adoption figures and Automerge 3.0's July 2025
   columnar-compression rewrite — all retrieved 2026-08-31.
-- `research/stacks/mlops-platform-engineering/libraries.md` — read to
+- `research/project-incubation/stacks/mlops-platform-engineering/libraries.md` — read to
   confirm the local precedent's owned-backend status (cross-checked against
   that baseline's own read of `ubi-csr-tmf/aws/container/backend/app/
   requirements.txt`).
@@ -560,7 +562,7 @@ independently researched.
   `skills/project-incubation/references/preferred-libraries/
   mlops-platform-engineering.md` — read directly as this doc's own scope
   boundaries and structural/rigor template respectively.
-- `research/stacks/frontend-client-applications/libraries.md` — read in full
+- `research/project-incubation/stacks/frontend-client-applications/libraries.md` — read in full
   as this doc's approved research baseline; the Yjs MIT-license correction
   and the Tauri primary-source bundle-size figure above are new to this
   authoring pass and were not present in the baseline.

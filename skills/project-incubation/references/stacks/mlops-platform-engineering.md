@@ -612,9 +612,9 @@ the handoff point.
   Evidently's `DataDriftPreset`, with named default thresholds
   (30%-of-features drifted at batch level; 0.05 drifted-column share at
   real-time-endpoint level) — retrieved 2026-08-31
-- `research/architecture-templates.md`,
-  `research/stacks/infrastructure-platform-engineering/stack.md`,
-  `research/stacks/ml-model-development/stack.md`,
-  `research/taxonomy-roadmap.md` — read directly to confirm this
+- `research/project-incubation/architecture-templates.md`,
+  `research/project-incubation/stacks/infrastructure-platform-engineering/stack.md`,
+  `research/project-incubation/stacks/ml-model-development/stack.md`,
+  `research/project-incubation/taxonomy-roadmap.md` — read directly to confirm this
   category's scope boundaries against both named neighbors — read
   2026-08-31

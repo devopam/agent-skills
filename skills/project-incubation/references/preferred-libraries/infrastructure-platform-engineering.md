@@ -1,5 +1,7 @@
 # Infrastructure & Platform Engineering — Preferred Libraries
 
+*Last reviewed 2026-08-31.*
+
 Companion to [stacks/infrastructure-platform-engineering.md](../stacks/infrastructure-platform-engineering.md),
 which covers architecture and selection criteria; this doc names the actual
 tools/products, their licenses, and honest maintenance/adoption signal.

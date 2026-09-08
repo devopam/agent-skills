@@ -169,7 +169,7 @@ All GitHub `stargazers_count`/`license.spdx_id`/`pushed_at` values below were fe
   to recommend instead.
 - **"Last reviewed" refresh cadence**: resolved by the new repo-wide
   policy (6-month staleness threshold for audit-mode flagging) — see
-  `research/skill-flow-decisions.md`. No longer an open question specific
+  `research/project-incubation/skill-flow-decisions.md`. No longer an open question specific
   to this file.
 - **ActiveAdmin vs. Avo**: keep ActiveAdmin as the named default (MIT,
   unambiguous permissive license) with Avo as the documented LGPLv3

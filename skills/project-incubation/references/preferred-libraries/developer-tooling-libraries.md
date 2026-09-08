@@ -1,5 +1,7 @@
 # Developer Tooling & Libraries — Preferred Libraries
 
+*Last reviewed 2026-08-31.*
+
 Companion to [stacks/developer-tooling-libraries.md](../stacks/developer-tooling-libraries.md),
 which covers architecture and selection criteria; this doc names the actual
 tools/libraries, their licenses, and honest maintenance/adoption signal.
@@ -373,6 +375,6 @@ in the Backend & API Services doc.
 - Local file reads: this repo's own `.claude-plugin/plugin.json`,
   `CHANGELOG.md`, `CONTRIBUTING.md`; `find . -maxdepth 1 -name
   pyproject.toml -o -maxdepth 1 -name package.json` (confirms neither
-  exists in this repo's tree); `research/stacks/agentic-mcp-platforms/
+  exists in this repo's tree); `research/project-incubation/stacks/agentic-mcp-platforms/
   {stack.md,libraries.md}` (grepped for the secondhand MCPg citations
   above) — read/re-confirmed 2026-08-31.

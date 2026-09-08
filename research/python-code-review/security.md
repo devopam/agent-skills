@@ -302,7 +302,7 @@ surfaces the original tool's RAG subsection already brushes against
 - **LLM05 Data/Model Poisoning, LLM training-data quality** — training-time
   concern, not reachable from a code-review pass over application code;
   consistent with the scoping doc's rejection and this repo's existing
-  ML/AI-out-of-scope precedent (`research/taxonomy-roadmap.md`).
+  ML/AI-out-of-scope precedent (`research/project-incubation/taxonomy-roadmap.md`).
 - **Model theft** — infra/access-control concern for model-hosting
   infrastructure, not application code; also now moot as a citation target
   since it dropped off the 2026 top-10 list entirely (see finding #2).

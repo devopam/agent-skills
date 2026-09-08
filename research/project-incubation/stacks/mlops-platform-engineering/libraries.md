@@ -1,7 +1,7 @@
 # Baseline: MLOps / ML Platform Engineering — Preferred Libraries
 Status: draft      Date: 2026-08-31      Snapshot date: 2026-08-31
 
-This is category #3 from `research/taxonomy-roadmap.md` — the operational
+This is category #3 from `research/project-incubation/taxonomy-roadmap.md` — the operational
 discipline once a model exists (registries, feature stores, serving,
 drift monitoring, retraining triggers, model-quality-driven canary
 rollouts), resolved 2026-08-19/2026-08-31 to stay its own category rather
@@ -484,13 +484,13 @@ research.
   archival into the Spinnaker monorepo (spinnaker.io, github.com/
   spinnaker/kayenta); retraining-trigger event-sensor patterns
   (123ofai.com, mlopslab.org, devopsroles.com) — all retrieved 2026-08-31
-- `research/stacks/ml-model-development/libraries.md` and
-  `research/stacks/infrastructure-platform-engineering/libraries.md` —
+- `research/project-incubation/stacks/ml-model-development/libraries.md` and
+  `research/project-incubation/stacks/infrastructure-platform-engineering/libraries.md` —
   read directly to confirm this baseline's own out-of-scope boundaries
   and to identify the exact handoff points (MLflow Registry's
   promotion-gate re-examination; Argo Rollouts/Flagger's already-covered
   traffic-shifting mechanics) — read 2026-08-31
-- `research/stacks/agentic-mcp-platforms/libraries.md` (the research
+- `research/project-incubation/stacks/agentic-mcp-platforms/libraries.md` (the research
   baseline, which did flag the Phoenix license as unconfirmed) and the
   already-**shipped**
   `skills/project-incubation/references/preferred-libraries/

@@ -447,7 +447,7 @@ sources with direct fetches where possible, not a local worked example.
   category) — model registries, feature stores, model-serving
   infrastructure, drift monitoring, retraining triggers, and canary rollouts
   **for models specifically** are explicitly that category's job, not this
-  one's, per `research/taxonomy-roadmap.md`'s own item #3. The dividing
+  one's, per `research/project-incubation/taxonomy-roadmap.md`'s own item #3. The dividing
   line stated precisely, for a clean handoff to whichever agent researches
   that category next: this doc owns everything up through **producing and
   evaluating a trained model artifact** (experiment tracking, fine-tuning/
@@ -493,7 +493,7 @@ sources with direct fetches where possible, not a local worked example.
   was the original gap the Agentic & MCP Platforms baseline's own
   `libraries.md` scoped out ("fine-tuning, RAG-corpus construction, training
   infrastructure") that prompted this whole roadmap category's creation per
-  `research/taxonomy-roadmap.md`'s own "Why these emerged" section.
+  `research/project-incubation/taxonomy-roadmap.md`'s own "Why these emerged" section.
   **Resolved this pass**: it belongs to Agentic & MCP Platforms, not here
   — see the Open Questions section below for the reasoning (assembling a
   retrieval corpus produces no trained artifact, which is this doc's own
@@ -650,11 +650,11 @@ sources with direct fetches where possible, not a local worked example.
   models do not exist or are incomplete") — search-corroborated via
   `huggingface.co/docs/hub/model-card-landscape-analysis`, not independently
   direct-fetched this pass — retrieved 2026-08-31
-- `research/architecture-templates.md`, `research/project-structure.md`,
-  `research/stacks/data-analytics-platforms/stack.md`,
-  `research/stacks/infrastructure-platform-engineering/stack.md`,
-  `research/stacks/backend-api-services/stack.md`,
-  `research/taxonomy-roadmap.md` — read directly this pass (not web sources)
+- `research/project-incubation/architecture-templates.md`, `research/project-incubation/project-structure.md`,
+  `research/project-incubation/stacks/data-analytics-platforms/stack.md`,
+  `research/project-incubation/stacks/infrastructure-platform-engineering/stack.md`,
+  `research/project-incubation/stacks/backend-api-services/stack.md`,
+  `research/project-incubation/taxonomy-roadmap.md` — read directly this pass (not web sources)
   to avoid re-deriving cross-cutting/adjacent-category content already
   covered, and to confirm this category's scope boundaries against its two
   named neighbors — read 2026-08-31

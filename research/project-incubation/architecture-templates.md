@@ -79,7 +79,7 @@ Status: user-approved      Date: 2026-08-19
 - Stack-specific architecture guidance for the 5 categories (Data &
   Analytics Platforms, Business Applications, Integration & Event-Driven
   Systems, Backend & API Services, Agentic & MCP Platforms) — these get
-  their own research baselines under `research/stacks/*`; this doc stays
+  their own research baselines under `research/project-incubation/stacks/*`; this doc stays
   at the cross-cutting decision-framework layer only.
 - Specific library/framework/vendor recommendations (e.g. "use Kong vs.
   Envoy," "use Auth0 vs. Keycloak") — belongs in the `preferred-libraries`

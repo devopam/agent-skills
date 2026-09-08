@@ -305,7 +305,7 @@ Status: user-approved      Date: 2026-08-24
 - **Database indexing strategy stays principle-only** (no engine-specific
   tooling named), consistent with the scoping doc's rejection of
   framework/DB-specific overlays at the domain level — confirm this is the
-  right cutoff, or whether a future `research/stacks/` supplement should
+  right cutoff, or whether a future `research/project-incubation/stacks/` supplement should
   own DB-engine-specific indexing guidance the way it will own
   framework-specific test tooling per Testing's baseline.
 - **Connection pool sizing guidance is reasoned, not doc-stated** — the

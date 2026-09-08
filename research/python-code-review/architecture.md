@@ -328,7 +328,7 @@ Status: user-approved      Date: 2026-08-24
 - **Framework-specific ORM session/connection-pool wiring**
   (`pytest-django`-style per-request session patterns, framework
   middleware internals) — stack-specific, deferred to a future
-  `research/stacks/` overlay, consistent with Testing's precedent for the
+  `research/project-incubation/stacks/` overlay, consistent with Testing's precedent for the
   same kind of framework-specific exclusion.
 - **Granian vs. Uvicorn/Gunicorn adoption comparison** — Granian's current
   status was verified (production-stable, real adoption examples cited on

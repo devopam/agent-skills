@@ -179,7 +179,7 @@ engineering-org review guides). Goal: find real gaps, not confirm convenience.
   Revisit only if the skill's scope ever extends to Python-rendered UI.
 - **ML / AI model development and training concerns** (fine-tuning,
   experiment tracking, training-data quality) — explicitly out of scope,
-  consistent with this same repository's own `research/taxonomy-roadmap.md`,
+  consistent with this same repository's own `research/project-incubation/taxonomy-roadmap.md`,
   which already carves "ML / AI Model Development" and "MLOps / ML Platform
   Engineering" out as separate future *stack categories* distinct from
   general application review. Don't re-absorb that scope here; the
@@ -189,7 +189,7 @@ engineering-org review guides). Goal: find real gaps, not confirm convenience.
   — all present as dedicated Ruff categories) — real and mature, but belong to
   a stack-specific overlay, not the general-purpose domain list. Reject at
   this scoping level; note as a candidate for future stack-specific
-  supplementary checklists, mirroring how `research/stacks/` already
+  supplementary checklists, mirroring how `research/project-incubation/stacks/` already
   specializes other skills per project archetype.
 - **Concurrency as a Performance subsection rather than a new domain** —
   considered and rejected in favor of the new-domain call above; documented
@@ -208,7 +208,7 @@ engineering-org review guides). Goal: find real gaps, not confirm convenience.
 - https://packaging.python.org/en/latest/guides/ — PyPA packaging guide topic index (build/publish, pyproject.toml, wheels, namespace packages, TestPyPI, licensing) — source for the Standards Compliance packaging-and-distribution expansion — retrieved 2026-08-24
 - https://mypy.readthedocs.io/en/stable/existing_code.html — mypy strict-mode adoption guidance (per-module strictness, `--strict` flag composition, gradual typing) — source for the Code Quality type-rigor expansion — retrieved 2026-08-24
 - https://rules.sonarsource.com/python/ — **unreachable** (DNS failure, host not resolving). Retry attempted at https://docs.sonarsource.com/sonarqube-server/latest/user-guide/clean-code/introduction/ — also unreachable (404). SonarQube's Clean Code taxonomy (software qualities Security/Reliability/Maintainability crossed with attributes) was not independently verified for this pass; the domain list's cross-checking rests on the other sources above (Ruff/Bandit/pylint/OWASP/SLSA/PEP 703/PyPA/mypy), which collectively span the same ground SonarQube's taxonomy covers. Flagged here rather than silently omitted.
-- `research/taxonomy-roadmap.md` (this repo) — internal precedent for scoping ML/AI model development and MLOps out of general-purpose review/stack coverage — retrieved 2026-08-24
+- `research/project-incubation/taxonomy-roadmap.md` (this repo) — internal precedent for scoping ML/AI model development and MLOps out of general-purpose review/stack coverage — retrieved 2026-08-24
 
 ## Recommended final domain list
 

@@ -578,7 +578,7 @@ single recommendation of the three.
 Full source lists (every `gh api`, PyPI/npm-registry, and direct
 README/docs fetch, with retrieval dates) live in the three research
 baselines this doc was authored from:
-`research/cross-cutting-utility-libraries/batch-a.md` (storage I/O,
+`research/project-incubation/cross-cutting-utility-libraries/batch-a.md` (storage I/O,
 config/secrets, retry/resilience, HTTP clients, structured logging, data
 validation), `batch-b.md` (date/time, local caching, terminal output,
 testing utilities, environment detection, background scheduling), and

@@ -1,5 +1,7 @@
 # MLOps / ML Platform Engineering — Preferred Libraries
 
+*Last reviewed 2026-08-31.*
+
 Companion to [stacks/mlops-platform-engineering.md](../stacks/mlops-platform-engineering.md),
 which covers architecture and selection criteria; this doc names the actual
 tools, their licenses, and honest maintenance/adoption signal for the
@@ -504,11 +506,11 @@ every vendor's own live pricing page.
   (spinnaker.io, github.com/spinnaker/kayenta); retraining-trigger
   event-sensor patterns (123ofai.com, mlopslab.org, devopsroles.com) — all
   retrieved 2026-08-31.
-- `research/stacks/mlops-platform-engineering/libraries.md` — read in full
+- `research/project-incubation/stacks/mlops-platform-engineering/libraries.md` — read in full
   as this doc's approved research baseline; the Hopsworks license-split/
   staleness finding, the KServe `RawDeployment`-canary open-issue finding,
   and the Seldon/Alibi-Detect integration-mechanism precision above are new
   to this authoring pass and were not present in the baseline.
-- `research/stacks/ml-model-development/libraries.md` and
-  `research/stacks/infrastructure-platform-engineering/libraries.md` —
+- `research/project-incubation/stacks/ml-model-development/libraries.md` and
+  `research/project-incubation/stacks/infrastructure-platform-engineering/libraries.md` —
   read to confirm this doc's own scope boundaries and exact handoff points.

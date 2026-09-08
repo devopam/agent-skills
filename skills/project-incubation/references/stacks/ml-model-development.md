@@ -712,11 +712,11 @@ Platforms](agentic-mcp-platforms.md).
   models do not exist or are incomplete") — search-corroborated via
   `huggingface.co/docs/hub/model-card-landscape-analysis` — retrieved
   2026-08-31
-- `research/architecture-templates.md`, `research/project-structure.md`,
-  `research/stacks/data-analytics-platforms/stack.md`,
-  `research/stacks/infrastructure-platform-engineering/stack.md`,
-  `research/stacks/backend-api-services/stack.md`,
-  `research/taxonomy-roadmap.md` — read directly (not web sources) to avoid
+- `research/project-incubation/architecture-templates.md`, `research/project-incubation/project-structure.md`,
+  `research/project-incubation/stacks/data-analytics-platforms/stack.md`,
+  `research/project-incubation/stacks/infrastructure-platform-engineering/stack.md`,
+  `research/project-incubation/stacks/backend-api-services/stack.md`,
+  `research/project-incubation/taxonomy-roadmap.md` — read directly (not web sources) to avoid
   re-deriving cross-cutting/adjacent-category content already covered, and
   to confirm this category's scope boundaries against its two named
   neighbors — read 2026-08-31

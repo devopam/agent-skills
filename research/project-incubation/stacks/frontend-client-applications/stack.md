@@ -11,7 +11,7 @@ deploys. Examples: a mobile app that only calls Stripe and a third-party
 auth provider directly, with no first-party backend at all; a desktop
 Electron/Tauri app that syncs to a hosted service it doesn't operate; a SPA
 that is purely a client of someone else's API. This is the last of the 10
-project-incubation stack categories (see `research/taxonomy-roadmap.md`).
+project-incubation stack categories (see `research/project-incubation/taxonomy-roadmap.md`).
 
 ## Local precedent
 
@@ -393,7 +393,7 @@ than silently leaning on external sources without saying so.
 
 - **Why this category has no server-side architecture-template question
   to answer at all, and what client-side pattern replaces it** — impact:
-  high — depth: section. `research/architecture-templates.md`'s whole
+  high — depth: section. `research/project-incubation/architecture-templates.md`'s whole
   pattern catalog (layered, hexagonal/ports-and-adapters, microservices,
   modular monolith, event-driven, CQRS, serverless) is explicitly a
   **deployment-topology** decision — which of several ways to structure
@@ -516,10 +516,10 @@ than silently leaning on external sources without saying so.
   `public/sw.js`; directory listings of `aws/container/` and repo-root
   `charts/` confirming a co-owned backend (`aws/container/backend/`,
   `charts/ubi-backend`) — read 2026-08-31
-- `research/architecture-templates.md`,
-  `research/stacks/business-applications/stack.md`,
+- `research/project-incubation/architecture-templates.md`,
+  `research/project-incubation/stacks/business-applications/stack.md`,
   `skills/project-incubation/references/stacks/business-applications.md`,
-  `skills/project-incubation/SKILL.md`, `research/taxonomy-roadmap.md` —
+  `skills/project-incubation/SKILL.md`, `research/project-incubation/taxonomy-roadmap.md` —
   read directly this pass (not web sources) to confirm this category's
   scope boundary against Business Applications precisely and to avoid
   re-deriving cross-cutting content those docs already cover — read

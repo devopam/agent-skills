@@ -364,7 +364,7 @@ usage.
 - ML/AI model training, fine-tuning, feature stores, experiment tracking,
   model serving/drift monitoring — this is the separate ML/AI Model
   Development and MLOps/ML Platform Engineering roadmap categories per
-  `research/taxonomy-roadmap.md`, explicitly not this category's job even
+  `research/project-incubation/taxonomy-roadmap.md`, explicitly not this category's job even
   where the tooling (e.g. a feature store) touches the same warehouse.
 - Deep streaming-engine internals (Kafka partition/consumer-group
   mechanics, Flink state-backend/checkpointing internals, exactly-once
@@ -505,7 +505,7 @@ usage.
   than fully generalizing away from the concrete Jupyter case.
 - **Streaming/governance scope boundary**: confirmed correct. Streaming is
   now formally resolved to the Integration & Event-Driven Systems baseline
-  (see `research/skill-flow-decisions.md`'s cross-checkpoint conflict
+  (see `research/project-incubation/skill-flow-decisions.md`'s cross-checkpoint conflict
   resolution) rather than left ambiguous between the two docs. Deep
   data-governance/catalog tooling stays out of scope as originally scoped.
 

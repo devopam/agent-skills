@@ -1,5 +1,7 @@
 # ML / AI Model Development — Preferred Libraries
 
+*Last reviewed 2026-08-31.*
+
 Companion to [stacks/ml-model-development.md](../stacks/ml-model-development.md),
 which covers architecture and selection criteria; this doc names the actual
 tools, their licenses, and honest maintenance/adoption signal for the
@@ -477,12 +479,12 @@ independently direct-fetched against every vendor's own live pricing page.
   on the same figure); DVC/Iterative headcount and funding history
   (Tracxn, Crunchbase); Amazon SageMaker AI's rename; GPU-cloud-provider
   Q1-2026 consolidation — all retrieved 2026-08-31.
-- `research/stacks/ml-model-development/libraries.md` and
-  `research/stacks/ml-model-development/stack.md` — read in full as this
+- `research/project-incubation/stacks/ml-model-development/libraries.md` and
+  `research/project-incubation/stacks/ml-model-development/stack.md` — read in full as this
   doc's approved research baseline; the DVC/lakeFS/Treeverse acquisition
   above was not present in either and is new to this authoring pass.
-- `research/stacks/data-analytics-platforms/libraries.md` and
-  `research/stacks/agentic-mcp-platforms/libraries.md` — read to confirm
+- `research/project-incubation/stacks/data-analytics-platforms/libraries.md` and
+  `research/project-incubation/stacks/agentic-mcp-platforms/libraries.md` — read to confirm
   this doc's own out-of-scope boundaries (dbt/Airflow/warehouse tooling
   already owned by the former; DeepEval/Inspect AI/Promptfoo/Langfuse/
   LangSmith/Arize Phoenix agent-eval tooling already owned by the latter).
