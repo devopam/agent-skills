@@ -60,13 +60,37 @@ database id under review for the session.
 | Health | `check_database_health` |
 | Composite audit | `audit_database(schema=…)` per schema in scope |
 | Advisors | `run_advisors` |
-| Indexes | `recommend_indexes`, `recommend_index_drops`, `list_indexes` |
-| Workload | `analyze_workload`, `detect_n_plus_one`, `why_is_this_slow` / `explain_query` |
+| Schema integrity | `list_constraints`, `list_foreign_keys`, `list_partitions`, `summarize_table` (hot tables) |
+| Indexes | `recommend_indexes`, `recommend_index_drops`, `list_indexes`, `run_advisors` (duplicate/redundant-index rules) |
+| Workload | `analyze_workload`, `detect_n_plus_one`, `why_is_this_slow` / `explain_query` / `analyze_query_plan` |
 | Maintenance | `analyze_table_bloat`, `read_autovacuum_priority`, `audit_sequences` |
 | Security | `list_roles`, `list_grants`, `list_policies`, `test_rls_for_role`, `find_sensitive_columns`, `verify_connection_encryption` |
 | Settings | `audit_settings`, `recommend_postgres_conf` |
 | Hygiene | `lint_naming_conventions`, `find_unused_objects` |
 | Inventory | `list_tables`, `get_compact_schema`, `list_extensions` |
+| Live pressure (optional) | `list_active_queries`, `list_locks`, `find_blocking_chains` |
+
+## `audit_database` category → domain mapping
+
+`audit_database` returns one `CategoryResult` per check group (source:
+`mcpg/audit.py`, v0.8.x). Map each into exactly one of the seven domains below
+before scoring — **dedupe** against whatever that domain's dedicated tools
+already found rather than double-counting the same underlying issue:
+
+| `audit_database` category | Domain |
+|---|---|
+| Memory & I/O Efficiency | Health & configuration |
+| Transaction & Connection Health | Health & configuration |
+| Configuration Settings | Health & configuration |
+| Table Cleanliness & Bloat | Maintenance |
+| Sequence Exhaustion | Maintenance |
+| Slow Query Profiling | Workload & query performance |
+| Concurrency & Lock Contention | Workload & query performance (optional live-pressure context) |
+| Authentication & Password Hygiene | Security & access |
+
+`audit_database` does not cover Schema integrity, Indexing, or Hygiene &
+conventions — those domains rely entirely on their own dedicated tools
+(`run_advisors`, `recommend_indexes`, `lint_naming_conventions`, etc.).
 
 ## Degraded mode (explicit consent only)
 
@@ -87,4 +111,4 @@ Never label degraded output as a full MCPg review.
 
 ## Sources
 
-MCPg README, `docs/tools.md` capability gates, `docs/tour.md` — research window 2026-09-07; see `research/postgresql-review/`.
+MCPg README, `docs/tools.md` capability gates, `docs/tour.md` — research window 2026-09-07; see `research/postgresql-review/`. `audit_database` category names verified directly against `src/mcpg/audit.py` (v0.8.x) on 2026-09-08.
