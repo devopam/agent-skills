@@ -1,10 +1,12 @@
 # agent-skills
 
+**Source repository:** [github.com/devopam/agent-skills](https://github.com/devopam/agent-skills)
+
 Portable [Agent Skills](https://agentskills.io/) for software-project best
 practices — version-controlled procedural knowledge that works with any
 agentskills.io-compliant client (including Claude Code).
 
-**Current version:** 0.13.0 · **Repository:** [devopam/agent-skills](https://github.com/devopam/agent-skills) · **Release:** [v0.13.0](https://github.com/devopam/agent-skills/releases/tag/v0.13.0)
+**Current version:** 0.13.0 · **Release:** [v0.13.0](https://github.com/devopam/agent-skills/releases/tag/v0.13.0)
 
 ## Skills at a glance
 
@@ -27,3 +29,4 @@ convention).
 - [Getting started](getting-started.md) — install and invoke skills
 - [Skills overview](skills/index.md)
 - [Contributing](contributing.md)
+- [Source on GitHub](https://github.com/devopam/agent-skills) — skills, evals, research, releases
