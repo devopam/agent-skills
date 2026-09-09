@@ -10,6 +10,12 @@ versioning follows [Semantic Versioning](https://semver.org/).
 - **Contributor Covenant 3.0** (`CODE_OF_CONDUCT.md`): reporting via
   `devopam@gmail.com` (preferred for private matters) or a GitHub Issue;
   linked from README and CONTRIBUTING.
+- **GitHub Pages documentation** (MkDocs Material): site source under `docs/`,
+  config `mkdocs.yml`, deploy workflow `.github/workflows/docs.yml`.
+  Published URL: https://devopam.github.io/agent-skills/
+- **`llms.txt`** at the docs site root ([llmstxt.org](https://llmstxt.org/)
+  convention): curated index for agents pointing at docs pages and canonical
+  `SKILL.md` sources on GitHub.
 
 ## [0.13.0] - 2026-09-09
 

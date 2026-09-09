@@ -9,6 +9,8 @@ Claude Code, and the broader [client showcase](https://agentskills.io/clients).
 
 **Current version:** `0.13.0` (see [CHANGELOG.md](CHANGELOG.md)).
 
+**Documentation:** [devopam.github.io/agent-skills](https://devopam.github.io/agent-skills/) · **Agent index:** [llms.txt](https://devopam.github.io/agent-skills/llms.txt)
+
 ## Skills
 
 | Skill | What it does | Use when |
