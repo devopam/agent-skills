@@ -67,6 +67,13 @@ when `claude plugin eval` enrollment allows; deepen from live use.
 See [CONTRIBUTING.md](CONTRIBUTING.md) for how skills are authored, reviewed,
 and versioned — including research-before-authoring.
 
+## Code of Conduct
+
+This project adopts the [Contributor Covenant](CODE_OF_CONDUCT.md) (v3.0).
+Report concerns to [devopam@gmail.com](mailto:devopam@gmail.com) or via a
+[GitHub Issue](https://github.com/devopam/agent-skills/issues/new) (prefer
+email when privacy matters).
+
 ## License
 
 [MIT](LICENSE).

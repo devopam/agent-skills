@@ -1,5 +1,9 @@
 # Contributing
 
+Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
+Reports: [devopam@gmail.com](mailto:devopam@gmail.com) or a GitHub Issue
+(prefer email for private matters).
+
 ## Adding a new skill
 
 Each skill lives at `skills/<skill-name>/`, following the

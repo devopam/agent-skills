@@ -6,6 +6,11 @@ versioning follows [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+### Added
+- **Contributor Covenant 3.0** (`CODE_OF_CONDUCT.md`): reporting via
+  `devopam@gmail.com` (preferred for private matters) or a GitHub Issue;
+  linked from README and CONTRIBUTING.
+
 ## [0.13.0] - 2026-09-09
 
 ### Fixed
