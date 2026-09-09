@@ -5,15 +5,15 @@ skill (`evals/<skill-name>/<case-name>/`).
 
 Each case: `prompt.md` + `graders/criteria.md`.
 
-## Inventory
+## Inventory (0.13.0)
 
-| Skill | Cases (approx.) | Focus |
+| Skill | Cases | Focus |
 |---|---:|---|
-| `project-incubation` | 16 | Category retrieval, gaps, handoff to ci-cd-plumber |
-| `python-code-review` | 11 | Domain detection, mechanisms, scorecard verdict |
-| `ci-cd-plumber` | 6 | Inception, audit, scorecard, baseline close-out |
-| `pr-review` | 5 | Pre-submit hooks, tests, changelog, secrets |
-| `postgresql-review` | 4 | MCPg readiness, wrong schema, scorecard shape, no-apply DDL |
+| `project-incubation` | 17 | Category retrieval, gaps, license/ADR, handoff to ci-cd-plumber |
+| `python-code-review` | 13 | Domain detection, mechanisms, scorecard verdict, tier gating |
+| `ci-cd-plumber` | 8 | Inception (GHA + GitLab), audit, scorecard, baseline, progressive N/A |
+| `pr-review` | 7 | Pre-submit hooks, tests, changelog, secrets, blast radius |
+| `postgresql-review` | 6 | MCPg readiness, degraded mode, scorecard, Critical/Not Implemented |
 
 ## Known limitation
 

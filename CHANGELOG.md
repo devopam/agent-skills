@@ -6,6 +6,8 @@ versioning follows [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [0.13.0] - 2026-09-09
+
 ### Fixed
 - **Cross-skill review pass** across all 5 shipped skills, from a full read-through
   of each `SKILL.md` + references + evals for internal consistency, MCPg/tool
@@ -13,7 +15,7 @@ versioning follows [Semantic Versioning](https://semver.org/).
   - `postgresql-review`: fixed a scoring-guide contradiction (a missing
     `pg_stat_statements` no longer scores 9–10), added a verified
     `audit_database` category→domain mapping and missing tool-map entries
-    (cross-checked directly against MCPg's `src/mcpg/audit.py`), trimmed a
+    (cross-checked against MCPg's `src/mcpg/audit.py`), trimmed a
     workflow-narrating description, aligned the report template.
   - `ci-cd-plumber`: the release-workflow example no longer ships the exact
     floating-tag anti-pattern it flags as Important; added concrete GitLab
@@ -24,33 +26,31 @@ versioning follows [Semantic Versioning](https://semver.org/).
     "suggest, don't edit the diff" boundary.
   - `project-incubation`: added a `## Boundaries` section naming the
     `ci-cd-plumber` handoff (previously unnamed despite an eval requiring it),
-    and snapshot-date markers on 6 preferred-libraries docs.
+    and snapshot-date markers on preferred-libraries docs.
   - `python-code-review`: added the missing "Required Evidence in Findings"
-    section to 6 of 11 domain docs, an explicit cross-domain finding-dedup
-    rule in the aggregation step, and a tier-gating disclaimer fix in
-    Scalability & Resilience's scoring guide.
-  - 13 new eval cases added across the above five skills covering the gaps
-    surfaced (GitLab, Critical-severity, degraded-mode, Not-Implemented
-    coverage, Idioms & Patterns / Observability domain coverage, license/ADR
-    offer, blast-radius).
+    section to domain docs, an explicit cross-domain finding-dedup rule in
+    aggregation, and a tier-gating disclaimer fix in Scalability & Resilience.
+  - Additional eval cases covering gaps surfaced (GitLab inception, Critical
+    severity, degraded-mode, Not-Implemented coverage, Idioms & Patterns /
+    Observability, license/ADR offer, blast-radius).
 
 ### Added
-- **`postgresql-review` domain deepening:** all 7 reference docs expanded
-  from ~30-40 lines to their research-baseline target depth via real
-  research (PostgreSQL docs + MCPg's actual source, not memory), each
-  paired with a new provenance file under `research/postgresql-review/`.
-  Surfaced and fixed two real gaps in the process: RLS bypass mechanics
-  (`FORCE ROW LEVEL SECURITY` closes only the table-owner bypass path, not
-  superuser/`BYPASSRLS`) and a `run_advisors`-owned duplicate/redundant-index
-  check that wasn't listed under any domain's tool set.
+- **`postgresql-review` domain deepening:** all 7 reference docs expanded to
+  research-baseline target depth via live PostgreSQL docs + MCPg source
+  (not memory), each paired with provenance under `research/postgresql-review/`.
+  Corrections: RLS `FORCE ROW LEVEL SECURITY` closes table-owner bypass only
+  (not superuser/`BYPASSRLS`); `run_advisors` duplicate/redundant-index checks
+  listed in the tool map.
+- **Eval inventory growth:** 51 hand-authored cases across five skills
+  (see `evals/README.md`).
+- **graphify corpus map** under `graphify-out/` (refresh after skill changes;
+  ~1608 nodes / 1423 edges as of 2026-09-08). Cache paths remain gitignored.
 
 ### Changed
-- **`project-incubation` research provenance reorganized:** all research
-  files that were flat under `research/` (architecture principles/templates,
-  project structure, taxonomy roadmap, skill-flow decisions, all 10
-  `stacks/` category pairs, cross-cutting-utility-libraries batches) moved
-  into `research/project-incubation/`, matching every other skill's nested
-  provenance convention. All cross-references repo-wide updated accordingly.
+- **`project-incubation` research provenance** nested under
+  `research/project-incubation/` (was flat under `research/`); cross-references
+  updated repo-wide.
+- Docs and `.claude-plugin/plugin.json` aligned to **0.13.0**.
 
 ## [0.12.0] - 2026-09-07
 

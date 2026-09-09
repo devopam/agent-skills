@@ -7,6 +7,8 @@ frontmatter, plus optional `references/`, `scripts/`, and `assets/`
 subfolders). Skills here work with any agentskills.io-compliant client —
 Claude Code, and the broader [client showcase](https://agentskills.io/clients).
 
+**Current version:** `0.13.0` (see [CHANGELOG.md](CHANGELOG.md)).
+
 ## Skills
 
 | Skill | What it does | Use when |
@@ -21,26 +23,44 @@ Claude Code, and the broader [client showcase](https://agentskills.io/clients).
 
 Point any agentskills.io-compliant agent at this repo (or vendor/copy the
 specific `skills/<name>/` folder into your project's own skills directory —
-see each client's own install instructions in the
+see each client's install instructions in the
 [client showcase](https://agentskills.io/clients)). The agent discovers each
 skill from its `SKILL.md` frontmatter and loads the full instructions only
 when a task matches.
 
-For Claude Code specifically: `claude plugin validate .` / `claude plugin eval`
-can be run against this repo directly, since it carries a
-`.claude-plugin/plugin.json` manifest.
+### Claude Code plugin
+
+This repository **is already** a Claude Code plugin: it ships
+[`.claude-plugin/plugin.json`](.claude-plugin/plugin.json). From a clone:
+
+```bash
+claude plugin validate .
+# when enrollment allows:
+claude plugin eval . --ablation with-without --runs 1 --no-publish
+```
+
+Install / enable the plugin using Claude Code's usual local-plugin or
+marketplace flow against this repo (or a released tag such as `v0.13.0`).
+No separate “plugin product” is required beyond this manifest + the
+`skills/` tree — that *is* the plugin surface.
 
 ## Evals
 
-Hand-authored trust cases live under [`evals/`](evals/) — one suite per skill.
-See [`evals/README.md`](evals/README.md) for inventory and how to run
-`claude plugin eval` when access is available.
+Hand-authored trust cases live under [`evals/`](evals/) — one suite per skill
+(**51** cases in 0.13.0). See [`evals/README.md`](evals/README.md).
+
+## Knowledge graph (graphify)
+
+Optional corpus map of this repo lives under [`graphify-out/`](graphify-out/)
+(`GRAPH_REPORT.md`, `graph.html`, `graph.json`). It is regenerated after
+substantive skill changes for navigation and consistency checks; machine-local
+cache paths are gitignored. Not a runtime dependency of any skill.
 
 ## Roadmap
 
-Five skills shipped through **0.12.0**, including `postgresql-review` v0
-(MCPg-backed). Next: execute and tune evals when enrollment allows; deepen
-from live use.
+Five skills through **0.13.0**, with a cross-skill consistency pass and
+deepened `postgresql-review` domain references. Next: execute and tune evals
+when `claude plugin eval` enrollment allows; deepen from live use.
 
 ## Repo conventions
 
