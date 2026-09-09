@@ -1,0 +1,66 @@
+site_name: agent-skills
+site_description: Portable Agent Skills for software-project best practices
+site_url: https://devopam.github.io/agent-skills/
+site_author: Devopam Mittra
+repo_url: https://github.com/devopam/agent-skills
+repo_name: devopam/agent-skills
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+    - toc.follow
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting started: getting-started.md
+  - Skills:
+      - Overview: skills/index.md
+      - project-incubation: skills/project-incubation.md
+      - python-code-review: skills/python-code-review.md
+      - ci-cd-plumber: skills/ci-cd-plumber.md
+      - pr-review: skills/pr-review.md
+      - postgresql-review: skills/postgresql-review.md
+  - Evals: evals.md
+  - Contributing: contributing.md
+  - Code of Conduct: code-of-conduct.md
+  - Changelog: changelog.md
+
+extra:
+  version: "0.13.0"
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/devopam/agent-skills

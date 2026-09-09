@@ -1,0 +1,48 @@
+# agent-skills
+
+> Portable Agent Skills (agentskills.io) for software-project best practices: project incubation, Python code review, CI/CD, PR readiness, and PostgreSQL review via MCPg. Claude Code plugin at version 0.13.0. Authoritative skill text lives in the GitHub repository; this site is the human documentation overview.
+
+Important notes:
+
+- Skills are host-agnostic routers under `skills/<name>/SKILL.md` with optional `references/` depth.
+- Do not invent behaviour from this index alone — follow the linked SKILL.md and references.
+- postgresql-review requires MCPg readiness and prefers read-only access; it suggests remediations and does not apply DDL by default.
+- Documentation site: https://devopam.github.io/agent-skills/
+- Source repository: https://github.com/devopam/agent-skills
+
+## Docs (this site)
+
+- [Home](https://devopam.github.io/agent-skills/): Overview and skill table
+- [Getting started](https://devopam.github.io/agent-skills/getting-started/): Install, plugin, invocation
+- [Skills overview](https://devopam.github.io/agent-skills/skills/): Index of five skills
+- [project-incubation](https://devopam.github.io/agent-skills/skills/project-incubation/): Inception and audit modes
+- [python-code-review](https://devopam.github.io/agent-skills/skills/python-code-review/): Eleven-domain scored Python review
+- [ci-cd-plumber](https://devopam.github.io/agent-skills/skills/ci-cd-plumber/): CI/CD scaffold and audit
+- [pr-review](https://devopam.github.io/agent-skills/skills/pr-review/): Pre-submit and PR readiness
+- [postgresql-review](https://devopam.github.io/agent-skills/skills/postgresql-review/): Live Postgres review via MCPg
+- [Evals](https://devopam.github.io/agent-skills/evals/): Hand-authored trust cases (51 in 0.13.0)
+- [Contributing](https://devopam.github.io/agent-skills/contributing/): Authoring and research-before-authoring
+- [Code of Conduct](https://devopam.github.io/agent-skills/code-of-conduct/): Contributor Covenant 3.0
+- [Changelog](https://devopam.github.io/agent-skills/changelog/): Release history summary
+
+## Canonical skill sources (GitHub)
+
+- [project-incubation SKILL.md](https://github.com/devopam/agent-skills/blob/main/skills/project-incubation/SKILL.md): Full incubation / audit instructions
+- [python-code-review SKILL.md](https://github.com/devopam/agent-skills/blob/main/skills/python-code-review/SKILL.md): Full Python review instructions
+- [ci-cd-plumber SKILL.md](https://github.com/devopam/agent-skills/blob/main/skills/ci-cd-plumber/SKILL.md): Full CI/CD skill instructions
+- [pr-review SKILL.md](https://github.com/devopam/agent-skills/blob/main/skills/pr-review/SKILL.md): Full PR review instructions
+- [postgresql-review SKILL.md](https://github.com/devopam/agent-skills/blob/main/skills/postgresql-review/SKILL.md): Full Postgres review instructions (MCPg Phase 0)
+- [Plugin manifest](https://github.com/devopam/agent-skills/blob/main/.claude-plugin/plugin.json): Claude Code plugin version metadata
+- [Repository README](https://github.com/devopam/agent-skills/blob/main/README.md): Root overview
+- [CHANGELOG.md](https://github.com/devopam/agent-skills/blob/main/CHANGELOG.md): Full changelog
+- [CONTRIBUTING.md](https://github.com/devopam/agent-skills/blob/main/CONTRIBUTING.md): Contribution rules
+- [CODE_OF_CONDUCT.md](https://github.com/devopam/agent-skills/blob/main/CODE_OF_CONDUCT.md): Full conduct text
+
+## Optional
+
+- [Release v0.13.0](https://github.com/devopam/agent-skills/releases/tag/v0.13.0): Tagged release notes
+- [evals/README.md](https://github.com/devopam/agent-skills/blob/main/evals/README.md): Eval inventory and how to run
+- [graphify-out/GRAPH_REPORT.md](https://github.com/devopam/agent-skills/blob/main/graphify-out/GRAPH_REPORT.md): Optional knowledge-graph report of the corpus (maintainer tool, not a skill)
+- [MCPg](https://github.com/devopam/MCPg): PostgreSQL MCP server used by postgresql-review
+- [Agent Skills specification](https://agentskills.io/specification): Skill format standard
+- [llmstxt.org](https://llmstxt.org/): This file's format convention
