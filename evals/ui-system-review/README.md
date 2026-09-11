@@ -16,3 +16,9 @@ enrollment allows (see repo `evals/README.md`).
 | `no-ui-surface-stop` | Backend-only tree → stop, no fake UI scores |
 | `apple-hardcoded-colors` | SwiftUI Color.* drift + iPad without adaptive nav |
 | `android-dual-theme-xml-compose` | XML+Compose dual theme, raw Color, tablet claim |
+| `fixture-bad-web-expected-findings` | Intentional bad fixture must score low / dual-kit |
+
+## Fixture
+
+[`fixtures/bad-web-app/`](fixtures/bad-web-app/) — synthetic anti-patterns for
+effectiveness checks (not a real product).

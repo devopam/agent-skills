@@ -5,7 +5,7 @@ skill (`evals/<skill-name>/<case-name>/`).
 
 Each case: `prompt.md` + `graders/criteria.md`.
 
-## Inventory
+## Inventory (0.14.0)
 
 | Skill | Cases | Focus |
 |---|---:|---|
@@ -14,9 +14,9 @@ Each case: `prompt.md` + `graders/criteria.md`.
 | `ci-cd-plumber` | 8 | Inception (GHA + GitLab), audit, scorecard, baseline, progressive N/A |
 | `pr-review` | 7 | Pre-submit hooks, tests, changelog, secrets, blast radius |
 | `postgresql-review` | 6 | MCPg readiness, degraded mode, scorecard, Critical/Not Implemented |
-| `ui-system-review` | 10 | Web drift + Apple/Android packs, remediation, evidence, no-UI |
+| `ui-system-review` | 11 | Web/Apple/Android packs, remediation, evidence, bad fixture |
 
-**Total:** 61 hand-authored cases.
+**Total:** 62 hand-authored cases.
 
 ## Known limitation
 

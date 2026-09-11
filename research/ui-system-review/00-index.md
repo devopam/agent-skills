@@ -1,8 +1,9 @@
 # ui-system-review — research index
 
 **Skill name:** `ui-system-review`  
-**Status:** v0 web + **Apple/SwiftUI** + **Android/Compose** pack depth on main
-(2026-09-11). Evals: 10 cases. Public-repo smoke test still pending.  
+**Status:** **Shipped in 0.14.0** — Web + Apple/SwiftUI + Android/Compose packs;
+11 eval cases + bad-web fixture; public smoke tests (taxonomy, material-kit-react,
+bad fixture contrast).  
 **Goal:** Audit an *existing* project for UI **system consistency** (tokens,
 components, icons/media, themes, form-factor adaptation), not subjective visual
 taste.

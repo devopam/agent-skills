@@ -1,7 +1,7 @@
 {
   "name": "agent-skills",
-  "version": "0.13.0",
-  "description": "Portable Agent Skills: project-incubation, python-code-review, ci-cd-plumber, pr-review, and postgresql-review (MCPg-backed DB audit).",
+  "version": "0.14.0",
+  "description": "Portable Agent Skills: project-incubation, python-code-review, ci-cd-plumber, pr-review, postgresql-review, and ui-system-review (Web/Apple/Android UI system consistency).",
   "author": {
     "name": "Devopam Mittra",
     "email": "devopam@gmail.com"
