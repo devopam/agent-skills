@@ -1,0 +1,16 @@
+{
+  "name": "bad-web-app-fixture",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "@chakra-ui/react": "2.8.2",
+    "@emotion/react": "11.11.0",
+    "@emotion/styled": "11.11.0",
+    "@heroicons/react": "2.1.0",
+    "@mui/icons-material": "5.15.0",
+    "@mui/material": "5.15.0",
+    "lucide-react": "0.300.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
