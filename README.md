@@ -7,7 +7,7 @@ frontmatter, plus optional `references/`, `scripts/`, and `assets/`
 subfolders). Skills here work with any agentskills.io-compliant client —
 Claude Code, and the broader [client showcase](https://agentskills.io/clients).
 
-**Current version:** `0.13.0` (see [CHANGELOG.md](CHANGELOG.md)).
+**Current version:** `0.13.0` (see [CHANGELOG.md](CHANGELOG.md); `ui-system-review` is on main under Unreleased).
 
 **Documentation:** [devopam.github.io/agent-skills](https://devopam.github.io/agent-skills/) · **Agent index:** [llms.txt](https://devopam.github.io/agent-skills/llms.txt)
 
@@ -20,6 +20,7 @@ Claude Code, and the broader [client showcase](https://agentskills.io/clients).
 | [`ci-cd-plumber`](skills/ci-cd-plumber/) | Scaffolds and audits CI/CD pipelines with a scored domain table and severity-ordered findings. | Setting up or hardening CI/CD, release automation, changelogs/release notes. |
 | [`pr-review`](skills/pr-review/) | Pre-submit / PR readiness — hooks, blast radius, tests, docs/changelog, CI readiness, diff-scoped security. | Before opening or updating a PR, or reviewing someone else's PR. |
 | [`postgresql-review`](skills/postgresql-review/) | Live PostgreSQL review (health, schema, indexes, workload, maintenance, security, hygiene) after **MCPg readiness** (install/config/reachability for the target DB and schemas). Scored report; suggested remediations only. | Auditing Postgres, production readiness, performance or security posture when MCPg can reach the database. |
+| [`ui-system-review`](skills/ui-system-review/) | Audits UI **system** consistency — tokens, shared components, themes, icons/media, form factors (responsive web; Apple/Android packs staged) — scored report plus remediation suggestions. | Design-system drift, mixed component libraries, token hardcoding, responsive/tablet discipline on an existing app. |
 
 ## Using a skill
 
@@ -60,9 +61,10 @@ cache paths are gitignored. Not a runtime dependency of any skill.
 
 ## Roadmap
 
-Five skills through **0.13.0**, with a cross-skill consistency pass and
-deepened `postgresql-review` domain references. Next: execute and tune evals
-when `claude plugin eval` enrollment allows; deepen from live use.
+- **Shipped:** five skills through **0.13.0**
+- **In progress:** `ui-system-review` v0 (web + responsive); Apple (SwiftUI) and
+  Android (Compose) packs next; deeper remediation playbooks after pack coverage
+- Evals execution when `claude plugin eval` enrollment allows
 
 ## Repo conventions
 

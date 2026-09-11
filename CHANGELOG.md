@@ -7,6 +7,13 @@ versioning follows [Semantic Versioning](https://semver.org/).
 ## [Unreleased]
 
 ### Added
+- **`ui-system-review` skill (v0):** UI *system* consistency audit for existing
+  apps — tokens/theme, component reuse, icons/media, form factors (responsive
+  web), platform idioms, code-level a11y, governance. Scored domains, severity-
+  ordered findings, **remediation suggestions** (What / Why / direction /
+  evidence). Web pack fully specified; Apple/SwiftUI and Android/Compose
+  stubs + research baselines for v1 / v1.1. Research under
+  `research/ui-system-review/`; skill under `skills/ui-system-review/`.
 - **Contributor Covenant 3.0** (`CODE_OF_CONDUCT.md`): reporting via
   `devopam@gmail.com` (preferred for private matters) or a GitHub Issue;
   linked from README and CONTRIBUTING.
