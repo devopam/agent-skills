@@ -14,10 +14,9 @@ Each case: `prompt.md` + `graders/criteria.md`.
 | `ci-cd-plumber` | 8 | Inception (GHA + GitLab), audit, scorecard, baseline, progressive N/A |
 | `pr-review` | 7 | Pre-submit hooks, tests, changelog, secrets, blast radius |
 | `postgresql-review` | 6 | MCPg readiness, degraded mode, scorecard, Critical/Not Implemented |
-| `ui-system-review` | 8 | Scorecard+remediation, token drift, dual kits, icons, evidence, no-UI |
+| `ui-system-review` | 10 | Web drift + Apple/Android packs, remediation, evidence, no-UI |
 
-**Total:** 59 hand-authored cases (51 through 0.13.0 skills + 8 for
-`ui-system-review` on main).
+**Total:** 61 hand-authored cases.
 
 ## Known limitation
 

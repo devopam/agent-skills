@@ -14,3 +14,5 @@ enrollment allows (see repo `evals/README.md`).
 | `suggest-not-rewrite-ui` | Suggest only; no bulk rewrite unless asked |
 | `evidence-required-no-invent` | No findings without file/path evidence |
 | `no-ui-surface-stop` | Backend-only tree → stop, no fake UI scores |
+| `apple-hardcoded-colors` | SwiftUI Color.* drift + iPad without adaptive nav |
+| `android-dual-theme-xml-compose` | XML+Compose dual theme, raw Color, tablet claim |
