@@ -1,0 +1,44 @@
+name: compliance-sources refresh
+
+on:
+  schedule:
+    # 06:00 UTC on the 1st of each month
+    - cron: "0 6 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PyYAML
+        run: pip install pyyaml
+
+      - name: Run refresh
+        id: refresh
+        run: |
+          python scripts/compliance-sources/refresh.py | tee /tmp/refresh-summary.md
+          # Do not fail the job solely on fetch_error — still open PR with report
+          true
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore(compliance-sources): monthly source refresh"
+          title: "chore(compliance-sources): monthly source refresh"
+          body-path: /tmp/refresh-summary.md
+          branch: chore/compliance-sources-refresh
+          delete-branch: true
+          labels: |
+            compliance-sources
