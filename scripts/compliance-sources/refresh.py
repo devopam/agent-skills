@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import socket
 import sys
 import urllib.error
 import urllib.request
@@ -27,7 +28,12 @@ except ImportError:
 ROOT = Path(__file__).resolve().parents[2]
 REGISTRY = ROOT / "compliance-sources" / "registry.yaml"
 SNAPSHOTS = ROOT / "compliance-sources" / "snapshots"
-USER_AGENT = "agent-skills-compliance-sources-refresh/0.1 (+https://github.com/devopam/agent-skills)"
+USER_AGENT = (
+    "agent-skills-compliance-sources-refresh/0.2 "
+    "(+https://github.com/devopam/agent-skills)"
+)
+FETCH_TIMEOUT_SEC = 20
+MAX_BODY_BYTES = 2_000_000
 
 
 def load_registry() -> dict:
@@ -35,12 +41,31 @@ def load_registry() -> dict:
         return yaml.safe_load(f)
 
 
-def fetch(url: str, timeout: int = 60) -> tuple[bytes | None, str | None]:
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+def fetch(url: str, timeout: int = FETCH_TIMEOUT_SEC) -> tuple[bytes | None, str | None]:
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "text/html,application/xhtml+xml,application/pdf,*/*",
+        },
+    )
     try:
         with urllib.request.urlopen(req, timeout=timeout) as resp:
-            return resp.read(), None
-    except Exception as e:  # noqa: BLE001 — report any fetch failure
+            chunks: list[bytes] = []
+            total = 0
+            while True:
+                chunk = resp.read(64 * 1024)
+                if not chunk:
+                    break
+                total += len(chunk)
+                if total > MAX_BODY_BYTES:
+                    chunks.append(chunk[: max(0, MAX_BODY_BYTES - (total - len(chunk)))])
+                    break
+                chunks.append(chunk)
+            return b"".join(chunks), None
+    except (urllib.error.URLError, socket.timeout, TimeoutError, OSError) as e:
+        return None, f"{type(e).__name__}: {e}"
+    except Exception as e:  # noqa: BLE001
         return None, f"{type(e).__name__}: {e}"
 
 
@@ -77,6 +102,7 @@ def main() -> int:
         if meta_path.exists():
             prev = json.loads(meta_path.read_text(encoding="utf-8"))
 
+        print(f"Fetching {sid} ...", file=sys.stderr)
         body, err = fetch(url)
         status = "ok"
         new_hash = None
@@ -88,7 +114,9 @@ def main() -> int:
             new_hash = sha256(normalize(body))
             error_msg = None
 
-        changed = bool(prev.get("content_hash") and new_hash and prev["content_hash"] != new_hash)
+        changed = bool(
+            prev.get("content_hash") and new_hash and prev["content_hash"] != new_hash
+        )
         meta = {
             "id": sid,
             "primary_url": url,
@@ -105,7 +133,6 @@ def main() -> int:
         meta_path.write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
         rows.append(meta)
 
-        # Optional watch URLs — hash recorded under meta only as side note
         for wurl in src.get("watch_urls") or []:
             wbody, werr = fetch(wurl)
             wmeta_path = snap_dir / ("watch-" + sha256(wurl.encode())[:12] + ".json")
@@ -131,7 +158,9 @@ def main() -> int:
     changed_n = sum(1 for r in rows if r.get("changed"))
     failed_n = sum(1 for r in rows if r["status"] != "ok")
     print()
-    print(f"Changed: **{changed_n}** · Fetch errors: **{failed_n}** · Total: **{len(rows)}**")
+    print(
+        f"Changed: **{changed_n}** · Fetch errors: **{failed_n}** · Total: **{len(rows)}**"
+    )
     if changed_n:
         print()
         print(
@@ -139,7 +168,8 @@ def main() -> int:
             "`skills/regulatory-compliance-applicability-scan/references/packs/` "
             "if a primary hash change reflects substantive legal updates."
         )
-    return 0 if failed_n == 0 else 1
+    # Fetch errors are expected for some government portals; still emit report.
+    return 0
 
 
 if __name__ == "__main__":
