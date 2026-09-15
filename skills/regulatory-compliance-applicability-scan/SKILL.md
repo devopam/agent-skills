@@ -1,95 +1,59 @@
 ---
 name: regulatory-compliance-applicability-scan
-description: Maps which researched regulatory regimes may apply to a project (data privacy by region; healthcare/pharma and fintech domain overlays) and which obligation themes look met, partial, or missing — grounded in primary sources. Clearly states when a region or domain is not covered yet (e.g. Japan). Not certification or legal advice.
+description: Maps researched regulatory regimes (data privacy by region, including GDPR baseline plus EU member-state overlays when available; healthcare/pharma and fintech domains) to repo evidence. States clearly when a country nuance or domain is not covered. Not certification or legal advice.
 ---
 
 # Regulatory compliance applicability scan
 
-Produce an **applicability and gap-orientation** report for **packs that this
-skill actually covers**. This is **not** certification, **not** legal advice,
-and **not** a claim that the project is compliant.
+Applicability and gap-orientation for **packs that exist**. Not certification,
+not legal advice, not a compliance attestation.
 
-Ask questions one at a time in plain text.
+Ask questions one at a time.
 
-## Coverage (what we do and do not scan)
+## Coverage
 
-Authoritative detail:
-`research/regulatory-compliance-applicability-scan/07-coverage-matrix.md`
-and pack files under [references/packs/](references/packs/).
+See `research/regulatory-compliance-applicability-scan/07-coverage-matrix.md`
+and [08-eu-member-state-variations.md](../../../research/regulatory-compliance-applicability-scan/08-eu-member-state-variations.md).
 
-### In scope (roadmap — only run packs that exist as cards + registry)
+### Europe
 
-**Data privacy governance — regions**
+| Layer | Pack | Role |
+|-------|------|------|
+| Union baseline | `privacy-eu` | GDPR only |
+| National nuance | `privacy-eu-de`, `privacy-eu-fr`, `privacy-eu-it`, … | Member-state overlays when cards+registry exist |
 
-| Region | Pack direction |
-|--------|----------------|
-| Europe | `privacy-eu` (GDPR); later UK as separate pack |
-| India | `privacy-in` (DPDP) |
-| Americas | Country packs (e.g. US / Canada / Brazil) — not a single “Americas” blob |
-| Middle East | Country packs (e.g. UAE / KSA) as researched |
+If the user needs **Germany/France/Italy/…-specific** rules and the overlay is
+missing: say **Not covered** for that national nuance; optionally still run
+`privacy-eu`. **Do not invent** BDSG/CNIL/Codice requirements.
 
-**Product domains (first two verticals)**
+### Other privacy regions
 
-| Domain | Pack direction |
-|--------|----------------|
-| Healthcare / pharma | `domain-healthcare-pharma` |
-| Fintech | `domain-fintech` |
+India, Americas (per country), Middle East (per country) — as packs exist.
 
-### Not covered (examples)
+### Domains
 
-- **Japan** (and other countries/regions without a pack)
-- Domains other than healthcare/pharma and fintech
-- “Scan the whole world” / inventing obligations for unresearched law
+Healthcare/pharma, fintech — overlay packs when they exist.
 
-**Required behaviour:** If the user asks for an uncovered region or domain,
-state **Not covered** plainly, list **available** packs, and **do not invent**
-requirements. Offer to continue only with available packs, or stop.
+### Not covered examples
 
-A pack is runnable only if an obligation card exists under `references/packs/`
-and primary sources are listed in `compliance-sources/registry.yaml`.
+Japan; unresearched EU member states’ national law; other verticals.
 
-## Phase 0 — Intake and pack selection
+## Phase 0 — Intake
 
-1. Confirm target path.
-2. Collect jurisdictions, role, data classes, sector (healthcare/pharma,
-   fintech, other).
-3. Scan repo for signals; **suggest** only packs that are covered.
-4. If user requests Japan (or any gap): deliver the **Not covered** message.
-5. User confirms runnable pack list.
-6. Optional: write/update `docs/compliance-baseline.md` after the scan.
+1. Target path  
+2. Jurisdictions (**ask member state** when Europe is selected)  
+3. Role, data classes, sector  
+4. Suggest only **runnable** packs; decline gaps explicitly  
+5. Confirm pack list (e.g. `privacy-eu` + `privacy-eu-de` when both exist)  
 
-If no runnable packs remain, stop.
+## Phases 1–4
 
-## Phase 1 — Evidence pass
-
-Repo evidence only. Every gap needs a path or explicit “not found.”
-
-## Phase 2 — Obligation map
-
-Use confirmed pack cards only. Primary cites from cards/registry. Prefer live
-official URLs; note snapshot age when offline.
-
-## Phase 3 — Report
-
-Follow [assets/report-template.md](assets/report-template.md):
-
-1. Disclaimer
-2. **Coverage note** — what was requested vs what was scanned; explicit
-   not-covered list for this run
-3. Applicability table
-4. Obligation themes + evidence
-5. Findings by severity
-6. Remediation with primary cites
-7. Source appendix
-
-## Phase 4 — Baseline (optional)
-
-[assets/baseline-template.md](assets/baseline-template.md) →
-`docs/compliance-baseline.md`.
+Evidence pass → obligation map from **confirmed pack cards only** → report
+(with **Coverage for this run** and separate baseline vs overlay findings when
+both run) → optional baseline file.
 
 ## Boundaries
 
-- Never claim compliant / certified.
-- Never invent articles or unresearched country rules.
-- Secondary sources = interpretation aids only.
-- Hand off deep CI/security scaffolding to other skills where appropriate.
+- No “compliant” / certified claims  
+- No invented article or national section numbers  
+- Secondary sources = interpretation aids only  

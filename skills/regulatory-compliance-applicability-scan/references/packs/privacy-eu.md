@@ -1,41 +1,49 @@
-# Pack: privacy-eu (GDPR)
+# Pack: privacy-eu (GDPR — union baseline)
 
 **Primary:** Regulation (EU) 2016/679  
 **Registry id:** `eu-gdpr-2016-679`  
-**Official entry:** EUR-Lex CELEX `32016R0679`  
-**Snapshot:** see `compliance-sources/snapshots/eu-gdpr-2016-679/` after refresh
+**Official:** EUR-Lex CELEX `32016R0679`
 
-This card is an orientation structure for agents. Verify wording against the
-official text before reliance.
+## Scope
 
-## When to suggest this pack
+| In | Out |
+|----|-----|
+| GDPR obligations common across EU/EEA | Member-state derogations and national statutes |
+| | ePrivacy/cookie national regimes (unless separate overlay) |
+| | UK (use future `privacy-uk`) |
 
-- Users or customers in EU/EEA, or establishment in EU/EEA
-- Offering goods/services to individuals in EU/EEA or monitoring behaviour
-- Repo signals: “GDPR”, EU regions, EU legal entity
+For DE/FR/IT (etc.) nuance, use **`privacy-eu-*` overlays** when available;
+otherwise report **Not covered** for national-specific requirements.
+See research doc `08-eu-member-state-variations.md`.
+
+## When to suggest
+
+EU/EEA users, establishment, or monitoring; README “GDPR”; EU legal entity.
 
 ## Obligation themes (v0)
 
-| Theme | Primary anchors (indicative) | Repo signals |
-|-------|------------------------------|--------------|
-| Scope & roles | Arts. 1–4; Art. 24/28 (controller/processor) | Privacy policy role language; DPA templates |
-| Territorial / material scope | Arts. 2–3 | Markets; establishment; monitoring features |
-| Lawful basis & transparency | Arts. 5–6; 12–14 | Notices; consent UX; policy | 
-| Data subject rights | Arts. 15–22 | Export/delete flows; support runbooks |
-| Processors & subprocessors | Art. 28; Art. 32 (security) | Vendor list; DPA; SDK inventory |
-| International transfers | Arts. 44–49 | Cross-border hosting; SCCs mentions |
-| Security of processing | Art. 32 | Encryption, access control docs (high level) |
-| Personal data breaches | Arts. 33–34 | Incident runbook |
-| Accountability records | Arts. 5(2), 30 | ROPA-like docs; retention schedule |
+| Theme | Primary anchors | Repo signals |
+|-------|-----------------|--------------|
+| Scope & roles | Arts. 1–4; 24; 28 | Policy role language; DPAs |
+| Territorial / material scope | Arts. 2–3 | Markets; establishment |
+| Lawful basis & transparency | Arts. 5–6; 12–14 | Notices; consent UX |
+| Special categories | Art. 9 | Health/biometric flags |
+| Child consent age | Art. 8 | **Flag national age** — detail in overlays |
+| Data subject rights | Arts. 15–22 | Export/delete flows |
+| Processors | Art. 28 | Vendor/SDK list |
+| Transfers | Arts. 44–49 | Cross-border hosting; SCCs |
+| Security | Art. 32 | High-level security docs |
+| Breaches | Arts. 33–34 | Incident runbook |
+| Accountability | Arts. 5(2), 30 | ROPA-like docs; retention |
 
-## Typical Critical / Important gaps
+## Typical gaps
 
-- Processing personal data with **no** privacy notice or lawful-basis story
-- No path for access/erasure when the product clearly holds accounts
-- Unlisted subprocessors / analytics SDKs with no processor terms story
-- Transfers implied by US-only hosting with no transfer mechanism mentioned
+- Personal data processing with no notice/lawful-basis story  
+- No access/erasure path for account holders  
+- Analytics SDKs with no processor story  
+- Transfers with no mechanism mentioned  
 
-## Not assessed (unless evidence)
+## Not assessed here
 
-- DPIA necessity deep-dive, LIA, children’s age-gate product design details
-- National member-state derogations
+National employment/health laws, cookie-banner legality under national ePrivacy,
+member-state DPO thresholds — **overlays or Not covered**.

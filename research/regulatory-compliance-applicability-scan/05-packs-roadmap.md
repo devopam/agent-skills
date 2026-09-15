@@ -1,37 +1,31 @@
 # Packs roadmap
 
-See also **[07-coverage-matrix.md](07-coverage-matrix.md)** (authoritative
-available vs not-covered).
+See [07-coverage-matrix.md](07-coverage-matrix.md) and
+[08-eu-member-state-variations.md](08-eu-member-state-variations.md).
 
-## Domains (vertical) — first two
+## Implementation order
 
-| Pack id | Priority | Depends on |
-|---------|----------|------------|
-| `domain-healthcare-pharma` | 1 | Regional privacy packs in scope + health-specific primary sources |
-| `domain-fintech` | 1 | Regional privacy packs + payments/financial primary sources (e.g. PCI where applicable) |
+1. **`privacy-eu`** obligation cards + evals (union GDPR only; flag national openings)
+2. **`privacy-in`**
+3. **EU overlays (priority):** `privacy-eu-de`, `privacy-eu-fr`, `privacy-eu-it`
+4. Americas country packs → Middle East country packs
+5. `domain-fintech` / `domain-healthcare-pharma`
+6. Further EU member-state overlays as needed
 
-## Data privacy governance — regions
+## Domains
 
-| Pack id | Region | Priority | Primary orientation |
-|---------|--------|----------|---------------------|
-| `privacy-eu` | Europe | **Current** | GDPR Reg. (EU) 2016/679 |
-| `privacy-in` | India | Next | DPDP Act 2023 + rules / Gazette commencement |
-| `privacy-us` | Americas (US) | Next wave | Official US code / state statutes in scope — no fake “US GDPR” |
-| `privacy-ca` | Americas (Canada) | Next wave | PIPEDA / relevant federal text |
-| `privacy-br` | Americas (Brazil) | Next wave | LGPD official text |
-| `privacy-ae` | Middle East (UAE) | Next wave | UAE PDPL official text when locked in registry |
-| `privacy-sa` | Middle East (KSA) | Next wave | KSA PDPL official text when locked in registry |
-| `privacy-uk` | Europe (UK) | Later | UK GDPR / DPA path on legislation.gov.uk |
+| Pack | Priority |
+|------|----------|
+| `domain-healthcare-pharma` | 1 |
+| `domain-fintech` | 1 |
 
-## Explicitly out of roadmap until researched
+## Privacy packs
 
-Japan, Korea, Australia, Singapore, Africa, “global one-pack,” and any domain
-other than healthcare/pharma and fintech — **not covered**; skill must say so.
-
-## Implementation order (practical)
-
-1. Finish `privacy-eu` cards + evals + not-covered eval  
-2. `privacy-in`  
-3. Americas split (`privacy-us` first if US-heavy signals)  
-4. Middle East country packs  
-5. `domain-fintech` / `domain-healthcare-pharma` overlays with primary sources  
+| Pack | Notes |
+|------|--------|
+| `privacy-eu` | GDPR baseline — **no** fake national rules |
+| `privacy-eu-de/fr/it` | Member-state overlays — primary national statutes |
+| `privacy-in` | DPDP + commencement awareness |
+| `privacy-us/ca/br` | Americas |
+| `privacy-ae/sa` | Middle East |
+| `privacy-uk` | Later (not an EU overlay) |
