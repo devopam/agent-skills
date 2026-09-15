@@ -1,4 +1,4 @@
-# Registry — EU depth pass 2026-09-15
+# Registry — EU-27 + EEA complete 2026-09-15
 version: 1
 
 sources:
@@ -29,9 +29,6 @@ sources:
     citation: "BDSG"
     jurisdiction: [DE]
     primary_url: "https://www.gesetze-im-internet.de/bdsg_2018/BJNR209710017.html"
-    watch_urls:
-      - "https://www.gesetze-im-internet.de/englisch_bdsg"
-      - "https://www.gesetze-im-internet.de/bdsg_2018/"
     check_frequency: monthly
 
   - id: fr-loi-78-17
@@ -50,8 +47,6 @@ sources:
     citation: "D.Lgs. 196/2003"
     jurisdiction: [IT]
     primary_url: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196"
-    watch_urls:
-      - "https://www.gazzettaufficiale.it/dettaglio/codici/datiPersonali"
     check_frequency: monthly
 
   - id: es-lopdgdd
@@ -79,8 +74,6 @@ sources:
     citation: "Ustawa o ochronie danych osobowych 2018"
     jurisdiction: [PL]
     primary_url: "https://eli.gov.pl/eli/DU/2018/1000/ogl"
-    watch_urls:
-      - "https://isap.sejm.gov.pl/"
     check_frequency: monthly
 
   - id: se-dsa
@@ -90,8 +83,6 @@ sources:
     citation: "SFS 2018:218"
     jurisdiction: [SE]
     primary_url: "https://www.svenskforfattningssamling.se/doc/2018218.html"
-    watch_urls:
-      - "https://www.riksdagen.se/sv/dokument-och-lagar/"
     check_frequency: monthly
 
   - id: ie-dpa-2018
@@ -120,7 +111,6 @@ sources:
     jurisdiction: [AT]
     primary_url: "https://www.ris.bka.gv.at/"
     check_frequency: monthly
-    notes: "Search Datenschutzgesetz on RIS for current BGBl version."
 
   - id: pt-lei-58-2019
     pack: privacy-eu-pt
@@ -131,6 +121,177 @@ sources:
     primary_url: "https://diariodarepublica.pt/"
     check_frequency: monthly
 
+  - id: dk-databeskyttelsesloven
+    pack: privacy-eu-dk
+    role: primary
+    title: "Databeskyttelsesloven"
+    citation: "Databeskyttelsesloven"
+    jurisdiction: [DK]
+    primary_url: "https://www.retsinformation.dk/"
+    check_frequency: monthly
+
+  - id: fi-tietosuojalaki
+    pack: privacy-eu-fi
+    role: primary
+    title: "Tietosuojalaki 1050/2018"
+    citation: "1050/2018"
+    jurisdiction: [FI]
+    primary_url: "https://www.finlex.fi/fi/lainsaadanto/2018/1050"
+    check_frequency: monthly
+
+  - id: cz-110-2019
+    pack: privacy-eu-cz
+    role: primary
+    title: "Act 110/2019 Sb."
+    citation: "Zákon č. 110/2019 Sb."
+    jurisdiction: [CZ]
+    primary_url: "https://www.zakonyprolidi.cz/"
+    check_frequency: monthly
+
+  - id: gr-4624-2019
+    pack: privacy-eu-gr
+    role: primary
+    title: "Law 4624/2019"
+    citation: "Law 4624/2019"
+    jurisdiction: [GR]
+    primary_url: "https://www.et.gr/"
+    check_frequency: monthly
+
+  - id: hu-infotv
+    pack: privacy-eu-hu
+    role: primary
+    title: "Hungarian Infotv / GDPR implementation"
+    citation: "Hungarian DP act"
+    jurisdiction: [HU]
+    primary_url: "https://njt.hu/"
+    check_frequency: monthly
+
+  - id: ro-190-2018
+    pack: privacy-eu-ro
+    role: primary
+    title: "Law 190/2018"
+    citation: "Law 190/2018"
+    jurisdiction: [RO]
+    primary_url: "https://legislatie.just.ro/"
+    check_frequency: monthly
+
+  - id: bg-pdpa
+    pack: privacy-eu-bg
+    role: primary
+    title: "Bulgarian PDPA"
+    citation: "Personal Data Protection Act"
+    jurisdiction: [BG]
+    primary_url: "https://www.cpdp.bg/"
+    check_frequency: monthly
+
+  - id: hr-gdpr-implementation
+    pack: privacy-eu-hr
+    role: primary
+    title: "Croatian GDPR implementation act"
+    citation: "Zakon o provedbi GDPR"
+    jurisdiction: [HR]
+    primary_url: "https://narodne-novine.nn.hr/"
+    check_frequency: monthly
+
+  - id: sk-18-2018
+    pack: privacy-eu-sk
+    role: primary
+    title: "Act 18/2018 Coll."
+    citation: "Act No. 18/2018"
+    jurisdiction: [SK]
+    primary_url: "https://www.slov-lex.sk/"
+    check_frequency: monthly
+
+  - id: si-zvop
+    pack: privacy-eu-si
+    role: primary
+    title: "ZVOP (Slovenia)"
+    citation: "ZVOP"
+    jurisdiction: [SI]
+    primary_url: "https://www.uradni-list.si/"
+    check_frequency: monthly
+
+  - id: lt-pd-law
+    pack: privacy-eu-lt
+    role: primary
+    title: "Lithuanian personal data law"
+    citation: "Lithuanian PD law"
+    jurisdiction: [LT]
+    primary_url: "https://www.e-tar.lt/"
+    check_frequency: monthly
+
+  - id: lv-pdpl
+    pack: privacy-eu-lv
+    role: primary
+    title: "Latvian Personal Data Processing Law"
+    citation: "PDPL Latvia"
+    jurisdiction: [LV]
+    primary_url: "https://likumi.lv/"
+    check_frequency: monthly
+
+  - id: ee-ikks
+    pack: privacy-eu-ee
+    role: primary
+    title: "Estonian Personal Data Protection Act"
+    citation: "IKKS"
+    jurisdiction: [EE]
+    primary_url: "https://www.riigiteataja.ee/"
+    check_frequency: monthly
+
+  - id: lu-2018-gdpr
+    pack: privacy-eu-lu
+    role: primary
+    title: "Luxembourg law 1 Aug 2018"
+    citation: "Loi 1er août 2018"
+    jurisdiction: [LU]
+    primary_url: "https://legilux.public.lu/"
+    check_frequency: monthly
+
+  - id: mt-dpa
+    pack: privacy-eu-mt
+    role: primary
+    title: "Malta Data Protection Act Cap. 586"
+    citation: "Cap. 586"
+    jurisdiction: [MT]
+    primary_url: "https://legislation.mt/"
+    check_frequency: monthly
+
+  - id: cy-125i-2018
+    pack: privacy-eu-cy
+    role: primary
+    title: "Cyprus Law 125(I)/2018"
+    citation: "Law 125(I)/2018"
+    jurisdiction: [CY]
+    primary_url: "https://www.cylaw.org/"
+    check_frequency: monthly
+
+  - id: no-personopplysningsloven
+    pack: privacy-eu-no
+    role: primary
+    title: "Personopplysningsloven"
+    citation: "LOV-2018-06-15-38"
+    jurisdiction: [NO]
+    primary_url: "https://lovdata.no/lov/2018-06-15-38"
+    check_frequency: monthly
+
+  - id: is-90-2018
+    pack: privacy-eu-is
+    role: primary
+    title: "Iceland Act 90/2018"
+    citation: "Act No. 90/2018"
+    jurisdiction: [IS]
+    primary_url: "https://www.althingi.is/"
+    check_frequency: monthly
+
+  - id: li-dsg
+    pack: privacy-eu-li
+    role: primary
+    title: "Liechtenstein DSG"
+    citation: "DSG LI"
+    jurisdiction: [LI]
+    primary_url: "https://www.gesetze.li/"
+    check_frequency: monthly
+
   - id: in-dpdp-act-2023
     pack: privacy-in
     role: primary
@@ -138,7 +299,6 @@ sources:
     citation: "DPDP Act, 2023"
     jurisdiction: [IN]
     primary_url: "https://www.indiacode.nic.in/"
-    watch_urls: ["https://www.meity.gov.in/"]
     check_frequency: monthly
 
   - id: us-ca-ccpa-civil-code
@@ -238,7 +398,6 @@ sources:
     citation: "PIPL"
     jurisdiction: [CN]
     primary_url: "http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html"
-    watch_urls: ["http://en.npc.gov.cn.cdurl.cn/2021-12/29/c_694559.htm"]
     check_frequency: monthly
 
   - id: kr-pipa
@@ -266,7 +425,6 @@ sources:
     citation: "152-FZ"
     jurisdiction: [RU]
     primary_url: "http://pravo.gov.ru/"
-    watch_urls: ["https://www.consultant.ru/document/cons_doc_LAW_61801/"]
     check_frequency: monthly
 
   - id: sg-pdpa

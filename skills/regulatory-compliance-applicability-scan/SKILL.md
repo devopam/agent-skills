@@ -1,23 +1,20 @@
 ---
 name: regulatory-compliance-applicability-scan
-description: Maps researched privacy regimes across EU (GDPR + multiple member-state overlays), Americas (CA CCPA and other US state acts, PIPEDA, LGPD), Asia (PIPL, PIPA, APPI, PDPA, DPDP), ME, AU, RU, plus fintech/healthcare domain overlays. Declines missing packs. Not legal advice or certification.
+description: Maps researched privacy regimes — GDPR plus full EU-27 and EEA (NO/IS/LI) national overlays, plus selected Americas/Asia/ME/AU packs and fintech/healthcare domains — to repo evidence. Declines missing packs. Not legal advice or certification.
 ---
 
 # Regulatory compliance applicability scan
 
-See [references/packs/README.md](references/packs/README.md) for the **only**
-runnable inclusion list. Authentic statute language prevails over translations.
+Runnable packs only: [references/packs/README.md](references/packs/README.md).
 
-Ask questions one at a time. **Not covered** for any jurisdiction absent from
-that list — do not invent law.
+**Europe:** Always use `privacy-eu` (GDPR) for EU/EEA scope; add `privacy-eu-{cc}` when a specific member state or EEA state matters. UK is not in this set.
 
-## Phase 0–4
+Ask questions one at a time. **Not covered** if absent from the inventory.
 
-Intake (member state / US state when relevant) → evidence → obligation map from
-confirmed cards → report with coverage table → optional baseline.
+## Phases
 
-Pair EU overlays with `privacy-eu`. Pair domains with regional privacy.
+0 Intake (member state when Europe) → 1 Evidence → 2 Obligation map → 3 Report → 4 Optional baseline.
 
 ## Boundaries
 
-No compliant/certified claims; no invented cites; secondary sources are aids only.
+No compliant/certified claims; no invented cites; authentic language prevails.
