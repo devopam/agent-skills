@@ -1,22 +1,26 @@
 # Packs roadmap
 
-## Current wave (runnable cards on main)
+## Release posture
+
+**0.15.0 deferred** until coverage expansion is a logical win (not a partial
+first-wave-only ship). Continue research → cards → evals before plugin bump.
+
+## Current wave (runnable)
 
 privacy-eu ± de/fr/it · privacy-in · privacy-us/ca/br · privacy-ae/sa ·
 domain-fintech · domain-healthcare-pharma
 
-## Next implementation (planner)
+## Coverage expansion (in progress)
 
-1. Harden evals (generic not-covered; overlay pairing; domain gates)  
-2. Refresh workflow dry-run  
-3. README + plugin release candidate  
-4. **Major-economy privacy packs** (primary sources first):  
-   - `privacy-cn` (PIPL …)  
-   - `privacy-kr` (PIPA …)  
-   - `privacy-ru` (152-FZ lineage …)  
-   - `privacy-jp` (APPI …)  
-5. Further EU overlays and US states as demand dictates  
+| Pack | Research | Cards | Evals |
+|------|----------|-------|-------|
+| privacy-cn (PIPL) | Started | — | — |
+| privacy-kr (PIPA) | Started | — | — |
+| privacy-jp (APPI) | Started | — | — |
+| privacy-ru (152-FZ) | Started | — | — |
 
-## Domains later
+Then: further EU overlays, more US states, free-zone regimes.
 
-Additional verticals only after research — same runnable bar.
+## Infra
+
+Refresh script: **3 attempts**, backoff 2s/5s/10s, 20s timeout (see 04-refresh-job).

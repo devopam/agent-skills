@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
 """Registry-driven refresh for compliance-sources snapshots.
 
-Reads compliance-sources/registry.yaml, fetches primary_url (and watch_urls),
-writes snapshots/<id>/meta.json with content_hash and retrieved_at.
-Prints a markdown summary suitable for a PR body.
-
-Does not commit or open PRs — the workflow handles git/gh.
+Fetches primary_url (and watch_urls) with timed retries + backoff on failure.
+Writes snapshots/<id>/meta.json. Prints markdown summary for PR bodies.
 """
 
 from __future__ import annotations
@@ -14,6 +11,7 @@ import hashlib
 import json
 import socket
 import sys
+import time
 import urllib.error
 import urllib.request
 from datetime import datetime, timezone
@@ -29,11 +27,14 @@ ROOT = Path(__file__).resolve().parents[2]
 REGISTRY = ROOT / "compliance-sources" / "registry.yaml"
 SNAPSHOTS = ROOT / "compliance-sources" / "snapshots"
 USER_AGENT = (
-    "agent-skills-compliance-sources-refresh/0.2 "
+    "agent-skills-compliance-sources-refresh/0.3 "
     "(+https://github.com/devopam/agent-skills)"
 )
 FETCH_TIMEOUT_SEC = 20
 MAX_BODY_BYTES = 2_000_000
+# Timed retries for transient portal failures / timeouts
+MAX_ATTEMPTS = 3
+BACKOFF_SEC = (2.0, 5.0, 10.0)  # before attempt 2, 3, (unused 4th)
 
 
 def load_registry() -> dict:
@@ -41,7 +42,7 @@ def load_registry() -> dict:
         return yaml.safe_load(f)
 
 
-def fetch(url: str, timeout: int = FETCH_TIMEOUT_SEC) -> tuple[bytes | None, str | None]:
+def fetch_once(url: str, timeout: int = FETCH_TIMEOUT_SEC) -> tuple[bytes | None, str | None]:
     req = urllib.request.Request(
         url,
         headers={
@@ -59,7 +60,9 @@ def fetch(url: str, timeout: int = FETCH_TIMEOUT_SEC) -> tuple[bytes | None, str
                     break
                 total += len(chunk)
                 if total > MAX_BODY_BYTES:
-                    chunks.append(chunk[: max(0, MAX_BODY_BYTES - (total - len(chunk)))])
+                    remain = MAX_BODY_BYTES - (total - len(chunk))
+                    if remain > 0:
+                        chunks.append(chunk[:remain])
                     break
                 chunks.append(chunk)
             return b"".join(chunks), None
@@ -69,8 +72,25 @@ def fetch(url: str, timeout: int = FETCH_TIMEOUT_SEC) -> tuple[bytes | None, str
         return None, f"{type(e).__name__}: {e}"
 
 
+def fetch(url: str) -> tuple[bytes | None, str | None, int]:
+    """Return (body, error, attempts_used). Retries on failure with backoff."""
+    last_err: str | None = None
+    for attempt in range(1, MAX_ATTEMPTS + 1):
+        body, err = fetch_once(url)
+        if body is not None and not err:
+            return body, None, attempt
+        last_err = err or "empty body"
+        if attempt < MAX_ATTEMPTS:
+            delay = BACKOFF_SEC[attempt - 1]
+            print(
+                f"  retry {attempt}/{MAX_ATTEMPTS} after {delay}s: {last_err}",
+                file=sys.stderr,
+            )
+            time.sleep(delay)
+    return None, last_err, MAX_ATTEMPTS
+
+
 def normalize(data: bytes) -> bytes:
-    """Light normalization to reduce pure-noise hash churn."""
     text = data.decode("utf-8", errors="replace")
     lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
     return "\n".join(lines).encode("utf-8")
@@ -103,7 +123,7 @@ def main() -> int:
             prev = json.loads(meta_path.read_text(encoding="utf-8"))
 
         print(f"Fetching {sid} ...", file=sys.stderr)
-        body, err = fetch(url)
+        body, err, attempts = fetch(url)
         status = "ok"
         new_hash = None
         if err or body is None:
@@ -124,6 +144,7 @@ def main() -> int:
             "content_hash": new_hash,
             "status": status,
             "error": error_msg,
+            "attempts": attempts,
             "previous_hash": prev.get("content_hash"),
             "changed": changed,
             "pack": src.get("pack"),
@@ -134,7 +155,7 @@ def main() -> int:
         rows.append(meta)
 
         for wurl in src.get("watch_urls") or []:
-            wbody, werr = fetch(wurl)
+            wbody, werr, _wattempts = fetch(wurl)
             wmeta_path = snap_dir / ("watch-" + sha256(wurl.encode())[:12] + ".json")
             wmeta = {
                 "url": wurl,
@@ -149,17 +170,23 @@ def main() -> int:
     print()
     print(f"Retrieved at: `{now}`")
     print()
-    print("| id | status | changed | pack |")
-    print("|----|--------|---------|------|")
+    print("| id | status | attempts | changed | pack |")
+    print("|----|--------|----------|---------|------|")
     for r in rows:
         print(
-            f"| `{r['id']}` | {r['status']} | {r.get('changed')} | {r.get('pack')} |"
+            f"| `{r['id']}` | {r['status']} | {r.get('attempts')} | "
+            f"{r.get('changed')} | {r.get('pack')} |"
         )
     changed_n = sum(1 for r in rows if r.get("changed"))
     failed_n = sum(1 for r in rows if r["status"] != "ok")
     print()
     print(
         f"Changed: **{changed_n}** · Fetch errors: **{failed_n}** · Total: **{len(rows)}**"
+    )
+    print()
+    print(
+        f"Retry policy: up to **{MAX_ATTEMPTS}** attempts per URL, "
+        f"backoff {list(BACKOFF_SEC)}s, timeout {FETCH_TIMEOUT_SEC}s."
     )
     if changed_n:
         print()
@@ -168,7 +195,6 @@ def main() -> int:
             "`skills/regulatory-compliance-applicability-scan/references/packs/` "
             "if a primary hash change reflects substantive legal updates."
         )
-    # Fetch errors are expected for some government portals; still emit report.
     return 0
 
 

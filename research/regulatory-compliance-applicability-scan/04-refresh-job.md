@@ -2,28 +2,22 @@
 
 ## Goals
 
-- Detect changes at official primary URLs (and optional watch URLs)
-- Update `last_checked` / `content_hash` under `compliance-sources/snapshots/`
-- **Open a PR** for human review — never silent-merge legal-source changes
-- Scale by registry only (new sources = new YAML rows)
+- Detect changes at official primary URLs
+- Update snapshots; open a **PR** (never silent-merge legal sources)
+- Survive flaky government portals via **timed retries**
+
+## Retry policy (script)
+
+| Parameter | Value |
+|-----------|--------|
+| Max attempts | 3 |
+| Backoff | 2s, 5s, 10s between attempts |
+| Per-request timeout | 20s |
+| Max body | 2 MB (hash sample) |
+
+`fetch_error` after retries still writes meta (keeps previous hash) and is
+reported in the PR table — maintainers may swap `primary_url` or re-run.
 
 ## Workflow
 
-- File: `.github/workflows/compliance-sources-refresh.yml`
-- Schedule: monthly + `workflow_dispatch`
-- Script: `scripts/compliance-sources/refresh.py`
-
-## Algorithm
-
-1. Load `compliance-sources/registry.yaml`
-2. For each source with `check_frequency` in {monthly, weekly}:
-   - GET `primary_url` (and `watch_urls` if any)
-   - Normalize body where practical; SHA-256 hash
-   - Compare to existing `meta.json`
-3. Write updated meta; collect changed / failed / unchanged
-4. Create PR with summary table
-
-## Maintainer follow-up on “changed”
-
-- Page redesign only → accept hash update
-- Substantive legal change → update obligation cards + evals + CHANGELOG note
+`.github/workflows/compliance-sources-refresh.yml` — monthly + `workflow_dispatch`.
