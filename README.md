@@ -7,7 +7,9 @@ frontmatter, plus optional `references/`, `scripts/`, and `assets/`
 subfolders). Skills here work with any agentskills.io-compliant client —
 Claude Code, and the broader [client showcase](https://agentskills.io/clients).
 
-**Current version:** `0.14.0` (see [CHANGELOG.md](CHANGELOG.md)).
+**Current version:** `0.14.0` (see [CHANGELOG.md](CHANGELOG.md)).  
+**On main (Unreleased):** `regulatory-compliance-applicability-scan` (first-wave
+packs + evals; not yet in the plugin version bump).
 
 **Documentation:** [devopam.github.io/agent-skills](https://devopam.github.io/agent-skills/) · **Agent index:** [llms.txt](https://devopam.github.io/agent-skills/llms.txt)
 
@@ -21,6 +23,7 @@ Claude Code, and the broader [client showcase](https://agentskills.io/clients).
 | [`pr-review`](skills/pr-review/) | Pre-submit / PR readiness — hooks, blast radius, tests, docs/changelog, CI readiness, diff-scoped security. | Before opening or updating a PR, or reviewing someone else's PR. |
 | [`postgresql-review`](skills/postgresql-review/) | Live PostgreSQL review (health, schema, indexes, workload, maintenance, security, hygiene) after **MCPg readiness** (install/config/reachability for the target DB and schemas). Scored report; suggested remediations only. | Auditing Postgres, production readiness, performance or security posture when MCPg can reach the database. |
 | [`ui-system-review`](skills/ui-system-review/) | Audits UI **system** consistency — tokens, shared components, themes, icons/media, form factors (**Web** responsive; **Apple/SwiftUI**; **Android/Compose**) — scored report plus remediation suggestions. | Design-system drift, mixed component libraries, token hardcoding, responsive/tablet discipline on an existing app. |
+| [`regulatory-compliance-applicability-scan`](skills/regulatory-compliance-applicability-scan/) | **(Unreleased on main)** Maps **runnable** privacy/domain packs to repo evidence (GDPR + DE/FR/IT overlays, India DPDP, CA CCPA/CPRA, PIPEDA, LGPD, UAE/Saudi PDPL; fintech/PCI + healthcare/HIPAA gates). Declines any jurisdiction without a pack. Primary-source registry + monthly refresh. **Not legal advice or certification.** | Applicability / gap orientation for privacy regimes you actually have packs for; multi-market intake. |
 
 ## Using a skill
 
@@ -49,8 +52,8 @@ No separate “plugin product” is required beyond this manifest + the
 
 ## Evals
 
-Hand-authored trust cases live under [`evals/`](evals/) — one suite per skill
-(**62** cases in 0.14.0). See [`evals/README.md`](evals/README.md).
+Hand-authored trust cases live under [`evals/`](evals/) — one suite per skill.
+See [`evals/README.md`](evals/README.md) (**73** cases on main including regulatory).
 
 ## Knowledge graph (graphify)
 
@@ -61,10 +64,9 @@ cache paths are gitignored. Not a runtime dependency of any skill.
 
 ## Roadmap
 
-- **Shipped (0.14.0):** six skills, including `ui-system-review` with Web +
-  Apple + Android packs
-- Deeper remediation playbooks; optional live browser/device checks when users
-  provide tooling
+- **Shipped (0.14.0):** six skills, including `ui-system-review`
+- **Main (Unreleased):** `regulatory-compliance-applicability-scan` first wave;
+  later major-economy packs (CN, KR, RU, JP, …)
 - Evals execution when `claude plugin eval` enrollment allows
 
 ## Repo conventions

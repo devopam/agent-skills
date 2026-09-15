@@ -7,17 +7,16 @@ versioning follows [Semantic Versioning](https://semver.org/).
 ## [Unreleased]
 
 ### Added
-- **`regulatory-compliance-applicability-scan` (near-complete v0 content):**
-  - Hybrid registry + monthly refresh workflow; coverage matrix; EU
-    member-state overlay model; Not-covered rule
-  - **Runnable packs:** privacy-eu, privacy-eu-de/fr/it, privacy-in,
-    privacy-us (CA), privacy-ca, privacy-br, privacy-ae, privacy-sa,
-    domain-fintech, domain-healthcare-pharma
-  - Registry primaries: GDPR, BDSG, Loi 78-17, Codice 196/2003, DPDP,
-    CCPA entry, PIPEDA, LGPD, UAE PDPL, Saudi PDPL, PCI DSS, HIPAA 45 CFR 164
-  - **7 evals** (disclaimer, coverage, GDPR gap, Japan, DE overlay, no
-    invented articles, suggest-not-certify)
-  - Not in plugin release yet
+- **`regulatory-compliance-applicability-scan` (v0 content on main):**
+  - Runnable packs: privacy-eu ± de/fr/it, privacy-in, privacy-us/ca/br,
+    privacy-ae/sa, domain-fintech, domain-healthcare-pharma
+  - Hybrid registry + monthly refresh workflow; coverage matrix; EU overlay
+    model; generic **Not covered** for any missing jurisdiction (CN/KR/RU/JP
+    planned later — not special-case keywords)
+  - **11 evals** (disclaimer, coverage, GDPR gap, unpacked jurisdiction,
+    DE limits, no invented articles, suggest-not-certify, DE overlay pairing,
+    HIPAA gate, PCI no-certify, multi-jurisdiction intake)
+  - README documents skill as Unreleased pending plugin version bump
 
 ## [0.14.0] - 2026-09-11
 

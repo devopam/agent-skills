@@ -15,9 +15,9 @@ Each case: `prompt.md` + `graders/criteria.md`.
 | `pr-review` | 7 | Pre-submit, tests, secrets, blast radius |
 | `postgresql-review` | 6 | MCPg readiness, scorecard |
 | `ui-system-review` | 11 | Web/Apple/Android, remediation, fixture |
-| `regulatory-compliance-applicability-scan` | 7 | Disclaimer, coverage, GDPR gaps, not-covered Japan/DE, no invented articles |
+| `regulatory-compliance-applicability-scan` | 11 | Disclaimer, coverage, GDPR, overlays, domain gates, multi-jurisdiction |
 
-**Total:** 69 hand-authored cases (62 at 0.14.0 + 7 regulatory on main).
+**Total:** 73 hand-authored cases (62 at 0.14.0 + 11 regulatory on main).
 
 ## Known limitation
 
