@@ -1,10 +1,11 @@
 # Canonical source registry for regulatory-compliance-applicability-scan
 # Refresh: scripts/compliance-sources/refresh.py + monthly workflow → PR
-# Snapshot date for initial authoring: 2026-09-15
+# Registry authoring snapshot: 2026-09-15
 
 version: 1
 
 sources:
+  # --- Europe ---
   - id: eu-gdpr-2016-679
     pack: privacy-eu
     role: primary
@@ -12,35 +13,100 @@ sources:
     citation: "Regulation (EU) 2016/679"
     jurisdiction: [EU, EEA]
     primary_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679"
-    # Consolidated display (documentation tool; verify against official act):
     watch_urls:
       - "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02016R0679-20160504"
     check_frequency: monthly
-    notes: "Prefer EUR-Lex official act; consolidated text is a documentation aid."
+    notes: "Consolidated EUR-Lex view is a documentation aid."
 
+  - id: edpb-guidelines-index
+    pack: privacy-eu
+    role: interpretation_aid
+    title: "EDPB — GDPR guidelines index"
+    citation: "EDPB Guidelines (interpretation aid)"
+    jurisdiction: [EU, EEA]
+    primary_url: "https://www.edpb.europa.eu/our-work-tools/general-guidance/gdpr-guidelines-recommendations-best-practices_en"
+    check_frequency: monthly
+
+  # --- India ---
   - id: in-dpdp-act-2023
     pack: privacy-in
     role: primary
     title: "Digital Personal Data Protection Act, 2023 (Act No. 22 of 2023)"
     citation: "Digital Personal Data Protection Act, 2023"
     jurisdiction: [IN]
-    # Gazette / official publication channels evolve; maintainers should prefer
-    # egazette / India Code / MeitY-hosted authentic text when updating URLs.
     primary_url: "https://www.meity.gov.in/"
-    watch_urls: []
     check_frequency: monthly
     notes: >
-      Act enacted 11 Aug 2023. Commencement is staggered by Gazette notification
-      (e.g. G.S.R. notifications). Obligation cards must track which sections are
-      in force. Replace primary_url with a stable official full-text URL when
-      maintainers lock one (India Code / Gazette PDF).
+      Prefer India Code / Gazette full-text URL when maintainers lock it.
+      Commencement is staggered — obligation cards must track in-force status.
 
-  - id: edpb-guidelines-index
-    pack: privacy-eu
-    role: interpretation_aid
-    title: "European Data Protection Board — Guidelines"
-    citation: "EDPB Guidelines (interpretation aid)"
-    jurisdiction: [EU, EEA]
-    primary_url: "https://www.edpb.europa.eu/our-work-tools/general-guidance/gdpr-guidelines-recommendations-best-practices_en"
+  # --- Americas ---
+  - id: us-ca-ccpa-civil-code
+    pack: privacy-us
+    role: primary
+    title: "California Civil Code — CCPA/CPRA provisions (e.g. § 1798.100 et seq.)"
+    citation: "Cal. Civ. Code § 1798.100 et seq."
+    jurisdiction: [US-CA]
+    primary_url: "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.100"
     check_frequency: monthly
-    notes: "Not a substitute for the Regulation text."
+    notes: "Entry point section; full Title 1.81.5 must be consulted for rights/definitions."
+
+  - id: ca-pipeda
+    pack: privacy-ca
+    role: primary
+    title: "Personal Information Protection and Electronic Documents Act (PIPEDA)"
+    citation: "S.C. 2000, c. 5 (PIPEDA)"
+    jurisdiction: [CA]
+    primary_url: "https://laws-lois.justice.gc.ca/ENG/ACTS/P-8.6/index.html"
+    check_frequency: monthly
+
+  - id: br-lgpd-13709
+    pack: privacy-br
+    role: primary
+    title: "Lei nº 13.709/2018 (LGPD)"
+    citation: "Lei nº 13.709, de 14 de agosto de 2018"
+    jurisdiction: [BR]
+    primary_url: "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
+    check_frequency: monthly
+
+  # --- Middle East ---
+  - id: ae-pdpl-45-2021
+    pack: privacy-ae
+    role: primary
+    title: "UAE Federal Decree-Law No. 45 of 2021 (Personal Data Protection)"
+    citation: "Federal Decree-Law No. 45 of 2021"
+    jurisdiction: [AE]
+    primary_url: "https://uaelegislation.gov.ae/en/legislations/1972"
+    check_frequency: monthly
+    notes: "Arabic text prevails on conflict with translation."
+
+  - id: sa-pdpl-sdaia
+    pack: privacy-sa
+    role: primary
+    title: "Saudi Personal Data Protection Law (SDAIA portal)"
+    citation: "Saudi PDPL (SDAIA)"
+    jurisdiction: [SA]
+    primary_url: "https://sdaia.gov.sa/en/Research/Pages/DataProtection.aspx"
+    check_frequency: monthly
+    notes: "Prefer official Law PDF / Implementing Regulation URLs when locked."
+
+  # --- Domain overlays ---
+  - id: pci-dss-ssc
+    pack: domain-fintech
+    role: primary
+    title: "PCI Data Security Standard (PCI SSC)"
+    citation: "PCI DSS (PCI Security Standards Council)"
+    jurisdiction: [global-payments]
+    primary_url: "https://www.pcisecuritystandards.org/standards/"
+    check_frequency: monthly
+    notes: "Industry standard; not a statute. Document library may require acceptance."
+
+  - id: us-hipaa-45-cfr-164
+    pack: domain-healthcare-pharma
+    role: primary
+    title: "HIPAA Security and Privacy — 45 CFR Part 164"
+    citation: "45 CFR Part 164"
+    jurisdiction: [US]
+    primary_url: "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164"
+    check_frequency: monthly
+    notes: "eCFR is continuously updated; unofficial editorial compilation vs paper CFR."
