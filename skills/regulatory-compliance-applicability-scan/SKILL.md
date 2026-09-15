@@ -1,64 +1,95 @@
 ---
 name: regulatory-compliance-applicability-scan
-description: Maps which regulatory regimes may apply to a project (privacy and related domains) and which obligation themes look met, partial, or missing in the repo — grounded in primary legal sources via a hybrid registry/snapshots model. Use when assessing GDPR/DPDP applicability, privacy compliance readiness, or regulatory gap orientation — not for certification or legal advice.
+description: Maps which researched regulatory regimes may apply to a project (data privacy by region; healthcare/pharma and fintech domain overlays) and which obligation themes look met, partial, or missing — grounded in primary sources. Clearly states when a region or domain is not covered yet (e.g. Japan). Not certification or legal advice.
 ---
 
 # Regulatory compliance applicability scan
 
-Produce an **applicability and gap-orientation** report for selected regulatory
-packs. This is **not** a certification, **not** legal advice, and **not** a
-declaration that the project is compliant.
+Produce an **applicability and gap-orientation** report for **packs that this
+skill actually covers**. This is **not** certification, **not** legal advice,
+and **not** a claim that the project is compliant.
 
 Ask questions one at a time in plain text.
+
+## Coverage (what we do and do not scan)
+
+Authoritative detail:
+`research/regulatory-compliance-applicability-scan/07-coverage-matrix.md`
+and pack files under [references/packs/](references/packs/).
+
+### In scope (roadmap — only run packs that exist as cards + registry)
+
+**Data privacy governance — regions**
+
+| Region | Pack direction |
+|--------|----------------|
+| Europe | `privacy-eu` (GDPR); later UK as separate pack |
+| India | `privacy-in` (DPDP) |
+| Americas | Country packs (e.g. US / Canada / Brazil) — not a single “Americas” blob |
+| Middle East | Country packs (e.g. UAE / KSA) as researched |
+
+**Product domains (first two verticals)**
+
+| Domain | Pack direction |
+|--------|----------------|
+| Healthcare / pharma | `domain-healthcare-pharma` |
+| Fintech | `domain-fintech` |
+
+### Not covered (examples)
+
+- **Japan** (and other countries/regions without a pack)
+- Domains other than healthcare/pharma and fintech
+- “Scan the whole world” / inventing obligations for unresearched law
+
+**Required behaviour:** If the user asks for an uncovered region or domain,
+state **Not covered** plainly, list **available** packs, and **do not invent**
+requirements. Offer to continue only with available packs, or stop.
+
+A pack is runnable only if an obligation card exists under `references/packs/`
+and primary sources are listed in `compliance-sources/registry.yaml`.
 
 ## Phase 0 — Intake and pack selection
 
 1. Confirm target path.
-2. Collect jurisdictions, role (controller/processor/etc.), data classes, sector.
-3. Scan the repo for signals (privacy policy, SDKs, payment/health terms,
-   region config). **Suggest** packs; do not auto-run unconfirmed packs.
-4. User confirms pack list (v0 focus: `privacy-eu`; `privacy-in` when cards exist).
-5. Ask whether to write/update `docs/compliance-baseline.md` after the scan.
+2. Collect jurisdictions, role, data classes, sector (healthcare/pharma,
+   fintech, other).
+3. Scan repo for signals; **suggest** only packs that are covered.
+4. If user requests Japan (or any gap): deliver the **Not covered** message.
+5. User confirms runnable pack list.
+6. Optional: write/update `docs/compliance-baseline.md` after the scan.
 
-If the user declines all packs, stop.
+If no runnable packs remain, stop.
 
 ## Phase 1 — Evidence pass
 
-Gather repo evidence only: docs, configs, data-flow hints, vendor SDKs,
-auth/session, logging/retention mentions, DPA templates, subprocessors lists.
-
-**Evidence rule:** every gap needs a path or an explicit “not found in tree.”
-Do not invent processing activities.
+Repo evidence only. Every gap needs a path or explicit “not found.”
 
 ## Phase 2 — Obligation map
 
-For each confirmed pack, use
-[references/packs/](references/packs/) obligation cards. Map themes to
-**primary cites** from the card/registry. Consult
-`compliance-sources/registry.yaml` and snapshot `meta.json` for URLs and
-freshness; prefer live official text when reachable.
+Use confirmed pack cards only. Primary cites from cards/registry. Prefer live
+official URLs; note snapshot age when offline.
 
 ## Phase 3 — Report
 
 Follow [assets/report-template.md](assets/report-template.md):
 
-1. Mandatory disclaimer
-2. Applicability table
-3. Obligation themes + evidence labels
-4. Findings Critical → Important → Minor → Not assessed
-5. Remediation with **article/section cite** + evidence
-6. Source appendix (registry ids, URLs, snapshot ages)
+1. Disclaimer
+2. **Coverage note** — what was requested vs what was scanned; explicit
+   not-covered list for this run
+3. Applicability table
+4. Obligation themes + evidence
+5. Findings by severity
+6. Remediation with primary cites
+7. Source appendix
 
 ## Phase 4 — Baseline (optional)
 
-If requested, write [assets/baseline-template.md](assets/baseline-template.md)
-style content to `docs/compliance-baseline.md`.
+[assets/baseline-template.md](assets/baseline-template.md) →
+`docs/compliance-baseline.md`.
 
 ## Boundaries
 
-- Never claim the project is compliant or certified.
-- Never invent article numbers; only use pack cards / registry.
-- Secondary sources (EDPB, blogs) are interpretation aids only.
-- Suggest policies and control directions; do not file with regulators.
-- Hand off security-control depth to other skills where appropriate;
-  CI/CD to `ci-cd-plumber`; general product scaffolding to `project-incubation`.
+- Never claim compliant / certified.
+- Never invent articles or unresearched country rules.
+- Secondary sources = interpretation aids only.
+- Hand off deep CI/security scaffolding to other skills where appropriate.

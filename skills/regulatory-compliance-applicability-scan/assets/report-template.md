@@ -5,11 +5,20 @@
 > certification, and **not** a determination that the project is compliant.
 > Verify against official legal texts and qualified advisors before reliance.
 
+## Coverage for this run
+
+| Requested by user | Scanned (pack exists) | Not covered (declined) |
+|-------------------|------------------------|-------------------------|
+| | | |
+
+Only packs with obligation cards + registry entries were analyzed. Uncovered
+regions/domains were not filled in with guessed requirements.
+
 ## Context
 
 - Target:
 - Confirmed packs:
-- Jurisdictions / role / data classes (user-stated):
+- Jurisdictions / role / data classes / sector (user-stated):
 
 ## Applicability
 
