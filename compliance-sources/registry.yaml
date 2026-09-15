@@ -43,7 +43,6 @@ sources:
     jurisdiction: [FR]
     primary_url: "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000886460"
     check_frequency: monthly
-    notes: "Prefer current consolidé on Légifrance if URL redirects."
 
   - id: it-codice-privacy-196-2003
     pack: privacy-eu-it
@@ -53,7 +52,6 @@ sources:
     jurisdiction: [IT]
     primary_url: "https://www.gazzettaufficiale.it/dettaglio/codici/datiPersonali"
     check_frequency: monthly
-    notes: "Use current consolidated official text; Garante PDF consolidations are aids."
 
   - id: in-dpdp-act-2023
     pack: privacy-in
@@ -109,6 +107,50 @@ sources:
     jurisdiction: [SA]
     primary_url: "https://sdaia.gov.sa/en/Research/Pages/DataProtection.aspx"
     check_frequency: monthly
+
+  - id: cn-pipl
+    pack: privacy-cn
+    role: primary
+    title: "Personal Information Protection Law of the PRC (PIPL)"
+    citation: "Personal Information Protection Law of the PRC"
+    jurisdiction: [CN]
+    primary_url: "http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html"
+    watch_urls:
+      - "http://en.npc.gov.cn.cdurl.cn/2021-12/29/c_694559.htm"
+    check_frequency: monthly
+    notes: "Chinese text authoritative; English translation reference only."
+
+  - id: kr-pipa
+    pack: privacy-kr
+    role: primary
+    title: "Personal Information Protection Act (Korea)"
+    citation: "개인정보 보호법 (PIPA)"
+    jurisdiction: [KR]
+    primary_url: "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=270351"
+    check_frequency: monthly
+    notes: "Confirm current lsiSeq on law.go.kr; Korean text authoritative."
+
+  - id: jp-appi
+    pack: privacy-jp
+    role: primary
+    title: "Act on the Protection of Personal Information (Japan)"
+    citation: "APPI"
+    jurisdiction: [JP]
+    primary_url: "https://www.ppc.go.jp/en/legal/"
+    check_frequency: monthly
+    notes: "Japanese authentic text prevails; PPC English materials are aids."
+
+  - id: ru-152-fz
+    pack: privacy-ru
+    role: primary
+    title: "Federal Law No. 152-FZ on Personal Data"
+    citation: "152-FZ"
+    jurisdiction: [RU]
+    primary_url: "http://pravo.gov.ru/"
+    watch_urls:
+      - "https://www.consultant.ru/document/cons_doc_LAW_61801/"
+    check_frequency: monthly
+    notes: "Prefer official publication; consolidators amend often — verify before cites."
 
   - id: pci-dss-ssc
     pack: domain-fintech

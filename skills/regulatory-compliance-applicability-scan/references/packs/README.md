@@ -1,7 +1,7 @@
 # Packs — runnable inventory
 
-**This table is the skill’s inclusion list.** Anything not listed is **Not
-covered** (no special-case country keywords).
+**This table is the skill’s inclusion list.** Anything not listed as **Yes** is
+**Not covered**.
 
 | Pack | Runnable | Notes |
 |------|----------|-------|
@@ -15,11 +15,14 @@ covered** (no special-case country keywords).
 | `privacy-br` | **Yes** | LGPD |
 | `privacy-ae` | **Yes** | UAE federal PDPL (not free zones) |
 | `privacy-sa` | **Yes** | Saudi PDPL |
+| `privacy-cn` | **Yes** | PIPL — Chinese text authoritative |
+| `privacy-kr` | **Yes** | PIPA — Korean text on law.go.kr |
+| `privacy-jp` | **Yes** | APPI — Japanese text; PPC portal |
+| `privacy-ru` | **Yes** | 152-FZ — verify consolidations often |
 | `domain-fintech` | **Yes** | PCI orientation overlay |
 | `domain-healthcare-pharma` | **Yes** | HIPAA gate + regional privacy |
 
-## Planned (not runnable yet)
+## Still not covered (examples)
 
-Major-economy privacy packs for logical completion, e.g. **China (PIPL),
-Korea (PIPA), Russia (152-FZ lineage), Japan (APPI)**, plus further EU overlays
-and US states — research then cards+registry before enabling.
+Other US states; further EU member overlays; DIFC/ADGM; sector laws beyond
+current domain packs — until cards + registry exist.

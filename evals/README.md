@@ -1,24 +1,19 @@
 # agent-skills evals
 
-Hand-authored eval cases for skills in this repo, one subdirectory per
-skill (`evals/<skill-name>/<case-name>/`).
-
-Each case: `prompt.md` + `graders/criteria.md`.
+Hand-authored eval cases for skills in this repo.
 
 ## Inventory
 
-| Skill | Cases | Focus |
-|---|---:|---|
-| `project-incubation` | 17 | Category retrieval, gaps, license/ADR, handoff |
-| `python-code-review` | 13 | Domains, scorecard, tier gating |
-| `ci-cd-plumber` | 8 | Inception, audit, baseline |
-| `pr-review` | 7 | Pre-submit, tests, secrets, blast radius |
-| `postgresql-review` | 6 | MCPg readiness, scorecard |
-| `ui-system-review` | 11 | Web/Apple/Android, remediation, fixture |
-| `regulatory-compliance-applicability-scan` | 11 | Disclaimer, coverage, GDPR, overlays, domain gates, multi-jurisdiction |
+| Skill | Cases |
+|---|---:|
+| `project-incubation` | 17 |
+| `python-code-review` | 13 |
+| `ci-cd-plumber` | 8 |
+| `pr-review` | 7 |
+| `postgresql-review` | 6 |
+| `ui-system-review` | 11 |
+| `regulatory-compliance-applicability-scan` | 13 |
 
-**Total:** 73 hand-authored cases (62 at 0.14.0 + 11 regulatory on main).
-
-## Known limitation
+**Total:** 75 hand-authored cases on main.
 
 Machine scoring needs `claude plugin eval` early access.

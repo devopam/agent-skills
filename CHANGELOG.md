@@ -7,15 +7,12 @@ versioning follows [Semantic Versioning](https://semver.org/).
 ## [Unreleased]
 
 ### Added
-- **`regulatory-compliance-applicability-scan` (in progress toward a full 0.15.0):**
-  - First-wave runnable packs (EU±DE/FR/IT, IN, US-CA, CA, BR, AE, SA, fintech, healthcare)
-  - Generic not-covered rule; major-economy **research** started (CN PIPL, KR PIPA,
-    JP APPI, RU 152-FZ) — not runnable yet
-  - 11 evals; hybrid registry; monthly refresh workflow
-  - Refresh **timed retries** (3 attempts, 2s/5s/10s backoff, 20s timeout)
-
-### Notes
-- **0.15.0 not cut** until coverage expansion is a logical win
+- **`regulatory-compliance-applicability-scan` (coverage expansion on main):**
+  - First wave + **major economies:** `privacy-cn` (PIPL), `privacy-kr` (PIPA),
+    `privacy-jp` (APPI), `privacy-ru` (152-FZ) — orientation cards; authentic
+    language prevails over translations
+  - Registry rows for CN/KR/JP/RU; refresh retries (3× backoff)
+  - **13 evals**; 0.15.0 still deferred for a logical win
 
 ## [0.14.0] - 2026-09-11
 

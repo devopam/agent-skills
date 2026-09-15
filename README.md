@@ -2,14 +2,11 @@
 
 A collection of [Agent Skills](https://agentskills.io/) — portable,
 version-controlled procedural knowledge for AI coding agents, following the
-open Agent Skills spec (a `SKILL.md` file with `name`/`description`
-frontmatter, plus optional `references/`, `scripts/`, and `assets/`
-subfolders). Skills here work with any agentskills.io-compliant client —
-Claude Code, and the broader [client showcase](https://agentskills.io/clients).
+open Agent Skills spec.
 
 **Current version:** `0.14.0` (see [CHANGELOG.md](CHANGELOG.md)).  
-**On main (Unreleased):** `regulatory-compliance-applicability-scan` (first-wave
-packs + evals; not yet in the plugin version bump).
+**On main (Unreleased):** `regulatory-compliance-applicability-scan` — first-wave
+privacy packs plus **CN/KR/JP/RU** orientation packs; **0.15.0 not cut yet**.
 
 **Documentation:** [devopam.github.io/agent-skills](https://devopam.github.io/agent-skills/) · **Agent index:** [llms.txt](https://devopam.github.io/agent-skills/llms.txt)
 
@@ -17,69 +14,37 @@ packs + evals; not yet in the plugin version bump).
 
 | Skill | What it does | Use when |
 |---|---|---|
-| [`project-incubation`](skills/project-incubation/) | Guides a project through best-practice repo structure, architecture principles, and tech-stack template selection at inception, then re-audits an existing repo against that baseline throughout its lifecycle. | Starting a new repo, or periodically checking an existing one against the baseline it was incubated with. |
-| [`python-code-review`](skills/python-code-review/) | Reviews Python code across 11 domains with a scored report. Portable — no subagent dispatch, no host-specific slash command. | Reviewing Python code for quality/security/production-readiness, before a commit or PR, or for a periodic project health check. |
-| [`ci-cd-plumber`](skills/ci-cd-plumber/) | Scaffolds and audits CI/CD pipelines with a scored domain table and severity-ordered findings. | Setting up or hardening CI/CD, release automation, changelogs/release notes. |
-| [`pr-review`](skills/pr-review/) | Pre-submit / PR readiness — hooks, blast radius, tests, docs/changelog, CI readiness, diff-scoped security. | Before opening or updating a PR, or reviewing someone else's PR. |
-| [`postgresql-review`](skills/postgresql-review/) | Live PostgreSQL review (health, schema, indexes, workload, maintenance, security, hygiene) after **MCPg readiness** (install/config/reachability for the target DB and schemas). Scored report; suggested remediations only. | Auditing Postgres, production readiness, performance or security posture when MCPg can reach the database. |
-| [`ui-system-review`](skills/ui-system-review/) | Audits UI **system** consistency — tokens, shared components, themes, icons/media, form factors (**Web** responsive; **Apple/SwiftUI**; **Android/Compose**) — scored report plus remediation suggestions. | Design-system drift, mixed component libraries, token hardcoding, responsive/tablet discipline on an existing app. |
-| [`regulatory-compliance-applicability-scan`](skills/regulatory-compliance-applicability-scan/) | **(Unreleased on main)** Maps **runnable** privacy/domain packs to repo evidence (GDPR + DE/FR/IT overlays, India DPDP, CA CCPA/CPRA, PIPEDA, LGPD, UAE/Saudi PDPL; fintech/PCI + healthcare/HIPAA gates). Declines any jurisdiction without a pack. Primary-source registry + monthly refresh. **Not legal advice or certification.** | Applicability / gap orientation for privacy regimes you actually have packs for; multi-market intake. |
+| [`project-incubation`](skills/project-incubation/) | Repo structure, architecture, tech-stack baseline at inception and re-audit. | New or existing repos vs incubation baseline. |
+| [`python-code-review`](skills/python-code-review/) | Python review across 11 domains with a scored report. | Quality/security/production readiness. |
+| [`ci-cd-plumber`](skills/ci-cd-plumber/) | CI/CD scaffold and audit with scored domains. | Pipelines, release automation. |
+| [`pr-review`](skills/pr-review/) | Pre-submit / PR readiness. | Before or during PR review. |
+| [`postgresql-review`](skills/postgresql-review/) | Live PostgreSQL review after MCPg readiness. | Postgres health, schema, security. |
+| [`ui-system-review`](skills/ui-system-review/) | UI system consistency (Web / Apple / Android). | Design-system drift, form factors. |
+| [`regulatory-compliance-applicability-scan`](skills/regulatory-compliance-applicability-scan/) | **(Unreleased)** Privacy/domain **applicability** scan for runnable packs (EU±DE/FR/IT, IN, US-CA, CA, BR, AE, SA, **CN, KR, JP, RU**, fintech, healthcare). Declines missing jurisdictions. Not legal advice. | Multi-market privacy gap orientation. |
 
 ## Using a skill
 
-Point any agentskills.io-compliant agent at this repo (or vendor/copy the
-specific `skills/<name>/` folder into your project's own skills directory —
-see each client's install instructions in the
-[client showcase](https://agentskills.io/clients)). The agent discovers each
-skill from its `SKILL.md` frontmatter and loads the full instructions only
-when a task matches.
+Point any agentskills.io-compliant agent at this repo (or copy `skills/<name>/`).
 
 ### Claude Code plugin
 
-This repository **is already** a Claude Code plugin: it ships
-[`.claude-plugin/plugin.json`](.claude-plugin/plugin.json). From a clone:
-
-```bash
-claude plugin validate .
-# when enrollment allows:
-claude plugin eval . --ablation with-without --runs 1 --no-publish
-```
-
-Install / enable the plugin using Claude Code's usual local-plugin or
-marketplace flow against this repo (or a released tag such as `v0.14.0`).
-No separate “plugin product” is required beyond this manifest + the
-`skills/` tree — that *is* the plugin surface.
+[`.claude-plugin/plugin.json`](.claude-plugin/plugin.json) — validate with
+`claude plugin validate .`. Current published plugin version remains **0.14.0**
+until 0.15.0 is intentionally cut.
 
 ## Evals
 
-Hand-authored trust cases live under [`evals/`](evals/) — one suite per skill.
-See [`evals/README.md`](evals/README.md) (**73** cases on main including regulatory).
-
-## Knowledge graph (graphify)
-
-Optional corpus map of this repo lives under [`graphify-out/`](graphify-out/)
-(`GRAPH_REPORT.md`, `graph.html`, `graph.json`). It is regenerated after
-substantive skill changes for navigation and consistency checks; machine-local
-cache paths are gitignored. Not a runtime dependency of any skill.
+See [`evals/README.md`](evals/README.md) (**75** cases on main).
 
 ## Roadmap
 
-- **Shipped (0.14.0):** six skills, including `ui-system-review`
-- **Main (Unreleased):** `regulatory-compliance-applicability-scan` first wave;
-  later major-economy packs (CN, KR, RU, JP, …)
-- Evals execution when `claude plugin eval` enrollment allows
-
-## Repo conventions
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for how skills are authored, reviewed,
-and versioned — including research-before-authoring.
+- Shipped **0.14.0:** six skills including `ui-system-review`
+- Main: regulatory skill coverage expansion; release when depth is a logical win
 
 ## Code of Conduct
 
-This project adopts the [Contributor Covenant](CODE_OF_CONDUCT.md) (v3.0).
-Report concerns to [devopam@gmail.com](mailto:devopam@gmail.com) or via a
-[GitHub Issue](https://github.com/devopam/agent-skills/issues/new) (prefer
-email when privacy matters).
+[Contributor Covenant](CODE_OF_CONDUCT.md) v3.0 — [devopam@gmail.com](mailto:devopam@gmail.com)
+or [GitHub Issue](https://github.com/devopam/agent-skills/issues/new).
 
 ## License
 

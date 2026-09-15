@@ -1,41 +1,34 @@
 ---
 name: regulatory-compliance-applicability-scan
-description: Maps researched privacy regimes and domain overlays to repo evidence. Declines any jurisdiction or domain without a runnable pack (no fixed country blocklist). Not legal advice or certification.
+description: Maps researched privacy regimes (EU±DE/FR/IT, IN, US-CA, CA, BR, AE, SA, CN PIPL, KR PIPA, JP APPI, RU 152-FZ) and domain overlays (fintech/PCI, healthcare/HIPAA gate) to repo evidence. Declines jurisdictions without a runnable pack. Not legal advice or certification.
 ---
 
 # Regulatory compliance applicability scan
 
-Applicability and gap-orientation for packs listed as runnable in
+Applicability and gap-orientation for packs in
 [references/packs/README.md](references/packs/README.md). Not certification.
 
 Ask questions one at a time.
 
 ## Coverage
 
-**Runnable packs** are the sole source of truth. If the user names a country,
-regime, or domain that is **not** in that inventory (whether Japan, China,
-Korea, Russia, or any other), respond **Not covered** — do not invent law.
-
-Current wave includes: GDPR + DE/FR/IT overlays; India DPDP; California CCPA/CPRA;
-PIPEDA; LGPD; UAE/Saudi PDPL; fintech (PCI orientation); healthcare (HIPAA gate).
-
-**Planned later:** further major economies (e.g. CN, KR, RU, JP) and more
-overlays — see research coverage matrix / roadmap.
+**Runnable inventory is the only inclusion list.** Missing country/domain →
+**Not covered** (no inventing law). Authentic language of the statute prevails
+over translations (especially CN/KR/JP/RU).
 
 ## Phase 0 — Intake
 
 1. Target path  
-2. Jurisdictions (Europe → which member state)  
+2. Jurisdictions (Europe → member state)  
 3. Role, data classes, sector  
-4. Map requests → **runnable** packs only; generic **Not covered** for the rest  
+4. Suggest runnable packs only  
 5. Confirm list; optional baseline file  
 
 ## Phases 1–4
 
-Evidence → obligation map from confirmed cards → report (coverage table,
-severity, primary cites) → optional baseline.
+Evidence → obligation map from confirmed cards → report → optional baseline.
 
-Pair `privacy-eu-*` with `privacy-eu`; pair domains with regional privacy.
+Pair `privacy-eu-*` with `privacy-eu`; domains with regional privacy.
 
 ## Boundaries
 

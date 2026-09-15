@@ -2,25 +2,17 @@
 
 ## Release posture
 
-**0.15.0 deferred** until coverage expansion is a logical win (not a partial
-first-wave-only ship). Continue research → cards → evals before plugin bump.
+**0.15.0 deferred** until coverage feels like a logical win (depth + evals +
+refresh stability), not merely pack count.
 
-## Current wave (runnable)
+## Runnable (including major economies)
 
-privacy-eu ± de/fr/it · privacy-in · privacy-us/ca/br · privacy-ae/sa ·
-domain-fintech · domain-healthcare-pharma
+First wave + **privacy-cn, privacy-kr, privacy-jp, privacy-ru** (orientation
+cards; authentic language prevails).
 
-## Coverage expansion (in progress)
+## Next coverage depth
 
-| Pack | Research | Cards | Evals |
-|------|----------|-------|-------|
-| privacy-cn (PIPL) | Started | — | — |
-| privacy-kr (PIPA) | Started | — | — |
-| privacy-jp (APPI) | Started | — | — |
-| privacy-ru (152-FZ) | Started | — | — |
-
-Then: further EU overlays, more US states, free-zone regimes.
-
-## Infra
-
-Refresh script: **3 attempts**, backoff 2s/5s/10s, 20s timeout (see 04-refresh-job).
+1. Deepen CN/KR/JP/RU theme anchors against live consolidations  
+2. Further EU overlays / US states as needed  
+3. More evals per new pack  
+4. Refresh URL tuning for fetch_error portals  
