@@ -1,18 +1,12 @@
 # Coverage quick reference
 
-Full matrix:
-`research/regulatory-compliance-applicability-scan/07-coverage-matrix.md`
+**Runnable?** → `references/packs/README.md`  
+**Full matrix / expansion:** `research/regulatory-compliance-applicability-scan/07-coverage-matrix.md`
 
-## Available when pack files + registry rows exist
+## Not covered
 
-- Privacy: Europe (`privacy-eu`), then India, Americas (per country), Middle East (per country)
-- Domains: healthcare/pharma, fintech
+Any jurisdiction, national nuance, or domain **absent** from the runnable list.
+Examples used in docs/evals (Japan, etc.) are **illustrative only** — the same
+decline applies to China, Korea, Russia, or any other unpacked regime.
 
-## Always decline (until matrix + packs updated)
-
-- Japan and any region not in the matrix as available
-- Domains other than healthcare/pharma and fintech
-- Invented “global” compliance checklists
-
-**Script for the agent:** state **Not covered**, list runnable packs, do not
-improvise law.
+**Script:** state Not covered → list runnable packs → do not invent law.

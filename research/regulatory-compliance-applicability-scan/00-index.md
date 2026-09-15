@@ -1,25 +1,11 @@
 # regulatory-compliance-applicability-scan — research index
 
-**Status:** Research complete; **implementation in progress** (2026-09-15).  
-`privacy-eu` themes + 7 evals on main. **Not released.**
+**Status:** First-wave packs runnable on main; expansion roadmap includes
+**China, Korea, Russia, Japan**, and other major economies. Not released.
 
-## Implementation progress
-
-| Item | Status |
-|------|--------|
-| Research + coverage + EU overlay model | Done |
-| Registry + refresh workflow | Done |
-| `privacy-eu` deep themes | Done |
-| `privacy-in` outline card | Done |
-| Evals (7) | Done |
-| DE/FR/IT overlays | Research placeholders only |
-| Americas/ME/domain cards | Research only |
-| README / plugin / release | Pending |
+**Not-covered rule:** Any jurisdiction **without** a runnable pack — not a
+fixed country keyword list.
 
 ## Design docs
 
-[01–08](01-scope-and-boundaries.md) including coverage matrix and EU variations.
-
-## Pack research
-
-[packs/](packs/)
+[01–08](01-scope-and-boundaries.md) · [07-coverage-matrix.md](07-coverage-matrix.md)
