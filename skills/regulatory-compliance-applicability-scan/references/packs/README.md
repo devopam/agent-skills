@@ -1,28 +1,58 @@
 # Packs — runnable inventory
 
-**This table is the skill’s inclusion list.** Anything not listed as **Yes** is
-**Not covered**.
+**Inclusion list.** Anything not **Yes** here is **Not covered**.
 
-| Pack | Runnable | Notes |
-|------|----------|-------|
-| `privacy-eu` | **Yes** | GDPR union baseline |
-| `privacy-eu-de` | **Yes** | BDSG — pair with privacy-eu |
-| `privacy-eu-fr` | **Yes** | Loi 78-17 — pair with privacy-eu |
-| `privacy-eu-it` | **Yes** | Codice 196/2003 — pair with privacy-eu |
-| `privacy-in` | **Yes** | DPDP — commencement caveat |
-| `privacy-us` | **Yes** | California CCPA/CPRA first |
-| `privacy-ca` | **Yes** | PIPEDA |
-| `privacy-br` | **Yes** | LGPD |
-| `privacy-ae` | **Yes** | UAE federal PDPL (not free zones) |
-| `privacy-sa` | **Yes** | Saudi PDPL |
-| `privacy-cn` | **Yes** | PIPL — Chinese text authoritative |
-| `privacy-kr` | **Yes** | PIPA — Korean text on law.go.kr |
-| `privacy-jp` | **Yes** | APPI — Japanese text; PPC portal |
-| `privacy-ru` | **Yes** | 152-FZ — verify consolidations often |
-| `domain-fintech` | **Yes** | PCI orientation overlay |
-| `domain-healthcare-pharma` | **Yes** | HIPAA gate + regional privacy |
+## Europe
 
-## Still not covered (examples)
+| Pack | Notes |
+|------|--------|
+| `privacy-eu` | GDPR baseline |
+| `privacy-eu-de` | BDSG |
+| `privacy-eu-fr` | Loi 78-17 |
+| `privacy-eu-it` | Codice 196/2003 |
+| `privacy-eu-es` | LOPDGDD |
+| `privacy-eu-nl` | UAVG |
+| `privacy-eu-pl` | Polish DP act |
+| `privacy-eu-se` | Swedish complementary act |
+| `privacy-eu-ie` | DPA 2018 |
+| `privacy-eu-be` | BE 2018 law |
+| `privacy-eu-at` | DSG |
+| `privacy-eu-pt` | Lei 58/2019 |
 
-Other US states; further EU member overlays; DIFC/ADGM; sector laws beyond
-current domain packs — until cards + registry exist.
+Other EU/EEA states: **Not covered** until added.
+
+## Americas
+
+| Pack | Notes |
+|------|--------|
+| `privacy-us` | California CCPA/CPRA |
+| `privacy-us-va` | Virginia VCDPA |
+| `privacy-us-co` | Colorado CPA |
+| `privacy-us-ct` | Connecticut CTDPA |
+| `privacy-us-ut` | Utah UCPA |
+| `privacy-us-tx` | Texas TDPSA |
+| `privacy-ca` | Canada PIPEDA |
+| `privacy-br` | Brazil LGPD |
+
+Other US states: **Not covered** until added.
+
+## Asia / Middle East / Oceania / India
+
+| Pack | Notes |
+|------|--------|
+| `privacy-in` | DPDP |
+| `privacy-cn` | PIPL |
+| `privacy-kr` | PIPA |
+| `privacy-jp` | APPI |
+| `privacy-sg` | PDPA |
+| `privacy-ae` | UAE PDPL |
+| `privacy-sa` | Saudi PDPL |
+| `privacy-au` | Privacy Act 1988 |
+| `privacy-ru` | 152-FZ |
+
+## Domains
+
+| Pack | Notes |
+|------|--------|
+| `domain-fintech` | PCI orientation |
+| `domain-healthcare-pharma` | HIPAA gate |

@@ -1,52 +1,24 @@
 # Changelog
 
-All notable changes to this repository's skills are documented here.
-Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/);
-versioning follows [Semantic Versioning](https://semver.org/).
+Format: Keep a Changelog; SemVer.
 
 ## [Unreleased]
 
 ### Added
-- **`regulatory-compliance-applicability-scan` (coverage expansion on main):**
-  - First wave + **major economies:** `privacy-cn` (PIPL), `privacy-kr` (PIPA),
-    `privacy-jp` (APPI), `privacy-ru` (152-FZ) — orientation cards; authentic
-    language prevails over translations
-  - Registry rows for CN/KR/JP/RU; refresh retries (3× backoff)
-  - **13 evals**; 0.15.0 still deferred for a logical win
+- **`regulatory-compliance-applicability-scan` coverage expansion:**
+  - EU overlays: ES, NL, PL, SE, IE, BE, AT, PT (plus existing DE/FR/IT)
+  - US state packs: VA, CO, CT, UT, TX (plus California)
+  - `privacy-sg` (PDPA), `privacy-au` (Privacy Act 1988)
+  - Major economies CN/KR/JP/RU; first-wave regions; domain packs
+  - Registry expansion + **URL hardening process** (`09-url-hardening.md`);
+    refresh retries; alternate watch URLs
+  - 13+ evals; **0.15.0 still deferred** for depth quality
 
 ## [0.14.0] - 2026-09-11
 
 ### Added
-- **`ui-system-review`** and related. Plugin **0.14.0**.
+- `ui-system-review` and related. Plugin **0.14.0**.
 
-## [0.13.0] - 2026-09-09
+## Prior
 
-### Fixed
-- Cross-skill review pass.
-
-### Added
-- postgresql-review deepening; plugin **0.13.0**.
-
-## [0.12.0] - 2026-09-07
-
-### Added
-- **`postgresql-review` skill (v0).**
-
-## [0.11.0] - 2026-09-07
-
-### Added
-- **`pr-review` skill (v0).**
-
-## [0.10.1] - 2026-09-01
-
-### Changed
-- **`ci-cd-plumber`:** audit scorecard and baseline.
-
-## [0.10.0] - 2026-09-01
-
-### Added
-- **`ci-cd-plumber` skill (v0 core).**
-
-## Prior history
-
-See git history prior to 0.10.0.
+See git history for 0.10–0.13.

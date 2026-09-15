@@ -1,32 +1,18 @@
-# Pack: privacy-us (California CCPA/CPRA first)
+# Pack: privacy-us (California CCPA/CPRA)
 
-**Primary:** California Civil Code Title 1.81.5 (CCPA as amended by CPRA), e.g. § 1798.100 et seq.  
+**Primary:** California Civil Code Title 1.81.5 (§ 1798.100 et seq.)  
 **Registry id:** `us-ca-ccpa-civil-code`  
-**Official:** https://leginfo.legislature.ca.gov/ (Civil Code sections)  
-**Runnable:** yes for **California-oriented** themes; **not** a full 50-state pack
+**Official:** https://leginfo.legislature.ca.gov/  
+**Runnable:** yes — **California only**
 
-## Scope
+## Other US states
 
-| In | Out |
-|----|-----|
-| CCPA/CPRA business obligations when CA personal information in scope | Invented “US federal privacy act” |
-| | Other state laws (VA, CO, …) until separate packs |
+Use dedicated packs when in inventory: `privacy-us-va`, `privacy-us-co`,
+`privacy-us-ct`, `privacy-us-ut`, `privacy-us-tx`, …  
+If the user says “US” without a state, list **which state packs exist**; do not
+invent a federal omnibus privacy statute.
 
-## When to suggest
+## Themes (California)
 
-California residents, “Do Not Sell or Share,” CCPA/CPRA, CPPA, GPC.
-
-## Obligation themes
-
-| Theme | Primary orientation | Signals |
-|-------|---------------------|---------|
-| Notice at collection | § 1798.100 | Privacy policy categories/purposes |
-| Consumer rights | §§ 1798.105–1798.125 range | Request portal; delete/access |
-| Opt-out sale/share | Statutory opt-out rights | Do Not Sell link; GPC |
-| Sensitive PI | § 1798.140 definitions + use limits | Sensitive categories collected |
-| Service provider / contractor | Contractual requirements in statute | Vendor terms |
-| Threshold / “business” | Definitions in § 1798.140 | Only if evidence supports “business” status — else uncertain |
-
-## Report rule
-
-If user said “US” only, state which **state** packs exist; do not invent non-CA law.
+Notice at collection § 1798.100; consumer rights; opt-out sale/share; sensitive PI;
+service provider/contractor — verify live Civil Code.

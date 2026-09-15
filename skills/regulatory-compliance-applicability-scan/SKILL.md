@@ -1,34 +1,22 @@
 ---
 name: regulatory-compliance-applicability-scan
-description: Maps researched privacy regimes (EU±DE/FR/IT, IN, US-CA, CA, BR, AE, SA, CN PIPL, KR PIPA, JP APPI, RU 152-FZ) and domain overlays (fintech/PCI, healthcare/HIPAA gate) to repo evidence. Declines jurisdictions without a runnable pack. Not legal advice or certification.
+description: Maps researched privacy regimes across EU (GDPR + multiple member-state overlays), Americas (CA CCPA and other US state acts, PIPEDA, LGPD), Asia (PIPL, PIPA, APPI, PDPA, DPDP), ME, AU, RU, plus fintech/healthcare domain overlays. Declines missing packs. Not legal advice or certification.
 ---
 
 # Regulatory compliance applicability scan
 
-Applicability and gap-orientation for packs in
-[references/packs/README.md](references/packs/README.md). Not certification.
+See [references/packs/README.md](references/packs/README.md) for the **only**
+runnable inclusion list. Authentic statute language prevails over translations.
 
-Ask questions one at a time.
+Ask questions one at a time. **Not covered** for any jurisdiction absent from
+that list — do not invent law.
 
-## Coverage
+## Phase 0–4
 
-**Runnable inventory is the only inclusion list.** Missing country/domain →
-**Not covered** (no inventing law). Authentic language of the statute prevails
-over translations (especially CN/KR/JP/RU).
+Intake (member state / US state when relevant) → evidence → obligation map from
+confirmed cards → report with coverage table → optional baseline.
 
-## Phase 0 — Intake
-
-1. Target path  
-2. Jurisdictions (Europe → member state)  
-3. Role, data classes, sector  
-4. Suggest runnable packs only  
-5. Confirm list; optional baseline file  
-
-## Phases 1–4
-
-Evidence → obligation map from confirmed cards → report → optional baseline.
-
-Pair `privacy-eu-*` with `privacy-eu`; domains with regional privacy.
+Pair EU overlays with `privacy-eu`. Pair domains with regional privacy.
 
 ## Boundaries
 
