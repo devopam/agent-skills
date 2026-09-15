@@ -7,24 +7,22 @@ versioning follows [Semantic Versioning](https://semver.org/).
 ## [Unreleased]
 
 ### Added
-- **`regulatory-compliance-applicability-scan` (in progress):** applicability/gap
-  orientation grounded in primary sources; hybrid registry + monthly refresh PR
-  workflow; coverage matrix (privacy: Europe/India/Americas/ME; domains:
-  healthcare/pharma, fintech); **EU member-state overlay model** (GDPR baseline
-  vs DE/FR/IT… national packs); **Not covered** rule (e.g. Japan, missing
-  overlays).
-  - Runnable depth: **`privacy-eu`** obligation themes (Arts. anchors + signals)
-  - Outline: **`privacy-in`** (DPDP + commencement caveat)
-  - Research baselines for US-CA, CA, BR, AE, SA, domain overlays
-  - **7 eval cases** (disclaimer, coverage table, GDPR notice gap, Japan,
-    DE overlay, no invented articles, suggest-not-certify)
-  - Not released / not in plugin version bump yet
+- **`regulatory-compliance-applicability-scan` (near-complete v0 content):**
+  - Hybrid registry + monthly refresh workflow; coverage matrix; EU
+    member-state overlay model; Not-covered rule
+  - **Runnable packs:** privacy-eu, privacy-eu-de/fr/it, privacy-in,
+    privacy-us (CA), privacy-ca, privacy-br, privacy-ae, privacy-sa,
+    domain-fintech, domain-healthcare-pharma
+  - Registry primaries: GDPR, BDSG, Loi 78-17, Codice 196/2003, DPDP,
+    CCPA entry, PIPEDA, LGPD, UAE PDPL, Saudi PDPL, PCI DSS, HIPAA 45 CFR 164
+  - **7 evals** (disclaimer, coverage, GDPR gap, Japan, DE overlay, no
+    invented articles, suggest-not-certify)
+  - Not in plugin release yet
 
 ## [0.14.0] - 2026-09-11
 
 ### Added
-- **`ui-system-review`** (Web / Apple / Android), evals, fixture, CoC, Pages,
-  llms.txt. Plugin **0.14.0**.
+- **`ui-system-review`** and related. Plugin **0.14.0**.
 
 ## [0.13.0] - 2026-09-09
 
@@ -47,7 +45,7 @@ versioning follows [Semantic Versioning](https://semver.org/).
 ## [0.10.1] - 2026-09-01
 
 ### Changed
-- **`ci-cd-plumber`:** required audit scorecard and baseline close-out.
+- **`ci-cd-plumber`:** audit scorecard and baseline.
 
 ## [0.10.0] - 2026-09-01
 

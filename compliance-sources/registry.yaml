@@ -1,61 +1,84 @@
-# Canonical source registry for regulatory-compliance-applicability-scan
-# Refresh: scripts/compliance-sources/refresh.py + monthly workflow → PR
-# Registry authoring snapshot: 2026-09-15
-
+# Canonical source registry — regulatory-compliance-applicability-scan
+# Authoring snapshot: 2026-09-15
 version: 1
 
 sources:
-  # --- Europe ---
   - id: eu-gdpr-2016-679
     pack: privacy-eu
     role: primary
-    title: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    title: "Regulation (EU) 2016/679 (GDPR)"
     citation: "Regulation (EU) 2016/679"
     jurisdiction: [EU, EEA]
     primary_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679"
     watch_urls:
       - "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02016R0679-20160504"
     check_frequency: monthly
-    notes: "Consolidated EUR-Lex view is a documentation aid."
 
   - id: edpb-guidelines-index
     pack: privacy-eu
     role: interpretation_aid
-    title: "EDPB — GDPR guidelines index"
-    citation: "EDPB Guidelines (interpretation aid)"
+    title: "EDPB GDPR guidelines index"
+    citation: "EDPB Guidelines"
     jurisdiction: [EU, EEA]
     primary_url: "https://www.edpb.europa.eu/our-work-tools/general-guidance/gdpr-guidelines-recommendations-best-practices_en"
     check_frequency: monthly
 
-  # --- India ---
+  - id: de-bdsg
+    pack: privacy-eu-de
+    role: primary
+    title: "Bundesdatenschutzgesetz (BDSG)"
+    citation: "BDSG"
+    jurisdiction: [DE]
+    primary_url: "https://www.gesetze-im-internet.de/bdsg_2018/BJNR209710017.html"
+    watch_urls:
+      - "https://www.gesetze-im-internet.de/englisch_bdsg"
+    check_frequency: monthly
+    notes: "German text authoritative; English translation may lag."
+
+  - id: fr-loi-78-17
+    pack: privacy-eu-fr
+    role: primary
+    title: "Loi n° 78-17 du 6 janvier 1978 (Informatique et Libertés)"
+    citation: "Loi n° 78-17 du 6 janvier 1978"
+    jurisdiction: [FR]
+    primary_url: "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000886460"
+    check_frequency: monthly
+    notes: "Prefer current consolidé on Légifrance if URL redirects."
+
+  - id: it-codice-privacy-196-2003
+    pack: privacy-eu-it
+    role: primary
+    title: "D.Lgs. 196/2003 Codice privacy (as amended)"
+    citation: "D.Lgs. 30 giugno 2003, n. 196"
+    jurisdiction: [IT]
+    primary_url: "https://www.gazzettaufficiale.it/dettaglio/codici/datiPersonali"
+    check_frequency: monthly
+    notes: "Use current consolidated official text; Garante PDF consolidations are aids."
+
   - id: in-dpdp-act-2023
     pack: privacy-in
     role: primary
-    title: "Digital Personal Data Protection Act, 2023 (Act No. 22 of 2023)"
-    citation: "Digital Personal Data Protection Act, 2023"
+    title: "Digital Personal Data Protection Act, 2023"
+    citation: "DPDP Act, 2023 (Act No. 22 of 2023)"
     jurisdiction: [IN]
     primary_url: "https://www.meity.gov.in/"
     check_frequency: monthly
-    notes: >
-      Prefer India Code / Gazette full-text URL when maintainers lock it.
-      Commencement is staggered — obligation cards must track in-force status.
+    notes: "Lock India Code/Gazette full-text URL when stable; staggered commencement."
 
-  # --- Americas ---
   - id: us-ca-ccpa-civil-code
     pack: privacy-us
     role: primary
-    title: "California Civil Code — CCPA/CPRA provisions (e.g. § 1798.100 et seq.)"
+    title: "California Civil Code CCPA/CPRA (§ 1798.100 et seq.)"
     citation: "Cal. Civ. Code § 1798.100 et seq."
     jurisdiction: [US-CA]
     primary_url: "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.100"
     check_frequency: monthly
-    notes: "Entry point section; full Title 1.81.5 must be consulted for rights/definitions."
 
   - id: ca-pipeda
     pack: privacy-ca
     role: primary
-    title: "Personal Information Protection and Electronic Documents Act (PIPEDA)"
-    citation: "S.C. 2000, c. 5 (PIPEDA)"
+    title: "PIPEDA (S.C. 2000, c. 5)"
+    citation: "S.C. 2000, c. 5"
     jurisdiction: [CA]
     primary_url: "https://laws-lois.justice.gc.ca/ENG/ACTS/P-8.6/index.html"
     check_frequency: monthly
@@ -64,49 +87,43 @@ sources:
     pack: privacy-br
     role: primary
     title: "Lei nº 13.709/2018 (LGPD)"
-    citation: "Lei nº 13.709, de 14 de agosto de 2018"
+    citation: "Lei nº 13.709/2018"
     jurisdiction: [BR]
     primary_url: "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
     check_frequency: monthly
 
-  # --- Middle East ---
   - id: ae-pdpl-45-2021
     pack: privacy-ae
     role: primary
-    title: "UAE Federal Decree-Law No. 45 of 2021 (Personal Data Protection)"
+    title: "UAE Federal Decree-Law No. 45 of 2021"
     citation: "Federal Decree-Law No. 45 of 2021"
     jurisdiction: [AE]
     primary_url: "https://uaelegislation.gov.ae/en/legislations/1972"
     check_frequency: monthly
-    notes: "Arabic text prevails on conflict with translation."
 
   - id: sa-pdpl-sdaia
     pack: privacy-sa
     role: primary
-    title: "Saudi Personal Data Protection Law (SDAIA portal)"
-    citation: "Saudi PDPL (SDAIA)"
+    title: "Saudi PDPL (SDAIA)"
+    citation: "Saudi PDPL"
     jurisdiction: [SA]
     primary_url: "https://sdaia.gov.sa/en/Research/Pages/DataProtection.aspx"
     check_frequency: monthly
-    notes: "Prefer official Law PDF / Implementing Regulation URLs when locked."
 
-  # --- Domain overlays ---
   - id: pci-dss-ssc
     pack: domain-fintech
     role: primary
-    title: "PCI Data Security Standard (PCI SSC)"
-    citation: "PCI DSS (PCI Security Standards Council)"
+    title: "PCI DSS (PCI SSC)"
+    citation: "PCI DSS"
     jurisdiction: [global-payments]
     primary_url: "https://www.pcisecuritystandards.org/standards/"
     check_frequency: monthly
-    notes: "Industry standard; not a statute. Document library may require acceptance."
 
   - id: us-hipaa-45-cfr-164
     pack: domain-healthcare-pharma
     role: primary
-    title: "HIPAA Security and Privacy — 45 CFR Part 164"
+    title: "45 CFR Part 164 (HIPAA)"
     citation: "45 CFR Part 164"
     jurisdiction: [US]
     primary_url: "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164"
     check_frequency: monthly
-    notes: "eCFR is continuously updated; unofficial editorial compilation vs paper CFR."

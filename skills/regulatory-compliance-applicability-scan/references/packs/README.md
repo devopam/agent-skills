@@ -1,13 +1,18 @@
-# Packs
+# Packs — runnable inventory
 
-A pack is **runnable** only when this folder has an obligation card **and**
-`compliance-sources/registry.yaml` lists primary sources for it.
+| Pack | Runnable | Notes |
+|------|----------|-------|
+| `privacy-eu` | **Yes** | GDPR union baseline |
+| `privacy-eu-de` | **Yes** | BDSG overlay — pair with privacy-eu |
+| `privacy-eu-fr` | **Yes** | Loi 78-17 overlay — pair with privacy-eu |
+| `privacy-eu-it` | **Yes** | Codice 196/2003 overlay — pair with privacy-eu |
+| `privacy-in` | **Yes** | DPDP — commencement caveat required |
+| `privacy-us` | **Yes** | California CCPA/CPRA first |
+| `privacy-ca` | **Yes** | PIPEDA |
+| `privacy-br` | **Yes** | LGPD |
+| `privacy-ae` | **Yes** | UAE federal PDPL (not free zones) |
+| `privacy-sa` | **Yes** | Saudi PDPL (SDAIA) |
+| `domain-fintech` | **Yes** | PCI orientation overlay |
+| `domain-healthcare-pharma` | **Yes** | HIPAA gate + regional privacy |
 
-| Pack | Runnable |
-|------|----------|
-| `privacy-eu` | Yes (GDPR baseline) |
-| `privacy-in` | Partial (commencement caveat) |
-| `privacy-eu-de/fr/it` | Not until national primary + cards |
-| Americas / ME / domains | Not until cards authored |
-
-Unlisted country or domain → skill says **Not covered**.
+Anything else (Japan, other US states, DIFC, etc.) → **Not covered**.
