@@ -1,58 +1,63 @@
 # Packs — runnable inventory
 
-**Inclusion list.** Anything not **Yes** here is **Not covered**.
+**Inclusion list.** Anything not listed is **Not covered**.
 
-## Europe
+## Europe — union baseline
 
 | Pack | Notes |
 |------|--------|
-| `privacy-eu` | GDPR baseline |
-| `privacy-eu-de` | BDSG |
-| `privacy-eu-fr` | Loi 78-17 |
-| `privacy-eu-it` | Codice 196/2003 |
-| `privacy-eu-es` | LOPDGDD |
-| `privacy-eu-nl` | UAVG |
-| `privacy-eu-pl` | Polish DP act |
-| `privacy-eu-se` | Swedish complementary act |
-| `privacy-eu-ie` | DPA 2018 |
-| `privacy-eu-be` | BE 2018 law |
-| `privacy-eu-at` | DSG |
-| `privacy-eu-pt` | Lei 58/2019 |
+| `privacy-eu` | GDPR (EU/EEA common baseline) |
 
-Other EU/EEA states: **Not covered** until added.
+## Europe — EU-27 national overlays (pair with `privacy-eu`)
+
+| Pack | Country |
+|------|---------|
+| `privacy-eu-at` | Austria |
+| `privacy-eu-be` | Belgium |
+| `privacy-eu-bg` | Bulgaria |
+| `privacy-eu-hr` | Croatia |
+| `privacy-eu-cy` | Cyprus |
+| `privacy-eu-cz` | Czechia |
+| `privacy-eu-dk` | Denmark |
+| `privacy-eu-ee` | Estonia |
+| `privacy-eu-fi` | Finland |
+| `privacy-eu-fr` | France |
+| `privacy-eu-de` | Germany |
+| `privacy-eu-gr` | Greece |
+| `privacy-eu-hu` | Hungary |
+| `privacy-eu-ie` | Ireland |
+| `privacy-eu-it` | Italy |
+| `privacy-eu-lv` | Latvia |
+| `privacy-eu-lt` | Lithuania |
+| `privacy-eu-lu` | Luxembourg |
+| `privacy-eu-mt` | Malta |
+| `privacy-eu-nl` | Netherlands |
+| `privacy-eu-pl` | Poland |
+| `privacy-eu-pt` | Portugal |
+| `privacy-eu-ro` | Romania |
+| `privacy-eu-sk` | Slovakia |
+| `privacy-eu-si` | Slovenia |
+| `privacy-eu-es` | Spain |
+| `privacy-eu-se` | Sweden |
+
+## Europe — EEA (non-EU; pair with `privacy-eu`)
+
+| Pack | Country |
+|------|---------|
+| `privacy-eu-is` | Iceland |
+| `privacy-eu-li` | Liechtenstein |
+| `privacy-eu-no` | Norway |
+
+**UK** is not an EU/EEA overlay — use future `privacy-uk` when runnable.
 
 ## Americas
 
-| Pack | Notes |
-|------|--------|
-| `privacy-us` | California CCPA/CPRA |
-| `privacy-us-va` | Virginia VCDPA |
-| `privacy-us-co` | Colorado CPA |
-| `privacy-us-ct` | Connecticut CTDPA |
-| `privacy-us-ut` | Utah UCPA |
-| `privacy-us-tx` | Texas TDPSA |
-| `privacy-ca` | Canada PIPEDA |
-| `privacy-br` | Brazil LGPD |
+`privacy-us` (CA), `privacy-us-va|co|ct|ut|tx`, `privacy-ca`, `privacy-br`
 
-Other US states: **Not covered** until added.
+## Asia / ME / Oceania / other
 
-## Asia / Middle East / Oceania / India
-
-| Pack | Notes |
-|------|--------|
-| `privacy-in` | DPDP |
-| `privacy-cn` | PIPL |
-| `privacy-kr` | PIPA |
-| `privacy-jp` | APPI |
-| `privacy-sg` | PDPA |
-| `privacy-ae` | UAE PDPL |
-| `privacy-sa` | Saudi PDPL |
-| `privacy-au` | Privacy Act 1988 |
-| `privacy-ru` | 152-FZ |
+`privacy-in`, `privacy-cn`, `privacy-kr`, `privacy-jp`, `privacy-sg`, `privacy-ae`, `privacy-sa`, `privacy-au`, `privacy-ru`
 
 ## Domains
 
-| Pack | Notes |
-|------|--------|
-| `domain-fintech` | PCI orientation |
-| `domain-healthcare-pharma` | HIPAA gate |
+`domain-fintech`, `domain-healthcare-pharma`
