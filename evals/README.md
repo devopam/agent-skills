@@ -5,25 +5,20 @@ skill (`evals/<skill-name>/<case-name>/`).
 
 Each case: `prompt.md` + `graders/criteria.md`.
 
-## Inventory (0.14.0)
+## Inventory
 
 | Skill | Cases | Focus |
 |---|---:|---|
-| `project-incubation` | 17 | Category retrieval, gaps, license/ADR, handoff to ci-cd-plumber |
-| `python-code-review` | 13 | Domain detection, mechanisms, scorecard verdict, tier gating |
-| `ci-cd-plumber` | 8 | Inception (GHA + GitLab), audit, scorecard, baseline, progressive N/A |
-| `pr-review` | 7 | Pre-submit hooks, tests, changelog, secrets, blast radius |
-| `postgresql-review` | 6 | MCPg readiness, degraded mode, scorecard, Critical/Not Implemented |
-| `ui-system-review` | 11 | Web/Apple/Android packs, remediation, evidence, bad fixture |
+| `project-incubation` | 17 | Category retrieval, gaps, license/ADR, handoff |
+| `python-code-review` | 13 | Domains, scorecard, tier gating |
+| `ci-cd-plumber` | 8 | Inception, audit, baseline |
+| `pr-review` | 7 | Pre-submit, tests, secrets, blast radius |
+| `postgresql-review` | 6 | MCPg readiness, scorecard |
+| `ui-system-review` | 11 | Web/Apple/Android, remediation, fixture |
+| `regulatory-compliance-applicability-scan` | 7 | Disclaimer, coverage, GDPR gaps, not-covered Japan/DE, no invented articles |
 
-**Total:** 62 hand-authored cases.
+**Total:** 69 hand-authored cases (62 at 0.14.0 + 7 regulatory on main).
 
 ## Known limitation
 
-Cases are hand-authored; machine scoring needs `claude plugin eval` early
-access. From repo root when available:
-
-```bash
-claude plugin eval . --ablation with-without --runs 1 --no-publish
-# --case 'ui-system-review/*'
-```
+Machine scoring needs `claude plugin eval` early access.

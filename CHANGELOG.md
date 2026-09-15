@@ -7,18 +7,24 @@ versioning follows [Semantic Versioning](https://semver.org/).
 ## [Unreleased]
 
 ### Added
-- **`regulatory-compliance-applicability-scan` (research + skeleton):**
-  applicability/gap orientation for regulatory packs (v0 focus `privacy-eu` /
-  GDPR), hybrid `compliance-sources/registry.yaml` + snapshots, monthly
-  refresh workflow (PR-based), skill router, report/baseline templates,
-  research under `research/regulatory-compliance-applicability-scan/`.
-  Not a certification skill; primary-source grounded.
+- **`regulatory-compliance-applicability-scan` (in progress):** applicability/gap
+  orientation grounded in primary sources; hybrid registry + monthly refresh PR
+  workflow; coverage matrix (privacy: Europe/India/Americas/ME; domains:
+  healthcare/pharma, fintech); **EU member-state overlay model** (GDPR baseline
+  vs DE/FR/IT… national packs); **Not covered** rule (e.g. Japan, missing
+  overlays).
+  - Runnable depth: **`privacy-eu`** obligation themes (Arts. anchors + signals)
+  - Outline: **`privacy-in`** (DPDP + commencement caveat)
+  - Research baselines for US-CA, CA, BR, AE, SA, domain overlays
+  - **7 eval cases** (disclaimer, coverage table, GDPR notice gap, Japan,
+    DE overlay, no invented articles, suggest-not-certify)
+  - Not released / not in plugin version bump yet
 
 ## [0.14.0] - 2026-09-11
 
 ### Added
-- **`ui-system-review` skill** (Web / Apple / Android packs), evals, bad
-  fixture, CoC, Pages, llms.txt. Plugin **0.14.0**.
+- **`ui-system-review`** (Web / Apple / Android), evals, fixture, CoC, Pages,
+  llms.txt. Plugin **0.14.0**.
 
 ## [0.13.0] - 2026-09-09
 
@@ -26,7 +32,7 @@ versioning follows [Semantic Versioning](https://semver.org/).
 - Cross-skill review pass.
 
 ### Added
-- postgresql-review deepening; eval growth; plugin **0.13.0**.
+- postgresql-review deepening; plugin **0.13.0**.
 
 ## [0.12.0] - 2026-09-07
 
@@ -50,4 +56,4 @@ versioning follows [Semantic Versioning](https://semver.org/).
 
 ## Prior history
 
-See git history prior to 0.10.0 for earlier skills.
+See git history prior to 0.10.0.
