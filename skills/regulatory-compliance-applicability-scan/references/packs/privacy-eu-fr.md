@@ -1,36 +1,53 @@
 # Pack: privacy-eu-fr (France overlay)
 
 **Depends on:** `privacy-eu`  
-**Primary (national):** Loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés (as amended)  
-**Registry id:** `fr-loi-78-17`  
-**Official:** Légifrance consolidated text for loi 78-17  
-**Entry example:** https://www.legifrance.gouv.fr/ (search loi 78-17 consolidée)
-
-## Scope
-
-French **national complements** to GDPR (margins left to member states), not a
-second full GDPR.
+**Primary:** Loi n° 78-17 du 6 janvier 1978 (Informatique et Libertés), as amended  
+**Registry:** `fr-loi-78-17`  
+**Official:** Légifrance consolidé  
+**Runnable:** yes  
+**Language:** French authoritative
 
 ## When to suggest
 
-French establishment, FR users as primary market, CNIL-facing docs, user asks
-for loi Informatique et Libertés.
+French establishment; FR market; CNIL-facing docs; loi Informatique et Libertés.
 
-## Overlay themes (v0 orientation)
+## Overlay themes
 
-| Theme | Orientation | Notes |
-|-------|-------------|-------|
-| Articulation with GDPR | Loi states rights/obligations exercised in framework of GDPR | Art. 1 area — confirm live |
-| Age of consent (children) | National choice under GDPR Art. 8 | Often discussed as 15 in FR practice materials — **verify in consolidé** before stating |
-| Health / NIR / sensitive | National special rules | Confirm articles in consolidé |
-| CNIL institutional | Law organizes supervisory authority | Procedural; not a substitute for GDPR duties |
+### T1 — Articulation with GDPR
+
+| | |
+|--|--|
+| **Primary** | Loi 78-17 Art. 1 area — rights/obligations in framework of GDPR |
+| **Signals** | FR entity; French policy citing both RGPD and loi 78-17 |
+
+### T2 — Age of digital consent (Art. 8 opening)
+
+| | |
+|--|--|
+| **Primary** | National determination under GDPR Art. 8 — **verify consolidé** (often discussed as 15; do not hard-code without live text) |
+| **Signals** | Child-directed services in FR |
+
+### T3 — Health data / NIR / sensitive processing
+
+| | |
+|--|--|
+| **Primary** | National special rules in loi 78-17 — verify Légifrance |
+| **Signals** | Health apps, NIR use |
+| **Gaps** | Only with evidence |
+
+### T4 — CNIL institutional / procedures
+
+| | |
+|--|--|
+| **Primary** | Loi provisions on CNIL |
+| **Use** | Orientation; not “CNIL always requires…” without cite |
+
+### T5 — Criminal sanctions / rights of action
+
+| | |
+|--|--|
+| **Use** | Orientation only |
 
 ## Report rule
 
-Baseline GDPR + FR overlay tables. No “CNIL always requires X” without a
-primary legal cite.
-
-## Not assessed
-
-Cookie/ePrivacy orders beyond what the loi + GDPR pack cover; sector codes
-without registry sources.
+GDPR baseline + FR overlay. Cookie/ePrivacy national detail remains limited unless explicitly in consolidé scope for this pack.

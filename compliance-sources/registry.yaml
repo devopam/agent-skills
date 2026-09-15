@@ -1,12 +1,11 @@
-# Canonical source registry — hardened 2026-09-15 (+ depth URL locks)
-# See research/.../09-url-hardening.md
+# Registry — EU depth pass 2026-09-15
 version: 1
 
 sources:
   - id: eu-gdpr-2016-679
     pack: privacy-eu
     role: primary
-    title: "Regulation (EU) 2016/679 (GDPR)"
+    title: "GDPR"
     citation: "Regulation (EU) 2016/679"
     jurisdiction: [EU, EEA]
     primary_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679"
@@ -17,7 +16,7 @@ sources:
   - id: edpb-guidelines-index
     pack: privacy-eu
     role: interpretation_aid
-    title: "EDPB GDPR guidelines index"
+    title: "EDPB guidelines"
     citation: "EDPB Guidelines"
     jurisdiction: [EU, EEA]
     primary_url: "https://www.edpb.europa.eu/our-work-tools/general-guidance/gdpr-guidelines-recommendations-best-practices_en"
@@ -42,8 +41,6 @@ sources:
     citation: "Loi n° 78-17 du 6 janvier 1978"
     jurisdiction: [FR]
     primary_url: "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000886460"
-    watch_urls:
-      - "https://www.legifrance.gouv.fr/"
     check_frequency: monthly
 
   - id: it-codice-privacy-196-2003
@@ -70,7 +67,7 @@ sources:
     pack: privacy-eu-nl
     role: primary
     title: "UAVG"
-    citation: "UAVG"
+    citation: "Uitvoeringswet AVG"
     jurisdiction: [NL]
     primary_url: "https://wetten.overheid.nl/BWBR0040940"
     check_frequency: monthly
@@ -78,25 +75,29 @@ sources:
   - id: pl-uodo-act
     pack: privacy-eu-pl
     role: primary
-    title: "Polish DP act"
-    citation: "Ustawa o ochronie danych osobowych"
+    title: "Polish DP Act 2018"
+    citation: "Ustawa o ochronie danych osobowych 2018"
     jurisdiction: [PL]
-    primary_url: "https://isap.sejm.gov.pl/"
+    primary_url: "https://eli.gov.pl/eli/DU/2018/1000/ogl"
+    watch_urls:
+      - "https://isap.sejm.gov.pl/"
     check_frequency: monthly
 
   - id: se-dsa
     pack: privacy-eu-se
     role: primary
-    title: "SFS 2018:218"
+    title: "Lag (2018:218)"
     citation: "SFS 2018:218"
     jurisdiction: [SE]
-    primary_url: "https://www.riksdagen.se/sv/dokument-och-lagar/"
+    primary_url: "https://www.svenskforfattningssamling.se/doc/2018218.html"
+    watch_urls:
+      - "https://www.riksdagen.se/sv/dokument-och-lagar/"
     check_frequency: monthly
 
   - id: ie-dpa-2018
     pack: privacy-eu-ie
     role: primary
-    title: "Data Protection Act 2018 (Ireland)"
+    title: "Data Protection Act 2018 IE"
     citation: "Data Protection Act 2018"
     jurisdiction: [IE]
     primary_url: "https://www.irishstatutebook.ie/eli/2018/act/7/enacted/en/html"
@@ -115,10 +116,11 @@ sources:
     pack: privacy-eu-at
     role: primary
     title: "DSG Austria"
-    citation: "DSG"
+    citation: "Datenschutzgesetz"
     jurisdiction: [AT]
     primary_url: "https://www.ris.bka.gv.at/"
     check_frequency: monthly
+    notes: "Search Datenschutzgesetz on RIS for current BGBl version."
 
   - id: pt-lei-58-2019
     pack: privacy-eu-pt
@@ -136,8 +138,7 @@ sources:
     citation: "DPDP Act, 2023"
     jurisdiction: [IN]
     primary_url: "https://www.indiacode.nic.in/"
-    watch_urls:
-      - "https://www.meity.gov.in/"
+    watch_urls: ["https://www.meity.gov.in/"]
     check_frequency: monthly
 
   - id: us-ca-ccpa-civil-code
@@ -152,7 +153,7 @@ sources:
   - id: us-va-vcdpa
     pack: privacy-us-va
     role: primary
-    title: "Virginia VCDPA"
+    title: "VCDPA"
     citation: "Va. Code § 59.1-575 et seq."
     jurisdiction: [US-VA]
     primary_url: "https://law.lis.virginia.gov/vacode/title59.1/chapter53"
@@ -170,19 +171,16 @@ sources:
   - id: us-ct-ctdpa
     pack: privacy-us-ct
     role: primary
-    title: "Connecticut CTDPA"
+    title: "CTDPA"
     citation: "Conn. Gen. Stat. Chapter 743jj"
     jurisdiction: [US-CT]
     primary_url: "https://portal.ct.gov/ag/sections/privacy/the-connecticut-data-privacy-act"
-    watch_urls:
-      - "https://www.cga.ct.gov/"
     check_frequency: monthly
-    notes: "Prefer CGS § 42-515 et seq. HTML when locked; AG page orientation. Amendments may change thresholds."
 
   - id: us-ut-ucpa
     pack: privacy-us-ut
     role: primary
-    title: "Utah UCPA"
+    title: "UCPA"
     citation: "Utah Code Title 13 Chapter 61"
     jurisdiction: [US-UT]
     primary_url: "https://le.utah.gov/xcode/Title13/Chapter61/13-61.html"
@@ -191,7 +189,7 @@ sources:
   - id: us-tx-tdpsa
     pack: privacy-us-tx
     role: primary
-    title: "Texas TDPSA"
+    title: "TDPSA"
     citation: "Tex. Bus. & Com. Code Ch. 541"
     jurisdiction: [US-TX]
     primary_url: "https://www.texasattorneygeneral.gov/consumer-protection/file-consumer-complaint/consumer-privacy-rights/texas-data-privacy-and-security-act"
@@ -240,14 +238,13 @@ sources:
     citation: "PIPL"
     jurisdiction: [CN]
     primary_url: "http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html"
-    watch_urls:
-      - "http://en.npc.gov.cn.cdurl.cn/2021-12/29/c_694559.htm"
+    watch_urls: ["http://en.npc.gov.cn.cdurl.cn/2021-12/29/c_694559.htm"]
     check_frequency: monthly
 
   - id: kr-pipa
     pack: privacy-kr
     role: primary
-    title: "PIPA Korea"
+    title: "PIPA"
     citation: "개인정보 보호법"
     jurisdiction: [KR]
     primary_url: "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=270351"
@@ -269,14 +266,13 @@ sources:
     citation: "152-FZ"
     jurisdiction: [RU]
     primary_url: "http://pravo.gov.ru/"
-    watch_urls:
-      - "https://www.consultant.ru/document/cons_doc_LAW_61801/"
+    watch_urls: ["https://www.consultant.ru/document/cons_doc_LAW_61801/"]
     check_frequency: monthly
 
   - id: sg-pdpa
     pack: privacy-sg
     role: primary
-    title: "Singapore PDPA 2012"
+    title: "PDPA 2012"
     citation: "PDPA 2012"
     jurisdiction: [SG]
     primary_url: "https://sso.agc.gov.sg/Act/PDPA2012"
@@ -285,7 +281,7 @@ sources:
   - id: au-privacy-act-1988
     pack: privacy-au
     role: primary
-    title: "Privacy Act 1988 (Cth)"
+    title: "Privacy Act 1988"
     citation: "Privacy Act 1988"
     jurisdiction: [AU]
     primary_url: "https://www.legislation.gov.au/C2004A03712/latest/text"

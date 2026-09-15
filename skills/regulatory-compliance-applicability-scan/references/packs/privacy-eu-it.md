@@ -1,32 +1,47 @@
 # Pack: privacy-eu-it (Italy overlay)
 
 **Depends on:** `privacy-eu`  
-**Primary (national):** Decreto legislativo 30 giugno 2003, n. 196 (Codice in materia di protezione dei dati personali), as amended (incl. d.lgs. 101/2018 GDPR alignment)  
-**Registry id:** `it-codice-privacy-196-2003`  
-**Official paths:** Gazzetta Ufficiale / Normattiva; Garante consolidated reading aids are secondary
-
-## Scope
-
-Italian adaptations to GDPR, not a full second regulation.
+**Primary:** D.Lgs. 30 giugno 2003, n. 196 (Codice privacy), as amended (incl. d.lgs. 101/2018)  
+**Registry:** `it-codice-privacy-196-2003`  
+**Official paths:** Normattiva / Gazzetta Ufficiale  
+**Runnable:** yes  
+**Language:** Italian authoritative
 
 ## When to suggest
 
-Italian establishment, IT market, Garante-facing documentation, user asks for
-Codice privacy.
+Italian establishment; IT market; Garante-facing docs; Codice privacy cites.
 
-## Overlay themes (v0 orientation)
+## Overlay themes
 
-| Theme | Orientation |
-|-------|-------------|
-| Relationship to GDPR | Codice aligns national order to the Regulation |
-| Garante as SA | National designation of supervisory authority |
-| National specifications | Only with article cites from current Codice text |
+### T1 — Alignment with GDPR
+
+| | |
+|--|--|
+| **Primary** | Codice Art. 1–2 area — processing per Regulation + Codice |
+| **Signals** | IT entity; Italian policy |
+
+### T2 — Garante as supervisory authority
+
+| | |
+|--|--|
+| **Primary** | Codice provisions designating the Garante |
+| **Use** | Orientation |
+
+### T3 — National specifications
+
+| | |
+|--|--|
+| **Primary** | Specific parts of Codice exercising GDPR flexibility — **verify current consolidato** |
+| **Signals** | IT employment, health, journalistic exemptions claims |
+| **Gaps** | Only with evidence |
+
+### T4 — Children’s data / marketing (national)
+
+| | |
+|--|--|
+| **Primary** | Where Codice sets national rules — verify live |
+| **Note** | Do not invent ages or marketing rules from memory |
 
 ## Report rule
 
-GDPR baseline first; Italian overlay only with Codice primary cites. Prefer
-live official text over secondary consolidations.
-
-## Not assessed
-
-Sectoral Italian laws (e.g. health) without separate packs.
+GDPR baseline + IT overlay with Codice article cites from current official text.
