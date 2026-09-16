@@ -1,4 +1,4 @@
-# Registry — EU-27 + EEA + UK 2026-09-16
+# Registry — EU-27 + EEA + UK + TW 2026-09-16
 version: 1
 
 sources:
@@ -434,6 +434,16 @@ sources:
     jurisdiction: [JP]
     primary_url: "https://www.ppc.go.jp/en/legal/"
     check_frequency: monthly
+
+  - id: tw-pdpa
+    pack: privacy-tw
+    role: primary
+    title: "Taiwan Personal Data Protection Act"
+    citation: "個人資料保護法 (PDPA)"
+    jurisdiction: [TW]
+    primary_url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021"
+    check_frequency: monthly
+    notes: "Use in-force text on MOJ; promulgated Nov 2025 amendments may not yet be commenced."
 
   - id: ru-152-fz
     pack: privacy-ru
