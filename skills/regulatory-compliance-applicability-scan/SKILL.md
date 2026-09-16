@@ -1,19 +1,20 @@
 ---
 name: regulatory-compliance-applicability-scan
-description: Maps researched privacy regimes — GDPR plus full EU-27 and EEA (NO/IS/LI) national overlays, plus selected Americas/Asia/ME/AU packs and fintech/healthcare domains — to repo evidence. Declines missing packs. Not legal advice or certification.
+description: Maps researched privacy regimes — GDPR plus full EU-27 and EEA overlays, UK GDPR/DPA 2018, and selected Americas/Asia/ME/AU packs plus fintech/healthcare domains — to repo evidence. Declines missing packs. Not legal advice or certification.
 ---
 
 # Regulatory compliance applicability scan
 
-Runnable packs only: [references/packs/README.md](references/packs/README.md).
+Runnable packs: [references/packs/README.md](references/packs/README.md).  
+Roadmap: [research/.../12-global-coverage-roadmap.md](../../../research/regulatory-compliance-applicability-scan/12-global-coverage-roadmap.md).
 
-**Europe:** Always use `privacy-eu` (GDPR) for EU/EEA scope; add `privacy-eu-{cc}` when a specific member state or EEA state matters. UK is not in this set.
+**Europe:** `privacy-eu` ± `privacy-eu-{cc}`. **UK:** `privacy-uk` alone (not an EU overlay). EU+UK products → both packs.
 
-Ask questions one at a time. **Not covered** if absent from the inventory.
+Ask questions one at a time. **Not covered** if absent from inventory.
 
 ## Phases
 
-0 Intake (member state when Europe) → 1 Evidence → 2 Obligation map → 3 Report → 4 Optional baseline.
+0 Intake → 1 Evidence → 2 Obligation map → 3 Report → 4 Optional baseline.
 
 ## Boundaries
 

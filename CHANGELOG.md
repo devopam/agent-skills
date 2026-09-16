@@ -3,10 +3,13 @@
 ## [Unreleased]
 
 ### Added
-- **`regulatory-compliance-applicability-scan`:** full **EU-27 + EEA** national
-  overlay inventory (`privacy-eu-*` for all member states + NO/IS/LI), paired
-  with GDPR baseline; prior deep packs for major EU states; Americas/Asia/ME/AU
-  packs; registry + refresh retries; 13+ evals. **0.15.0 not cut yet.**
+- **`regulatory-compliance-applicability-scan`:**
+  - Full EU-27 + EEA overlays + GDPR baseline
+  - **`privacy-uk`** (UK GDPR + DPA 2018; standalone, not EU overlay)
+  - Prior Americas/Asia/ME/AU packs and domains
+  - **Staged global roadmap** (`research/.../12-global-coverage-roadmap.md`)
+  - Registry + refresh retries; evals including UK-not-EU-overlay
+  - **0.15.0 not cut yet**
 
 ## [0.14.0] - 2026-09-11
 

@@ -1,15 +1,10 @@
 # Depth progress
 
-**Updated:** 2026-09-15
+**Updated:** 2026-09-16
 
-## Europe
-
-| Layer | Status |
-|-------|--------|
-| GDPR baseline | Deep |
-| DE FR IT ES IE NL PL SE BE AT PT | Deep |
-| Remaining EU-27 + NO IS LI | Orientation complete (inventory full) |
-
-## Next non-EU
-
-KR JP RU depth; more US states; UK pack.
+| Region | Status |
+|--------|--------|
+| EU-27 + EEA + GDPR | Inventory complete; major states deep |
+| **UK** | **Deep** (`privacy-uk`) |
+| KR JP RU | Medium — Stage C1 |
+| Other roadmap | See 12-global-coverage-roadmap.md |

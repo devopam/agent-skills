@@ -48,7 +48,11 @@
 | `privacy-eu-li` | Liechtenstein |
 | `privacy-eu-no` | Norway |
 
-**UK** is not an EU/EEA overlay — use future `privacy-uk` when runnable.
+## United Kingdom (standalone — not an EU overlay)
+
+| Pack | Notes |
+|------|--------|
+| `privacy-uk` | UK GDPR + Data Protection Act 2018 |
 
 ## Americas
 
@@ -61,3 +65,7 @@
 ## Domains
 
 `domain-fintech`, `domain-healthcare-pharma`
+
+## Roadmap
+
+See [research/.../12-global-coverage-roadmap.md](../../../../research/regulatory-compliance-applicability-scan/12-global-coverage-roadmap.md).
