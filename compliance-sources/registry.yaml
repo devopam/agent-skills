@@ -1,5 +1,8 @@
-# Registry — EU-27 + EEA + UK + Stage C Asia 2026-09-16
+# Registry — parity + URL hardening 2026-09-16 (post v0.15.0)
 version: 1
+notes: |
+  Portal-root URLs remain where no stable act-level permalink was verified.
+  Refresh may hash unstable HTML; prefer act-level when upgrading.
 
 sources:
   - id: eu-gdpr-2016-679
@@ -24,7 +27,7 @@ sources:
     pack: privacy-uk
     role: primary
     title: "UK GDPR"
-    citation: "UK GDPR (assimilated Regulation (EU) 2016/679 as amended)"
+    citation: "UK GDPR"
     jurisdiction: [UK]
     primary_url: "https://www.legislation.gov.uk/eur/2016/679"
     check_frequency: monthly
@@ -116,8 +119,9 @@ sources:
     title: "Belgian law 30 July 2018"
     citation: "Law of 30 July 2018"
     jurisdiction: [BE]
-    primary_url: "https://www.ejustice.just.fgov.be/"
+    primary_url: "https://economie.fgov.be/fr/legislation/loi-du-30-juillet-2018-0"
     check_frequency: monthly
+    notes: "SPF Economie landing; e-Justice act text preferred when stable permalink available."
 
   - id: at-dsg
     pack: privacy-eu-at
@@ -125,7 +129,7 @@ sources:
     title: "DSG Austria"
     citation: "Datenschutzgesetz"
     jurisdiction: [AT]
-    primary_url: "https://www.ris.bka.gv.at/"
+    primary_url: "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001597"
     check_frequency: monthly
 
   - id: pt-lei-58-2019
@@ -136,6 +140,7 @@ sources:
     jurisdiction: [PT]
     primary_url: "https://diariodarepublica.pt/"
     check_frequency: monthly
+    notes: portal_root: true
 
   - id: dk-databeskyttelsesloven
     pack: privacy-eu-dk
@@ -145,6 +150,7 @@ sources:
     jurisdiction: [DK]
     primary_url: "https://www.retsinformation.dk/"
     check_frequency: monthly
+    notes: portal_root: true
 
   - id: fi-tietosuojalaki
     pack: privacy-eu-fi
@@ -163,6 +169,7 @@ sources:
     jurisdiction: [CZ]
     primary_url: "https://www.zakonyprolidi.cz/"
     check_frequency: monthly
+    notes: portal_root: true
 
   - id: gr-4624-2019
     pack: privacy-eu-gr
@@ -172,6 +179,7 @@ sources:
     jurisdiction: [GR]
     primary_url: "https://www.et.gr/"
     check_frequency: monthly
+    notes: portal_root: true
 
   - id: hu-infotv
     pack: privacy-eu-hu
@@ -181,6 +189,7 @@ sources:
     jurisdiction: [HU]
     primary_url: "https://njt.hu/"
     check_frequency: monthly
+    notes: portal_root: true
 
   - id: ro-190-2018
     pack: privacy-eu-ro
@@ -190,6 +199,7 @@ sources:
     jurisdiction: [RO]
     primary_url: "https://legislatie.just.ro/"
     check_frequency: monthly
+    notes: portal_root: true
 
   - id: bg-pdpa
     pack: privacy-eu-bg
@@ -199,6 +209,7 @@ sources:
     jurisdiction: [BG]
     primary_url: "https://www.cpdp.bg/"
     check_frequency: monthly
+    notes: portal_root: true
 
   - id: hr-gdpr-implementation
     pack: privacy-eu-hr
@@ -208,6 +219,7 @@ sources:
     jurisdiction: [HR]
     primary_url: "https://narodne-novine.nn.hr/"
     check_frequency: monthly
+    notes: portal_root: true
 
   - id: sk-18-2018
     pack: privacy-eu-sk
@@ -217,6 +229,7 @@ sources:
     jurisdiction: [SK]
     primary_url: "https://www.slov-lex.sk/"
     check_frequency: monthly
+    notes: portal_root: true
 
   - id: si-zvop
     pack: privacy-eu-si
@@ -226,6 +239,7 @@ sources:
     jurisdiction: [SI]
     primary_url: "https://www.uradni-list.si/"
     check_frequency: monthly
+    notes: portal_root: true
 
   - id: lt-pd-law
     pack: privacy-eu-lt
@@ -235,6 +249,7 @@ sources:
     jurisdiction: [LT]
     primary_url: "https://www.e-tar.lt/"
     check_frequency: monthly
+    notes: portal_root: true
 
   - id: lv-pdpl
     pack: privacy-eu-lv
@@ -244,6 +259,7 @@ sources:
     jurisdiction: [LV]
     primary_url: "https://likumi.lv/"
     check_frequency: monthly
+    notes: portal_root: true
 
   - id: ee-ikks
     pack: privacy-eu-ee
@@ -253,6 +269,7 @@ sources:
     jurisdiction: [EE]
     primary_url: "https://www.riigiteataja.ee/"
     check_frequency: monthly
+    notes: portal_root: true
 
   - id: lu-2018-gdpr
     pack: privacy-eu-lu
@@ -262,6 +279,7 @@ sources:
     jurisdiction: [LU]
     primary_url: "https://legilux.public.lu/"
     check_frequency: monthly
+    notes: portal_root: true
 
   - id: mt-dpa
     pack: privacy-eu-mt
@@ -271,6 +289,7 @@ sources:
     jurisdiction: [MT]
     primary_url: "https://legislation.mt/"
     check_frequency: monthly
+    notes: portal_root: true
 
   - id: cy-125i-2018
     pack: privacy-eu-cy
@@ -280,6 +299,7 @@ sources:
     jurisdiction: [CY]
     primary_url: "https://www.cylaw.org/"
     check_frequency: monthly
+    notes: portal_root: true
 
   - id: no-personopplysningsloven
     pack: privacy-eu-no
@@ -298,6 +318,7 @@ sources:
     jurisdiction: [IS]
     primary_url: "https://www.althingi.is/"
     check_frequency: monthly
+    notes: portal_root: true
 
   - id: li-dsg
     pack: privacy-eu-li
@@ -307,6 +328,26 @@ sources:
     jurisdiction: [LI]
     primary_url: "https://www.gesetze.li/"
     check_frequency: monthly
+    notes: portal_root: true
+
+  - id: ch-fadp
+    pack: privacy-ch
+    role: primary
+    title: "Swiss FADP / DSG"
+    citation: "SR 235.1"
+    jurisdiction: [CH]
+    primary_url: "https://www.fedlex.admin.ch/eli/cc/2022/491/en"
+    check_frequency: monthly
+
+  - id: ua-pdp
+    pack: privacy-ua
+    role: primary
+    title: "Ukraine Personal Data Protection Law"
+    citation: "Law of Ukraine on Personal Data Protection"
+    jurisdiction: [UA]
+    primary_url: "https://zakon.rada.gov.ua/"
+    check_frequency: monthly
+    notes: portal_root: true
 
   - id: in-dpdp-act-2023
     pack: privacy-in
@@ -316,6 +357,7 @@ sources:
     jurisdiction: [IN]
     primary_url: "https://www.indiacode.nic.in/"
     check_frequency: monthly
+    notes: portal_root: true
 
   - id: us-ca-ccpa-civil-code
     pack: privacy-us
@@ -371,6 +413,76 @@ sources:
     primary_url: "https://www.texasattorneygeneral.gov/consumer-protection/file-consumer-complaint/consumer-privacy-rights/texas-data-privacy-and-security-act"
     check_frequency: monthly
 
+  - id: us-or-ocpa
+    pack: privacy-us-or
+    role: primary
+    title: "Oregon OCPA"
+    citation: "O.R.S. § 646A.570 et seq."
+    jurisdiction: [US-OR]
+    primary_url: "https://www.oregonlegislature.gov/"
+    check_frequency: monthly
+    notes: portal_root: true
+
+  - id: us-mt-mtcdpa
+    pack: privacy-us-mt
+    role: primary
+    title: "Montana MTCDPA"
+    citation: "Mont. Code Ann. § 30-14-2801 et seq."
+    jurisdiction: [US-MT]
+    primary_url: "https://leg.mt.gov/"
+    check_frequency: monthly
+    notes: portal_root: true
+
+  - id: us-de-dpdpa
+    pack: privacy-us-de
+    role: primary
+    title: "Delaware DPDPA"
+    citation: "Del. Code § 12D-101 et seq."
+    jurisdiction: [US-DE]
+    primary_url: "https://delcode.delaware.gov/"
+    check_frequency: monthly
+    notes: portal_root: true
+
+  - id: us-ia-icdpa
+    pack: privacy-us-ia
+    role: primary
+    title: "Iowa ICDPA"
+    citation: "Iowa Code Ch. 715D"
+    jurisdiction: [US-IA]
+    primary_url: "https://www.legis.iowa.gov/"
+    check_frequency: monthly
+    notes: portal_root: true
+
+  - id: us-in-icdpa
+    pack: privacy-us-in
+    role: primary
+    title: "Indiana ICDPA"
+    citation: "IC 24-15"
+    jurisdiction: [US-IN]
+    primary_url: "https://iga.in.gov/"
+    check_frequency: monthly
+    notes: portal_root: true
+
+  - id: us-tn-tipa
+    pack: privacy-us-tn
+    role: primary
+    title: "Tennessee TIPA"
+    citation: "Tenn. Code Ann. § 47-18-3301 et seq."
+    jurisdiction: [US-TN]
+    primary_url: "https://www.capitol.tn.gov/"
+    check_frequency: monthly
+    notes: portal_root: true
+
+  - id: us-fl-fdbr
+    pack: privacy-us-fl
+    role: primary
+    title: "Florida FDBR"
+    citation: "Florida Digital Bill of Rights"
+    jurisdiction: [US-FL]
+    primary_url: "https://www.flsenate.gov/"
+    check_frequency: monthly
+    notes: portal_root: true
+
   - id: ca-pipeda
     pack: privacy-ca
     role: primary
@@ -380,6 +492,16 @@ sources:
     primary_url: "https://laws-lois.justice.gc.ca/ENG/ACTS/P-8.6/index.html"
     check_frequency: monthly
 
+  - id: ca-qc-law25
+    pack: privacy-ca-qc
+    role: primary
+    title: "Québec Law 25"
+    citation: "Act respecting the protection of personal information in the private sector"
+    jurisdiction: [CA-QC]
+    primary_url: "https://www.legisquebec.gouv.qc.ca/"
+    check_frequency: monthly
+    notes: portal_root: true
+
   - id: br-lgpd-13709
     pack: privacy-br
     role: primary
@@ -388,6 +510,46 @@ sources:
     jurisdiction: [BR]
     primary_url: "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
     check_frequency: monthly
+
+  - id: mx-lfpdppp
+    pack: privacy-mx
+    role: primary
+    title: "Mexico LFPDPPP"
+    citation: "LFPDPPP"
+    jurisdiction: [MX]
+    primary_url: "https://www.diputados.gob.mx/LeyesBiblio/"
+    check_frequency: monthly
+    notes: "Use current texto vigente (2025+ reforms)."
+
+  - id: ar-ley-25326
+    pack: privacy-ar
+    role: primary
+    title: "Argentina Ley 25.326"
+    citation: "Ley 25.326"
+    jurisdiction: [AR]
+    primary_url: "https://www.argentina.gob.ar/normativa"
+    check_frequency: monthly
+    notes: portal_root: true
+
+  - id: cl-ley-19628
+    pack: privacy-cl
+    role: primary
+    title: "Chile Ley 19.628 / 21.719"
+    citation: "Ley 19.628 as amended by 21.719"
+    jurisdiction: [CL]
+    primary_url: "https://www.bcn.cl/leychile/navegar?idNorma=1209272"
+    check_frequency: monthly
+    notes: "Verify commencement of 21.719 reforms."
+
+  - id: co-ley-1581
+    pack: privacy-co
+    role: primary
+    title: "Colombia Ley 1581"
+    citation: "Ley 1581 de 2012"
+    jurisdiction: [CO]
+    primary_url: "https://www.funcionpublica.gov.co/eva/gestornormativo/"
+    check_frequency: monthly
+    notes: portal_root: true
 
   - id: ae-pdpl-45-2021
     pack: privacy-ae
@@ -406,6 +568,84 @@ sources:
     jurisdiction: [SA]
     primary_url: "https://sdaia.gov.sa/en/Research/Pages/DataProtection.aspx"
     check_frequency: monthly
+
+  - id: il-ppl
+    pack: privacy-il
+    role: primary
+    title: "Israel Privacy Protection Law"
+    citation: "Privacy Protection Law 5741-1981 as amended"
+    jurisdiction: [IL]
+    primary_url: "https://www.gov.il/"
+    check_frequency: monthly
+    notes: portal_root: true
+
+  - id: tr-kvkk-6698
+    pack: privacy-tr
+    role: primary
+    title: "Turkey KVKK 6698"
+    citation: "Law 6698"
+    jurisdiction: [TR]
+    primary_url: "https://www.mevzuat.gov.tr/"
+    check_frequency: monthly
+    notes: portal_root: true
+
+  - id: za-popia
+    pack: privacy-za
+    role: primary
+    title: "South Africa POPIA"
+    citation: "Act 4 of 2013"
+    jurisdiction: [ZA]
+    primary_url: "https://www.gov.za/documents/protection-personal-information-act"
+    check_frequency: monthly
+
+  - id: ng-ndpa-2023
+    pack: privacy-ng
+    role: primary
+    title: "Nigeria NDPA 2023"
+    citation: "Nigeria Data Protection Act 2023"
+    jurisdiction: [NG]
+    primary_url: "https://ndpc.gov.ng/"
+    check_frequency: monthly
+    notes: portal_root: true
+
+  - id: ke-dpa-2019
+    pack: privacy-ke
+    role: primary
+    title: "Kenya DPA 2019"
+    citation: "Cap. 411C"
+    jurisdiction: [KE]
+    primary_url: "https://new.kenyalaw.org/akn/ke/act/2019/24"
+    check_frequency: monthly
+
+  - id: eg-law-151-2020
+    pack: privacy-eg
+    role: primary
+    title: "Egypt Law 151/2020"
+    citation: "Law 151/2020"
+    jurisdiction: [EG]
+    primary_url: "https://www.egypt.gov.eg/"
+    check_frequency: monthly
+    notes: portal_root: true
+
+  - id: difc-dpl
+    pack: privacy-difc
+    role: primary
+    title: "DIFC Data Protection Law"
+    citation: "DIFC Law No. 5 of 2020"
+    jurisdiction: [DIFC]
+    primary_url: "https://www.difc.ae/business/laws-regulations/"
+    check_frequency: monthly
+    notes: portal_root: true
+
+  - id: adgm-dpr
+    pack: privacy-adgm
+    role: primary
+    title: "ADGM Data Protection Regulations"
+    citation: "ADGM DPR 2021"
+    jurisdiction: [ADGM]
+    primary_url: "https://www.adgm.com/legal-framework/"
+    check_frequency: monthly
+    notes: portal_root: true
 
   - id: cn-pipl
     pack: privacy-cn
@@ -449,14 +689,14 @@ sources:
     title: "Hong Kong PDPO Cap. 486"
     citation: "Cap. 486"
     jurisdiction: [HK]
-    primary_url: "https://www.elegislation.gov.hk/"
+    primary_url: "https://www.elegislation.gov.hk/hk/cap486"
     check_frequency: monthly
-    notes: "Search Cap. 486; s. 33 commencement status must be verified."
+    notes: "s. 33 commencement must be verified."
 
   - id: my-pdpa-2010
     pack: privacy-my
     role: primary
-    title: "Malaysia PDPA 2010 Act 709"
+    title: "Malaysia PDPA 2010"
     citation: "Act 709"
     jurisdiction: [MY]
     primary_url: "https://www.pdp.gov.my/ppdpv1/en/akta/pdp-act-2010-en/"
@@ -470,12 +710,12 @@ sources:
     jurisdiction: [TH]
     primary_url: "https://www.ratchakitcha.soc.go.th/"
     check_frequency: monthly
-    notes: "Prefer Royal Gazette authentic Thai text."
+    notes: portal_root: true
 
   - id: id-uu-27-2022
     pack: privacy-id
     role: primary
-    title: "Indonesia UU 27/2022 PDP"
+    title: "Indonesia UU 27/2022"
     citation: "UU No. 27 Tahun 2022"
     jurisdiction: [ID]
     primary_url: "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
@@ -484,27 +724,28 @@ sources:
   - id: ph-ra-10173
     pack: privacy-ph
     role: primary
-    title: "Philippines Data Privacy Act RA 10173"
+    title: "Philippines RA 10173"
     citation: "RA 10173"
     jurisdiction: [PH]
     primary_url: "https://www.officialgazette.gov.ph/"
     check_frequency: monthly
+    notes: portal_root: true
 
   - id: vn-pdp
     pack: privacy-vn
     role: primary
-    title: "Vietnam personal data protection (in-force instrument)"
-    citation: "VN PDP law/decrees — verify in force"
+    title: "Vietnam PDP"
+    citation: "VN PDP — verify in force"
     jurisdiction: [VN]
     primary_url: "https://vanban.chinhphu.vn/"
     check_frequency: monthly
-    notes: "Lock current law/decree; frameworks have changed (13/2023 vs newer law/decrees)."
+    notes: portal_root: true
 
   - id: nz-privacy-act-2020
     pack: privacy-nz
     role: primary
-    title: "New Zealand Privacy Act 2020"
-    citation: "Privacy Act 2020 No 31"
+    title: "NZ Privacy Act 2020"
+    citation: "2020 No 31"
     jurisdiction: [NZ]
     primary_url: "https://www.legislation.govt.nz/act/public/2020/31/en/latest/"
     check_frequency: monthly
@@ -517,6 +758,7 @@ sources:
     jurisdiction: [RU]
     primary_url: "http://pravo.gov.ru/"
     check_frequency: monthly
+    notes: portal_root: true
 
   - id: sg-pdpa
     pack: privacy-sg
