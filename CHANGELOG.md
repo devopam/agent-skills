@@ -3,9 +3,9 @@
 ## [Unreleased]
 
 ### Added
-- **`regulatory-compliance-applicability-scan`:** EU-27+EEA, UK, Stage C Asia complete
-  (`privacy-tw/hk/my/th/id/ph/vn/nz` + deep KR/JP/RU/CN/SG/…), Americas first wave,
-  domains, roadmap Stages D–G. **0.15.0 not cut.**
+- **`regulatory-compliance-applicability-scan`:** full Stage C Asia; **Stage D1** US states
+  (OR, MT, DE, IA, IN, TN, NH, NJ, NE, MN, MD, KY, RI); prior EU/UK/first-wave.
+  **0.15.0 not cut.**
 
 ## [0.14.0] - 2026-09-11
 

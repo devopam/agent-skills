@@ -4,24 +4,20 @@
 
 | Stage | Status |
 |-------|--------|
-| A EU-27 + EEA | Complete |
-| B UK | Complete |
-| C1 KR/JP/RU depth | Complete |
-| C2 Taiwan | Complete |
-| **C3–C9** HK MY TH ID PH VN NZ | **Complete** |
-| **Stage C** | **Complete** |
+| A–C | Complete |
+| **D1** Additional US states (OR MT DE IA IN TN NH NJ NE MN MD KY RI) | **Complete** |
 
-## Next — Stage D (Americas expansion)
+## Next — Stage D continued
 
 | Order | Target |
 |------:|--------|
-| **D1** | More US comprehensive privacy states (OR, MT, DE, IA, IN, TN, …) |
-| D2 | `privacy-mx` Mexico |
+| D1b | Remaining US (FL, others enacted — optional) |
+| **D2** | `privacy-mx` Mexico |
 | D3 | `privacy-ar` Argentina |
 | D4 | `privacy-cl` Chile |
-| D5 | Colombia (name carefully vs US-CO) |
-| D6 | Optional Canada provincial (QC Law 25) |
+| D5 | Colombia |
+| D6 | Optional QC Law 25 |
 
-Then **E** ME/Africa → **F** CH/free zones → **G** hardening / 0.15.0.
+Then E → F → G (0.15.0).
 
-**Next recommended:** **D1 — additional US state packs**.
+**Next recommended:** **D2 — Mexico (`privacy-mx`)**.

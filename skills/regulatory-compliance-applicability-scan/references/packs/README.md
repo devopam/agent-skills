@@ -3,40 +3,42 @@
 **Inclusion list.** Anything not listed is **Not covered**.
 
 ## Europe
+`privacy-eu` + EU-27 overlays + EEA (`is`,`li`,`no`) · `privacy-uk`
 
-- `privacy-eu` (GDPR) + all EU-27 `privacy-eu-{cc}` overlays + EEA (`is`,`li`,`no`)
-- `privacy-uk` (UK GDPR + DPA 2018) — not an EU overlay
+## Americas — US
 
-## Americas
+| Pack | Law |
+|------|-----|
+| `privacy-us` | California CCPA/CPRA |
+| `privacy-us-va` | Virginia VCDPA |
+| `privacy-us-co` | Colorado CPA |
+| `privacy-us-ct` | Connecticut CTDPA |
+| `privacy-us-ut` | Utah UCPA |
+| `privacy-us-tx` | Texas TDPSA |
+| `privacy-us-or` | Oregon OCPA |
+| `privacy-us-mt` | Montana MTCDPA |
+| `privacy-us-de` | Delaware DPDPA |
+| `privacy-us-ia` | Iowa ICDPA |
+| `privacy-us-in` | Indiana ICDPA |
+| `privacy-us-tn` | Tennessee TIPA |
+| `privacy-us-nh` | New Hampshire NHPA |
+| `privacy-us-nj` | New Jersey NJDPA |
+| `privacy-us-ne` | Nebraska NDPA |
+| `privacy-us-mn` | Minnesota MCDPA |
+| `privacy-us-md` | Maryland MODPA |
+| `privacy-us-ky` | Kentucky KCDPA |
+| `privacy-us-ri` | Rhode Island RIDTPPA |
 
-`privacy-us` (CA), `privacy-us-va|co|ct|ut|tx`, `privacy-ca`, `privacy-br`
+**Still not listed** (e.g. FL, VT, OK pending): **Not covered** until packed.
 
-## Asia / Oceania / ME / other
+## Americas — other
+`privacy-ca` (PIPEDA) · `privacy-br` (LGPD)
 
-| Pack | Jurisdiction |
-|------|----------------|
-| `privacy-in` | India DPDP |
-| `privacy-cn` | China PIPL |
-| `privacy-kr` | Korea PIPA |
-| `privacy-jp` | Japan APPI |
-| `privacy-tw` | Taiwan PDPA |
-| `privacy-hk` | Hong Kong PDPO Cap. 486 |
-| `privacy-my` | Malaysia PDPA 2010 |
-| `privacy-th` | Thailand PDPA B.E. 2562 |
-| `privacy-id` | Indonesia UU 27/2022 |
-| `privacy-ph` | Philippines RA 10173 |
-| `privacy-vn` | Vietnam PDP (in-force gate) |
-| `privacy-sg` | Singapore PDPA |
-| `privacy-nz` | New Zealand Privacy Act 2020 |
-| `privacy-ae` | UAE PDPL |
-| `privacy-sa` | Saudi PDPL |
-| `privacy-au` | Australia Privacy Act 1988 |
-| `privacy-ru` | Russia 152-FZ |
+## Asia / Oceania / ME / RU
+`privacy-in|cn|kr|jp|tw|hk|my|th|id|ph|vn|sg|nz|ae|sa|au|ru`
 
 ## Domains
-
-`domain-fintech`, `domain-healthcare-pharma`
+`domain-fintech` · `domain-healthcare-pharma`
 
 ## Roadmap
-
-[12-global-coverage-roadmap.md](../../../../research/regulatory-compliance-applicability-scan/12-global-coverage-roadmap.md) — **Stage C complete**; next **Stage D**.
+[12-global-coverage-roadmap.md](../../../../research/regulatory-compliance-applicability-scan/12-global-coverage-roadmap.md)
