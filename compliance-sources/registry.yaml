@@ -1,4 +1,4 @@
-# Registry — EU-27 + EEA + UK + TW 2026-09-16
+# Registry — EU-27 + EEA + UK + Stage C Asia 2026-09-16
 version: 1
 
 sources:
@@ -28,7 +28,6 @@ sources:
     jurisdiction: [UK]
     primary_url: "https://www.legislation.gov.uk/eur/2016/679"
     check_frequency: monthly
-    notes: "Not identical to EU GDPR; use UK revised text only."
 
   - id: uk-dpa-2018
     pack: privacy-uk
@@ -438,12 +437,77 @@ sources:
   - id: tw-pdpa
     pack: privacy-tw
     role: primary
-    title: "Taiwan Personal Data Protection Act"
-    citation: "個人資料保護法 (PDPA)"
+    title: "Taiwan PDPA"
+    citation: "個人資料保護法"
     jurisdiction: [TW]
     primary_url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021"
     check_frequency: monthly
-    notes: "Use in-force text on MOJ; promulgated Nov 2025 amendments may not yet be commenced."
+
+  - id: hk-pdpo
+    pack: privacy-hk
+    role: primary
+    title: "Hong Kong PDPO Cap. 486"
+    citation: "Cap. 486"
+    jurisdiction: [HK]
+    primary_url: "https://www.elegislation.gov.hk/"
+    check_frequency: monthly
+    notes: "Search Cap. 486; s. 33 commencement status must be verified."
+
+  - id: my-pdpa-2010
+    pack: privacy-my
+    role: primary
+    title: "Malaysia PDPA 2010 Act 709"
+    citation: "Act 709"
+    jurisdiction: [MY]
+    primary_url: "https://www.pdp.gov.my/ppdpv1/en/akta/pdp-act-2010-en/"
+    check_frequency: monthly
+
+  - id: th-pdpa-2562
+    pack: privacy-th
+    role: primary
+    title: "Thailand PDPA B.E. 2562"
+    citation: "PDPA B.E. 2562"
+    jurisdiction: [TH]
+    primary_url: "https://www.ratchakitcha.soc.go.th/"
+    check_frequency: monthly
+    notes: "Prefer Royal Gazette authentic Thai text."
+
+  - id: id-uu-27-2022
+    pack: privacy-id
+    role: primary
+    title: "Indonesia UU 27/2022 PDP"
+    citation: "UU No. 27 Tahun 2022"
+    jurisdiction: [ID]
+    primary_url: "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
+    check_frequency: monthly
+
+  - id: ph-ra-10173
+    pack: privacy-ph
+    role: primary
+    title: "Philippines Data Privacy Act RA 10173"
+    citation: "RA 10173"
+    jurisdiction: [PH]
+    primary_url: "https://www.officialgazette.gov.ph/"
+    check_frequency: monthly
+
+  - id: vn-pdp
+    pack: privacy-vn
+    role: primary
+    title: "Vietnam personal data protection (in-force instrument)"
+    citation: "VN PDP law/decrees — verify in force"
+    jurisdiction: [VN]
+    primary_url: "https://vanban.chinhphu.vn/"
+    check_frequency: monthly
+    notes: "Lock current law/decree; frameworks have changed (13/2023 vs newer law/decrees)."
+
+  - id: nz-privacy-act-2020
+    pack: privacy-nz
+    role: primary
+    title: "New Zealand Privacy Act 2020"
+    citation: "Privacy Act 2020 No 31"
+    jurisdiction: [NZ]
+    primary_url: "https://www.legislation.govt.nz/act/public/2020/31/en/latest/"
+    check_frequency: monthly
 
   - id: ru-152-fz
     pack: privacy-ru
