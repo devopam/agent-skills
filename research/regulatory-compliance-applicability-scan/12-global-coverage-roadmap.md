@@ -4,16 +4,14 @@
 
 | Stage | Status |
 |-------|--------|
-| A–D | Complete |
-| **E** ME & Africa (IL TR ZA NG KE EG + deepen AE/SA) | **Complete** |
-| **F** CH, UA, DIFC, ADGM | **Complete** |
+| A–F | Complete |
+| **G baseline** | SKILL matrix, evals, refresh retries, this checklist |
 
-## Next — Stage G (hardening → 0.15.0)
+## Post-0.15.0
 
-1. Registry URL lock to act-level pages where possible  
-2. Expand evals for new packs  
-3. Refresh workflow dry-run  
-4. SKILL.md coverage matrix refresh  
-5. Cut **0.15.0** when coherent  
+- URL lock for portal-root registry rows  
+- Registry completeness for E–F  
+- Refresh dry-run triage  
+- Optional residual US states / QC Law 25  
 
-Optional later waves: more US states, QC Law 25, additional African/Asian markets.
+See [13-stage-g-hardening.md](13-stage-g-hardening.md).
