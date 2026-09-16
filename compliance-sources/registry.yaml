@@ -1,4 +1,4 @@
-# Registry — EU-27 + EEA complete 2026-09-15
+# Registry — EU-27 + EEA + UK 2026-09-16
 version: 1
 
 sources:
@@ -9,8 +9,6 @@ sources:
     citation: "Regulation (EU) 2016/679"
     jurisdiction: [EU, EEA]
     primary_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679"
-    watch_urls:
-      - "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02016R0679-20160504"
     check_frequency: monthly
 
   - id: edpb-guidelines-index
@@ -20,6 +18,25 @@ sources:
     citation: "EDPB Guidelines"
     jurisdiction: [EU, EEA]
     primary_url: "https://www.edpb.europa.eu/our-work-tools/general-guidance/gdpr-guidelines-recommendations-best-practices_en"
+    check_frequency: monthly
+
+  - id: uk-gdpr
+    pack: privacy-uk
+    role: primary
+    title: "UK GDPR"
+    citation: "UK GDPR (assimilated Regulation (EU) 2016/679 as amended)"
+    jurisdiction: [UK]
+    primary_url: "https://www.legislation.gov.uk/eur/2016/679"
+    check_frequency: monthly
+    notes: "Not identical to EU GDPR; use UK revised text only."
+
+  - id: uk-dpa-2018
+    pack: privacy-uk
+    role: primary
+    title: "Data Protection Act 2018"
+    citation: "Data Protection Act 2018 (c. 12)"
+    jurisdiction: [UK]
+    primary_url: "https://www.legislation.gov.uk/ukpga/2018/12"
     check_frequency: monthly
 
   - id: de-bdsg
@@ -160,7 +177,7 @@ sources:
   - id: hu-infotv
     pack: privacy-eu-hu
     role: primary
-    title: "Hungarian Infotv / GDPR implementation"
+    title: "Hungarian DP act"
     citation: "Hungarian DP act"
     jurisdiction: [HU]
     primary_url: "https://njt.hu/"
@@ -187,7 +204,7 @@ sources:
   - id: hr-gdpr-implementation
     pack: privacy-eu-hr
     role: primary
-    title: "Croatian GDPR implementation act"
+    title: "Croatian GDPR implementation"
     citation: "Zakon o provedbi GDPR"
     jurisdiction: [HR]
     primary_url: "https://narodne-novine.nn.hr/"
@@ -205,7 +222,7 @@ sources:
   - id: si-zvop
     pack: privacy-eu-si
     role: primary
-    title: "ZVOP (Slovenia)"
+    title: "ZVOP"
     citation: "ZVOP"
     jurisdiction: [SI]
     primary_url: "https://www.uradni-list.si/"
@@ -214,7 +231,7 @@ sources:
   - id: lt-pd-law
     pack: privacy-eu-lt
     role: primary
-    title: "Lithuanian personal data law"
+    title: "Lithuanian PD law"
     citation: "Lithuanian PD law"
     jurisdiction: [LT]
     primary_url: "https://www.e-tar.lt/"
@@ -223,7 +240,7 @@ sources:
   - id: lv-pdpl
     pack: privacy-eu-lv
     role: primary
-    title: "Latvian Personal Data Processing Law"
+    title: "Latvian PDPL"
     citation: "PDPL Latvia"
     jurisdiction: [LV]
     primary_url: "https://likumi.lv/"
@@ -232,7 +249,7 @@ sources:
   - id: ee-ikks
     pack: privacy-eu-ee
     role: primary
-    title: "Estonian Personal Data Protection Act"
+    title: "Estonian PDPA"
     citation: "IKKS"
     jurisdiction: [EE]
     primary_url: "https://www.riigiteataja.ee/"
@@ -250,7 +267,7 @@ sources:
   - id: mt-dpa
     pack: privacy-eu-mt
     role: primary
-    title: "Malta Data Protection Act Cap. 586"
+    title: "Malta Cap. 586"
     citation: "Cap. 586"
     jurisdiction: [MT]
     primary_url: "https://legislation.mt/"
