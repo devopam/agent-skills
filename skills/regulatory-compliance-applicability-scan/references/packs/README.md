@@ -2,44 +2,36 @@
 
 **Inclusion list.** Anything not listed is **Not covered**.
 
-## Europe — union baseline
+## Europe
 
-| Pack | Notes |
-|------|--------|
-| `privacy-eu` | GDPR (EU/EEA common baseline) |
-
-## Europe — EU-27 national overlays (pair with `privacy-eu`)
-
-`privacy-eu-at` … `privacy-eu-se` (all EU-27) — see prior inventory.
-
-## Europe — EEA
-
-`privacy-eu-is`, `privacy-eu-li`, `privacy-eu-no`
-
-## United Kingdom
-
-| Pack | Notes |
-|------|--------|
-| `privacy-uk` | UK GDPR + DPA 2018 |
+- `privacy-eu` (GDPR) + all EU-27 `privacy-eu-{cc}` overlays + EEA (`is`,`li`,`no`)
+- `privacy-uk` (UK GDPR + DPA 2018) — not an EU overlay
 
 ## Americas
 
 `privacy-us` (CA), `privacy-us-va|co|ct|ut|tx`, `privacy-ca`, `privacy-br`
 
-## Asia / ME / Oceania / other
+## Asia / Oceania / ME / other
 
-| Pack | Notes |
-|------|--------|
-| `privacy-in` | DPDP |
-| `privacy-cn` | PIPL |
-| `privacy-kr` | PIPA |
-| `privacy-jp` | APPI |
-| `privacy-tw` | **Taiwan PDPA** (in-force text; pending amendments gated) |
-| `privacy-sg` | PDPA |
+| Pack | Jurisdiction |
+|------|----------------|
+| `privacy-in` | India DPDP |
+| `privacy-cn` | China PIPL |
+| `privacy-kr` | Korea PIPA |
+| `privacy-jp` | Japan APPI |
+| `privacy-tw` | Taiwan PDPA |
+| `privacy-hk` | Hong Kong PDPO Cap. 486 |
+| `privacy-my` | Malaysia PDPA 2010 |
+| `privacy-th` | Thailand PDPA B.E. 2562 |
+| `privacy-id` | Indonesia UU 27/2022 |
+| `privacy-ph` | Philippines RA 10173 |
+| `privacy-vn` | Vietnam PDP (in-force gate) |
+| `privacy-sg` | Singapore PDPA |
+| `privacy-nz` | New Zealand Privacy Act 2020 |
 | `privacy-ae` | UAE PDPL |
 | `privacy-sa` | Saudi PDPL |
-| `privacy-au` | Privacy Act 1988 |
-| `privacy-ru` | 152-FZ |
+| `privacy-au` | Australia Privacy Act 1988 |
+| `privacy-ru` | Russia 152-FZ |
 
 ## Domains
 
@@ -47,4 +39,4 @@
 
 ## Roadmap
 
-[12-global-coverage-roadmap.md](../../../../research/regulatory-compliance-applicability-scan/12-global-coverage-roadmap.md)
+[12-global-coverage-roadmap.md](../../../../research/regulatory-compliance-applicability-scan/12-global-coverage-roadmap.md) — **Stage C complete**; next **Stage D**.
