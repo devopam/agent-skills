@@ -140,7 +140,7 @@ sources:
     jurisdiction: [PT]
     primary_url: "https://diariodarepublica.pt/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: dk-databeskyttelsesloven
     pack: privacy-eu-dk
@@ -150,7 +150,7 @@ sources:
     jurisdiction: [DK]
     primary_url: "https://www.retsinformation.dk/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: fi-tietosuojalaki
     pack: privacy-eu-fi
@@ -169,7 +169,7 @@ sources:
     jurisdiction: [CZ]
     primary_url: "https://www.zakonyprolidi.cz/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: gr-4624-2019
     pack: privacy-eu-gr
@@ -179,7 +179,7 @@ sources:
     jurisdiction: [GR]
     primary_url: "https://www.et.gr/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: hu-infotv
     pack: privacy-eu-hu
@@ -189,7 +189,7 @@ sources:
     jurisdiction: [HU]
     primary_url: "https://njt.hu/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: ro-190-2018
     pack: privacy-eu-ro
@@ -199,7 +199,7 @@ sources:
     jurisdiction: [RO]
     primary_url: "https://legislatie.just.ro/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: bg-pdpa
     pack: privacy-eu-bg
@@ -209,7 +209,7 @@ sources:
     jurisdiction: [BG]
     primary_url: "https://www.cpdp.bg/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: hr-gdpr-implementation
     pack: privacy-eu-hr
@@ -219,7 +219,7 @@ sources:
     jurisdiction: [HR]
     primary_url: "https://narodne-novine.nn.hr/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: sk-18-2018
     pack: privacy-eu-sk
@@ -229,7 +229,7 @@ sources:
     jurisdiction: [SK]
     primary_url: "https://www.slov-lex.sk/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: si-zvop
     pack: privacy-eu-si
@@ -239,7 +239,7 @@ sources:
     jurisdiction: [SI]
     primary_url: "https://www.uradni-list.si/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: lt-pd-law
     pack: privacy-eu-lt
@@ -249,7 +249,7 @@ sources:
     jurisdiction: [LT]
     primary_url: "https://www.e-tar.lt/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: lv-pdpl
     pack: privacy-eu-lv
@@ -259,7 +259,7 @@ sources:
     jurisdiction: [LV]
     primary_url: "https://likumi.lv/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: ee-ikks
     pack: privacy-eu-ee
@@ -269,7 +269,7 @@ sources:
     jurisdiction: [EE]
     primary_url: "https://www.riigiteataja.ee/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: lu-2018-gdpr
     pack: privacy-eu-lu
@@ -279,7 +279,7 @@ sources:
     jurisdiction: [LU]
     primary_url: "https://legilux.public.lu/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: mt-dpa
     pack: privacy-eu-mt
@@ -289,7 +289,7 @@ sources:
     jurisdiction: [MT]
     primary_url: "https://legislation.mt/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: cy-125i-2018
     pack: privacy-eu-cy
@@ -299,7 +299,7 @@ sources:
     jurisdiction: [CY]
     primary_url: "https://www.cylaw.org/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: no-personopplysningsloven
     pack: privacy-eu-no
@@ -318,7 +318,7 @@ sources:
     jurisdiction: [IS]
     primary_url: "https://www.althingi.is/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: li-dsg
     pack: privacy-eu-li
@@ -328,7 +328,7 @@ sources:
     jurisdiction: [LI]
     primary_url: "https://www.gesetze.li/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: ch-fadp
     pack: privacy-ch
@@ -347,7 +347,7 @@ sources:
     jurisdiction: [UA]
     primary_url: "https://zakon.rada.gov.ua/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: in-dpdp-act-2023
     pack: privacy-in
@@ -357,7 +357,7 @@ sources:
     jurisdiction: [IN]
     primary_url: "https://www.indiacode.nic.in/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: us-ca-ccpa-civil-code
     pack: privacy-us
@@ -421,7 +421,7 @@ sources:
     jurisdiction: [US-OR]
     primary_url: "https://www.oregonlegislature.gov/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: us-mt-mtcdpa
     pack: privacy-us-mt
@@ -431,7 +431,7 @@ sources:
     jurisdiction: [US-MT]
     primary_url: "https://leg.mt.gov/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: us-de-dpdpa
     pack: privacy-us-de
@@ -441,7 +441,7 @@ sources:
     jurisdiction: [US-DE]
     primary_url: "https://delcode.delaware.gov/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: us-ia-icdpa
     pack: privacy-us-ia
@@ -451,7 +451,7 @@ sources:
     jurisdiction: [US-IA]
     primary_url: "https://www.legis.iowa.gov/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: us-in-icdpa
     pack: privacy-us-in
@@ -461,7 +461,7 @@ sources:
     jurisdiction: [US-IN]
     primary_url: "https://iga.in.gov/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: us-tn-tipa
     pack: privacy-us-tn
@@ -471,7 +471,7 @@ sources:
     jurisdiction: [US-TN]
     primary_url: "https://www.capitol.tn.gov/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: us-fl-fdbr
     pack: privacy-us-fl
@@ -481,7 +481,7 @@ sources:
     jurisdiction: [US-FL]
     primary_url: "https://www.flsenate.gov/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: ca-pipeda
     pack: privacy-ca
@@ -500,7 +500,7 @@ sources:
     jurisdiction: [CA-QC]
     primary_url: "https://www.legisquebec.gouv.qc.ca/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: br-lgpd-13709
     pack: privacy-br
@@ -529,7 +529,7 @@ sources:
     jurisdiction: [AR]
     primary_url: "https://www.argentina.gob.ar/normativa"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: cl-ley-19628
     pack: privacy-cl
@@ -549,7 +549,7 @@ sources:
     jurisdiction: [CO]
     primary_url: "https://www.funcionpublica.gov.co/eva/gestornormativo/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: ae-pdpl-45-2021
     pack: privacy-ae
@@ -577,7 +577,7 @@ sources:
     jurisdiction: [IL]
     primary_url: "https://www.gov.il/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: tr-kvkk-6698
     pack: privacy-tr
@@ -587,7 +587,7 @@ sources:
     jurisdiction: [TR]
     primary_url: "https://www.mevzuat.gov.tr/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: za-popia
     pack: privacy-za
@@ -606,7 +606,7 @@ sources:
     jurisdiction: [NG]
     primary_url: "https://ndpc.gov.ng/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: ke-dpa-2019
     pack: privacy-ke
@@ -625,7 +625,7 @@ sources:
     jurisdiction: [EG]
     primary_url: "https://www.egypt.gov.eg/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: difc-dpl
     pack: privacy-difc
@@ -635,7 +635,7 @@ sources:
     jurisdiction: [DIFC]
     primary_url: "https://www.difc.ae/business/laws-regulations/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: adgm-dpr
     pack: privacy-adgm
@@ -645,7 +645,7 @@ sources:
     jurisdiction: [ADGM]
     primary_url: "https://www.adgm.com/legal-framework/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: cn-pipl
     pack: privacy-cn
@@ -710,7 +710,7 @@ sources:
     jurisdiction: [TH]
     primary_url: "https://www.ratchakitcha.soc.go.th/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: id-uu-27-2022
     pack: privacy-id
@@ -729,7 +729,7 @@ sources:
     jurisdiction: [PH]
     primary_url: "https://www.officialgazette.gov.ph/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: vn-pdp
     pack: privacy-vn
@@ -739,7 +739,7 @@ sources:
     jurisdiction: [VN]
     primary_url: "https://vanban.chinhphu.vn/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: nz-privacy-act-2020
     pack: privacy-nz
@@ -758,7 +758,7 @@ sources:
     jurisdiction: [RU]
     primary_url: "http://pravo.gov.ru/"
     check_frequency: monthly
-    notes: portal_root: true
+    notes: "portal_root: true"
 
   - id: sg-pdpa
     pack: privacy-sg
