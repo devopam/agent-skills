@@ -3,16 +3,14 @@
 ## [0.15.0] - 2026-09-16
 
 ### Added
-- **`regulatory-compliance-applicability-scan`** (logical first release of the skill):
-  - Stages **A–F** runnable privacy packs: EU-27+EEA overlays, UK, US state wave,
-    LatAm (MX/AR/CL/CO), Asia-Pacific, ME/Africa, CH/UA, DIFC/ADGM
-  - Domain packs: fintech (PCI orientation), healthcare (HIPAA gate)
-  - Hybrid `compliance-sources` registry + monthly refresh script (retries/backoff)
-  - Evals: not-covered, overlay pairing, commencement/localization gates, no-certify
-  - Stage G baseline hardening (coverage matrix in SKILL.md)
+- **`regulatory-compliance-applicability-scan`** (first skill release in this version):
+  - Stages A–F global privacy packs + domain packs
+  - Registry + refresh with retries; evals; Stage G baseline
+  - Post-cut residuals: `privacy-us-fl`, `privacy-ca-qc`
+- Plugin version **0.15.0**
 
-### Changed
-- Plugin version **0.15.0**; description lists the new skill
+### Notes
+- Publish GitHub tag via `RELEASE-NOTES-v0.15.0.md` (API create-release not available in connector)
 
 ## [0.14.0] - 2026-09-11
 
