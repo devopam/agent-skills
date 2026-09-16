@@ -1,29 +1,19 @@
-# Global coverage roadmap (stage by stage)
-
-**Principle:** Each stage ends when packs are runnable (card + registry +
-inventory). Deepen without blocking the next stage.
-
----
+# Global coverage roadmap
 
 ## Done
 
-| Stage | Scope | Status |
-|-------|--------|--------|
-| **A** | GDPR + EU-27 + EEA | Complete |
-| **B** | United Kingdom (`privacy-uk`) | Complete |
-| **C0** | First-wave non-EU inventory | Complete |
-| **C1** | Deepen KR, JP, RU | **Complete** (this pass) |
-
----
+| Stage | Status |
+|-------|--------|
+| A EU-27 + EEA | Complete |
+| B UK | Complete |
+| C1 Deepen KR/JP/RU | Complete |
+| **C2 Taiwan (`privacy-tw`)** | **Complete** |
 
 ## Next
 
-### Stage C — Asia neighbours (continue in order)
-
 | Order | Pack | Notes |
 |------:|------|--------|
-| **C2** | `privacy-tw` | Taiwan PDPA |
-| C3 | `privacy-hk` | PDPO |
+| **C3** | `privacy-hk` | Hong Kong PDPO |
 | C4 | `privacy-my` | Malaysia PDPA |
 | C5 | `privacy-th` | Thailand PDPA |
 | C6 | `privacy-id` | Indonesia PDP Law |
@@ -31,22 +21,6 @@ inventory). Deepen without blocking the next stage.
 | C8 | `privacy-vn` | Vietnam |
 | C9 | `privacy-nz` | Privacy Act 2020 |
 
-### Stage D — Americas expansion
+Then D (Americas) → E (ME/Africa) → F (CH/free zones) → G (hardening / 0.15.0).
 
-More US states; MX; AR; CL; CO (Colombia); optional QC Law 25.
-
-### Stage E — Middle East & Africa
-
-Deepen AE/SA; IL; TR; ZA; NG; KE; EG.
-
-### Stage F — Other Europe & special regimes
-
-CH; UA; free zones (DIFC/ADGM).
-
-### Stage G — Hardening (parallel)
-
-Registry URL lock · evals · refresh · **0.15.0** when coherent.
-
----
-
-**Next recommended step:** **C2 — Taiwan (`privacy-tw`)**.
+**Next recommended:** **C3 — Hong Kong PDPO**.
