@@ -3,36 +3,22 @@
 **Inclusion list.** Anything not listed is **Not covered**.
 
 ## Europe
-`privacy-eu` + EU-27 overlays + EEA (`is`,`li`,`no`) · `privacy-uk`
+`privacy-eu` + EU-27 overlays + EEA · `privacy-uk`
 
 ## Americas — US
-
-| Pack | Law |
-|------|-----|
-| `privacy-us` | California CCPA/CPRA |
-| `privacy-us-va` | Virginia VCDPA |
-| `privacy-us-co` | Colorado CPA |
-| `privacy-us-ct` | Connecticut CTDPA |
-| `privacy-us-ut` | Utah UCPA |
-| `privacy-us-tx` | Texas TDPSA |
-| `privacy-us-or` | Oregon OCPA |
-| `privacy-us-mt` | Montana MTCDPA |
-| `privacy-us-de` | Delaware DPDPA |
-| `privacy-us-ia` | Iowa ICDPA |
-| `privacy-us-in` | Indiana ICDPA |
-| `privacy-us-tn` | Tennessee TIPA |
-| `privacy-us-nh` | New Hampshire NHPA |
-| `privacy-us-nj` | New Jersey NJDPA |
-| `privacy-us-ne` | Nebraska NDPA |
-| `privacy-us-mn` | Minnesota MCDPA |
-| `privacy-us-md` | Maryland MODPA |
-| `privacy-us-ky` | Kentucky KCDPA |
-| `privacy-us-ri` | Rhode Island RIDTPPA |
-
-**Still not listed** (e.g. FL, VT, OK pending): **Not covered** until packed.
+`privacy-us` (CA) · `privacy-us-va|co|ct|ut|tx|or|mt|de|ia|in|tn|nh|nj|ne|mn|md|ky|ri`  
+Unlisted US states remain **Not covered**.
 
 ## Americas — other
-`privacy-ca` (PIPEDA) · `privacy-br` (LGPD)
+
+| Pack | Jurisdiction |
+|------|----------------|
+| `privacy-ca` | Canada PIPEDA |
+| `privacy-br` | Brazil LGPD |
+| `privacy-mx` | Mexico LFPDPPP |
+| `privacy-ar` | Argentina Ley 25.326 |
+| `privacy-cl` | Chile Ley 19.628 / 21.719 (commencement gate) |
+| `privacy-co` | Colombia Ley 1581 (**not** US Colorado) |
 
 ## Asia / Oceania / ME / RU
 `privacy-in|cn|kr|jp|tw|hk|my|th|id|ph|vn|sg|nz|ae|sa|au|ru`

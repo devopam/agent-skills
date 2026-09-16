@@ -5,19 +5,22 @@
 | Stage | Status |
 |-------|--------|
 | A–C | Complete |
-| **D1** Additional US states (OR MT DE IA IN TN NH NJ NE MN MD KY RI) | **Complete** |
+| D1 US states wave | Complete |
+| **D2–D5** MX AR CL CO | **Complete** |
+| **Stage D** (core) | **Complete** (optional D1b FL/others; D6 QC later) |
 
-## Next — Stage D continued
+## Next — Stage E (Middle East & Africa)
 
 | Order | Target |
 |------:|--------|
-| D1b | Remaining US (FL, others enacted — optional) |
-| **D2** | `privacy-mx` Mexico |
-| D3 | `privacy-ar` Argentina |
-| D4 | `privacy-cl` Chile |
-| D5 | Colombia |
-| D6 | Optional QC Law 25 |
+| E1 | Deepen `privacy-ae`, `privacy-sa` |
+| **E2** | `privacy-il` Israel |
+| E3 | `privacy-tr` Turkey KVKK |
+| E4 | `privacy-za` South Africa POPIA |
+| E5 | `privacy-ng` Nigeria |
+| E6 | `privacy-ke` Kenya |
+| E7 | `privacy-eg` Egypt |
 
-Then E → F → G (0.15.0).
+Then **F** (CH, UA, free zones) → **G** hardening / **0.15.0**.
 
-**Next recommended:** **D2 — Mexico (`privacy-mx`)**.
+**Next recommended:** **E2 Israel** (or E1 deepen AE/SA first).
