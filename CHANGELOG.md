@@ -3,9 +3,9 @@
 ## [Unreleased]
 
 ### Added
-- **`regulatory-compliance-applicability-scan`:** Stages A–D core — EU/UK, Asia C,
-  US states D1, **LatAm MX/AR/CL/CO**; commencement gates for MX/CL; evals.
-  **0.15.0 not cut.**
+- **`regulatory-compliance-applicability-scan`:** Stages **A–F** complete — global privacy pack
+  inventory (EU/UK/US states/LatAm/Asia/ME/Africa/CH/UA/free zones). Stage G =
+  hardening before **0.15.0**.
 
 ## [0.14.0] - 2026-09-11
 

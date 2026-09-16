@@ -3,28 +3,20 @@
 **Inclusion list.** Anything not listed is **Not covered**.
 
 ## Europe
-`privacy-eu` + EU-27 overlays + EEA · `privacy-uk`
+`privacy-eu` + EU-27 + EEA · `privacy-uk` · `privacy-ch` · `privacy-ua`
 
-## Americas — US
-`privacy-us` (CA) · `privacy-us-va|co|ct|ut|tx|or|mt|de|ia|in|tn|nh|nj|ne|mn|md|ky|ri`  
-Unlisted US states remain **Not covered**.
+## Americas
+US: `privacy-us` + state packs (va, co, ct, ut, tx, or, mt, de, ia, in, tn, nh, nj, ne, mn, md, ky, ri)  
+Other: `privacy-ca|br|mx|ar|cl|co`
 
-## Americas — other
+## Asia / Oceania
+`privacy-in|cn|kr|jp|tw|hk|my|th|id|ph|vn|sg|nz|au|ru`
 
-| Pack | Jurisdiction |
-|------|----------------|
-| `privacy-ca` | Canada PIPEDA |
-| `privacy-br` | Brazil LGPD |
-| `privacy-mx` | Mexico LFPDPPP |
-| `privacy-ar` | Argentina Ley 25.326 |
-| `privacy-cl` | Chile Ley 19.628 / 21.719 (commencement gate) |
-| `privacy-co` | Colombia Ley 1581 (**not** US Colorado) |
-
-## Asia / Oceania / ME / RU
-`privacy-in|cn|kr|jp|tw|hk|my|th|id|ph|vn|sg|nz|ae|sa|au|ru`
+## Middle East & Africa
+`privacy-ae|sa|il|tr|eg|za|ng|ke` · free zones `privacy-difc|adgm`
 
 ## Domains
 `domain-fintech` · `domain-healthcare-pharma`
 
 ## Roadmap
-[12-global-coverage-roadmap.md](../../../../research/regulatory-compliance-applicability-scan/12-global-coverage-roadmap.md)
+[12-global-coverage-roadmap.md](../../../../research/regulatory-compliance-applicability-scan/12-global-coverage-roadmap.md) — **Stages A–F complete**; **Stage G** next.

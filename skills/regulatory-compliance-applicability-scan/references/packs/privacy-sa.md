@@ -1,18 +1,10 @@
-# Pack: privacy-sa (Saudi PDPL)
+# Pack: privacy-sa (Saudi Arabia — PDPL)
 
-**Primary:** Personal Data Protection Law (Kingdom of Saudi Arabia) via SDAIA  
-**Registry id:** `sa-pdpl-sdaia`  
-**Official portal:** https://sdaia.gov.sa/en/Research/Pages/DataProtection.aspx  
-**Runnable:** yes with preference for Law + Implementing Regulation official files when linked from SDAIA
+**Primary:** Personal Data Protection Law (Saudi PDPL) and implementing regulations  
+**Registry:** `sa-pdpl-sdaia`  
+**Official orientation:** SDAIA  
+**Runnable:** yes
 
-## Themes (orientation)
-
-| Theme | Signals |
-|-------|---------|
-| Scope (incl. certain extraterritorial processing) | KSA users; KSA entity |
-| Lawful basis / transparency | Notices |
-| Data subject rights | Request handling |
-| Security / breach notification | Incident process; SDAIA notification awareness |
-| Cross-border transfer | Transfer policy; SDAIA transfer rules |
-
-Do not invent fine amounts or deadlines without current official text.
+## Themes (deepened)
+T1 Scope · T2 Principles and lawful bases · T3 Consent / notice · T4 Data subject rights · T5 Cross-border transfer · T6 Security · T7 SDAIA orientation  
+Prefer authentic Arabic consolidations. No certification claims.
