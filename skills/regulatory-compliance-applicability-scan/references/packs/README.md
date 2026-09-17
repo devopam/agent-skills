@@ -1,6 +1,6 @@
 # Packs — runnable inventory
 
-**Inclusion list.** Anything not listed (or listed NOT COVERED / LIMITED) is **Not covered**.
+**Inclusion list.** Anything not listed (or NOT COVERED / LIMITED) is **Not covered**.
 
 ## Europe
 `privacy-eu` + EU-27 + EEA · `privacy-uk` · `privacy-ch` · `privacy-ua`
@@ -9,7 +9,7 @@
 `privacy-us` (CA) · `privacy-us-va|co|ct|ut|tx|or|mt|de|ia|in|tn|nh|nj|ne|mn|md|ky|ri|fl`
 
 ## Americas — other
-`privacy-ca` · `privacy-ca-qc` · `privacy-br|mx|ar|cl|co|uy|pe`
+`privacy-ca` · `privacy-ca-qc` · `privacy-br|mx|ar|cl|co|uy|pe|cr|pa`
 
 ## Asia / Oceania
 `privacy-in|cn|kr|jp|tw|hk|my|th|id|ph|vn|sg|nz|au|ru|bd|lk|kz`  
