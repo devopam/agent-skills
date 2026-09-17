@@ -1,6 +1,6 @@
 # Packs — runnable inventory
 
-**Inclusion list.** Anything not listed (or listed as NOT COVERED) is **Not covered**.
+**Inclusion list.** Anything not listed (or listed NOT COVERED / LIMITED) is **Not covered**.
 
 ## Europe
 `privacy-eu` + EU-27 + EEA · `privacy-uk` · `privacy-ch` · `privacy-ua`
@@ -12,11 +12,12 @@
 `privacy-ca` · `privacy-ca-qc` · `privacy-br|mx|ar|cl|co|uy|pe`
 
 ## Asia / Oceania
-`privacy-in|cn|kr|jp|tw|hk|my|th|id|ph|vn|sg|nz|au|ru|bd`  
+`privacy-in|cn|kr|jp|tw|hk|my|th|id|ph|vn|sg|nz|au|ru|bd|lk|kz`  
 `privacy-pk` → **NOT COVERED** (unenacted)
 
 ## Middle East & Africa
-`privacy-ae|sa|il|tr|eg|za|ng|ke|ma|gh|bh|qa` · `privacy-difc|adgm`
+`privacy-ae|sa|il|tr|eg|za|ng|ke|ma|gh|bh|qa|om|rw|tz` · `privacy-difc|adgm`  
+`privacy-kw` → **LIMITED** (no general PDP law)
 
 ## Domains
 `domain-fintech` · `domain-healthcare-pharma`

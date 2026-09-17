@@ -1,14 +1,10 @@
 # Stage H — More countries + more evals
 
-## Order
-
 | Wave | Scope | Status |
 |------|--------|--------|
-| **H1** | UY, PE, MA, GH, BH, QA, BD; PK not-covered | **Done** |
-| **E1** | Evals for H1 + PK + BD gate + QA≠QFC | **Done** |
-| **H2** | KW, OM, RW, TZ, LK, KZ (if primary located) | Next |
-| **H3** | CR, PA, residual | Pending |
-| **E2** | Evals for H2/H3 + index | After H2 |
-
-## Rules
-Primary cites only · Not covered if unenacted · Suggest not certify · Skill-local paths
+| **H1** | UY PE MA GH BH QA BD; PK not-covered | Done |
+| **E1** | H1 evals | Done |
+| **H2** | OM RW TZ LK KZ; KW limited | **Done** |
+| **E2** | KW/OM/LK/TZ evals (this commit) | **Done** |
+| **H3** | CR PA + residual | Next |
+| **E3** | H3 evals | After H3 |
