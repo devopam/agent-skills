@@ -1,26 +1,24 @@
 # Pack: domain-fintech
 
-**Type:** Domain overlay — pair with regional privacy packs  
-**Primary (payments security):** PCI DSS — https://www.pcisecuritystandards.org/standards/  
-**Registry id:** `pci-dss-ssc`  
-**Runnable:** yes for **card-data security orientation** only
-
-## Scope
-
-| In | Out |
-|----|-----|
-| Whether cardholder data appears in scope; high-level PCI themes; processor inventory | Claiming PCI certified |
-| | RBI / PSD2 / GLBA deep packs until separately authored |
+**Primary orientation:** PCI DSS (Payment Card Industry Data Security Standard) and related SSC documents  
+**Registry:** `pci-dss-ssc`  
+**Runnable:** yes  
+**Not a government privacy statute** — industry standard often contractually binding for card acceptance.
 
 ## Themes
 
-| Theme | Orientation | Signals |
-|-------|-------------|---------|
-| CHD in environment | Store/process/transmit account data? | Stripe elements; card forms; PAN in logs |
-| Minimize SAD/PAN | No SAD in logs/analytics | Logging config; debug dumps |
-| Providers | Gateways as processors/service providers | Stripe/Adyen; KYC vendors |
-| Policy alignment | Privacy packs still required for personal data | Always pair |
+| ID | Theme | Signals in repo | Gap orientation |
+|----|--------|-----------------|----------------|
+| T1 | Cardholder data environment (CDE) scope | Payment forms, gateways, vault refs | Map where PAN/track data could exist |
+| T2 | Storage prohibition / minimization | Logs, analytics of card fields | Prefer tokenization; no full PAN in app logs |
+| T3 | Transmission security | TLS config, API clients | Encrypt card data in transit |
+| T4 | Access control & authentication | Admin UIs to payment admin | Least privilege; MFA for CDE access |
+| T5 | Logging & monitoring | Audit of payment ops | Retain security logs per DSS requirements |
+| T6 | Vendor / SAQ posture | README claims "PCI compliant" | **Never certify**; note SAQ/ROC is external |
+| T7 | Key management | Secrets for payment keys | HSM/KMS orientation only |
 
-## Remediation style
+## Rules
 
-Point at SAQ/ROC awareness and architecture patterns — **not** “you are PCI compliant.”
+- **Suggest applicability only — do not claim PCI DSS validation or "compliant".**  
+- Prefer primary SSC docs over blogs.  
+- Pair with jurisdictional privacy packs when personal data of payers is processed.

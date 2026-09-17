@@ -1,11 +1,10 @@
 # Pack: privacy-eu-ee (Estonia overlay)
 
-**Depends on:** `privacy-eu`  
-**Primary:** Isikuandmete kaitse seadus (as amended)  
-**Registry:** `ee-ikks`  
-**Portal:** https://www.riigiteataja.ee/  
-**Runnable:** yes
+**Pair with:** `privacy-eu`  
+**Primary:** Isikuandmete kaitse seadus (Personal Data Protection Act)  
+**Official orientation:** https://www.riigiteataja.ee/ (search current IKS consolidation)  
+**Authority orientation:** Andmekaitse Inspektsioon (AKI)
 
 ## Themes
-
-T1 National act + GDPR · T2 Andmekaitse Inspektsioon orientation · T3 National openings — verify · T4 GDPR first. Estonian authoritative.
+T1 National implementation · T2 Public-sector / e-government processing context · T3 AKI practice · T4 Estonian-language notices  
+Authentic Estonian text prevails.

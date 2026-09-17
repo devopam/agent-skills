@@ -1,11 +1,9 @@
 # Pack: privacy-eu-lv (Latvia overlay)
 
-**Depends on:** `privacy-eu`  
+**Pair with:** `privacy-eu`  
 **Primary:** Personal Data Processing Law  
-**Registry:** `lv-pdpl`  
-**Portal:** https://likumi.lv/  
-**Runnable:** yes
+**Authority orientation:** DVI
 
 ## Themes
-
-T1 National law + GDPR · T2 DVI orientation · T3 National openings — verify · T4 GDPR first. Latvian authoritative.
+T1 National GDPR supplements · T2 Special categories · T3 Authority orientation · T4 Latvian-language transparency  
+Authentic Latvian text (likumi.lv) prevails.

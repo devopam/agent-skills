@@ -1,11 +1,9 @@
 # Pack: privacy-eu-cy (Cyprus overlay)
 
-**Depends on:** `privacy-eu`  
-**Primary:** Law 125(I)/2018 on the Protection of Natural Persons…  
-**Registry:** `cy-125i-2018`  
-**Portal:** https://www.cylaw.org/ / official gazette  
-**Runnable:** yes
+**Pair with:** `privacy-eu`  
+**Primary:** Law 125(I)/2018  
+**Authority orientation:** Commissioner for Personal Data Protection
 
 ## Themes
-
-T1 National implementation · T2 Commissioner for Personal Data Protection orientation · T3 National openings — verify · T4 GDPR first. Greek authoritative.
+T1 National implementation of GDPR · T2 Local derogations · T3 Commissioner practice · T4 Greek/Turkish language context as applicable  
+Authentic Greek text of Law 125(I)/2018 prevails.

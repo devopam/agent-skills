@@ -1,11 +1,9 @@
 # Pack: privacy-eu-sk (Slovakia overlay)
 
-**Depends on:** `privacy-eu`  
-**Primary:** Act No. 18/2018 Coll. on Personal Data Protection (as amended)  
-**Registry:** `sk-18-2018`  
-**Portal:** https://www.slov-lex.sk/  
-**Runnable:** yes
+**Pair with:** `privacy-eu`  
+**Primary:** Act No. 18/2018 Coll. on Personal Data Protection  
+**Authority orientation:** ÚOOÚ SR
 
 ## Themes
-
-T1 National act + GDPR · T2 ÚOOÚ SK orientation · T3 National openings — verify · T4 GDPR first. Slovak authoritative.
+T1 National provisions supplementing GDPR · T2 Special categories / national ID · T3 Authority powers · T4 Slovak-language notices for local subjects  
+Authentic Slovak text (slov-lex) prevails.

@@ -1,11 +1,9 @@
 # Pack: privacy-eu-lt (Lithuania overlay)
 
-**Depends on:** `privacy-eu`  
-**Primary:** Law on Legal Protection of Personal Data (as amended for GDPR)  
-**Registry:** `lt-pd-law`  
-**Portal:** https://www.e-tar.lt/  
-**Runnable:** yes
+**Pair with:** `privacy-eu`  
+**Primary:** Law on Legal Protection of Personal Data (as amended)  
+**Authority orientation:** VDAI
 
 ## Themes
-
-T1 National law + GDPR · T2 VDAI orientation · T3 National openings — verify · T4 GDPR first. Lithuanian authoritative.
+T1 National derogations · T2 Direct marketing / employment — verify · T3 VDAI practice · T4 Lithuanian-language notices  
+Authentic Lithuanian text (e-TAR) prevails.

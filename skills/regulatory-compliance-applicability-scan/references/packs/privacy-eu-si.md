@@ -1,11 +1,9 @@
 # Pack: privacy-eu-si (Slovenia overlay)
 
-**Depends on:** `privacy-eu`  
-**Primary:** Zakon o varstvu osebnih podatkov (ZVOP-2 / current)  
-**Registry:** `si-zvop`  
-**Portal:** https://www.uradni-list.si/  
-**Runnable:** yes
+**Pair with:** `privacy-eu`  
+**Primary:** Personal Data Protection Act (ZVOP-2 / current consolidated)  
+**Authority orientation:** IP RS
 
 ## Themes
-
-T1 National act + GDPR · T2 IP RS orientation · T3 National openings — verify · T4 GDPR first. Slovenian authoritative.
+T1 National GDPR implementation · T2 Video surveillance / employment nuances — verify · T3 Authority orientation · T4 Slovene-language transparency  
+Confirm current consolidated act name/number at scan time.

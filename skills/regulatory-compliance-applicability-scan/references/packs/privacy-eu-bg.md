@@ -1,11 +1,9 @@
 # Pack: privacy-eu-bg (Bulgaria overlay)
 
-**Depends on:** `privacy-eu`  
+**Pair with:** `privacy-eu`  
 **Primary:** Personal Data Protection Act (as amended for GDPR)  
-**Registry:** `bg-pdpa`  
-**Portal:** https://www.cpdp.bg/ / State Gazette  
-**Runnable:** yes
+**Authority orientation:** CPDP (КЗЛД)
 
-## Themes
-
-T1 National act + GDPR · T2 CPDP orientation · T3 National openings — verify · T4 GDPR first. Bulgarian authoritative.
+## Themes beyond GDPR baseline
+T1 National derogations / employment · T2 Age of digital consent if specified · T3 CPDP registration/notification practice — verify current · T4 Language of notices (Bulgarian for local subjects)  
+Authentic Bulgarian text prevails.
