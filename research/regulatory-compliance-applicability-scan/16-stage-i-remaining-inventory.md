@@ -1,9 +1,9 @@
 # Stage I — Remaining jurisdictions
 
-## Done I1–I7
-Very broad global coverage with explicit NOT COVERED/LIMITED gates
+## Done I1–I8
+Very broad global set + explicit not-covered gates
 
-## Residual I8+
-Microstates, remaining small African/Pacific/Caribbean states, depth on thin packs, registry URL mirror
+## Residual I9+
+Tiny residual states, depth on thin packs, registry mirror, commencement re-checks (MR, LC, BS, GM, CG)
 
 Continue research → pack or Not covered
