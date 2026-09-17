@@ -1,9 +1,9 @@
 # Stage I — Remaining jurisdictions
 
-## Done I1–I9
-Global breadth + explicit not-covered / not-in-force gates for many residual states
+## Done I1–I10
+Includes European microstates (AD MC SM VA LI), Brunei, and explicit not-covered for MV BT among others
 
-## Residual I10+
-Microstates (e.g. remaining OECS, Pacific islands, European microstates), Suriname primary lock, depth passes
+## Residual I11+
+Remaining Pacific/Caribbean microstates, depth, commencement re-checks
 
-Continue research → pack or Not covered
+Practical global coverage is now extensive.

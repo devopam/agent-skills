@@ -1,7 +1,5 @@
 # Packs — runnable inventory (Stage I progressive)
 
-Very broad global coverage. Explicit NOT COVERED / LIMITED / NOT IN FORCE packs where appropriate.
+Extensive global coverage including microstates. Explicit NOT COVERED / LIMITED packs where no general statute.
 
-**Wave 9 adds:** SZ GD GY · SL LR DM VC not-covered · SR verify
-
-See individual pack files for primary citations and gates.
+**Wave 10 adds:** AD MC SM VA BN · MV BT not-covered · LI EEA overlay refresh
