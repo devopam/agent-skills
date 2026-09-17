@@ -1,5 +1,5 @@
 # Packs — runnable inventory (Stage I progressive)
 
-Extensive global coverage including microstates. Explicit NOT COVERED / LIMITED packs where no general statute.
+Near-exhaustive practical global coverage with explicit NOT COVERED gates for jurisdictions without general PDP statutes.
 
-**Wave 10 adds:** AD MC SM VA BN · MV BT not-covered · LI EEA overlay refresh
+**Wave 11 adds:** KI · VU WS TO SB PW MH FM not-covered cluster
