@@ -4,16 +4,17 @@
 
 ## Done
 
-- [x] SKILL.md coverage matrix  
+- [x] SKILL.md coverage matrix + **portable skill-local paths only**  
 - [x] Core + gate evals  
-- [x] Refresh retries/backoff  
-- [x] Residual packs FL / QC  
+- [x] Refresh retries  
+- [x] Residual FL/QC  
 - [x] **v0.15.0 released**  
 - [x] Registry parity + YAML fix  
-- [x] **Portable install paths** — skill-local only (`references/`, `assets/`); no `../../../` runtime deps  
+- [x] **URL/depth batches 1–5** (EU implementers, US states through KY/RI, free zones, IN commencement, domains)  
 
-## Still open (nice-to-have)
+## Optional later
 
-- [ ] Replace remaining `portal_root` registry rows with act-level permalinks  
-- [ ] Monthly refresh workflow PR triage  
-- [ ] Deep article anchors for orientation-only cards  
+- [ ] Mirror all locked URLs into monorepo `compliance-sources/registry.yaml`  
+- [ ] Monthly refresh PR triage  
+- [ ] Article-level anchors for remaining orientation-only EU overlays  
+- [ ] Additional US states only when enacted and prioritized  

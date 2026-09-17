@@ -2,14 +2,11 @@
 
 **Inclusion list.** Anything not listed is **Not covered**.
 
-Paths are relative to the skill root (IDE-portable).
-
 ## Europe
 `privacy-eu` + EU-27 + EEA · `privacy-uk` · `privacy-ch` · `privacy-ua`
 
 ## Americas — US
-`privacy-us` (CA) · `privacy-us-va|co|ct|ut|tx|or|mt|de|ia|in|tn|nh|nj|ne|mn|md|ky|ri|fl`  
-Unlisted US states remain **Not covered**.
+`privacy-us` (CA) · `privacy-us-va|co|ct|ut|tx|or|mt|de|ia|in|tn|nh|nj|ne|mn|md|ky|ri|fl`
 
 ## Americas — other
 `privacy-ca` · `privacy-ca-qc` · `privacy-br|mx|ar|cl|co`
