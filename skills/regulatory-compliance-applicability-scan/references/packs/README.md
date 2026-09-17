@@ -1,24 +1,22 @@
 # Packs — runnable inventory
 
-**Inclusion list.** NOT COVERED / LIMITED entries are explicit exceptions.
-
 ## Europe
-`privacy-eu` + EU-27 + EEA · `privacy-uk` · `privacy-ch` · `privacy-ua` · `privacy-rs` · `privacy-ge`
+`privacy-eu` + EU-27 + EEA · `privacy-uk|ch|ua|rs|ge|al` · `privacy-md-md` (Moldova; force 2026 gate)
 
 ## Americas — US
-`privacy-us` + listed state packs (see prior)
+Listed `privacy-us-*` state packs
 
 ## Americas — other
-`privacy-ca|ca-qc|br|mx|ar|cl|co|uy|pe|cr|pa|ec`  
-`privacy-py` → **LIMITED** (credit data)
+`privacy-ca|ca-qc|br|mx|ar|cl|co|uy|pe|cr|pa|ec|sv|do`  
+`privacy-py` LIMITED · `privacy-bo` NOT COVERED
 
 ## Asia / Oceania
 `privacy-in|cn|kr|jp|tw|hk|my|th|id|ph|vn|sg|nz|au|ru|bd|lk|kz|np`  
-`privacy-pk` → **NOT COVERED**
+`privacy-pk` NOT COVERED
 
 ## Middle East & Africa
-`privacy-ae|sa|il|tr|eg|za|ng|ke|ma|gh|bh|qa|om|rw|tz|jo|tn|ug` · `privacy-difc|adgm`  
-`privacy-kw` → **LIMITED**
+`privacy-ae|sa|il|tr|eg|za|ng|ke|ma|gh|bh|qa|om|rw|tz|jo|tn|ug|lb|mu|et` · `privacy-difc|adgm`  
+`privacy-kw` LIMITED
 
 ## Domains
 `domain-fintech` · `domain-healthcare-pharma`
