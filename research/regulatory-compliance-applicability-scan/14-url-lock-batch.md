@@ -1,11 +1,14 @@
-# URL lock batch — 2026-09-17
+# URL lock batches
 
-| Source | New primary orientation |
-|--------|-------------------------|
-| pt-lei-58-2019 | diariodarepublica.pt detalhe lei/58-2019-123815982 |
-| cz-110-2019 | zakonyprolidi.cz/cs/2019-110 |
-| hu-infotv | njt.hu jogszabaly/2011-112-00-00.1 |
-| dk-databeskyttelsesloven | retsinformation.dk/eli/lta/2024/289 |
-| lu-2018-gdpr | legilux recueil protection_donnees 20180820 |
+## Batch 1 — 2026-09-17
+PT, CZ, HU, DK, LU act-level orientations.
 
-Skill-local sources-index and domain/thin packs updated the same day.
+## Batch 2 — 2026-09-17
+- GR Law 4624/2019 ΦΕΚ orientation  
+- LT e-TAR I-1374  
+- LV likumi + age-13 theme  
+- IS Act 90/2018  
+- OR ORS 646A.570–589  
+- QC legisquebec + Law 25 gate  
+
+Skill packs and sources-index updated; monorepo registry mirror optional follow-up.

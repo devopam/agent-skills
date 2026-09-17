@@ -1,10 +1,11 @@
 # Pack: privacy-us-or (Oregon — OCPA)
 
-**Primary:** Oregon Consumer Privacy Act — O.R.S. § 646A.570 et seq. (SB 619 lineage)  
-**Registry:** `us-or-ocpa`  
-**Runnable:** yes  
-**Effective orientation:** July 1, 2024 (verify current)
+**Primary:** Oregon Consumer Privacy Act — **ORS 646A.570–646A.589** (SB 619)  
+**Effective orientation:** July 1, 2024 (verify amendments)  
+**Authority orientation:** Oregon DOJ  
+**Runnable:** yes
 
 ## Themes
-T1 Scope / thresholds · T2 Consumer rights (access, correct, delete, portability, opt-out) · T3 Controller duties / transparency · T4 Sensitive data · T5 Assessments where required · T6 AG enforcement orientation  
-**Rule:** Verify applicability thresholds on current ORS. No “OCPA compliant” claims.
+T1 Applicability thresholds (incl. nonprofits in scope orientation) · T2 Consumer rights (access, delete, correct, portability, opt-out of sale/targeted ads/profiling) · T3 Sensitive data · T4 Controller / processor duties · T5 Data protection assessments where required · T6 Enforcement by AG  
+
+**Rule:** Confirm current ORS text and thresholds. No certification claims.
