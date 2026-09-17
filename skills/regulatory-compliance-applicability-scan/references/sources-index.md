@@ -2,33 +2,19 @@
 
 Prefer official consolidations at scan time.
 
-## Locked / improved (batches 1–3)
+## Batches 1–4 highlights
 
 | Pack | Citation | Orientation |
 |------|----------|-------------|
-| privacy-eu | GDPR | eur-lex CELEX:32016R0679 |
-| privacy-uk | UK GDPR; DPA 2018 | legislation.gov.uk |
-| privacy-eu-de/at/pt/cz/hu/dk/lu | national acts | see prior batches |
-| privacy-eu-gr | Law 4624/2019 ΦΕΚ A 137 | official Greek consolidation |
-| privacy-eu-lt | I-1374 | e-tar.lt |
-| privacy-eu-lv | PDPL Latvia | likumi.lv |
-| privacy-eu-is | Act 90/2018 | Althingi |
-| privacy-ch | FADP SR 235.1 | fedlex.admin.ch/eli/cc/2022/491/en |
-| privacy-us-or | ORS 646A.570–589 | Oregon DOJ / ORS |
-| privacy-us-mt | MCA 30-14-28xx | leg.mt.gov MCA |
-| privacy-us-de | 6 Del. C. ch. 12D | delcode.delaware.gov |
-| privacy-us-ia | Iowa Code ch. 715D | legis.iowa.gov |
-| privacy-us-in | IC 24-15 | iga.in.gov |
-| privacy-us-tn | TIPA | TN statute / AG guidance |
-| privacy-us-fl | FDBR / SB 262 lineage | Florida official statutes |
-| privacy-ca-qc | Private sector Act + Law 25 | legisquebec.gouv.qc.ca |
-| privacy-difc | DIFC Law No. 5 of 2020 | DIFC laws portal |
-| privacy-adgm | DPR 2021 | ADGM legal framework |
-| privacy-br | LGPD 13.709 | planalto.gov.br |
-| privacy-sg/au/nz/za/ke/id/tw/hk | national | sources prior |
-| domain-fintech | PCI DSS | pcisecuritystandards.org |
-| domain-healthcare-pharma | 45 CFR 164 | ecfr.gov |
+| privacy-eu* | GDPR + national | eur-lex + member portals (locked where listed) |
+| privacy-eu-mt | Cap. 586 | https://legislation.mt/eli/cap/586/eng |
+| privacy-eu-sk | Act 18/2018 Coll. | zakonypreludi.sk/zz/2018-18 or slov-lex |
+| privacy-tr | Law 6698 | https://mevzuat.gov.tr/mevzuatmetin/1.5.6698.pdf |
+| privacy-il | PPL 5741-1981 | PPA legislation page; Hebrew authoritative |
+| privacy-eg | Law 151/2020 | Arabic official text |
+| privacy-ng | NDPA 2023 | Official Gazette / NDPC |
+| privacy-us-* | state acts | MCA / Del. C. / Iowa 715D / IC 24-15 / TIPA / FDBR / ORS |
+| privacy-difc / adgm | Law 5/2020; DPR 2021 | DIFC / ADGM portals |
+| domains | PCI DSS; 45 CFR 164 | SSC; eCFR |
 
-## Still softer
-
-SK/MT chapter pages, remaining US states without dedicated deep packs, IL/TR/EG/NG portal roots, IN DPDP Gazette PDFs.
+Full table maintained across prior commits; always re-verify live law.

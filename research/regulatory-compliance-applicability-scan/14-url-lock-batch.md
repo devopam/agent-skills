@@ -1,17 +1,12 @@
 # URL lock / depth batches
 
-## Batch 1
-PT, CZ, HU, DK, LU
+## Batches 1–3
+EU act-level, US states, DIFC/ADGM — see prior commits.
 
-## Batch 2
-GR, LT, LV, IS, OR, QC
-
-## Batch 3 — 2026-09-17
-- MT MCA part 28  
-- DE 6 Del. C. ch. 12D  
-- IA Code 715D  
-- IN IC 24-15  
-- TN TIPA  
-- FL FDBR  
-- DIFC Law 5/2020  
-- ADGM DPR 2021  
+## Batch 4 — 2026-09-17
+- TR: mevzuat.gov.tr 1.5.6698.pdf  
+- SK: zakonypreludi.sk/zz/2018-18  
+- MT: legislation.mt/eli/cap/586/eng  
+- IL: PPA legislation hub + Amendment 13 / security regs themes  
+- EG: Law 151/2020 implementation gate  
+- NG: NDPA 2023 primary over NDPR  
