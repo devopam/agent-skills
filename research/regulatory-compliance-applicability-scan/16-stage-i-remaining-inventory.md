@@ -1,11 +1,10 @@
 # Stage I — Remaining jurisdictions
 
-## Done
-**I1–I3:** prior waves  
-**I4:** ME BW BZ TT · HN IQ YE NA (not covered / limited)
+## Done waves I1–I5
+LatAm, Balkans, Caucasus, Caribbean, Africa expansion, Central Asia UZ, NI  
+NOT COVERED gates: PK BO HN IQ YE FJ KH (+ limited KW NA GT PY)
 
-## Next I5 / residual
-Nicaragua, residual Pacific, remaining African states without packs, any newly enacted statutes — research then pack or mark Not covered
+## Residual I6+
+Any remaining UN members without pack or explicit not-covered note; newly enacted statutes; deeper article-level for thin packs
 
-## Rules
-Primary only · Not covered if unenacted · Suggest not certify
+Continue research → pack or Not covered → eval when non-obvious gate
