@@ -1,7 +1,7 @@
 # Packs — runnable inventory (Stage I progressive)
 
-Global coverage spans EU/EEA/UK/CH, broad US states, Americas, Asia-Pacific, MEA, Caribbean.  
-Explicit NOT COVERED/LIMITED packs where no general statute.  
-See individual pack files for primary citations and gates.
+Very broad global coverage. Explicit NOT COVERED / LIMITED / NOT IN FORCE packs where appropriate.
 
-**Wave 8 adds:** GN ML NE(Niger) TD MR LC AG LS
+**Wave 9 adds:** SZ GD GY · SL LR DM VC not-covered · SR verify
+
+See individual pack files for primary citations and gates.
