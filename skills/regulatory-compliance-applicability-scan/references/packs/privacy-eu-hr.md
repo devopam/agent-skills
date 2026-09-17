@@ -1,9 +1,10 @@
 # Pack: privacy-eu-hr (Croatia overlay)
 
 **Pair with:** `privacy-eu`  
-**Primary:** Act on the Implementation of the General Data Protection Regulation  
-**Authority orientation:** AZOP
+**Primary:** Zakon o provedbi Opće uredbe o zaštiti podataka — **Narodne novine 42/2018**  
+**Authority orientation:** Agencija za zaštitu osobnih podataka (AZOP)  
+**Runnable:** yes
 
 ## Themes
-T1 National implementation derogations · T2 Employment context · T3 AZOP practice orientation · T4 Local-language transparency  
-Authentic Croatian text (Narodne novine) prevails.
+T1 National implementation of GDPR · T2 Scope exclusions (LEAs / national security per Act) · T3 AZOP powers · T4 Croatian-language transparency  
+Authentic Croatian text in Narodne novine prevails.

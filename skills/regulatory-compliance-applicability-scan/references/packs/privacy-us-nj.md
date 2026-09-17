@@ -1,10 +1,9 @@
-# Pack: privacy-us-nj (New Jersey — NJDPA)
+# Pack: privacy-us-nj (New Jersey Data Privacy Act)
 
-**Primary:** New Jersey Data Privacy Act — N.J.S.A. § 56:8-166.4 et seq. (verify)  
-**Registry:** `us-nj-njdpa`  
-**Runnable:** yes  
-**Effective orientation:** Jan 2025 (verify exact date)
+**Primary:** New Jersey Data Protection / Privacy Act (S332 lineage)  
+**Effective orientation:** January 15, 2025 (verify)  
+**Runnable:** yes
 
 ## Themes
-T1 Scope · T2 Consumer rights · T3 Controller duties · T4 Sensitive data · T5 Enforcement  
-**Rule:** No certification claims.
+T1 Thresholds (100k residents / 25k + sale revenue — verify) · T2 Consumer rights · T3 Sensitive data consent · T4 Controller / processor · T5 AG enforcement; cure period orientation · T6 No private right of action  
+Prefer official NJSA text. No certification claims.

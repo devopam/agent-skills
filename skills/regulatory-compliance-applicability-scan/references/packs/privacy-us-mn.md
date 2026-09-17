@@ -1,10 +1,10 @@
 # Pack: privacy-us-mn (Minnesota — MCDPA)
 
-**Primary:** Minnesota Consumer Data Privacy Act — Minn. Stat. § 325M.10 et seq.  
-**Registry:** `us-mn-mcdpa`  
-**Runnable:** yes  
-**Effective orientation:** July 31, 2025 (verify)
+**Primary:** Minnesota Consumer Data Privacy Act (MCDPA)  
+**Effective orientation:** July 31, 2025 (verify)  
+**Authority orientation:** Minnesota AG  
+**Runnable:** yes
 
 ## Themes
-T1 Scope · T2 Consumer rights · T3 Controller duties · T4 Sensitive data · T5 Enforcement  
-**Rule:** No certification claims.
+T1 Thresholds (100k / 25k + 25% sale — verify) · T2 Consumer rights (incl. third-party list / profiling opt-out) · T3 Sensitive data consent · T4 Controller duties · T5 Enforcement  
+Prefer official Minnesota Statutes text. No certification claims.

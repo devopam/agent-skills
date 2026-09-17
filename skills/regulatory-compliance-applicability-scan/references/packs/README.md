@@ -2,7 +2,7 @@
 
 **Inclusion list.** Anything not listed is **Not covered**.
 
-This file is the authoritative inventory when the skill is installed in an IDE (Claude, Codex, etc.). Paths are relative to the skill root only.
+Paths are relative to the skill root (IDE-portable).
 
 ## Europe
 `privacy-eu` + EU-27 + EEA · `privacy-uk` · `privacy-ch` · `privacy-ua`
@@ -12,7 +12,7 @@ This file is the authoritative inventory when the skill is installed in an IDE (
 Unlisted US states remain **Not covered**.
 
 ## Americas — other
-`privacy-ca` · `privacy-ca-qc` (Québec Law 25) · `privacy-br|mx|ar|cl|co`
+`privacy-ca` · `privacy-ca-qc` · `privacy-br|mx|ar|cl|co`
 
 ## Asia / Oceania
 `privacy-in|cn|kr|jp|tw|hk|my|th|id|ph|vn|sg|nz|au|ru`
@@ -24,4 +24,4 @@ Unlisted US states remain **Not covered**.
 `domain-fintech` · `domain-healthcare-pharma`
 
 ## Sources
-See [`../sources-index.md`](../sources-index.md) for citation/URL orientation.
+[`../sources-index.md`](../sources-index.md)
