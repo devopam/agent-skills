@@ -1,47 +1,18 @@
 # Pack: privacy-eu-it (Italy overlay)
 
-**Depends on:** `privacy-eu`  
-**Primary:** D.Lgs. 30 giugno 2003, n. 196 (Codice privacy), as amended (incl. d.lgs. 101/2018)  
-**Registry:** `it-codice-privacy-196-2003`  
-**Official paths:** Normattiva / Gazzetta Ufficiale  
-**Runnable:** yes  
-**Language:** Italian authoritative
+**Pair with:** `privacy-eu`  
+**Primary national:** D.lgs. **196/2003** *Codice Privacy*, as amended by D.lgs. **101/2018**  
+**Authority:** Garante per la protezione dei dati personali
 
-## When to suggest
+## Article-level national margins
 
-Italian establishment; IT market; Garante-facing docs; Codice privacy cites.
+| Theme | Primary orientation |
+|-------|---------------------|
+| Relationship to GDPR | **Art. 1–2** Codice — processing per GDPR + Codice |
+| Supervisory authority | **Art. 2-bis** / Garante provisions |
+| National adaptations | D.lgs. 101/2018 amendments throughout — verify current consolidations for employment, journalism, research, and sanctions procedure |
 
-## Overlay themes
+## Skill behaviour
+GDPR first; cite Codice sections from official Gazzetta consolidations for Italian openings. Do not use pre-2018 Codice as if GDPR-unadapted.
 
-### T1 — Alignment with GDPR
-
-| | |
-|--|--|
-| **Primary** | Codice Art. 1–2 area — processing per Regulation + Codice |
-| **Signals** | IT entity; Italian policy |
-
-### T2 — Garante as supervisory authority
-
-| | |
-|--|--|
-| **Primary** | Codice provisions designating the Garante |
-| **Use** | Orientation |
-
-### T3 — National specifications
-
-| | |
-|--|--|
-| **Primary** | Specific parts of Codice exercising GDPR flexibility — **verify current consolidato** |
-| **Signals** | IT employment, health, journalistic exemptions claims |
-| **Gaps** | Only with evidence |
-
-### T4 — Children’s data / marketing (national)
-
-| | |
-|--|--|
-| **Primary** | Where Codice sets national rules — verify live |
-| **Note** | Do not invent ages or marketing rules from memory |
-
-## Report rule
-
-GDPR baseline + IT overlay with Codice article cites from current official text.
+**Runnable:** yes · No certification claims

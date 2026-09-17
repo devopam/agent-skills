@@ -1,46 +1,19 @@
 # Pack: privacy-eu-pl (Poland overlay)
 
-**Depends on:** `privacy-eu`  
-**Primary:** Ustawa z dnia 10 maja 2018 r. o ochronie danych osobowych  
-**Registry:** `pl-uodo-act`  
-**Official ELI:** https://eli.gov.pl/eli/DU/2018/1000/ogl  
-**Runnable:** yes  
-**Language:** Polish authoritative
+**Pair with:** `privacy-eu`  
+**Primary national:** Act of **10 May 2018** on the Protection of Personal Data  
+**Authority:** UODO (President of the Office)
 
-## When to suggest
+## Article-level national margins
 
-Polish establishment; PL market; UODO / Polish DP act cites.
+| Theme | Primary orientation |
+|-------|---------------------|
+| Child digital consent | **Age 16** (GDPR Art. 8 maximum) |
+| UODO establishment / procedure | 2018 Act — inspections, decisions, appeals |
+| DPO notification | Notify UODO of appointment/change/dismissal within **14 days** (electronic form) |
+| Public-sector administrative fines | Cap orientation (**PLN 100,000**) under national act — verify current text |
 
-## Overlay themes
+## Skill behaviour
+GDPR first; 2018 Act for UODO procedure and national caps. Prefer official ISAP consolidations.
 
-### T1 — National act complementary to GDPR
-
-| | |
-|--|--|
-| **Primary** | 2018 Act (Dz.U. 2018 poz. 1000 and consolidations) |
-| **Signals** | PL entity; Polish-language policy |
-
-### T2 — Supervisory authority (UODO)
-
-| | |
-|--|--|
-| **Primary** | Act provisions on the President of UODO |
-| **Use** | Orientation |
-
-### T3 — National specifications (employment, exemptions, procedures)
-
-| | |
-|--|--|
-| **Primary** | Specific chapters — **verify current consolidated text** |
-| **Signals** | PL employment data, national procedural claims |
-| **Gaps** | Only with evidence; else Not assessed |
-
-### T4 — Certification / codes (if addressed nationally)
-
-| | |
-|--|--|
-| **Use** | Not assessed unless repo claims certification under national scheme |
-
-## Report rule
-
-GDPR first; Polish overlay with ELI/ISAP cites. Prefer consolidated text after amendments.
+**Runnable:** yes · No certification claims

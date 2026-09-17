@@ -1,46 +1,22 @@
 # Pack: privacy-eu-se (Sweden overlay)
 
-**Depends on:** `privacy-eu`  
-**Primary:** Lag (2018:218) med kompletterande bestämmelser till EU:s dataskyddsförordning  
-**Registry:** `se-dsa`  
-**Official:** https://www.svenskforfattningssamling.se/doc/2018218.html  
-**Runnable:** yes  
-**Language:** Swedish authoritative
+**Pair with:** `privacy-eu`  
+**Primary national:** Dataskyddslagen (**2018:218**)  
+**Authority:** Integritetsskyddsmyndigheten (IMY)
 
-## When to suggest
+## Article-level national margins
 
-Swedish establishment; SE market; IMY-facing docs; SFS 2018:218 cites.
+| Theme | Primary |
+|-------|---------|
+| Child digital consent | **2 kap. 4 §** — **age 13** |
+| Legal obligation / public authority grounds | **2 kap. 1–3 §§** |
+| Personal identity number (*personnummer*) | **3 kap. 10 §** — only when clearly justified |
+| Sensitive data in employment context | **3 kap.** labour-law openings |
+| Offence data | **3 kap. 8–9 §§** — mainly authorities |
+| Archives / research | **3–4 kap.** exceptions |
+| Public-sector fines cap | **6 kap. 2 §** — SEK limits for authorities |
 
-## Overlay themes
+## Skill behaviour
+GDPR first; Dataskyddslagen as complement only. Prefer lagrummet.se / official text.
 
-### T1 — Complementary to GDPR
-
-| | |
-|--|--|
-| **Primary** | Lag (2018:218) 1 kap. — law complements Reg. (EU) 2016/679 |
-| **Signals** | SE entity; Swedish policy |
-
-### T2 — Territorial / extended application (national)
-
-| | |
-|--|--|
-| **Primary** | Provisions on application in Sweden (e.g. 1 kap. territorial rules — verify live SFS) |
-| **Signals** | Processing in context of establishment in Sweden |
-
-### T3 — National openings
-
-| | |
-|--|--|
-| **Primary** | Chapters exercising Art. 6/9/88-style openings — verify current SFS incl. later amendments |
-| **Signals** | Employment data, special category national rules |
-| **Gaps** | Only with evidence |
-
-### T4 — Supervisory authority
-
-| | |
-|--|--|
-| **Use** | IMY orientation; GDPR baseline remains primary for most SaaS duties |
-
-## Report rule
-
-GDPR baseline + SE overlay. Track SFS amendments (law has been amended since 2018).
+**Runnable:** yes · No certification claims
