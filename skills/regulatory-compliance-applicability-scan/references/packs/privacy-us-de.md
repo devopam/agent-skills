@@ -1,10 +1,10 @@
 # Pack: privacy-us-de (Delaware — DPDPA)
 
-**Primary:** Delaware Personal Data Privacy Act — Del. Code Tit. 6 / § 12D-101 et seq. (verify code placement)  
-**Registry:** `us-de-dpdpa`  
-**Runnable:** yes  
-**Effective orientation:** Jan 1, 2025
+**Primary:** Delaware Personal Data Privacy Act — **6 Del. C. Chapter 12D** (§ 12D-101 et seq.)  
+**Effective orientation:** Jan 1, 2025 (verify)  
+**Official orientation:** delcode.delaware.gov  
+**Runnable:** yes
 
 ## Themes
-T1 Scope (note: may cover nonprofits / higher-ed unlike many states — verify) · T2 Consumer rights · T3 Controller/processor · T4 Sensitive data · T5 Enforcement  
-**Rule:** No certification claims.
+T1 Applicability · T2 Consumer rights (incl. universal opt-out agent) · T3 Controller / processor duties · T4 Data protection assessments · T5 Exclusions · T6 Enforcement  
+No certification claims.

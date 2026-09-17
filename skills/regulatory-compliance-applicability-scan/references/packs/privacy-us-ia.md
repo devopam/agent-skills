@@ -1,10 +1,9 @@
 # Pack: privacy-us-ia (Iowa — ICDPA)
 
-**Primary:** Iowa Consumer Data Protection Act — Iowa Code Ch. 715D (SF 262)  
-**Registry:** `us-ia-icdpa`  
-**Runnable:** yes  
-**Effective orientation:** Jan 1, 2025
+**Primary:** Iowa Consumer Data Protection Act — **Iowa Code Chapter 715D**  
+**Official orientation:** legis.iowa.gov  
+**Runnable:** yes
 
 ## Themes
-T1 Scope / thresholds · T2 Consumer rights · T3 Controller duties · T4 Sensitive data · T5 Enforcement (cure period orientation — verify)  
-**Rule:** No certification claims.
+T1 Scope / exemptions · T2 Consumer data rights · T3 Controller duties · T4 Processor duties · T5 Limitations · T6 Enforcement / penalties · T7 Preemption  
+Confirm current Code text and effective dates. No certification claims.

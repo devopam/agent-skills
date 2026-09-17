@@ -1,10 +1,10 @@
 # Pack: privacy-us-tn (Tennessee — TIPA)
 
-**Primary:** Tennessee Information Protection Act — Tenn. Code Ann. § 47-18-3301 et seq.  
-**Registry:** `us-tn-tipa`  
-**Runnable:** yes  
-**Effective orientation:** July 1, 2025 (verify)
+**Primary:** Tennessee Information Protection Act  
+**Effective orientation:** July 1, 2025 (verify)  
+**Authority orientation:** Tennessee Attorney General / Consumer Affairs  
+**Runnable:** yes
 
 ## Themes
-T1 Scope · T2 Consumer rights · T3 Controller duties · T4 Sensitive data · T5 Enforcement  
-**Rule:** No certification claims.
+T1 Applicability (revenue + volume thresholds — verify current numbers) · T2 Consumer rights (access, correct, delete, portability, opt-out of targeted ads/profiling/sale) · T3 Controller duties / security · T4 Enforcement  
+Prefer official statute text over secondary FAQs. No certification claims.
