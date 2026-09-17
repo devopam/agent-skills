@@ -5,9 +5,19 @@ description: Maps researched privacy and domain packs (EU/EEA/UK, Americas, Asia
 
 # Regulatory compliance applicability scan
 
-**Inventory (authoritative):** [references/packs/README.md](references/packs/README.md)  
-**Sources registry:** [compliance-sources/registry.yaml](../../../compliance-sources/registry.yaml)  
-**Roadmap:** [research/.../12-global-coverage-roadmap.md](../../../research/regulatory-compliance-applicability-scan/12-global-coverage-roadmap.md)
+**Portable skill package.** All runtime files live under this skill directory.
+Load only paths relative to this skill root (same pattern as `ci-cd-plumber` / `postgresql-review`).
+
+| Runtime path | Role |
+|--------------|------|
+| [`references/packs/README.md`](references/packs/README.md) | **Authoritative inclusion list** |
+| [`references/packs/<pack>.md`](references/packs/) | Obligation themes + primary cites |
+| [`references/sources-index.md`](references/sources-index.md) | Primary URL / citation index |
+| [`references/coverage.md`](references/coverage.md) | Coverage summary |
+| [`assets/report-template.md`](assets/report-template.md) | Optional report shape |
+| [`assets/baseline-template.md`](assets/baseline-template.md) | Optional drift baseline |
+
+Do **not** require repo-root paths (`compliance-sources/`, `research/`, plugin root). Those exist only in the agent-skills **source** repository for maintainers and the monthly refresh job.
 
 ## Coverage matrix (summary)
 
@@ -17,7 +27,7 @@ description: Maps researched privacy and domain packs (EU/EEA/UK, Americas, Asia
 | UK | `privacy-uk` (standalone; not an EU overlay) |
 | CH / UA | `privacy-ch`, `privacy-ua` |
 | US | `privacy-us` (CA) + listed state packs |
-| Americas other | `privacy-ca|br|mx|ar|cl|co` |
+| Americas other | `privacy-ca`, `privacy-ca-qc`, `privacy-br|mx|ar|cl|co` |
 | Asia-Pacific | `privacy-in|cn|kr|jp|tw|hk|my|th|id|ph|vn|sg|nz|au|ru` |
 | ME / Africa | `privacy-ae|sa|il|tr|eg|za|ng|ke` |
 | Free zones | `privacy-difc`, `privacy-adgm` (≠ federal UAE) |
@@ -35,12 +45,12 @@ description: Maps researched privacy and domain packs (EU/EEA/UK, Americas, Asia
 
 ## Phases
 
-0 **Intake** → 1 **Evidence** (repo signals only) → 2 **Obligation map** (pack themes → primary cites → gaps/unknowns) → 3 **Report** (table + severity-ordered observations; disclaimer) → 4 **Optional baseline** file for drift.
+0 **Intake** → 1 **Evidence** (target repo signals only) → 2 **Obligation map** (read matching `references/packs/*.md` → primary cites → gaps/unknowns) → 3 **Report** (table + severity-ordered observations; disclaimer) → 4 **Optional baseline** from `assets/baseline-template.md`.
 
 ## Report rules
 
 - Always: *Not legal advice; suggest applicability, do not certify compliance.*  
-- Cite primary instruments from the pack/registry; authentic language prevails.  
+- Cite primary instruments from the pack / sources-index; authentic language prevails.  
 - Prefer **unknown / verify live** over invented article numbers or fine schedules.  
 - Honour pack **gates** (commencement, localization verify, s.33 not in force, free zone ≠ federal).  
 - EU + UK → run both regimes when both markets apply.  
@@ -48,4 +58,4 @@ description: Maps researched privacy and domain packs (EU/EEA/UK, Americas, Asia
 
 ## Boundaries
 
-No compliant/certified/PCI-DSS-validated claims. No how-to for evasion. Historical or secondary commentary is interpretation aid only.
+No compliant/certified/PCI-DSS-validated claims. No how-to for evasion. Secondary commentary is interpretation aid only.

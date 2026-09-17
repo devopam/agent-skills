@@ -2,6 +2,8 @@
 
 **Inclusion list.** Anything not listed is **Not covered**.
 
+This file is the authoritative inventory when the skill is installed in an IDE (Claude, Codex, etc.). Paths are relative to the skill root only.
+
 ## Europe
 `privacy-eu` + EU-27 + EEA · `privacy-uk` · `privacy-ch` · `privacy-ua`
 
@@ -21,5 +23,5 @@ Unlisted US states remain **Not covered**.
 ## Domains
 `domain-fintech` · `domain-healthcare-pharma`
 
-## Release
-Plugin **0.15.0** — see `RELEASE-NOTES-v0.15.0.md` to publish GitHub tag.
+## Sources
+See [`../sources-index.md`](../sources-index.md) for citation/URL orientation.

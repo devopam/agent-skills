@@ -1,12 +1,9 @@
-# Coverage quick reference
+# Coverage (skill-local)
 
-**Runnable?** → `references/packs/README.md`  
-**Full matrix / expansion:** `research/regulatory-compliance-applicability-scan/07-coverage-matrix.md`
+Authoritative list: [`packs/README.md`](packs/README.md).
 
-## Not covered
+- **Runnable** = listed pack file exists under `references/packs/`.
+- **Not covered** = any other jurisdiction/domain; state clearly; do not invent obligations.
+- **Gates** = pack-specific commencement / localization / free-zone rules — honour them.
 
-Any jurisdiction, national nuance, or domain **absent** from the runnable list.
-Examples used in docs/evals (Japan, etc.) are **illustrative only** — the same
-decline applies to China, Korea, Russia, or any other unpacked regime.
-
-**Script:** state Not covered → list runnable packs → do not invent law.
+Maintainer research and monorepo registry refresh live outside this skill package and are not required at install time.
