@@ -1,10 +1,10 @@
 # Pack: privacy-sr (Suriname)
 
-**Status: RESEARCH / VERIFY**
+**Status: NOT COVERED as enacted primary (research close)**
 
-Secondary sources describe a 2022 Personal Data Protection Law and DPA. **Confirm authentic primary statute text and force date** before full obligation mapping.
+Available materials include **draft / concept** Wet Bescherming Privacy en Persoonsgegevens text. No verified official gazette enactment + force date locked for this skill release.
 
 ## Skill behaviour
-If primary not verified: **Not covered**. If verified, cite official text only.
+State **Not covered**. Do not treat conceptwet as law. Re-check official Suriname gazette for future enactment.
 
-**Runnable:** limited until primary locked
+**Runnable:** no

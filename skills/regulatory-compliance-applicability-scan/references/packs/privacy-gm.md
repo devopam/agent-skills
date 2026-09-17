@@ -1,10 +1,10 @@
 # Pack: privacy-gm (Gambia)
 
-**Status: RESEARCH / VERIFY**
+**Status: NOT COVERED pending authentic primary**
 
-Reports of a 2025 Personal Data Protection and Privacy Act exist alongside older ICT sector rules. **Confirm enacted primary text and force date** at scan time before mapping obligations.
+Secondary reports of a **2025** Personal Data Protection and Privacy Act and an authority exist, but authentic Act text + force date were **not** locked against an official gazette source in this re-check. ICT sector rules (e.g. Information and Communication Act 2009) are not a general PDP pack.
 
 ## Skill behaviour
-If authentic Act text not verified: **Not covered**. If verified, cite Act and map themes from primary only.
+State **Not covered** until official Act text and commencement are verified. Do not invent obligations from secondary fact sheets alone.
 
-**Runnable:** limited until primary locked
+**Runnable:** no
