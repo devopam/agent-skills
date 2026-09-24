@@ -1,0 +1,19 @@
+tier = "web"
+scope_mode = "full"
+base_branch = "main"
+pass_score = 7
+floor_score = 4
+
+[paths]
+include_globs = ["**/*.{js,mjs,cjs,ts,tsx}"]
+exclude_globs = ["**/node_modules/**", "**/dist/**", "**/coverage/**", "**/.next/**"]
+
+[tooling_preferences]
+frameworks = ["express", "fastify", "hono", "nestjs", "koa"]
+package_managers = ["pnpm", "npm", "yarn", "bun"]
+process_managers = ["node", "pm2", "systemd", "docker"]
+testing = ["vitest", "jest", "node:test", "supertest"]
+linting = ["eslint", "biome"]
+
+node_lts_preferred = true
+missing_capability_severity = "important"
