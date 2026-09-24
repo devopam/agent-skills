@@ -1,7 +1,7 @@
 {
   "name": "agent-skills",
-  "version": "0.15.0",
-  "description": "Portable Agent Skills: project-incubation, python-code-review, ci-cd-plumber, pr-review, postgresql-review, ui-system-review, and regulatory-compliance-applicability-scan (global privacy/domain applicability).",
+  "version": "0.17.0",
+  "description": "Portable Agent Skills: project-incubation, python/typescript/nodejs/react code-review, ci-cd-plumber, pr-review, postgresql-review, ui-system-review, regulatory-compliance-applicability-scan.",
   "author": {
     "name": "Devopam Mittra",
     "email": "devopam@gmail.com"
