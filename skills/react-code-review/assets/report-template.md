@@ -1,0 +1,72 @@
+# React Code Review Report
+
+**Project:** {project_name}
+**Date:** {date}
+**Tier:** {tier}
+**Scope:** {scope_mode}
+**Files Reviewed:** {file_count}
+
+## Scorecard
+
+| Domain | Score | Verdict |
+|---|---|---|
+| Standards Compliance | {standards_compliance_score}/10 | {standards_compliance_verdict} |
+| Code Quality | {code_quality_score}/10 | {code_quality_verdict} |
+| Security | {security_score}/10 | {security_verdict} |
+| Dependency & Supply Chain Security | {dependency_supply_chain_security_score}/10 | {dependency_supply_chain_security_verdict} |
+| Performance | {performance_score}/10 | {performance_verdict} |
+| Concurrency & Async Correctness | {concurrency_async_correctness_score}/10 | {concurrency_async_correctness_verdict} |
+| Idioms & Patterns | {idioms_and_patterns_score}/10 | {idioms_and_patterns_verdict} |
+| Architecture | {architecture_score}/10 | {architecture_verdict} |
+| Observability | {observability_score}/10 | {observability_verdict} |
+| Scalability & Resilience | {scalability_and_resilience_score}/10 | {scalability_and_resilience_verdict} |
+| Testing | {testing_score}/10 | {testing_verdict} |
+| **Overall** | **{overall_score}/10** | **{overall_verdict}** |
+
+**Thresholds:** Pass >= {pass_score}, Floor >= {floor_score}
+
+## Findings
+
+### Critical
+{critical_findings}
+
+### Important
+{important_findings}
+
+### Minor
+{minor_findings}
+
+## Domain Details
+
+### Standards Compliance ({standards_compliance_score}/10)
+{standards_compliance_details}
+
+### Code Quality ({code_quality_score}/10)
+{code_quality_details}
+
+### Security ({security_score}/10)
+{security_details}
+
+### Dependency & Supply Chain Security ({dependency_supply_chain_security_score}/10)
+{dependency_supply_chain_security_details}
+
+### Performance ({performance_score}/10)
+{performance_details}
+
+### Concurrency & Async Correctness ({concurrency_async_correctness_score}/10)
+{concurrency_async_correctness_details}
+
+### Idioms & Patterns ({idioms_and_patterns_score}/10)
+{idioms_and_patterns_details}
+
+### Architecture ({architecture_score}/10)
+{architecture_details}
+
+### Observability ({observability_score}/10)
+{observability_details}
+
+### Scalability & Resilience ({scalability_and_resilience_score}/10)
+{scalability_and_resilience_details}
+
+### Testing ({testing_score}/10)
+{testing_details}

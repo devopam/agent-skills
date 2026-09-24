@@ -1,0 +1,19 @@
+tier = "web"
+scope_mode = "full"
+base_branch = "main"
+pass_score = 7
+floor_score = 4
+
+[paths]
+include_globs = ["**/*.{tsx,ts,jsx,js,css,module.css}"]
+exclude_globs = ["**/node_modules/**", "**/dist/**", "**/.next/**", "**/coverage/**", "**/storybook-static/**"]
+
+[tooling_preferences]
+frameworks = ["react", "next", "remix", "vite"]
+testing = ["vitest", "jest", "@testing-library/react", "playwright", "cypress"]
+linting = ["eslint", "eslint-plugin-react-hooks", "eslint-plugin-jsx-a11y"]
+styling = ["css-modules", "tailwind", "styled-components", "emotion"]
+
+react_min = "18"
+typescript_preferred = true
+missing_capability_severity = "important"
