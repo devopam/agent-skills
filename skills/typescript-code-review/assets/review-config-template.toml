@@ -1,0 +1,31 @@
+# typescript-review-config.toml — defaults when project has no local copy
+
+tier = "web"                    # script | web | enterprise
+scope_mode = "full"             # full | diff
+base_branch = "main"
+pass_score = 7
+floor_score = 4
+
+[paths]
+include_globs = ["**/*.{ts,tsx,mts,cts}"]
+exclude_globs = [
+  "**/node_modules/**",
+  "**/dist/**",
+  "**/build/**",
+  "**/.next/**",
+  "**/coverage/**",
+  "**/generated/**",
+  "**/*.d.ts",
+]
+
+[tooling_preferences]
+package_managers = ["pnpm", "npm", "yarn", "bun"]
+linting = ["eslint", "biome"]
+formatting = ["prettier", "biome"]
+type_checking = ["tsc --noEmit", "typescript"]
+testing = ["vitest", "jest", "node:test"]
+bundlers = ["tsup", "unbuild", "vite", "esbuild", "webpack"]
+
+missing_capability_severity = "important"
+typescript_min_target = "ES2022"
+strict_preferred = true
