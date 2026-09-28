@@ -1,9 +1,9 @@
 {
   ".claude-plugin/plugin.json": {
-    "mtime": 1788795539.257876,
-    "seen": 1788796443.3749802,
-    "ast_hash": "62e982fefa1ce1a6a82aee20dbe07b91",
-    "semantic_hash": "62e982fefa1ce1a6a82aee20dbe07b91"
+    "mtime": 1790264289.0120056,
+    "seen": 1790538884.1410398,
+    "ast_hash": "f3b3a4a8ad7a5be8f422d260a57a8bdf",
+    "semantic_hash": "f3b3a4a8ad7a5be8f422d260a57a8bdf"
   },
   ".github/ISSUE_TEMPLATE/bug_report.md": {
     "mtime": 1787739721.8484025,
@@ -18,28 +18,28 @@
     "semantic_hash": "174545e1d9daff8020525fdd1e020411"
   },
   "CHANGELOG.md": {
-    "mtime": 1788842536.9934726,
-    "seen": 1788861375.813792,
-    "ast_hash": "9b654ef11287e7b8b8dec4caf50aac84",
-    "semantic_hash": "9b654ef11287e7b8b8dec4caf50aac84"
+    "mtime": 1790264289.0288768,
+    "seen": 1790538884.1410594,
+    "ast_hash": "ccf68bf463b3fa43be5453f641243193",
+    "semantic_hash": "ccf68bf463b3fa43be5453f641243193"
   },
   "CONTRIBUTING.md": {
-    "mtime": 1787739721.8488607,
-    "seen": 1788264358.527328,
-    "ast_hash": "954a01581b60e818c26e16155facb8b9",
-    "semantic_hash": "954a01581b60e818c26e16155facb8b9"
+    "mtime": 1790264289.0298715,
+    "seen": 1790538884.141063,
+    "ast_hash": "66506103a117ab2bb12f2fadd069ce27",
+    "semantic_hash": "66506103a117ab2bb12f2fadd069ce27"
   },
   "README.md": {
-    "mtime": 1788795539.2584515,
-    "seen": 1788796443.374986,
-    "ast_hash": "ab8703522cb8265d978fd63ecea81715",
-    "semantic_hash": "ab8703522cb8265d978fd63ecea81715"
+    "mtime": 1790264289.0308738,
+    "seen": 1790538884.1410651,
+    "ast_hash": "263fcf805ed70ff2e888199fc0d92dad",
+    "semantic_hash": "263fcf805ed70ff2e888199fc0d92dad"
   },
   "evals/README.md": {
-    "mtime": 1788795539.258654,
-    "seen": 1788796443.374986,
-    "ast_hash": "27b0914dfabb2837f8e99a0a6181c9d1",
-    "semantic_hash": "27b0914dfabb2837f8e99a0a6181c9d1"
+    "mtime": 1790264289.0452702,
+    "seen": 1790538884.1410923,
+    "ast_hash": "955646e9aeea7fcd4bb42f1604cdac08",
+    "semantic_hash": "955646e9aeea7fcd4bb42f1604cdac08"
   },
   "evals/project-incubation/gap-audit-stale-baseline/graders/criteria.md": {
     "mtime": 1787739721.8495145,
@@ -1510,5 +1510,2813 @@
     "seen": 1788861375.813814,
     "ast_hash": "5e89a9dc0f8dce4198cf6d9a81050835",
     "semantic_hash": "5e89a9dc0f8dce4198cf6d9a81050835"
+  },
+  "evals/ui-system-review/fixtures/bad-web-app/package.json": {
+    "mtime": 1790264289.1789865,
+    "seen": 1790538884.1410472,
+    "ast_hash": "44b5eaf7a9a3b46bc99a1603cc2458bc",
+    "semantic_hash": "44b5eaf7a9a3b46bc99a1603cc2458bc"
+  },
+  "evals/ui-system-review/fixtures/bad-web-app/src/App.tsx": {
+    "mtime": 1790264289.1799858,
+    "seen": 1790538884.1410496,
+    "ast_hash": "9b4b941df48aa0b35eb6493c8205d3f5",
+    "semantic_hash": "9b4b941df48aa0b35eb6493c8205d3f5"
+  },
+  "evals/ui-system-review/fixtures/bad-web-app/src/features/FeatureA.tsx": {
+    "mtime": 1790264289.1799858,
+    "seen": 1790538884.141051,
+    "ast_hash": "4b5fe0015845ff2c2a8a5fe078d3f924",
+    "semantic_hash": "4b5fe0015845ff2c2a8a5fe078d3f924"
+  },
+  "evals/ui-system-review/fixtures/bad-web-app/src/features/FeatureB.tsx": {
+    "mtime": 1790264289.1809852,
+    "seen": 1790538884.141053,
+    "ast_hash": "0edc6f2d64bb30db8ee1a721711e491a",
+    "semantic_hash": "0edc6f2d64bb30db8ee1a721711e491a"
+  },
+  "scripts/compliance-sources/refresh.py": {
+    "mtime": 1790264289.3611367,
+    "seen": 1790538884.1410542,
+    "ast_hash": "d18cffebb6b0ef40fddbede3771322d9",
+    "semantic_hash": "d18cffebb6b0ef40fddbede3771322d9"
+  },
+  ".github/workflows/compliance-sources-refresh.yml": {
+    "mtime": 1790264289.0268717,
+    "seen": 1790538884.1410556,
+    "ast_hash": "311a8d6bfaf8b962293f7f57df49646b",
+    "semantic_hash": "311a8d6bfaf8b962293f7f57df49646b"
+  },
+  ".github/workflows/docs.yml": {
+    "mtime": 1790264289.0268717,
+    "seen": 1790538884.1410568,
+    "ast_hash": "38bf7736e7d2aa581e45eb455b80021e",
+    "semantic_hash": "38bf7736e7d2aa581e45eb455b80021e"
+  },
+  "CODE_OF_CONDUCT.md": {
+    "mtime": 1790264289.0288768,
+    "seen": 1790538884.1410608,
+    "ast_hash": "73630ff5d513e272935e5d6968749371",
+    "semantic_hash": "73630ff5d513e272935e5d6968749371"
+  },
+  "RELEASE-NOTES-v0.15.0.md": {
+    "mtime": 1790264289.0318718,
+    "seen": 1790538884.1410668,
+    "ast_hash": "dc47efe8f04c26bf8758c38f902d38c1",
+    "semantic_hash": "dc47efe8f04c26bf8758c38f902d38c1"
+  },
+  "RELEASE-NOTES-v0.16.0.md": {
+    "mtime": 1790264289.0318718,
+    "seen": 1790538884.1410677,
+    "ast_hash": "465384f59c1831ed6bb1153870145a05",
+    "semantic_hash": "465384f59c1831ed6bb1153870145a05"
+  },
+  "RELEASE-NOTES-v0.17.0.md": {
+    "mtime": 1790264289.032876,
+    "seen": 1790538884.1410694,
+    "ast_hash": "6921e3a362aee564be26bb6088ae8c2e",
+    "semantic_hash": "6921e3a362aee564be26bb6088ae8c2e"
+  },
+  "compliance-sources/README.md": {
+    "mtime": 1790264289.032876,
+    "seen": 1790538884.1410706,
+    "ast_hash": "353a6687e0eac94443af7ca5cca77240",
+    "semantic_hash": "353a6687e0eac94443af7ca5cca77240"
+  },
+  "compliance-sources/registry-uk-snippet.yaml": {
+    "mtime": 1790264289.033871,
+    "seen": 1790538884.1410716,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "compliance-sources/registry.yaml": {
+    "mtime": 1790264289.033871,
+    "seen": 1790538884.141073,
+    "ast_hash": "592549ebffb6bbdee2b40949c509b800",
+    "semantic_hash": "592549ebffb6bbdee2b40949c509b800"
+  },
+  "docs/assets/README.md": {
+    "mtime": 1790264289.0358706,
+    "seen": 1790538884.1410742,
+    "ast_hash": "9097581419e5ceafd7b5e5cbab2f04ca",
+    "semantic_hash": "9097581419e5ceafd7b5e5cbab2f04ca"
+  },
+  "docs/changelog.md": {
+    "mtime": 1790264289.036872,
+    "seen": 1790538884.1410751,
+    "ast_hash": "4df633d745f855f5af51e93fc144f23d",
+    "semantic_hash": "4df633d745f855f5af51e93fc144f23d"
+  },
+  "docs/code-of-conduct.md": {
+    "mtime": 1790264289.0378723,
+    "seen": 1790538884.1410766,
+    "ast_hash": "6913ea567392edfa430d073d902d6da3",
+    "semantic_hash": "6913ea567392edfa430d073d902d6da3"
+  },
+  "docs/contributing.md": {
+    "mtime": 1790264289.0378723,
+    "seen": 1790538884.1410775,
+    "ast_hash": "a7b42a5c49143fdbf189c9d0c4fc34c9",
+    "semantic_hash": "a7b42a5c49143fdbf189c9d0c4fc34c9"
+  },
+  "docs/evals.md": {
+    "mtime": 1790264289.0393162,
+    "seen": 1790538884.1410787,
+    "ast_hash": "7ef02e92386f37e3ba1d84c93a1441d7",
+    "semantic_hash": "7ef02e92386f37e3ba1d84c93a1441d7"
+  },
+  "docs/getting-started.md": {
+    "mtime": 1790264289.0393162,
+    "seen": 1790538884.1410804,
+    "ast_hash": "6fae4deb32f923091818dc964dc053fe",
+    "semantic_hash": "6fae4deb32f923091818dc964dc053fe"
+  },
+  "docs/index.md": {
+    "mtime": 1790264289.0403254,
+    "seen": 1790538884.1410818,
+    "ast_hash": "d8bd193fc1618f8d5ca573b9933ead97",
+    "semantic_hash": "d8bd193fc1618f8d5ca573b9933ead97"
+  },
+  "docs/llms.txt": {
+    "mtime": 1790264289.0411792,
+    "seen": 1790538884.1410832,
+    "ast_hash": "547036dd82fe5c2fb7e3e36330c7b4fe",
+    "semantic_hash": "547036dd82fe5c2fb7e3e36330c7b4fe"
+  },
+  "docs/skills/ci-cd-plumber.md": {
+    "mtime": 1790264289.042187,
+    "seen": 1790538884.1410844,
+    "ast_hash": "adfb9db57788f00169e050afe9a5c7f3",
+    "semantic_hash": "adfb9db57788f00169e050afe9a5c7f3"
+  },
+  "docs/skills/index.md": {
+    "mtime": 1790264289.042187,
+    "seen": 1790538884.1410856,
+    "ast_hash": "4c6a6dd4f415009c0b9649a70cd3e604",
+    "semantic_hash": "4c6a6dd4f415009c0b9649a70cd3e604"
+  },
+  "docs/skills/postgresql-review.md": {
+    "mtime": 1790264289.0432715,
+    "seen": 1790538884.141087,
+    "ast_hash": "54b18a00f638b0080206fb3612f06b74",
+    "semantic_hash": "54b18a00f638b0080206fb3612f06b74"
+  },
+  "docs/skills/pr-review.md": {
+    "mtime": 1790264289.0432715,
+    "seen": 1790538884.141088,
+    "ast_hash": "f79b66f4b342bc45152108565299efe3",
+    "semantic_hash": "f79b66f4b342bc45152108565299efe3"
+  },
+  "docs/skills/project-incubation.md": {
+    "mtime": 1790264289.0442696,
+    "seen": 1790538884.1410892,
+    "ast_hash": "0d03114f5d80714a67d69230a4cdd856",
+    "semantic_hash": "0d03114f5d80714a67d69230a4cdd856"
+  },
+  "docs/skills/python-code-review.md": {
+    "mtime": 1790264289.0442696,
+    "seen": 1790538884.1410906,
+    "ast_hash": "26cea0f62cc08ff79b5a0137985e5884",
+    "semantic_hash": "26cea0f62cc08ff79b5a0137985e5884"
+  },
+  "evals/nodejs-code-review/event-loop-blocking-sync-fs.md": {
+    "mtime": 1790264289.0589979,
+    "seen": 1790538884.1410935,
+    "ast_hash": "541e946bd70ebc0250db298482071353",
+    "semantic_hash": "541e946bd70ebc0250db298482071353"
+  },
+  "evals/nodejs-code-review/graceful-shutdown-enterprise.md": {
+    "mtime": 1790264289.059995,
+    "seen": 1790538884.1410952,
+    "ast_hash": "0a6f1ca27181d4f71ac3cd64d8b98972",
+    "semantic_hash": "0a6f1ca27181d4f71ac3cd64d8b98972"
+  },
+  "evals/nodejs-code-review/http-security-headers.md": {
+    "mtime": 1790264289.059995,
+    "seen": 1790538884.141096,
+    "ast_hash": "38bd38cd05bacbd698fa1872659d1e03",
+    "semantic_hash": "38bd38cd05bacbd698fa1872659d1e03"
+  },
+  "evals/nodejs-code-review/no-tests-api-surface.md": {
+    "mtime": 1790264289.0609596,
+    "seen": 1790538884.1410975,
+    "ast_hash": "2d454ea9b48293da787b39033313dcdf",
+    "semantic_hash": "2d454ea9b48293da787b39033313dcdf"
+  },
+  "evals/nodejs-code-review/sql-injection-string-concat.md": {
+    "mtime": 1790264289.0619779,
+    "seen": 1790538884.1410987,
+    "ast_hash": "7784a05783413ca29ecae545a2d0d76e",
+    "semantic_hash": "7784a05783413ca29ecae545a2d0d76e"
+  },
+  "evals/react-code-review/error-boundary-missing.md": {
+    "mtime": 1790264289.1021411,
+    "seen": 1790538884.1411,
+    "ast_hash": "5e2d208e058d36a3c9c944dd2b09756f",
+    "semantic_hash": "5e2d208e058d36a3c9c944dd2b09756f"
+  },
+  "evals/react-code-review/hooks-exhaustive-deps-disabled.md": {
+    "mtime": 1790264289.1031425,
+    "seen": 1790538884.1411011,
+    "ast_hash": "105daf94630d31018a0b901e7cac960f",
+    "semantic_hash": "105daf94630d31018a0b901e7cac960f"
+  },
+  "evals/react-code-review/secrets-in-client-bundle.md": {
+    "mtime": 1790264289.1031425,
+    "seen": 1790538884.1411026,
+    "ast_hash": "fbd9e8a34ef5a3a87522e71d49ee0286",
+    "semantic_hash": "fbd9e8a34ef5a3a87522e71d49ee0286"
+  },
+  "evals/react-code-review/stale-fetch-race.md": {
+    "mtime": 1790264289.1031425,
+    "seen": 1790538884.1411035,
+    "ast_hash": "4959bfa3115b50e5f8471d5488c2f840",
+    "semantic_hash": "4959bfa3115b50e5f8471d5488c2f840"
+  },
+  "evals/react-code-review/ui-system-review-boundary.md": {
+    "mtime": 1790264289.1041412,
+    "seen": 1790538884.141105,
+    "ast_hash": "9de6a45c369134a29cec8a8e43ef4f34",
+    "semantic_hash": "9de6a45c369134a29cec8a8e43ef4f34"
+  },
+  "evals/react-code-review/xss-dangerously-set-inner-html.md": {
+    "mtime": 1790264289.1041412,
+    "seen": 1790538884.1411061,
+    "ast_hash": "585918f7399fde210c1c9948f72deaef",
+    "semantic_hash": "585918f7399fde210c1c9948f72deaef"
+  },
+  "evals/regulatory-compliance-applicability-scan/README.md": {
+    "mtime": 1790264289.105143,
+    "seen": 1790538884.1411076,
+    "ast_hash": "0a0f431cf997e0a0aca0888a706ce776",
+    "semantic_hash": "0a0f431cf997e0a0aca0888a706ce776"
+  },
+  "evals/regulatory-compliance-applicability-scan/disclaimer-and-no-compliant-claim/graders/criteria.md": {
+    "mtime": 1790264289.1063037,
+    "seen": 1790538884.1411085,
+    "ast_hash": "22c277530dacbd37459cf4629b087d35",
+    "semantic_hash": "22c277530dacbd37459cf4629b087d35"
+  },
+  "evals/regulatory-compliance-applicability-scan/disclaimer-and-no-compliant-claim/prompt.md": {
+    "mtime": 1790264289.1073203,
+    "seen": 1790538884.1411097,
+    "ast_hash": "98c74e0decc532340830408ae64265b1",
+    "semantic_hash": "98c74e0decc532340830408ae64265b1"
+  },
+  "evals/regulatory-compliance-applicability-scan/eu-de-employment-bdsg-26.md": {
+    "mtime": 1790264289.1089253,
+    "seen": 1790538884.141111,
+    "ast_hash": "0d2065ecf769e5dba803b47763c14d9e",
+    "semantic_hash": "0d2065ecf769e5dba803b47763c14d9e"
+  },
+  "evals/regulatory-compliance-applicability-scan/eu-fr-age-15.md": {
+    "mtime": 1790264289.1089253,
+    "seen": 1790538884.141112,
+    "ast_hash": "0685245ddefd0efff1b49894ab84e217",
+    "semantic_hash": "0685245ddefd0efff1b49894ab84e217"
+  },
+  "evals/regulatory-compliance-applicability-scan/eu-se-personnummer.md": {
+    "mtime": 1790264289.109933,
+    "seen": 1790538884.1411133,
+    "ast_hash": "f5933d353cfccbe77ad12e181e76ec6b",
+    "semantic_hash": "f5933d353cfccbe77ad12e181e76ec6b"
+  },
+  "evals/regulatory-compliance-applicability-scan/hipaa-gate-no-phi/graders/criteria.md": {
+    "mtime": 1790264289.1109324,
+    "seen": 1790538884.1411147,
+    "ast_hash": "89fe21d6e6017fde1a8524686a9e22ce",
+    "semantic_hash": "89fe21d6e6017fde1a8524686a9e22ce"
+  },
+  "evals/regulatory-compliance-applicability-scan/hipaa-gate-no-phi/prompt.md": {
+    "mtime": 1790264289.1109324,
+    "seen": 1790538884.1411157,
+    "ast_hash": "a1c445f06a6bdbe7c3ea53798e65895e",
+    "semantic_hash": "a1c445f06a6bdbe7c3ea53798e65895e"
+  },
+  "evals/regulatory-compliance-applicability-scan/intake-multi-jurisdiction/graders/criteria.md": {
+    "mtime": 1790264289.1119347,
+    "seen": 1790538884.1411169,
+    "ast_hash": "8e794b694a1a59b010c7cb5aa4a0ad20",
+    "semantic_hash": "8e794b694a1a59b010c7cb5aa4a0ad20"
+  },
+  "evals/regulatory-compliance-applicability-scan/intake-multi-jurisdiction/prompt.md": {
+    "mtime": 1790264289.1129484,
+    "seen": 1790538884.1411183,
+    "ast_hash": "0dd921b86fbcc1ee9b0f411e6baeb5d6",
+    "semantic_hash": "0dd921b86fbcc1ee9b0f411e6baeb5d6"
+  },
+  "evals/regulatory-compliance-applicability-scan/major-economy-now-covered/graders/criteria.md": {
+    "mtime": 1790264289.1139326,
+    "seen": 1790538884.1411195,
+    "ast_hash": "bd402ea3bbf2eeb185adad7acc9a422f",
+    "semantic_hash": "bd402ea3bbf2eeb185adad7acc9a422f"
+  },
+  "evals/regulatory-compliance-applicability-scan/major-economy-now-covered/prompt.md": {
+    "mtime": 1790264289.1139326,
+    "seen": 1790538884.1411207,
+    "ast_hash": "6494d0eff1c96607140e9c96f115847d",
+    "semantic_hash": "6494d0eff1c96607140e9c96f115847d"
+  },
+  "evals/regulatory-compliance-applicability-scan/no-invented-articles/graders/criteria.md": {
+    "mtime": 1790264289.114932,
+    "seen": 1790538884.1411219,
+    "ast_hash": "89665bed4805d3646c1e7ad72c13c151",
+    "semantic_hash": "89665bed4805d3646c1e7ad72c13c151"
+  },
+  "evals/regulatory-compliance-applicability-scan/no-invented-articles/prompt.md": {
+    "mtime": 1790264289.114932,
+    "seen": 1790538884.141123,
+    "ast_hash": "98f3693328b49c0f01c0d29fa44de6f9",
+    "semantic_hash": "98f3693328b49c0f01c0d29fa44de6f9"
+  },
+  "evals/regulatory-compliance-applicability-scan/not-covered-de-overlay/graders/criteria.md": {
+    "mtime": 1790264289.11595,
+    "seen": 1790538884.141124,
+    "ast_hash": "43b6ebdb0d103d2fee44c4ebe4974f53",
+    "semantic_hash": "43b6ebdb0d103d2fee44c4ebe4974f53"
+  },
+  "evals/regulatory-compliance-applicability-scan/not-covered-de-overlay/prompt.md": {
+    "mtime": 1790264289.11595,
+    "seen": 1790538884.1411254,
+    "ast_hash": "a3d416685b587ade43310ccd9084aff3",
+    "semantic_hash": "a3d416685b587ade43310ccd9084aff3"
+  },
+  "evals/regulatory-compliance-applicability-scan/not-covered-japan/README.md": {
+    "mtime": 1790264289.1169329,
+    "seen": 1790538884.1411266,
+    "ast_hash": "9e35f74f78e741411d980a79afa4a667",
+    "semantic_hash": "9e35f74f78e741411d980a79afa4a667"
+  },
+  "evals/regulatory-compliance-applicability-scan/not-covered-japan/graders/criteria.md": {
+    "mtime": 1790264289.1179335,
+    "seen": 1790538884.1411276,
+    "ast_hash": "cd19352dde02a8c4096ec5cf6dc94512",
+    "semantic_hash": "cd19352dde02a8c4096ec5cf6dc94512"
+  },
+  "evals/regulatory-compliance-applicability-scan/not-covered-japan/prompt.md": {
+    "mtime": 1790264289.1179335,
+    "seen": 1790538884.1411288,
+    "ast_hash": "a06ea9e20fe8a4f0b3cb99b063f16d8e",
+    "semantic_hash": "a06ea9e20fe8a4f0b3cb99b063f16d8e"
+  },
+  "evals/regulatory-compliance-applicability-scan/not-covered-residual-us-state/graders/criteria.md": {
+    "mtime": 1790264289.1189325,
+    "seen": 1790538884.14113,
+    "ast_hash": "0f656a77fcd05f0824bd7e62761b4fb2",
+    "semantic_hash": "0f656a77fcd05f0824bd7e62761b4fb2"
+  },
+  "evals/regulatory-compliance-applicability-scan/not-covered-residual-us-state/prompt.md": {
+    "mtime": 1790264289.1189325,
+    "seen": 1790538884.1411312,
+    "ast_hash": "6d1ac8341fb93bf89a67eee1c3cf380b",
+    "semantic_hash": "6d1ac8341fb93bf89a67eee1c3cf380b"
+  },
+  "evals/regulatory-compliance-applicability-scan/not-covered-unpacked-jurisdiction/graders/criteria.md": {
+    "mtime": 1790264289.1199334,
+    "seen": 1790538884.1411324,
+    "ast_hash": "5965a68e5988c27ed96c6b730e120c4a",
+    "semantic_hash": "5965a68e5988c27ed96c6b730e120c4a"
+  },
+  "evals/regulatory-compliance-applicability-scan/not-covered-unpacked-jurisdiction/prompt.md": {
+    "mtime": 1790264289.1209326,
+    "seen": 1790538884.1411335,
+    "ast_hash": "e3fe8607cd2a8c1cd39eacb15722a2cd",
+    "semantic_hash": "e3fe8607cd2a8c1cd39eacb15722a2cd"
+  },
+  "evals/regulatory-compliance-applicability-scan/overlay-pairing-de/graders/criteria.md": {
+    "mtime": 1790264289.1219325,
+    "seen": 1790538884.1411347,
+    "ast_hash": "dae1d37be6b078629fda428048380718",
+    "semantic_hash": "dae1d37be6b078629fda428048380718"
+  },
+  "evals/regulatory-compliance-applicability-scan/overlay-pairing-de/prompt.md": {
+    "mtime": 1790264289.1219325,
+    "seen": 1790538884.141136,
+    "ast_hash": "de986f6a6e9fece5f6bfb68ffe4f14b0",
+    "semantic_hash": "de986f6a6e9fece5f6bfb68ffe4f14b0"
+  },
+  "evals/regulatory-compliance-applicability-scan/pci-no-certify/graders/criteria.md": {
+    "mtime": 1790264289.1230884,
+    "seen": 1790538884.1411371,
+    "ast_hash": "b19d4c07ac1bfb552450e9da5d3711e1",
+    "semantic_hash": "b19d4c07ac1bfb552450e9da5d3711e1"
+  },
+  "evals/regulatory-compliance-applicability-scan/pci-no-certify/prompt.md": {
+    "mtime": 1790264289.1240983,
+    "seen": 1790538884.1411388,
+    "ast_hash": "e52fb772f778a760c9e075b9fd69ca01",
+    "semantic_hash": "e52fb772f778a760c9e075b9fd69ca01"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-ad-29-2021.md": {
+    "mtime": 1790264289.1251063,
+    "seen": 1790538884.1411397,
+    "ast_hash": "60a2bde110d9be70e9a6b6b5acd900d9",
+    "semantic_hash": "60a2bde110d9be70e9a6b6b5acd900d9"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-ao-22-11.md": {
+    "mtime": 1790264289.1255834,
+    "seen": 1790538884.1411407,
+    "ast_hash": "3de9f0f3fc14a4a5794d0495d3343a89",
+    "semantic_hash": "3de9f0f3fc14a4a5794d0495d3343a89"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-ba-force.md": {
+    "mtime": 1790264289.1262562,
+    "seen": 1790538884.1411421,
+    "ast_hash": "59bfda770140b6d03da0318521325774",
+    "semantic_hash": "59bfda770140b6d03da0318521325774"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-bb-dpa-2019.md": {
+    "mtime": 1790264289.1262562,
+    "seen": 1790538884.141143,
+    "ast_hash": "6023e4e016b2068e863d0df2cb16e9e2",
+    "semantic_hash": "6023e4e016b2068e863d0df2cb16e9e2"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-bd-commencement-gate.md": {
+    "mtime": 1790264289.1272638,
+    "seen": 1790538884.141144,
+    "ast_hash": "acb780ac7a7fa72c6419fdab087d9d22",
+    "semantic_hash": "acb780ac7a7fa72c6419fdab087d9d22"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-bh-cross-border.md": {
+    "mtime": 1790264289.1272638,
+    "seen": 1790538884.141145,
+    "ast_hash": "adbff7dd3d9ea53ea61e5445a9ad0296",
+    "semantic_hash": "adbff7dd3d9ea53ea61e5445a9ad0296"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-bn-pdpo-2025.md": {
+    "mtime": 1790264289.1282625,
+    "seen": 1790538884.1411462,
+    "ast_hash": "8abd7f6449dfad4f6401857c780276ea",
+    "semantic_hash": "8abd7f6449dfad4f6401857c780276ea"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-bo-not-covered.md": {
+    "mtime": 1790264289.1282625,
+    "seen": 1790538884.1411474,
+    "ast_hash": "cc6065ff9a2c675ff29bc7c20bbbf9b9",
+    "semantic_hash": "cc6065ff9a2c675ff29bc7c20bbbf9b9"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-bz-act-45.md": {
+    "mtime": 1790264289.129263,
+    "seen": 1790538884.1411486,
+    "ast_hash": "dbfc3be2e5d64e827693ed533de52f7c",
+    "semantic_hash": "dbfc3be2e5d64e827693ed533de52f7c"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-ci-2013-450.md": {
+    "mtime": 1790264289.129263,
+    "seen": 1790538884.1411498,
+    "ast_hash": "e04cb0f49827f2e099121f773203991d",
+    "semantic_hash": "e04cb0f49827f2e099121f773203991d"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-cl-commencement-gate/graders/criteria.md": {
+    "mtime": 1790264289.130263,
+    "seen": 1790538884.141151,
+    "ast_hash": "29aba806790575675891258c4ca78364",
+    "semantic_hash": "29aba806790575675891258c4ca78364"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-cl-commencement-gate/prompt.md": {
+    "mtime": 1790264289.130263,
+    "seen": 1790538884.1411521,
+    "ast_hash": "01b4044733ac1c91b69472274e1b477e",
+    "semantic_hash": "01b4044733ac1c91b69472274e1b477e"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-cn-missing-notice/graders/criteria.md": {
+    "mtime": 1790264289.1312618,
+    "seen": 1790538884.1411536,
+    "ast_hash": "1233bcf67fef760cd76b2bc58198dae4",
+    "semantic_hash": "1233bcf67fef760cd76b2bc58198dae4"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-cn-missing-notice/prompt.md": {
+    "mtime": 1790264289.1322627,
+    "seen": 1790538884.1411545,
+    "ast_hash": "bd0ee7ffd8504bb39ffc06a1b83e9875",
+    "semantic_hash": "bd0ee7ffd8504bb39ffc06a1b83e9875"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-co-not-colorado/graders/criteria.md": {
+    "mtime": 1790264289.1332624,
+    "seen": 1790538884.1411562,
+    "ast_hash": "deafb3d5d0dcdb5f43bbbcfbfbe71176",
+    "semantic_hash": "deafb3d5d0dcdb5f43bbbcfbfbe71176"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-co-not-colorado/prompt.md": {
+    "mtime": 1790264289.1332624,
+    "seen": 1790538884.1411572,
+    "ast_hash": "b93a02d47c4c8b3104ed0a197fdfd7b4",
+    "semantic_hash": "b93a02d47c4c8b3104ed0a197fdfd7b4"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-cr-ley-8968.md": {
+    "mtime": 1790264289.1332624,
+    "seen": 1790538884.1411583,
+    "ast_hash": "4d50743e72b4b20c363aa140f5e47155",
+    "semantic_hash": "4d50743e72b4b20c363aa140f5e47155"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-difc-not-federal-uae/graders/criteria.md": {
+    "mtime": 1790264289.1342633,
+    "seen": 1790538884.1411595,
+    "ast_hash": "ef633e2fddb69bee0d676b7141dc2290",
+    "semantic_hash": "ef633e2fddb69bee0d676b7141dc2290"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-difc-not-federal-uae/prompt.md": {
+    "mtime": 1790264289.1352625,
+    "seen": 1790538884.1411607,
+    "ast_hash": "20f5ebff799e154e92a8b7e268c3e882",
+    "semantic_hash": "20f5ebff799e154e92a8b7e268c3e882"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-dz-18-07.md": {
+    "mtime": 1790264289.1352625,
+    "seen": 1790538884.141162,
+    "ast_hash": "1c1f4e2c97cac2edccdabde85d365431",
+    "semantic_hash": "1c1f4e2c97cac2edccdabde85d365431"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-ec-lopdp.md": {
+    "mtime": 1790264289.136263,
+    "seen": 1790538884.1411636,
+    "ast_hash": "d6eeb6354c356311d9e1829220993c98",
+    "semantic_hash": "d6eeb6354c356311d9e1829220993c98"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-eu-missing-notice/graders/criteria.md": {
+    "mtime": 1790264289.136263,
+    "seen": 1790538884.1411648,
+    "ast_hash": "90f3c00a158972ad4b3e7866287e681d",
+    "semantic_hash": "90f3c00a158972ad4b3e7866287e681d"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-eu-missing-notice/prompt.md": {
+    "mtime": 1790264289.1372628,
+    "seen": 1790538884.1411657,
+    "ast_hash": "ef21296208e328324673e08f46a5d6c7",
+    "semantic_hash": "ef21296208e328324673e08f46a5d6c7"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-ge-phased.md": {
+    "mtime": 1790264289.1372628,
+    "seen": 1790538884.1411672,
+    "ast_hash": "db0bfc709675a2746b38b3c505906fc9",
+    "semantic_hash": "db0bfc709675a2746b38b3c505906fc9"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-gh-act-843.md": {
+    "mtime": 1790264289.138264,
+    "seen": 1790538884.1411965,
+    "ast_hash": "62ecbf78f2f347ad64835ffc37c94457",
+    "semantic_hash": "62ecbf78f2f347ad64835ffc37c94457"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-gy-act-18-2023.md": {
+    "mtime": 1790264289.138819,
+    "seen": 1790538884.141198,
+    "ast_hash": "ccf85f45b453274f6ae1e1bfdd6a49e0",
+    "semantic_hash": "ccf85f45b453274f6ae1e1bfdd6a49e0"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-hk-s33-not-in-force/graders/criteria.md": {
+    "mtime": 1790264289.1407597,
+    "seen": 1790538884.141199,
+    "ast_hash": "8ff11e75d4d9dda9e4e7752bc881eed3",
+    "semantic_hash": "8ff11e75d4d9dda9e4e7752bc881eed3"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-hk-s33-not-in-force/prompt.md": {
+    "mtime": 1790264289.1417665,
+    "seen": 1790538884.1412003,
+    "ast_hash": "54436c6e8e194c58b651a7119715f39a",
+    "semantic_hash": "54436c6e8e194c58b651a7119715f39a"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-hn-not-covered.md": {
+    "mtime": 1790264289.1417665,
+    "seen": 1790538884.141202,
+    "ast_hash": "e7ac3ffb9cc81efdba1464093550e51c",
+    "semantic_hash": "e7ac3ffb9cc81efdba1464093550e51c"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-iq-not-covered.md": {
+    "mtime": 1790264289.1427808,
+    "seen": 1790538884.1412032,
+    "ast_hash": "9312660abd6fdd4b10dc2ae695874cee",
+    "semantic_hash": "9312660abd6fdd4b10dc2ae695874cee"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-jm-dpa-2020.md": {
+    "mtime": 1790264289.1427808,
+    "seen": 1790538884.141204,
+    "ast_hash": "3e038a8445919fcb6aa9702007a840c7",
+    "semantic_hash": "3e038a8445919fcb6aa9702007a840c7"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-jp-cross-border/graders/criteria.md": {
+    "mtime": 1790264289.1437738,
+    "seen": 1790538884.1412055,
+    "ast_hash": "cd66f8c36134b13f88e4b68e6f044d3d",
+    "semantic_hash": "cd66f8c36134b13f88e4b68e6f044d3d"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-jp-cross-border/prompt.md": {
+    "mtime": 1790264289.1447735,
+    "seen": 1790538884.1412067,
+    "ast_hash": "704202ba06987be27a6257ad9d9d6f54",
+    "semantic_hash": "704202ba06987be27a6257ad9d9d6f54"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-kh-not-covered.md": {
+    "mtime": 1790264289.1447735,
+    "seen": 1790538884.1412077,
+    "ast_hash": "9b5a614fcf501617c08a81e350244a42",
+    "semantic_hash": "9b5a614fcf501617c08a81e350244a42"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-ki-dpa-2025.md": {
+    "mtime": 1790264289.1447735,
+    "seen": 1790538884.1412091,
+    "ast_hash": "1ee8664d56b02dcc53cabc7b589e89dc",
+    "semantic_hash": "1ee8664d56b02dcc53cabc7b589e89dc"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-kw-not-general.md": {
+    "mtime": 1790264289.1457736,
+    "seen": 1790538884.14121,
+    "ast_hash": "92d7ad1f485fe7b352419a8cea3c0e32",
+    "semantic_hash": "92d7ad1f485fe7b352419a8cea3c0e32"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-lk-phased.md": {
+    "mtime": 1790264289.1457736,
+    "seen": 1790538884.1412115,
+    "ast_hash": "f97a31552d7715f43742fa3ec040342a",
+    "semantic_hash": "f97a31552d7715f43742fa3ec040342a"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-ls-2012.md": {
+    "mtime": 1790264289.146774,
+    "seen": 1790538884.1412127,
+    "ast_hash": "3aae71a70563a772fe5ee0af606910ea",
+    "semantic_hash": "3aae71a70563a772fe5ee0af606910ea"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-md-moldova-force.md": {
+    "mtime": 1790264289.146774,
+    "seen": 1790538884.1412137,
+    "ast_hash": "4dada809c85fdaf34ddd1292494269e9",
+    "semantic_hash": "4dada809c85fdaf34ddd1292494269e9"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-mr-force-gate.md": {
+    "mtime": 1790264289.146774,
+    "seen": 1790538884.141215,
+    "ast_hash": "3fa0f1d05f3ae76d07278334660ef29a",
+    "semantic_hash": "3fa0f1d05f3ae76d07278334660ef29a"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-mu-dpa-2017.md": {
+    "mtime": 1790264289.1477737,
+    "seen": 1790538884.1412165,
+    "ast_hash": "7b9fa1dfed9713290f5b23aee1488f4c",
+    "semantic_hash": "7b9fa1dfed9713290f5b23aee1488f4c"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-mv-not-covered.md": {
+    "mtime": 1790264289.1477737,
+    "seen": 1790538884.1412177,
+    "ast_hash": "7511487adaff85c2116a1a5956a4bf07",
+    "semantic_hash": "7511487adaff85c2116a1a5956a4bf07"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-mz-not-covered.md": {
+    "mtime": 1790264289.1487734,
+    "seen": 1790538884.141219,
+    "ast_hash": "c8e65eac37fb5282e1f997f2a746419d",
+    "semantic_hash": "c8e65eac37fb5282e1f997f2a746419d"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-ne-niger-2022.md": {
+    "mtime": 1790264289.1487734,
+    "seen": 1790538884.14122,
+    "ast_hash": "7291f60d64ff224d59596a883c6289cf",
+    "semantic_hash": "7291f60d64ff224d59596a883c6289cf"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-om-rd-6-2022.md": {
+    "mtime": 1790264289.1487734,
+    "seen": 1790538884.1412213,
+    "ast_hash": "6e811484e62f6a79dd01dcf5ec20271a",
+    "semantic_hash": "6e811484e62f6a79dd01dcf5ec20271a"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-pa-ley-81.md": {
+    "mtime": 1790264289.1497748,
+    "seen": 1790538884.1412225,
+    "ast_hash": "1b08f229c932372a88b4f00d6c3fa14b",
+    "semantic_hash": "1b08f229c932372a88b4f00d6c3fa14b"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-pg-not-covered.md": {
+    "mtime": 1790264289.1497748,
+    "seen": 1790538884.1412237,
+    "ast_hash": "fe6a0a656d6177dd8117396417ac9432",
+    "semantic_hash": "fe6a0a656d6177dd8117396417ac9432"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-pk-not-enacted.md": {
+    "mtime": 1790264289.1507747,
+    "seen": 1790538884.1412246,
+    "ast_hash": "19e12dbc1caf0a8860378112d7b54d95",
+    "semantic_hash": "19e12dbc1caf0a8860378112d7b54d95"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-py-limited.md": {
+    "mtime": 1790264289.1507747,
+    "seen": 1790538884.1412263,
+    "ast_hash": "54352b56d6c5c5ad8e87e241b4a1afb0",
+    "semantic_hash": "54352b56d6c5c5ad8e87e241b4a1afb0"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-qa-not-qfc.md": {
+    "mtime": 1790264289.1517737,
+    "seen": 1790538884.1412277,
+    "ast_hash": "b9366e588aab534659a3f27a7d30fd6e",
+    "semantic_hash": "b9366e588aab534659a3f27a7d30fd6e"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-ru-localization-verify/graders/criteria.md": {
+    "mtime": 1790264289.1527739,
+    "seen": 1790538884.141229,
+    "ast_hash": "e3cc2d7986d64ee78eb4dbbc372768dd",
+    "semantic_hash": "e3cc2d7986d64ee78eb4dbbc372768dd"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-ru-localization-verify/prompt.md": {
+    "mtime": 1790264289.1527739,
+    "seen": 1790538884.14123,
+    "ast_hash": "cd09d392afc7723648670f0ba5527fbf",
+    "semantic_hash": "cd09d392afc7723648670f0ba5527fbf"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-sc-dpa-2023.md": {
+    "mtime": 1790264289.1527739,
+    "seen": 1790538884.141231,
+    "ast_hash": "80b53935af42861fd2549834adbb58ae",
+    "semantic_hash": "80b53935af42861fd2549834adbb58ae"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-sl-not-covered.md": {
+    "mtime": 1790264289.1542795,
+    "seen": 1790538884.1412325,
+    "ast_hash": "35a233090d8ee1651a55e3e248475904",
+    "semantic_hash": "35a233090d8ee1651a55e3e248475904"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-tg-2019-014.md": {
+    "mtime": 1790264289.155289,
+    "seen": 1790538884.1412337,
+    "ast_hash": "187bbffc7f3215cc9ef394bd8f44df69",
+    "semantic_hash": "187bbffc7f3215cc9ef394bd8f44df69"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-tw-pending-amendment/graders/criteria.md": {
+    "mtime": 1790264289.1567438,
+    "seen": 1790538884.1412346,
+    "ast_hash": "e744255aa3942e1de15ef4ffde9faf38",
+    "semantic_hash": "e744255aa3942e1de15ef4ffde9faf38"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-tw-pending-amendment/prompt.md": {
+    "mtime": 1790264289.1572676,
+    "seen": 1790538884.141236,
+    "ast_hash": "068dbbd7e7e504a9e949e6aad68185ab",
+    "semantic_hash": "068dbbd7e7e504a9e949e6aad68185ab"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-tz-act-11-2022.md": {
+    "mtime": 1790264289.1582859,
+    "seen": 1790538884.141237,
+    "ast_hash": "ad581fadd007849d3de251584300d69d",
+    "semantic_hash": "ad581fadd007849d3de251584300d69d"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-ug-2019.md": {
+    "mtime": 1790264289.1582859,
+    "seen": 1790538884.1412382,
+    "ast_hash": "5520c11dbe22389dfe53fb87f79a678b",
+    "semantic_hash": "5520c11dbe22389dfe53fb87f79a678b"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-uk-not-eu-overlay/graders/criteria.md": {
+    "mtime": 1790264289.1600246,
+    "seen": 1790538884.1412396,
+    "ast_hash": "54555715af9cb9ab943958d269f819f9",
+    "semantic_hash": "54555715af9cb9ab943958d269f819f9"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-uk-not-eu-overlay/prompt.md": {
+    "mtime": 1790264289.1600246,
+    "seen": 1790538884.1412406,
+    "ast_hash": "f8be6bdad4e75d7dd4ab64c038e64958",
+    "semantic_hash": "f8be6bdad4e75d7dd4ab64c038e64958"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-uy-ley-18331.md": {
+    "mtime": 1790264289.1610374,
+    "seen": 1790538884.1412418,
+    "ast_hash": "8b82197a3b5a226dda3acc4fde1cbec8",
+    "semantic_hash": "8b82197a3b5a226dda3acc4fde1cbec8"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-vc-not-in-force.md": {
+    "mtime": 1790264289.1610374,
+    "seen": 1790538884.1412432,
+    "ast_hash": "8e4cc1f237a5101ec762494b1db2a35e",
+    "semantic_hash": "8e4cc1f237a5101ec762494b1db2a35e"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-vu-policy-not-act.md": {
+    "mtime": 1790264289.162036,
+    "seen": 1790538884.1412442,
+    "ast_hash": "5cb53fe757921fa7a7174d7034aadd03",
+    "semantic_hash": "5cb53fe757921fa7a7174d7034aadd03"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-ws-not-covered.md": {
+    "mtime": 1790264289.162036,
+    "seen": 1790538884.1412456,
+    "ast_hash": "1c3254afcf5a8a426aaf98114fe65505",
+    "semantic_hash": "1c3254afcf5a8a426aaf98114fe65505"
+  },
+  "evals/regulatory-compliance-applicability-scan/privacy-zm-act-2021.md": {
+    "mtime": 1790264289.162036,
+    "seen": 1790538884.1412468,
+    "ast_hash": "bc4ad9950be3ac4467ca24e4b57c5138",
+    "semantic_hash": "bc4ad9950be3ac4467ca24e4b57c5138"
+  },
+  "evals/regulatory-compliance-applicability-scan/report-coverage-table/graders/criteria.md": {
+    "mtime": 1790264289.1640315,
+    "seen": 1790538884.141248,
+    "ast_hash": "400ef82d8e12803aac94c06e5c9b13e4",
+    "semantic_hash": "400ef82d8e12803aac94c06e5c9b13e4"
+  },
+  "evals/regulatory-compliance-applicability-scan/report-coverage-table/prompt.md": {
+    "mtime": 1790264289.1640315,
+    "seen": 1790538884.141249,
+    "ast_hash": "b7b82fd3d5aa570e449fb50f6d1b7e92",
+    "semantic_hash": "b7b82fd3d5aa570e449fb50f6d1b7e92"
+  },
+  "evals/regulatory-compliance-applicability-scan/suggest-not-certify/graders/criteria.md": {
+    "mtime": 1790264289.1650307,
+    "seen": 1790538884.1412504,
+    "ast_hash": "7e9f2260dfa7047d14a8df84a37e6c0e",
+    "semantic_hash": "7e9f2260dfa7047d14a8df84a37e6c0e"
+  },
+  "evals/regulatory-compliance-applicability-scan/suggest-not-certify/prompt.md": {
+    "mtime": 1790264289.1650307,
+    "seen": 1790538884.1412513,
+    "ast_hash": "d4617501823e8a9bff8a7705eb26f8b1",
+    "semantic_hash": "d4617501823e8a9bff8a7705eb26f8b1"
+  },
+  "evals/typescript-code-review/floating-promise.md": {
+    "mtime": 1790264289.1660314,
+    "seen": 1790538884.1412525,
+    "ast_hash": "881d5b6c57535041f643f4bccbca4c24",
+    "semantic_hash": "881d5b6c57535041f643f4bccbca4c24"
+  },
+  "evals/typescript-code-review/lockfile-required.md": {
+    "mtime": 1790264289.1660314,
+    "seen": 1790538884.141254,
+    "ast_hash": "cdcf7886a724d364c2344730aed7351f",
+    "semantic_hash": "cdcf7886a724d364c2344730aed7351f"
+  },
+  "evals/typescript-code-review/no-certify-language.md": {
+    "mtime": 1790264289.1660314,
+    "seen": 1790538884.141255,
+    "ast_hash": "bb5efcdba595fedcd441919bc4dec394",
+    "semantic_hash": "bb5efcdba595fedcd441919bc4dec394"
+  },
+  "evals/typescript-code-review/sibling-skill-pointer.md": {
+    "mtime": 1790264289.1660314,
+    "seen": 1790538884.141256,
+    "ast_hash": "0e77c1b73fef65045f25a2d33520d738",
+    "semantic_hash": "0e77c1b73fef65045f25a2d33520d738"
+  },
+  "evals/typescript-code-review/strict-tsconfig-preferred.md": {
+    "mtime": 1790264289.1675365,
+    "seen": 1790538884.1412575,
+    "ast_hash": "c13dfa8c81927e1566c2db47f122de12",
+    "semantic_hash": "c13dfa8c81927e1566c2db47f122de12"
+  },
+  "evals/ui-system-review/README.md": {
+    "mtime": 1790264289.1685426,
+    "seen": 1790538884.1412585,
+    "ast_hash": "fa59c3b11654e74545d2f38034733a23",
+    "semantic_hash": "fa59c3b11654e74545d2f38034733a23"
+  },
+  "evals/ui-system-review/android-dual-theme-xml-compose/graders/criteria.md": {
+    "mtime": 1790264289.1685426,
+    "seen": 1790538884.1412597,
+    "ast_hash": "7a86aaea86506901739616c51bf39ed6",
+    "semantic_hash": "7a86aaea86506901739616c51bf39ed6"
+  },
+  "evals/ui-system-review/android-dual-theme-xml-compose/prompt.md": {
+    "mtime": 1790264289.1695428,
+    "seen": 1790538884.1412609,
+    "ast_hash": "59264f728bc2c32d252ec12e03fd93b8",
+    "semantic_hash": "59264f728bc2c32d252ec12e03fd93b8"
+  },
+  "evals/ui-system-review/apple-hardcoded-colors/graders/criteria.md": {
+    "mtime": 1790264289.1700585,
+    "seen": 1790538884.141262,
+    "ast_hash": "67608498017c63e23f1ed349527a2794",
+    "semantic_hash": "67608498017c63e23f1ed349527a2794"
+  },
+  "evals/ui-system-review/apple-hardcoded-colors/prompt.md": {
+    "mtime": 1790264289.171065,
+    "seen": 1790538884.1412632,
+    "ast_hash": "0d5b64e94f490c7aaee9d1ed70e9105c",
+    "semantic_hash": "0d5b64e94f490c7aaee9d1ed70e9105c"
+  },
+  "evals/ui-system-review/audit-scorecard-report-shape/graders/criteria.md": {
+    "mtime": 1790264289.1720846,
+    "seen": 1790538884.1412644,
+    "ast_hash": "c86a8290a90861a0b59bc44498193439",
+    "semantic_hash": "c86a8290a90861a0b59bc44498193439"
+  },
+  "evals/ui-system-review/audit-scorecard-report-shape/prompt.md": {
+    "mtime": 1790264289.1720846,
+    "seen": 1790538884.1412656,
+    "ast_hash": "a88c5c27d51e3d4433f33f4382166df4",
+    "semantic_hash": "a88c5c27d51e3d4433f33f4382166df4"
+  },
+  "evals/ui-system-review/dual-component-libraries/graders/criteria.md": {
+    "mtime": 1790264289.173431,
+    "seen": 1790538884.1412666,
+    "ast_hash": "bc6e1e39eb01d364dc3959fa01b6d2e0",
+    "semantic_hash": "bc6e1e39eb01d364dc3959fa01b6d2e0"
+  },
+  "evals/ui-system-review/dual-component-libraries/prompt.md": {
+    "mtime": 1790264289.1744423,
+    "seen": 1790538884.141268,
+    "ast_hash": "43ed27f4a163e10748812d45d0aa53cb",
+    "semantic_hash": "43ed27f4a163e10748812d45d0aa53cb"
+  },
+  "evals/ui-system-review/evidence-required-no-invent/graders/criteria.md": {
+    "mtime": 1790264289.1759784,
+    "seen": 1790538884.1412709,
+    "ast_hash": "e338f6160e18779c7a7efc64de0f7ccc",
+    "semantic_hash": "e338f6160e18779c7a7efc64de0f7ccc"
+  },
+  "evals/ui-system-review/evidence-required-no-invent/prompt.md": {
+    "mtime": 1790264289.1759784,
+    "seen": 1790538884.141272,
+    "ast_hash": "8a6c3f5ee2f75f257788cd1b4a579730",
+    "semantic_hash": "8a6c3f5ee2f75f257788cd1b4a579730"
+  },
+  "evals/ui-system-review/fixture-bad-web-expected-findings/graders/criteria.md": {
+    "mtime": 1790264289.1769872,
+    "seen": 1790538884.1412733,
+    "ast_hash": "2ba30ffa764aa7a78c274ee6683ba300",
+    "semantic_hash": "2ba30ffa764aa7a78c274ee6683ba300"
+  },
+  "evals/ui-system-review/fixture-bad-web-expected-findings/prompt.md": {
+    "mtime": 1790264289.177985,
+    "seen": 1790538884.1412747,
+    "ast_hash": "a21e4a9345fe98b7fd171a57de940f31",
+    "semantic_hash": "a21e4a9345fe98b7fd171a57de940f31"
+  },
+  "evals/ui-system-review/fixtures/bad-web-app/README.md": {
+    "mtime": 1790264289.1789865,
+    "seen": 1790538884.141276,
+    "ast_hash": "e464d63d6e35478f2f2edfd7e198b4de",
+    "semantic_hash": "e464d63d6e35478f2f2edfd7e198b4de"
+  },
+  "evals/ui-system-review/mixed-icon-libraries/graders/criteria.md": {
+    "mtime": 1790264289.181985,
+    "seen": 1790538884.141277,
+    "ast_hash": "4f6cbb725f8eab3f0765065043444d7d",
+    "semantic_hash": "4f6cbb725f8eab3f0765065043444d7d"
+  },
+  "evals/ui-system-review/mixed-icon-libraries/prompt.md": {
+    "mtime": 1790264289.1829867,
+    "seen": 1790538884.1412783,
+    "ast_hash": "a7417c83ca23af92e072e4d36e77283d",
+    "semantic_hash": "a7417c83ca23af92e072e4d36e77283d"
+  },
+  "evals/ui-system-review/no-ui-surface-stop/graders/criteria.md": {
+    "mtime": 1790264289.1829867,
+    "seen": 1790538884.1412795,
+    "ast_hash": "6629431cb517a42a873a3f77ee978006",
+    "semantic_hash": "6629431cb517a42a873a3f77ee978006"
+  },
+  "evals/ui-system-review/no-ui-surface-stop/prompt.md": {
+    "mtime": 1790264289.1839857,
+    "seen": 1790538884.1412807,
+    "ast_hash": "c3b7f69ccabd26e57e09167ae955c192",
+    "semantic_hash": "c3b7f69ccabd26e57e09167ae955c192"
+  },
+  "evals/ui-system-review/remediation-section-required/graders/criteria.md": {
+    "mtime": 1790264289.184986,
+    "seen": 1790538884.1412818,
+    "ast_hash": "065716bce0f21de0c677e163bdeb611a",
+    "semantic_hash": "065716bce0f21de0c677e163bdeb611a"
+  },
+  "evals/ui-system-review/remediation-section-required/prompt.md": {
+    "mtime": 1790264289.184986,
+    "seen": 1790538884.141283,
+    "ast_hash": "284f719a963a08bd05066e1e65997d3a",
+    "semantic_hash": "284f719a963a08bd05066e1e65997d3a"
+  },
+  "evals/ui-system-review/suggest-not-rewrite-ui/graders/criteria.md": {
+    "mtime": 1790264289.1859865,
+    "seen": 1790538884.141284,
+    "ast_hash": "239c5f720858a9ba1810e3e317201e21",
+    "semantic_hash": "239c5f720858a9ba1810e3e317201e21"
+  },
+  "evals/ui-system-review/suggest-not-rewrite-ui/prompt.md": {
+    "mtime": 1790264289.1859865,
+    "seen": 1790538884.1412857,
+    "ast_hash": "2c5e4233c3e4af466521743c7af578be",
+    "semantic_hash": "2c5e4233c3e4af466521743c7af578be"
+  },
+  "evals/ui-system-review/token-hardcode-hex-drift/graders/criteria.md": {
+    "mtime": 1790264289.1869864,
+    "seen": 1790538884.1412866,
+    "ast_hash": "a4a7e51fa7d73e7a6107a81418bcca4f",
+    "semantic_hash": "a4a7e51fa7d73e7a6107a81418bcca4f"
+  },
+  "evals/ui-system-review/token-hardcode-hex-drift/prompt.md": {
+    "mtime": 1790264289.1879852,
+    "seen": 1790538884.141288,
+    "ast_hash": "eaf2d241f2d35f369bc947966ea59921",
+    "semantic_hash": "eaf2d241f2d35f369bc947966ea59921"
+  },
+  "mkdocs.yml": {
+    "mtime": 1790264289.2024896,
+    "seen": 1790538884.1412892,
+    "ast_hash": "c64f33cfcced396836569aa786380b42",
+    "semantic_hash": "c64f33cfcced396836569aa786380b42"
+  },
+  "requirements-docs.txt": {
+    "mtime": 1790264289.2034893,
+    "seen": 1790538884.1412902,
+    "ast_hash": "ecc4b09756dc6d9b9a50d1944373f2bc",
+    "semantic_hash": "ecc4b09756dc6d9b9a50d1944373f2bc"
+  },
+  "research/regulatory-compliance-applicability-scan/00-index.md": {
+    "mtime": 1790264289.3251867,
+    "seen": 1790538884.1412916,
+    "ast_hash": "1e264c5287683ec5929157b9cbc1ee04",
+    "semantic_hash": "1e264c5287683ec5929157b9cbc1ee04"
+  },
+  "research/regulatory-compliance-applicability-scan/01-scope-and-boundaries.md": {
+    "mtime": 1790264289.3262942,
+    "seen": 1790538884.141293,
+    "ast_hash": "4b2c97fa1545607e88c8086296bc4ae2",
+    "semantic_hash": "4b2c97fa1545607e88c8086296bc4ae2"
+  },
+  "research/regulatory-compliance-applicability-scan/02-intake-and-repo-signals.md": {
+    "mtime": 1790264289.3273258,
+    "seen": 1790538884.1412942,
+    "ast_hash": "0a7cdf4f6ae133c0f73ac9638cd88d10",
+    "semantic_hash": "0a7cdf4f6ae133c0f73ac9638cd88d10"
+  },
+  "research/regulatory-compliance-applicability-scan/03-source-strategy-hybrid.md": {
+    "mtime": 1790264289.3280656,
+    "seen": 1790538884.1412957,
+    "ast_hash": "fb7e5d92f44469e7cc686940a11c4de3",
+    "semantic_hash": "fb7e5d92f44469e7cc686940a11c4de3"
+  },
+  "research/regulatory-compliance-applicability-scan/04-refresh-job.md": {
+    "mtime": 1790264289.3287175,
+    "seen": 1790538884.1412966,
+    "ast_hash": "d0f0cef0dbd2dec1e0d97cfa1d5c5050",
+    "semantic_hash": "d0f0cef0dbd2dec1e0d97cfa1d5c5050"
+  },
+  "research/regulatory-compliance-applicability-scan/05-packs-roadmap.md": {
+    "mtime": 1790264289.3292334,
+    "seen": 1790538884.1412978,
+    "ast_hash": "c469e657dff3ce3a9c21f0b63a16945d",
+    "semantic_hash": "c469e657dff3ce3a9c21f0b63a16945d"
+  },
+  "research/regulatory-compliance-applicability-scan/06-report-shape.md": {
+    "mtime": 1790264289.3298385,
+    "seen": 1790538884.141299,
+    "ast_hash": "dc541e2d74a29b9fdb1cb02855a35639",
+    "semantic_hash": "dc541e2d74a29b9fdb1cb02855a35639"
+  },
+  "research/regulatory-compliance-applicability-scan/07-coverage-matrix.md": {
+    "mtime": 1790264289.3310308,
+    "seen": 1790538884.1413004,
+    "ast_hash": "207045bc7d74be30d778aaab4d1d966b",
+    "semantic_hash": "207045bc7d74be30d778aaab4d1d966b"
+  },
+  "research/regulatory-compliance-applicability-scan/08-eu-member-state-variations.md": {
+    "mtime": 1790264289.3317144,
+    "seen": 1790538884.1413014,
+    "ast_hash": "cbcb5f1619cbc7d199e00fed85b54842",
+    "semantic_hash": "cbcb5f1619cbc7d199e00fed85b54842"
+  },
+  "research/regulatory-compliance-applicability-scan/09-url-hardening.md": {
+    "mtime": 1790264289.3322475,
+    "seen": 1790538884.1413028,
+    "ast_hash": "66055b8e11b5c8adf3fb86313d6ceccb",
+    "semantic_hash": "66055b8e11b5c8adf3fb86313d6ceccb"
+  },
+  "research/regulatory-compliance-applicability-scan/10-depth-progress.md": {
+    "mtime": 1790264289.332867,
+    "seen": 1790538884.1413038,
+    "ast_hash": "eb1be0807916cebc164e207671f8006e",
+    "semantic_hash": "eb1be0807916cebc164e207671f8006e"
+  },
+  "research/regulatory-compliance-applicability-scan/11-eu-eea-complete.md": {
+    "mtime": 1790264289.333723,
+    "seen": 1790538884.141305,
+    "ast_hash": "3ffae98117f18a947822dbe1794c4e72",
+    "semantic_hash": "3ffae98117f18a947822dbe1794c4e72"
+  },
+  "research/regulatory-compliance-applicability-scan/12-global-coverage-roadmap.md": {
+    "mtime": 1790264289.3342283,
+    "seen": 1790538884.1413062,
+    "ast_hash": "206f70bc80666aa81f11b051ff40bc83",
+    "semantic_hash": "206f70bc80666aa81f11b051ff40bc83"
+  },
+  "research/regulatory-compliance-applicability-scan/13-stage-g-hardening.md": {
+    "mtime": 1790264289.3353727,
+    "seen": 1790538884.1413074,
+    "ast_hash": "bf2dce3c419f148f65cb2a5c8352910f",
+    "semantic_hash": "bf2dce3c419f148f65cb2a5c8352910f"
+  },
+  "research/regulatory-compliance-applicability-scan/14-url-lock-batch.md": {
+    "mtime": 1790264289.3362048,
+    "seen": 1790538884.1413083,
+    "ast_hash": "d6c09bcb6e1f52afb207b9c454094bdc",
+    "semantic_hash": "d6c09bcb6e1f52afb207b9c454094bdc"
+  },
+  "research/regulatory-compliance-applicability-scan/15-stage-h-more-countries.md": {
+    "mtime": 1790264289.3367128,
+    "seen": 1790538884.1413097,
+    "ast_hash": "41b777ca265dda6da877a853394cff13",
+    "semantic_hash": "41b777ca265dda6da877a853394cff13"
+  },
+  "research/regulatory-compliance-applicability-scan/16-stage-i-remaining-inventory.md": {
+    "mtime": 1790264289.3372815,
+    "seen": 1790538884.141311,
+    "ast_hash": "4bbedb62ae5311621277771a978f7a97",
+    "semantic_hash": "4bbedb62ae5311621277771a978f7a97"
+  },
+  "research/regulatory-compliance-applicability-scan/17-force-recheck-pre-016.md": {
+    "mtime": 1790264289.3383949,
+    "seen": 1790538884.141312,
+    "ast_hash": "37b3026496980e97c40b7faa4414eda5",
+    "semantic_hash": "37b3026496980e97c40b7faa4414eda5"
+  },
+  "research/regulatory-compliance-applicability-scan/18-eu-overlay-depth.md": {
+    "mtime": 1790264289.3392415,
+    "seen": 1790538884.1413133,
+    "ast_hash": "f8f3144c04886a81f5cb5e6cf53f5e8f",
+    "semantic_hash": "f8f3144c04886a81f5cb5e6cf53f5e8f"
+  },
+  "research/regulatory-compliance-applicability-scan/packs/domain-fintech.md": {
+    "mtime": 1790264289.3409371,
+    "seen": 1790538884.1413143,
+    "ast_hash": "95e6917324cbdf7de69d1a6425679ce1",
+    "semantic_hash": "95e6917324cbdf7de69d1a6425679ce1"
+  },
+  "research/regulatory-compliance-applicability-scan/packs/domain-healthcare-pharma.md": {
+    "mtime": 1790264289.3416483,
+    "seen": 1790538884.141317,
+    "ast_hash": "20836dea090ed8fef1253e8d29d98993",
+    "semantic_hash": "20836dea090ed8fef1253e8d29d98993"
+  },
+  "research/regulatory-compliance-applicability-scan/packs/privacy-ae.md": {
+    "mtime": 1790264289.3427875,
+    "seen": 1790538884.1413178,
+    "ast_hash": "57ef7f3676e055a34d13ff8a11911a88",
+    "semantic_hash": "57ef7f3676e055a34d13ff8a11911a88"
+  },
+  "research/regulatory-compliance-applicability-scan/packs/privacy-br.md": {
+    "mtime": 1790264289.3434205,
+    "seen": 1790538884.1413193,
+    "ast_hash": "0c2beb77d1091cefc38f93b6d07ea22e",
+    "semantic_hash": "0c2beb77d1091cefc38f93b6d07ea22e"
+  },
+  "research/regulatory-compliance-applicability-scan/packs/privacy-ca.md": {
+    "mtime": 1790264289.3440628,
+    "seen": 1790538884.1413202,
+    "ast_hash": "cdc653141ef9bfaaf4fb45df81c1fd2f",
+    "semantic_hash": "cdc653141ef9bfaaf4fb45df81c1fd2f"
+  },
+  "research/regulatory-compliance-applicability-scan/packs/privacy-cn.md": {
+    "mtime": 1790264289.3446062,
+    "seen": 1790538884.1413214,
+    "ast_hash": "4efdf6c114fc820b4ea97b127e668e87",
+    "semantic_hash": "4efdf6c114fc820b4ea97b127e668e87"
+  },
+  "research/regulatory-compliance-applicability-scan/packs/privacy-eu-de.md": {
+    "mtime": 1790264289.3452368,
+    "seen": 1790538884.1413226,
+    "ast_hash": "2f0e4343cbb8ff49e734f2547232d633",
+    "semantic_hash": "2f0e4343cbb8ff49e734f2547232d633"
+  },
+  "research/regulatory-compliance-applicability-scan/packs/privacy-eu-fr.md": {
+    "mtime": 1790264289.3463507,
+    "seen": 1790538884.141324,
+    "ast_hash": "a4e5a5a7bc940bbb2b76c220fad13e83",
+    "semantic_hash": "a4e5a5a7bc940bbb2b76c220fad13e83"
+  },
+  "research/regulatory-compliance-applicability-scan/packs/privacy-eu-it.md": {
+    "mtime": 1790264289.3470871,
+    "seen": 1790538884.141325,
+    "ast_hash": "c3892da63128df01c2b2df3bf8fac3ae",
+    "semantic_hash": "c3892da63128df01c2b2df3bf8fac3ae"
+  },
+  "research/regulatory-compliance-applicability-scan/packs/privacy-eu.md": {
+    "mtime": 1790264289.3476262,
+    "seen": 1790538884.1413264,
+    "ast_hash": "96cd0a986791dc34d3d1f380249470e8",
+    "semantic_hash": "96cd0a986791dc34d3d1f380249470e8"
+  },
+  "research/regulatory-compliance-applicability-scan/packs/privacy-in.md": {
+    "mtime": 1790264289.3481553,
+    "seen": 1790538884.1413276,
+    "ast_hash": "5b2749544dcfd1b4bb4155e5a8d8e7d8",
+    "semantic_hash": "5b2749544dcfd1b4bb4155e5a8d8e7d8"
+  },
+  "research/regulatory-compliance-applicability-scan/packs/privacy-jp.md": {
+    "mtime": 1790264289.349424,
+    "seen": 1790538884.1413288,
+    "ast_hash": "38b1d58b53f834c6b850e949513409d2",
+    "semantic_hash": "38b1d58b53f834c6b850e949513409d2"
+  },
+  "research/regulatory-compliance-applicability-scan/packs/privacy-kr.md": {
+    "mtime": 1790264289.349989,
+    "seen": 1790538884.1413302,
+    "ast_hash": "10645618628a26ba946519735d7d2fb5",
+    "semantic_hash": "10645618628a26ba946519735d7d2fb5"
+  },
+  "research/regulatory-compliance-applicability-scan/packs/privacy-ru.md": {
+    "mtime": 1790264289.3508434,
+    "seen": 1790538884.1413312,
+    "ast_hash": "412a64ae1579fcfd25b5c2e4c79c9bad",
+    "semantic_hash": "412a64ae1579fcfd25b5c2e4c79c9bad"
+  },
+  "research/regulatory-compliance-applicability-scan/packs/privacy-sa.md": {
+    "mtime": 1790264289.3508434,
+    "seen": 1790538884.1413324,
+    "ast_hash": "31508cbf287e17d1c13f3ff720eca0b0",
+    "semantic_hash": "31508cbf287e17d1c13f3ff720eca0b0"
+  },
+  "research/regulatory-compliance-applicability-scan/packs/privacy-us.md": {
+    "mtime": 1790264289.351851,
+    "seen": 1790538884.1413338,
+    "ast_hash": "c6c0a506a92d4f92adfc4cb6121b6b87",
+    "semantic_hash": "c6c0a506a92d4f92adfc4cb6121b6b87"
+  },
+  "research/ui-system-review/00-index.md": {
+    "mtime": 1790264289.3533366,
+    "seen": 1790538884.1413348,
+    "ast_hash": "b90a9e30d20dd9b52d6f189fa95131f9",
+    "semantic_hash": "b90a9e30d20dd9b52d6f189fa95131f9"
+  },
+  "research/ui-system-review/01-scope-and-modes.md": {
+    "mtime": 1790264289.3538423,
+    "seen": 1790538884.1413362,
+    "ast_hash": "94edec319934ba97ba83147721029346",
+    "semantic_hash": "94edec319934ba97ba83147721029346"
+  },
+  "research/ui-system-review/02-domains.md": {
+    "mtime": 1790264289.3547182,
+    "seen": 1790538884.1413376,
+    "ast_hash": "f991fe966c2cd623aa12d0fcfae288a6",
+    "semantic_hash": "f991fe966c2cd623aa12d0fcfae288a6"
+  },
+  "research/ui-system-review/03-stack-detection.md": {
+    "mtime": 1790264289.355272,
+    "seen": 1790538884.1413386,
+    "ast_hash": "7f1877b2b428118b50aebcc2b305ccd7",
+    "semantic_hash": "7f1877b2b428118b50aebcc2b305ccd7"
+  },
+  "research/ui-system-review/04-web-pack-v0.md": {
+    "mtime": 1790264289.3558698,
+    "seen": 1790538884.14134,
+    "ast_hash": "08e6d1a087a5fb3e7e37d1ee1eb01080",
+    "semantic_hash": "08e6d1a087a5fb3e7e37d1ee1eb01080"
+  },
+  "research/ui-system-review/05-apple-swiftui-pack.md": {
+    "mtime": 1790264289.3558698,
+    "seen": 1790538884.1413412,
+    "ast_hash": "391c9271dc2f5ea026c35fc5e6e50b28",
+    "semantic_hash": "391c9271dc2f5ea026c35fc5e6e50b28"
+  },
+  "research/ui-system-review/06-android-compose-pack.md": {
+    "mtime": 1790264289.3582032,
+    "seen": 1790538884.1413422,
+    "ast_hash": "d2d286f21886e00b2e2a0e69cfe32c25",
+    "semantic_hash": "d2d286f21886e00b2e2a0e69cfe32c25"
+  },
+  "research/ui-system-review/07-responsive-and-form-factors.md": {
+    "mtime": 1790264289.3589666,
+    "seen": 1790538884.1413436,
+    "ast_hash": "75e2e71c61c4a1b489e092c172a6c145",
+    "semantic_hash": "75e2e71c61c4a1b489e092c172a6c145"
+  },
+  "research/ui-system-review/08-remediation-and-roadmap.md": {
+    "mtime": 1790264289.360084,
+    "seen": 1790538884.1413445,
+    "ast_hash": "6c2d823fd71772bcffd415f2502e2351",
+    "semantic_hash": "6c2d823fd71772bcffd415f2502e2351"
+  },
+  "skills/nodejs-code-review/SKILL.md": {
+    "mtime": 1790264289.3782864,
+    "seen": 1790538884.141346,
+    "ast_hash": "129be87434c5ce34356d339d3de1b170",
+    "semantic_hash": "129be87434c5ce34356d339d3de1b170"
+  },
+  "skills/nodejs-code-review/assets/report-template.md": {
+    "mtime": 1790264289.379477,
+    "seen": 1790538884.1413474,
+    "ast_hash": "c76c25bc6764156e51500d2e1a0eab99",
+    "semantic_hash": "c76c25bc6764156e51500d2e1a0eab99"
+  },
+  "skills/nodejs-code-review/references/architecture.md": {
+    "mtime": 1790264289.3805637,
+    "seen": 1790538884.1413486,
+    "ast_hash": "9e790fa595a74d51c7b888b2bc49246a",
+    "semantic_hash": "9e790fa595a74d51c7b888b2bc49246a"
+  },
+  "skills/nodejs-code-review/references/code-quality.md": {
+    "mtime": 1790264289.3817363,
+    "seen": 1790538884.1413498,
+    "ast_hash": "473546f5f037203dc766c03d8178ab68",
+    "semantic_hash": "473546f5f037203dc766c03d8178ab68"
+  },
+  "skills/nodejs-code-review/references/concurrency-async-correctness.md": {
+    "mtime": 1790264289.3822422,
+    "seen": 1790538884.141351,
+    "ast_hash": "472e34b9bc1b738f7e716446c783c1e3",
+    "semantic_hash": "472e34b9bc1b738f7e716446c783c1e3"
+  },
+  "skills/nodejs-code-review/references/dependency-supply-chain-security.md": {
+    "mtime": 1790264289.3822422,
+    "seen": 1790538884.1413522,
+    "ast_hash": "1a8934fb1d8b08996178eb601fc08b98",
+    "semantic_hash": "1a8934fb1d8b08996178eb601fc08b98"
+  },
+  "skills/nodejs-code-review/references/idioms-and-patterns.md": {
+    "mtime": 1790264289.3836691,
+    "seen": 1790538884.1413534,
+    "ast_hash": "3c4f623b9666d7ca0bb26a019696d3a7",
+    "semantic_hash": "3c4f623b9666d7ca0bb26a019696d3a7"
+  },
+  "skills/nodejs-code-review/references/observability.md": {
+    "mtime": 1790264289.3842013,
+    "seen": 1790538884.1413548,
+    "ast_hash": "38789a4dca3bdb2d5587c0125aecd71b",
+    "semantic_hash": "38789a4dca3bdb2d5587c0125aecd71b"
+  },
+  "skills/nodejs-code-review/references/performance.md": {
+    "mtime": 1790264289.384777,
+    "seen": 1790538884.141356,
+    "ast_hash": "a84c22eaa07ca53b09196397355fe614",
+    "semantic_hash": "a84c22eaa07ca53b09196397355fe614"
+  },
+  "skills/nodejs-code-review/references/scalability-and-resilience.md": {
+    "mtime": 1790264289.3853166,
+    "seen": 1790538884.1413574,
+    "ast_hash": "97ad1bbaa2636878ad159ffa7b17c357",
+    "semantic_hash": "97ad1bbaa2636878ad159ffa7b17c357"
+  },
+  "skills/nodejs-code-review/references/security.md": {
+    "mtime": 1790264289.3858535,
+    "seen": 1790538884.1413586,
+    "ast_hash": "2ba8a0649bec85263b118d9b4e848786",
+    "semantic_hash": "2ba8a0649bec85263b118d9b4e848786"
+  },
+  "skills/nodejs-code-review/references/standards-compliance.md": {
+    "mtime": 1790264289.3863926,
+    "seen": 1790538884.1413598,
+    "ast_hash": "204198e3cf5a7a81c3bc54347ac084e7",
+    "semantic_hash": "204198e3cf5a7a81c3bc54347ac084e7"
+  },
+  "skills/nodejs-code-review/references/testing.md": {
+    "mtime": 1790264289.3874574,
+    "seen": 1790538884.1413612,
+    "ast_hash": "65f34e23204391096b000dc228718ae9",
+    "semantic_hash": "65f34e23204391096b000dc228718ae9"
+  },
+  "skills/react-code-review/SKILL.md": {
+    "mtime": 1790264289.4334478,
+    "seen": 1790538884.1413624,
+    "ast_hash": "0c36ec73b13a9c1683907e249cf51a69",
+    "semantic_hash": "0c36ec73b13a9c1683907e249cf51a69"
+  },
+  "skills/react-code-review/assets/report-template.md": {
+    "mtime": 1790264289.4347699,
+    "seen": 1790538884.1413636,
+    "ast_hash": "cad7db35d8e50ec23e36e0ac00fcc696",
+    "semantic_hash": "cad7db35d8e50ec23e36e0ac00fcc696"
+  },
+  "skills/react-code-review/references/architecture.md": {
+    "mtime": 1790264289.4361203,
+    "seen": 1790538884.1413648,
+    "ast_hash": "36634c95601629ff5611ea8a304ad944",
+    "semantic_hash": "36634c95601629ff5611ea8a304ad944"
+  },
+  "skills/react-code-review/references/code-quality.md": {
+    "mtime": 1790264289.436678,
+    "seen": 1790538884.141366,
+    "ast_hash": "db841a4a5d654739cf7585bd4a12f857",
+    "semantic_hash": "db841a4a5d654739cf7585bd4a12f857"
+  },
+  "skills/react-code-review/references/concurrency-async-correctness.md": {
+    "mtime": 1790264289.4373899,
+    "seen": 1790538884.1413672,
+    "ast_hash": "dc8eb347cec8944c1a25d5cc500444e7",
+    "semantic_hash": "dc8eb347cec8944c1a25d5cc500444e7"
+  },
+  "skills/react-code-review/references/dependency-supply-chain-security.md": {
+    "mtime": 1790264289.4380758,
+    "seen": 1790538884.1413684,
+    "ast_hash": "2e79baa7ba111baddc64dbd08e5a4912",
+    "semantic_hash": "2e79baa7ba111baddc64dbd08e5a4912"
+  },
+  "skills/react-code-review/references/idioms-and-patterns.md": {
+    "mtime": 1790264289.439085,
+    "seen": 1790538884.1413696,
+    "ast_hash": "b576a8d5b206a3095fa8dbd73446df29",
+    "semantic_hash": "b576a8d5b206a3095fa8dbd73446df29"
+  },
+  "skills/react-code-review/references/observability.md": {
+    "mtime": 1790264289.4393878,
+    "seen": 1790538884.1413708,
+    "ast_hash": "125bee591648cfe919a13f70215a1775",
+    "semantic_hash": "125bee591648cfe919a13f70215a1775"
+  },
+  "skills/react-code-review/references/performance.md": {
+    "mtime": 1790264289.4405143,
+    "seen": 1790538884.1413722,
+    "ast_hash": "93725fadbb04f9080c51f26f8b7c9a9d",
+    "semantic_hash": "93725fadbb04f9080c51f26f8b7c9a9d"
+  },
+  "skills/react-code-review/references/scalability-and-resilience.md": {
+    "mtime": 1790264289.4405143,
+    "seen": 1790538884.1413734,
+    "ast_hash": "01d0f84b46bb5075e273bfd65b065738",
+    "semantic_hash": "01d0f84b46bb5075e273bfd65b065738"
+  },
+  "skills/react-code-review/references/security.md": {
+    "mtime": 1790264289.441525,
+    "seen": 1790538884.1413748,
+    "ast_hash": "1edabaaf9815711d7a5225943ce98c60",
+    "semantic_hash": "1edabaaf9815711d7a5225943ce98c60"
+  },
+  "skills/react-code-review/references/standards-compliance.md": {
+    "mtime": 1790264289.443041,
+    "seen": 1790538884.141376,
+    "ast_hash": "95cf4a5da8df1decb43d1caec18dba1c",
+    "semantic_hash": "95cf4a5da8df1decb43d1caec18dba1c"
+  },
+  "skills/react-code-review/references/testing.md": {
+    "mtime": 1790264289.4436715,
+    "seen": 1790538884.1413772,
+    "ast_hash": "cc8b361aadba91a315edee973d0d11ff",
+    "semantic_hash": "cc8b361aadba91a315edee973d0d11ff"
+  },
+  "skills/regulatory-compliance-applicability-scan/SKILL.md": {
+    "mtime": 1790264289.4442408,
+    "seen": 1790538884.1413784,
+    "ast_hash": "301f9bd41c3c423a5723f8d5c711159a",
+    "semantic_hash": "301f9bd41c3c423a5723f8d5c711159a"
+  },
+  "skills/regulatory-compliance-applicability-scan/assets/baseline-template.md": {
+    "mtime": 1790264289.4454706,
+    "seen": 1790538884.1413796,
+    "ast_hash": "6607ca0325acd4a85aa21d9b49a64ff8",
+    "semantic_hash": "6607ca0325acd4a85aa21d9b49a64ff8"
+  },
+  "skills/regulatory-compliance-applicability-scan/assets/report-template.md": {
+    "mtime": 1790264289.4454706,
+    "seen": 1790538884.1413808,
+    "ast_hash": "118976d8bd882f2aab8555cdd0a8b42b",
+    "semantic_hash": "118976d8bd882f2aab8555cdd0a8b42b"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/coverage.md": {
+    "mtime": 1790264289.4468248,
+    "seen": 1790538884.1413822,
+    "ast_hash": "e96d6307346b710addaee96bc2e277bd",
+    "semantic_hash": "e96d6307346b710addaee96bc2e277bd"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/README.md": {
+    "mtime": 1790264289.4478767,
+    "seen": 1790538884.1413836,
+    "ast_hash": "6f677e7b7a1e50ac2f5d882db89b2441",
+    "semantic_hash": "6f677e7b7a1e50ac2f5d882db89b2441"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/domain-fintech.md": {
+    "mtime": 1790264289.448953,
+    "seen": 1790538884.141385,
+    "ast_hash": "fb114f7576c0c0f3fa0edeaacf0a76a8",
+    "semantic_hash": "fb114f7576c0c0f3fa0edeaacf0a76a8"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/domain-healthcare-pharma.md": {
+    "mtime": 1790264289.449526,
+    "seen": 1790538884.1413863,
+    "ast_hash": "497b9a96ec72334cb9f279f9cb5921d2",
+    "semantic_hash": "497b9a96ec72334cb9f279f9cb5921d2"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ad.md": {
+    "mtime": 1790264289.4506567,
+    "seen": 1790538884.1413877,
+    "ast_hash": "2c76cb216e17f807fc4681cc443afbaa",
+    "semantic_hash": "2c76cb216e17f807fc4681cc443afbaa"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-adgm.md": {
+    "mtime": 1790264289.4512868,
+    "seen": 1790538884.1413891,
+    "ast_hash": "5bfa4776fbcc2c271abd839bf4867d3c",
+    "semantic_hash": "5bfa4776fbcc2c271abd839bf4867d3c"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ae.md": {
+    "mtime": 1790264289.4518502,
+    "seen": 1790538884.14139,
+    "ast_hash": "69ae075efbd0f476f6bffdc272702dd3",
+    "semantic_hash": "69ae075efbd0f476f6bffdc272702dd3"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ag.md": {
+    "mtime": 1790264289.4530017,
+    "seen": 1790538884.1413913,
+    "ast_hash": "02d2335c9a841ce7bf0a4f4573b9dbcf",
+    "semantic_hash": "02d2335c9a841ce7bf0a4f4573b9dbcf"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-al.md": {
+    "mtime": 1790264289.453578,
+    "seen": 1790538884.1413927,
+    "ast_hash": "bf41f69ce8658e447150ecb90a7d6536",
+    "semantic_hash": "bf41f69ce8658e447150ecb90a7d6536"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-am.md": {
+    "mtime": 1790264289.4541287,
+    "seen": 1790538884.141394,
+    "ast_hash": "0a8d173ca2809541d9c8089dfaf35c17",
+    "semantic_hash": "0a8d173ca2809541d9c8089dfaf35c17"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ao.md": {
+    "mtime": 1790264289.455209,
+    "seen": 1790538884.141395,
+    "ast_hash": "b7e0093b680ba81c3dde3e486e1db7e2",
+    "semantic_hash": "b7e0093b680ba81c3dde3e486e1db7e2"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ar.md": {
+    "mtime": 1790264289.4558651,
+    "seen": 1790538884.1413963,
+    "ast_hash": "8c41890669061361b2a8876704ede2c9",
+    "semantic_hash": "8c41890669061361b2a8876704ede2c9"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-au.md": {
+    "mtime": 1790264289.4567802,
+    "seen": 1790538884.1413975,
+    "ast_hash": "0a70411c83224c4e654307eed812b475",
+    "semantic_hash": "0a70411c83224c4e654307eed812b475"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-az.md": {
+    "mtime": 1790264289.4574432,
+    "seen": 1790538884.1413987,
+    "ast_hash": "c2b169c901600b0603b2518ddc13c3ef",
+    "semantic_hash": "c2b169c901600b0603b2518ddc13c3ef"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ba.md": {
+    "mtime": 1790264289.458152,
+    "seen": 1790538884.1413999,
+    "ast_hash": "2864aeb7aecb7b8786f50dd8be8304ca",
+    "semantic_hash": "2864aeb7aecb7b8786f50dd8be8304ca"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-bb.md": {
+    "mtime": 1790264289.4592738,
+    "seen": 1790538884.141401,
+    "ast_hash": "1379278f3972496e51c97d92b20e2ceb",
+    "semantic_hash": "1379278f3972496e51c97d92b20e2ceb"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-bd.md": {
+    "mtime": 1790264289.4603505,
+    "seen": 1790538884.1414025,
+    "ast_hash": "f202891791b464a2720aed95f3bfc2d8",
+    "semantic_hash": "f202891791b464a2720aed95f3bfc2d8"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-bf.md": {
+    "mtime": 1790264289.4609013,
+    "seen": 1790538884.1414034,
+    "ast_hash": "557fa1540fa5305dc082a23ce9f38390",
+    "semantic_hash": "557fa1540fa5305dc082a23ce9f38390"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-bh.md": {
+    "mtime": 1790264289.4614398,
+    "seen": 1790538884.1414046,
+    "ast_hash": "4745e5d29c8c0bf7f56f6b409917d684",
+    "semantic_hash": "4745e5d29c8c0bf7f56f6b409917d684"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-bj.md": {
+    "mtime": 1790264289.462553,
+    "seen": 1790538884.141406,
+    "ast_hash": "1d9028f17db25460d6ed5ccd0d0a28ec",
+    "semantic_hash": "1d9028f17db25460d6ed5ccd0d0a28ec"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-bm.md": {
+    "mtime": 1790264289.4630806,
+    "seen": 1790538884.141407,
+    "ast_hash": "63bf8e66d6a3b3ee905033b7693bc6dd",
+    "semantic_hash": "63bf8e66d6a3b3ee905033b7693bc6dd"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-bn.md": {
+    "mtime": 1790264289.463621,
+    "seen": 1790538884.1414082,
+    "ast_hash": "19322ae56cf1b68720d03a2fbc91367b",
+    "semantic_hash": "19322ae56cf1b68720d03a2fbc91367b"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-bo.md": {
+    "mtime": 1790264289.464162,
+    "seen": 1790538884.1414094,
+    "ast_hash": "bd6ee37ad828fd7bfe44e1c081649ddf",
+    "semantic_hash": "bd6ee37ad828fd7bfe44e1c081649ddf"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-br.md": {
+    "mtime": 1790264289.4647045,
+    "seen": 1790538884.1414106,
+    "ast_hash": "b5193061545f8975d845efb8667b246f",
+    "semantic_hash": "b5193061545f8975d845efb8667b246f"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-bs.md": {
+    "mtime": 1790264289.4657824,
+    "seen": 1790538884.1414118,
+    "ast_hash": "6abd187691fc7bc5c6fdcbb694e97c51",
+    "semantic_hash": "6abd187691fc7bc5c6fdcbb694e97c51"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-bt.md": {
+    "mtime": 1790264289.4663086,
+    "seen": 1790538884.1414132,
+    "ast_hash": "29b8d561260247390af09d8ab7431f9f",
+    "semantic_hash": "29b8d561260247390af09d8ab7431f9f"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-bw.md": {
+    "mtime": 1790264289.4668362,
+    "seen": 1790538884.1414144,
+    "ast_hash": "28a4b5315404afdb59aad932365810a0",
+    "semantic_hash": "28a4b5315404afdb59aad932365810a0"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-bz.md": {
+    "mtime": 1790264289.4673676,
+    "seen": 1790538884.1414154,
+    "ast_hash": "730b2594290b645543c6931e1b7d6bf2",
+    "semantic_hash": "730b2594290b645543c6931e1b7d6bf2"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ca-qc.md": {
+    "mtime": 1790264289.4685295,
+    "seen": 1790538884.141417,
+    "ast_hash": "ba21789734498164a8f1b13371f58430",
+    "semantic_hash": "ba21789734498164a8f1b13371f58430"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ca.md": {
+    "mtime": 1790264289.4690547,
+    "seen": 1790538884.141418,
+    "ast_hash": "92bd8103ab47b50c2440b6daace984f6",
+    "semantic_hash": "92bd8103ab47b50c2440b6daace984f6"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-cg.md": {
+    "mtime": 1790264289.471598,
+    "seen": 1790538884.1414192,
+    "ast_hash": "73fbfecd23bf3c8ec7ca8dbe200714ed",
+    "semantic_hash": "73fbfecd23bf3c8ec7ca8dbe200714ed"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ch.md": {
+    "mtime": 1790264289.4721203,
+    "seen": 1790538884.1414206,
+    "ast_hash": "e93e95a95e497d9bdbb36dec9fd20dc6",
+    "semantic_hash": "e93e95a95e497d9bdbb36dec9fd20dc6"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ci.md": {
+    "mtime": 1790264289.473419,
+    "seen": 1790538884.1414218,
+    "ast_hash": "fb0c8e14658af767bb321e98ec7d41b0",
+    "semantic_hash": "fb0c8e14658af767bb321e98ec7d41b0"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ck.md": {
+    "mtime": 1790264289.473419,
+    "seen": 1790538884.1414227,
+    "ast_hash": "f28f8d07a3fd02fa27800be7617378a7",
+    "semantic_hash": "f28f8d07a3fd02fa27800be7617378a7"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-cl.md": {
+    "mtime": 1790264289.474483,
+    "seen": 1790538884.1414242,
+    "ast_hash": "5029c74a7fb1656b782d5e6703266b39",
+    "semantic_hash": "5029c74a7fb1656b782d5e6703266b39"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-cn.md": {
+    "mtime": 1790264289.4755592,
+    "seen": 1790538884.1414251,
+    "ast_hash": "56493305c6ba89d40bd1ba17803ac371",
+    "semantic_hash": "56493305c6ba89d40bd1ba17803ac371"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-co.md": {
+    "mtime": 1790264289.4764779,
+    "seen": 1790538884.1414263,
+    "ast_hash": "43e189ea2cf201c8014a4324a45fd952",
+    "semantic_hash": "43e189ea2cf201c8014a4324a45fd952"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-cr.md": {
+    "mtime": 1790264289.4777966,
+    "seen": 1790538884.1414278,
+    "ast_hash": "3f72fc0a04fd24d67237523faa540059",
+    "semantic_hash": "3f72fc0a04fd24d67237523faa540059"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-cv.md": {
+    "mtime": 1790264289.4783437,
+    "seen": 1790538884.1414287,
+    "ast_hash": "3a240af252b2051a3543f444614aa641",
+    "semantic_hash": "3a240af252b2051a3543f444614aa641"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-difc.md": {
+    "mtime": 1790264289.479401,
+    "seen": 1790538884.14143,
+    "ast_hash": "03d35bd2654f5bbcc794cef0bee85327",
+    "semantic_hash": "03d35bd2654f5bbcc794cef0bee85327"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-dm.md": {
+    "mtime": 1790264289.4800785,
+    "seen": 1790538884.1414313,
+    "ast_hash": "f139e29140d06d325701416e21eb935b",
+    "semantic_hash": "f139e29140d06d325701416e21eb935b"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-do.md": {
+    "mtime": 1790264289.4806225,
+    "seen": 1790538884.1414325,
+    "ast_hash": "01d02c0b3344be62c2d984f0d1162471",
+    "semantic_hash": "01d02c0b3344be62c2d984f0d1162471"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-dz.md": {
+    "mtime": 1790264289.481988,
+    "seen": 1790538884.141434,
+    "ast_hash": "cc5bfa9a8d5f9397e851ec0f03e658bc",
+    "semantic_hash": "cc5bfa9a8d5f9397e851ec0f03e658bc"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ec.md": {
+    "mtime": 1790264289.482515,
+    "seen": 1790538884.1414351,
+    "ast_hash": "907d859bee7a748df109ad7b0170be43",
+    "semantic_hash": "907d859bee7a748df109ad7b0170be43"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eg.md": {
+    "mtime": 1790264289.4835994,
+    "seen": 1790538884.1414363,
+    "ast_hash": "b2cecae06a16c653f3ca42fdbfee7ee1",
+    "semantic_hash": "b2cecae06a16c653f3ca42fdbfee7ee1"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-et.md": {
+    "mtime": 1790264289.4841762,
+    "seen": 1790538884.1414378,
+    "ast_hash": "1848d56ab9ca2a114dff12087ae76ac7",
+    "semantic_hash": "1848d56ab9ca2a114dff12087ae76ac7"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-at.md": {
+    "mtime": 1790264289.4847186,
+    "seen": 1790538884.1414387,
+    "ast_hash": "f4129840e4232eaf6b598163570723ba",
+    "semantic_hash": "f4129840e4232eaf6b598163570723ba"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-be.md": {
+    "mtime": 1790264289.4852605,
+    "seen": 1790538884.14144,
+    "ast_hash": "e42fe136e27f7e6e41349c0a1904549f",
+    "semantic_hash": "e42fe136e27f7e6e41349c0a1904549f"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-bg.md": {
+    "mtime": 1790264289.485808,
+    "seen": 1790538884.141441,
+    "ast_hash": "1e02a24f561e13df95d093bafe3c91e6",
+    "semantic_hash": "1e02a24f561e13df95d093bafe3c91e6"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-cy.md": {
+    "mtime": 1790264289.4868836,
+    "seen": 1790538884.1414423,
+    "ast_hash": "29477d1fcd5cf94aac0b6a4dd508f3e9",
+    "semantic_hash": "29477d1fcd5cf94aac0b6a4dd508f3e9"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-cz.md": {
+    "mtime": 1790264289.4874332,
+    "seen": 1790538884.1414433,
+    "ast_hash": "c303dbda19aad419c06d376b54ba8e7b",
+    "semantic_hash": "c303dbda19aad419c06d376b54ba8e7b"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-de.md": {
+    "mtime": 1790264289.4883006,
+    "seen": 1790538884.1414447,
+    "ast_hash": "50b3b7039e29f87ccf2fb1097c8d8f61",
+    "semantic_hash": "50b3b7039e29f87ccf2fb1097c8d8f61"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-dk.md": {
+    "mtime": 1790264289.4888406,
+    "seen": 1790538884.1414456,
+    "ast_hash": "c6c809c81763f64eb82e8c35279d2fce",
+    "semantic_hash": "c6c809c81763f64eb82e8c35279d2fce"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-ee.md": {
+    "mtime": 1790264289.4894922,
+    "seen": 1790538884.1414468,
+    "ast_hash": "dda2e9ffba88a83d62dbb623d6164674",
+    "semantic_hash": "dda2e9ffba88a83d62dbb623d6164674"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-es.md": {
+    "mtime": 1790264289.490562,
+    "seen": 1790538884.141448,
+    "ast_hash": "d28027f49fdae8f34102b94b0c0d2f46",
+    "semantic_hash": "d28027f49fdae8f34102b94b0c0d2f46"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-fi.md": {
+    "mtime": 1790264289.4910686,
+    "seen": 1790538884.1414492,
+    "ast_hash": "f88a47d92788a21ffacfa1a3903b62b8",
+    "semantic_hash": "f88a47d92788a21ffacfa1a3903b62b8"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-fr.md": {
+    "mtime": 1790264289.4925716,
+    "seen": 1790538884.1414502,
+    "ast_hash": "c5f8ef78c05f1d4b3a5c0dc5954dd605",
+    "semantic_hash": "c5f8ef78c05f1d4b3a5c0dc5954dd605"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-gr.md": {
+    "mtime": 1790264289.4931066,
+    "seen": 1790538884.1414516,
+    "ast_hash": "f021baefb89daf721fc0002af940f2b4",
+    "semantic_hash": "f021baefb89daf721fc0002af940f2b4"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-hr.md": {
+    "mtime": 1790264289.4941835,
+    "seen": 1790538884.1414526,
+    "ast_hash": "e5ed86ae5915c2e5c94687361808a616",
+    "semantic_hash": "e5ed86ae5915c2e5c94687361808a616"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-hu.md": {
+    "mtime": 1790264289.494732,
+    "seen": 1790538884.1414537,
+    "ast_hash": "9e1f1486c035f1c5464014cc2d5d094c",
+    "semantic_hash": "9e1f1486c035f1c5464014cc2d5d094c"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-ie.md": {
+    "mtime": 1790264289.4957826,
+    "seen": 1790538884.141455,
+    "ast_hash": "2bdea4564e70827c04ac3ade4f032242",
+    "semantic_hash": "2bdea4564e70827c04ac3ade4f032242"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-is.md": {
+    "mtime": 1790264289.496316,
+    "seen": 1790538884.1414561,
+    "ast_hash": "63db57c53e1f4848fe014c0224150b3b",
+    "semantic_hash": "63db57c53e1f4848fe014c0224150b3b"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-it.md": {
+    "mtime": 1790264289.4968307,
+    "seen": 1790538884.141457,
+    "ast_hash": "12a80665c58abe06b12d587fc1797567",
+    "semantic_hash": "12a80665c58abe06b12d587fc1797567"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-li.md": {
+    "mtime": 1790264289.4973657,
+    "seen": 1790538884.1414585,
+    "ast_hash": "d8df4d122534b9c65e549c1a935f98ce",
+    "semantic_hash": "d8df4d122534b9c65e549c1a935f98ce"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-lt.md": {
+    "mtime": 1790264289.49841,
+    "seen": 1790538884.141463,
+    "ast_hash": "bc16b046dd8eee841faee4dc3f8508ae",
+    "semantic_hash": "bc16b046dd8eee841faee4dc3f8508ae"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-lu.md": {
+    "mtime": 1790264289.4994893,
+    "seen": 1790538884.1414642,
+    "ast_hash": "2271589e55d8eda558d5c3a6ac915c1b",
+    "semantic_hash": "2271589e55d8eda558d5c3a6ac915c1b"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-lv.md": {
+    "mtime": 1790264289.5000303,
+    "seen": 1790538884.1414657,
+    "ast_hash": "ea1e3de86c578177f96f399e0f8a3a10",
+    "semantic_hash": "ea1e3de86c578177f96f399e0f8a3a10"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-mt.md": {
+    "mtime": 1790264289.5005615,
+    "seen": 1790538884.1414669,
+    "ast_hash": "9851eb2b27a8e9482788e16a7fd9742d",
+    "semantic_hash": "9851eb2b27a8e9482788e16a7fd9742d"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-nl.md": {
+    "mtime": 1790264289.5010939,
+    "seen": 1790538884.1414678,
+    "ast_hash": "e993c2da0e4da86fa027dd568da8b2d3",
+    "semantic_hash": "e993c2da0e4da86fa027dd568da8b2d3"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-no.md": {
+    "mtime": 1790264289.5016317,
+    "seen": 1790538884.1414692,
+    "ast_hash": "641d50c3ba717abb23eda770ae930e69",
+    "semantic_hash": "641d50c3ba717abb23eda770ae930e69"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-pl.md": {
+    "mtime": 1790264289.5026836,
+    "seen": 1790538884.1414704,
+    "ast_hash": "4ba22065d6e81767fbaf10e88e8567e9",
+    "semantic_hash": "4ba22065d6e81767fbaf10e88e8567e9"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-pt.md": {
+    "mtime": 1790264289.503439,
+    "seen": 1790538884.1414719,
+    "ast_hash": "596828911a38da37b81e8371a7cce7c4",
+    "semantic_hash": "596828911a38da37b81e8371a7cce7c4"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-ro.md": {
+    "mtime": 1790264289.503439,
+    "seen": 1790538884.141473,
+    "ast_hash": "dc764c1482afee80f6ba0af3262dcde3",
+    "semantic_hash": "dc764c1482afee80f6ba0af3262dcde3"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-se.md": {
+    "mtime": 1790264289.5048535,
+    "seen": 1790538884.141474,
+    "ast_hash": "695c457fa34d388c575c57c96ae3b103",
+    "semantic_hash": "695c457fa34d388c575c57c96ae3b103"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-si.md": {
+    "mtime": 1790264289.50536,
+    "seen": 1790538884.1414754,
+    "ast_hash": "079194f9a6ed4a8ca3bf001a276c2050",
+    "semantic_hash": "079194f9a6ed4a8ca3bf001a276c2050"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu-sk.md": {
+    "mtime": 1790264289.5058978,
+    "seen": 1790538884.1414764,
+    "ast_hash": "89e79f78108c9d414fedbd1e8535bd36",
+    "semantic_hash": "89e79f78108c9d414fedbd1e8535bd36"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-eu.md": {
+    "mtime": 1790264289.5071142,
+    "seen": 1790538884.1414776,
+    "ast_hash": "905986bbd733f9afc158608e57ec0c2b",
+    "semantic_hash": "905986bbd733f9afc158608e57ec0c2b"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-fj.md": {
+    "mtime": 1790264289.507673,
+    "seen": 1790538884.141479,
+    "ast_hash": "58c0043e233e5fe0efde14a1f14b7bb7",
+    "semantic_hash": "58c0043e233e5fe0efde14a1f14b7bb7"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-fm.md": {
+    "mtime": 1790264289.5090256,
+    "seen": 1790538884.1414802,
+    "ast_hash": "a3a4991c5ee39b598f8baecbe917258a",
+    "semantic_hash": "a3a4991c5ee39b598f8baecbe917258a"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-fo.md": {
+    "mtime": 1790264289.5101445,
+    "seen": 1790538884.1414814,
+    "ast_hash": "068707e2f27cf3dc7950c617b19858c8",
+    "semantic_hash": "068707e2f27cf3dc7950c617b19858c8"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ga.md": {
+    "mtime": 1790264289.5101445,
+    "seen": 1790538884.1414826,
+    "ast_hash": "9418165f86b1e7c23b0d278e3cb89b92",
+    "semantic_hash": "9418165f86b1e7c23b0d278e3cb89b92"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-gd.md": {
+    "mtime": 1790264289.5111523,
+    "seen": 1790538884.1414838,
+    "ast_hash": "237356ae357cc596e4acb78a4b9725f3",
+    "semantic_hash": "237356ae357cc596e4acb78a4b9725f3"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ge.md": {
+    "mtime": 1790264289.5120296,
+    "seen": 1790538884.1414847,
+    "ast_hash": "6d63e90beebc28df8bfb33deca4a3bb2",
+    "semantic_hash": "6d63e90beebc28df8bfb33deca4a3bb2"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-gg.md": {
+    "mtime": 1790264289.5125363,
+    "seen": 1790538884.1414862,
+    "ast_hash": "f64a2069893b97d9950b69809fea7abb",
+    "semantic_hash": "f64a2069893b97d9950b69809fea7abb"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-gh.md": {
+    "mtime": 1790264289.513052,
+    "seen": 1790538884.1414871,
+    "ast_hash": "5f71ec015d2840d955931f191462a6b6",
+    "semantic_hash": "5f71ec015d2840d955931f191462a6b6"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-gl.md": {
+    "mtime": 1790264289.513572,
+    "seen": 1790538884.1414883,
+    "ast_hash": "26d26f3fcf787a4c83ba1c953b3fd2ea",
+    "semantic_hash": "26d26f3fcf787a4c83ba1c953b3fd2ea"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-gm.md": {
+    "mtime": 1790264289.5141075,
+    "seen": 1790538884.1414897,
+    "ast_hash": "ee729f908f98c6de2dde4ce9dbe90b53",
+    "semantic_hash": "ee729f908f98c6de2dde4ce9dbe90b53"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-gn.md": {
+    "mtime": 1790264289.514635,
+    "seen": 1790538884.1414907,
+    "ast_hash": "1a002b7346b09abb678cea2d5c80611c",
+    "semantic_hash": "1a002b7346b09abb678cea2d5c80611c"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-gt.md": {
+    "mtime": 1790264289.515694,
+    "seen": 1790538884.141492,
+    "ast_hash": "14d68940d796d1e7f667fff344f666d5",
+    "semantic_hash": "14d68940d796d1e7f667fff344f666d5"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-gy.md": {
+    "mtime": 1790264289.5162208,
+    "seen": 1790538884.141493,
+    "ast_hash": "7ba1eb9dff8fe634cbda1198c043b78e",
+    "semantic_hash": "7ba1eb9dff8fe634cbda1198c043b78e"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-hk.md": {
+    "mtime": 1790264289.51685,
+    "seen": 1790538884.1414943,
+    "ast_hash": "57bcd74d7c035d02940b6569026046a6",
+    "semantic_hash": "57bcd74d7c035d02940b6569026046a6"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-hn.md": {
+    "mtime": 1790264289.5179229,
+    "seen": 1790538884.1414955,
+    "ast_hash": "87ab179f61b2b34a2d2e8b16b46d18c9",
+    "semantic_hash": "87ab179f61b2b34a2d2e8b16b46d18c9"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-id.md": {
+    "mtime": 1790264289.5184505,
+    "seen": 1790538884.1414967,
+    "ast_hash": "7dea133317d43e935504d6ac0138797f",
+    "semantic_hash": "7dea133317d43e935504d6ac0138797f"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-il.md": {
+    "mtime": 1790264289.5189924,
+    "seen": 1790538884.1414976,
+    "ast_hash": "ad06680c1eeb363af5425bd4d8b4636e",
+    "semantic_hash": "ad06680c1eeb363af5425bd4d8b4636e"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-im.md": {
+    "mtime": 1790264289.5200794,
+    "seen": 1790538884.1414988,
+    "ast_hash": "bc683da41b3fcdf610efc67624124f12",
+    "semantic_hash": "bc683da41b3fcdf610efc67624124f12"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-in.md": {
+    "mtime": 1790264289.5200794,
+    "seen": 1790538884.1415002,
+    "ast_hash": "c4e61084afbd368ee8b67ec02b38bcb9",
+    "semantic_hash": "c4e61084afbd368ee8b67ec02b38bcb9"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-iq.md": {
+    "mtime": 1790264289.5206108,
+    "seen": 1790538884.1415029,
+    "ast_hash": "5c5319a208d18df979de799bef40359a",
+    "semantic_hash": "5c5319a208d18df979de799bef40359a"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-je.md": {
+    "mtime": 1790264289.521683,
+    "seen": 1790538884.141504,
+    "ast_hash": "dc21f26b3373ddf4a380c6a362219a11",
+    "semantic_hash": "dc21f26b3373ddf4a380c6a362219a11"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-jm.md": {
+    "mtime": 1790264289.5223427,
+    "seen": 1790538884.1415052,
+    "ast_hash": "33007f22f08104950aef002a65c97737",
+    "semantic_hash": "33007f22f08104950aef002a65c97737"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-jo.md": {
+    "mtime": 1790264289.5228815,
+    "seen": 1790538884.1415062,
+    "ast_hash": "6dac431633ef87849fb1af61f1b28a9d",
+    "semantic_hash": "6dac431633ef87849fb1af61f1b28a9d"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-jp.md": {
+    "mtime": 1790264289.5235054,
+    "seen": 1790538884.1415076,
+    "ast_hash": "f6224a5c1dbb1fe8eb13380558cb41a8",
+    "semantic_hash": "f6224a5c1dbb1fe8eb13380558cb41a8"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ke.md": {
+    "mtime": 1790264289.5253997,
+    "seen": 1790538884.1415088,
+    "ast_hash": "49a6a37272ff455114e4f1ec875192d5",
+    "semantic_hash": "49a6a37272ff455114e4f1ec875192d5"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-kh.md": {
+    "mtime": 1790264289.5259695,
+    "seen": 1790538884.1415102,
+    "ast_hash": "86cccc96180d051a3ca47d5ac7f9b58c",
+    "semantic_hash": "86cccc96180d051a3ca47d5ac7f9b58c"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ki.md": {
+    "mtime": 1790264289.5267882,
+    "seen": 1790538884.1415114,
+    "ast_hash": "0ac82ce430b1fe13a229ef711c3f2b5a",
+    "semantic_hash": "0ac82ce430b1fe13a229ef711c3f2b5a"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-kr.md": {
+    "mtime": 1790264289.5273337,
+    "seen": 1790538884.1415124,
+    "ast_hash": "55312828a5bbc757d085a319299ae9f4",
+    "semantic_hash": "55312828a5bbc757d085a319299ae9f4"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-kw.md": {
+    "mtime": 1790264289.5283778,
+    "seen": 1790538884.1415255,
+    "ast_hash": "dc289b738ad658fb27a4c8e7a1c75d4f",
+    "semantic_hash": "dc289b738ad658fb27a4c8e7a1c75d4f"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ky.md": {
+    "mtime": 1790264289.5289001,
+    "seen": 1790538884.1415267,
+    "ast_hash": "0247a09e306b10b3bdb015dce277cb72",
+    "semantic_hash": "0247a09e306b10b3bdb015dce277cb72"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-kz.md": {
+    "mtime": 1790264289.5296583,
+    "seen": 1790538884.1415281,
+    "ast_hash": "38f238d7b754c461503b56f3bb22836b",
+    "semantic_hash": "38f238d7b754c461503b56f3bb22836b"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-la.md": {
+    "mtime": 1790264289.5301766,
+    "seen": 1790538884.1415293,
+    "ast_hash": "f40a7c11d06c5cad629d3474257db27c",
+    "semantic_hash": "f40a7c11d06c5cad629d3474257db27c"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-lb.md": {
+    "mtime": 1790264289.5309894,
+    "seen": 1790538884.1415305,
+    "ast_hash": "29e1e303fdccb7e93897687f59f2d4d4",
+    "semantic_hash": "29e1e303fdccb7e93897687f59f2d4d4"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-lc.md": {
+    "mtime": 1790264289.5314095,
+    "seen": 1790538884.141532,
+    "ast_hash": "7f35fdd185ded88b492478d521aa7f78",
+    "semantic_hash": "7f35fdd185ded88b492478d521aa7f78"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-lk.md": {
+    "mtime": 1790264289.531917,
+    "seen": 1790538884.1415331,
+    "ast_hash": "76a66c15397a087a2ba60083b15c8eb8",
+    "semantic_hash": "76a66c15397a087a2ba60083b15c8eb8"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-lr.md": {
+    "mtime": 1790264289.5332105,
+    "seen": 1790538884.141534,
+    "ast_hash": "dfcb2b080671269cd91341188660605e",
+    "semantic_hash": "dfcb2b080671269cd91341188660605e"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ls.md": {
+    "mtime": 1790264289.5337715,
+    "seen": 1790538884.1415355,
+    "ast_hash": "d5ef5914acd32ad5f83f08e3f8d034ec",
+    "semantic_hash": "d5ef5914acd32ad5f83f08e3f8d034ec"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ma.md": {
+    "mtime": 1790264289.5343046,
+    "seen": 1790538884.1415367,
+    "ast_hash": "5502f5f8146cc1f06f89da232a8fe383",
+    "semantic_hash": "5502f5f8146cc1f06f89da232a8fe383"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-mc.md": {
+    "mtime": 1790264289.5348787,
+    "seen": 1790538884.1415381,
+    "ast_hash": "36a39e3d19d44905b2a05da7dbdba6c4",
+    "semantic_hash": "36a39e3d19d44905b2a05da7dbdba6c4"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-md.md": {
+    "mtime": 1790264289.5359478,
+    "seen": 1790538884.1415393,
+    "ast_hash": "6bf43fd072ee511e904386bf8128fd7c",
+    "semantic_hash": "6bf43fd072ee511e904386bf8128fd7c"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-me.md": {
+    "mtime": 1790264289.5365965,
+    "seen": 1790538884.1415405,
+    "ast_hash": "589e146c95e670a2772edf38c68579cb",
+    "semantic_hash": "589e146c95e670a2772edf38c68579cb"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-mg.md": {
+    "mtime": 1790264289.5371578,
+    "seen": 1790538884.141542,
+    "ast_hash": "e097e3d8eaf127809e31438ca3b277cd",
+    "semantic_hash": "e097e3d8eaf127809e31438ca3b277cd"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-mh.md": {
+    "mtime": 1790264289.537928,
+    "seen": 1790538884.1415431,
+    "ast_hash": "4b556a812355be926cb5f3a73df665c1",
+    "semantic_hash": "4b556a812355be926cb5f3a73df665c1"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-mk.md": {
+    "mtime": 1790264289.5386622,
+    "seen": 1790538884.1415443,
+    "ast_hash": "cd556ff4a784b8bbfcd5ddb9728fa72c",
+    "semantic_hash": "cd556ff4a784b8bbfcd5ddb9728fa72c"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ml.md": {
+    "mtime": 1790264289.5397317,
+    "seen": 1790538884.1415458,
+    "ast_hash": "ff6105ab62d05a4da1152fca63c136aa",
+    "semantic_hash": "ff6105ab62d05a4da1152fca63c136aa"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-mn.md": {
+    "mtime": 1790264289.5403025,
+    "seen": 1790538884.141547,
+    "ast_hash": "b5260007b229dbf5145c3d7f847edeac",
+    "semantic_hash": "b5260007b229dbf5145c3d7f847edeac"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-mr.md": {
+    "mtime": 1790264289.5411162,
+    "seen": 1790538884.1415484,
+    "ast_hash": "0cecab70d8d846bf4cf86b61ea1aab2e",
+    "semantic_hash": "0cecab70d8d846bf4cf86b61ea1aab2e"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-mu.md": {
+    "mtime": 1790264289.5411162,
+    "seen": 1790538884.1415496,
+    "ast_hash": "9bd6ecfc2cc36c126908c751b20641a4",
+    "semantic_hash": "9bd6ecfc2cc36c126908c751b20641a4"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-mv.md": {
+    "mtime": 1790264289.542993,
+    "seen": 1790538884.1415508,
+    "ast_hash": "de6ed50bc17a471ae7bd8ffb498b056e",
+    "semantic_hash": "de6ed50bc17a471ae7bd8ffb498b056e"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-mw.md": {
+    "mtime": 1790264289.5435002,
+    "seen": 1790538884.1415524,
+    "ast_hash": "34d50115418f694e9c0adb274a3f3117",
+    "semantic_hash": "34d50115418f694e9c0adb274a3f3117"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-mx.md": {
+    "mtime": 1790264289.5446908,
+    "seen": 1790538884.1415539,
+    "ast_hash": "7a2fb4bceba21ee9466d14b8446aa1d6",
+    "semantic_hash": "7a2fb4bceba21ee9466d14b8446aa1d6"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-my.md": {
+    "mtime": 1790264289.5452526,
+    "seen": 1790538884.1415555,
+    "ast_hash": "36f63d13867c55a6292592151dd953ac",
+    "semantic_hash": "36f63d13867c55a6292592151dd953ac"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-mz.md": {
+    "mtime": 1790264289.5458317,
+    "seen": 1790538884.1415567,
+    "ast_hash": "561dfc71cf7626f57c51036413da7ad9",
+    "semantic_hash": "561dfc71cf7626f57c51036413da7ad9"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-na.md": {
+    "mtime": 1790264289.5463624,
+    "seen": 1790538884.141558,
+    "ast_hash": "cb47b442d09f307bdabb8348b31fac95",
+    "semantic_hash": "cb47b442d09f307bdabb8348b31fac95"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ne.md": {
+    "mtime": 1790264289.5474355,
+    "seen": 1790538884.1415594,
+    "ast_hash": "b06272356ab42cb788c53920187afdc0",
+    "semantic_hash": "b06272356ab42cb788c53920187afdc0"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ng.md": {
+    "mtime": 1790264289.5479798,
+    "seen": 1790538884.1415603,
+    "ast_hash": "571eb44ec1c7927a152a946af14ac7b7",
+    "semantic_hash": "571eb44ec1c7927a152a946af14ac7b7"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ni.md": {
+    "mtime": 1790264289.5485146,
+    "seen": 1790538884.1415615,
+    "ast_hash": "af9e80fb5cead7e261ab590913d6cca4",
+    "semantic_hash": "af9e80fb5cead7e261ab590913d6cca4"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-np.md": {
+    "mtime": 1790264289.5490484,
+    "seen": 1790538884.141563,
+    "ast_hash": "89905b07f23d5a80bbb1126e9d673561",
+    "semantic_hash": "89905b07f23d5a80bbb1126e9d673561"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-nr.md": {
+    "mtime": 1790264289.5495822,
+    "seen": 1790538884.1415644,
+    "ast_hash": "3ab49b26958f8003a98461520b2da269",
+    "semantic_hash": "3ab49b26958f8003a98461520b2da269"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-nz.md": {
+    "mtime": 1790264289.5507743,
+    "seen": 1790538884.1415653,
+    "ast_hash": "d6b02ba6b0845fad5bd4fafde84b2ea3",
+    "semantic_hash": "d6b02ba6b0845fad5bd4fafde84b2ea3"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-om.md": {
+    "mtime": 1790264289.5513074,
+    "seen": 1790538884.1415668,
+    "ast_hash": "cb1d5edec38c0187b7ed8ee1deb450d0",
+    "semantic_hash": "cb1d5edec38c0187b7ed8ee1deb450d0"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-pa.md": {
+    "mtime": 1790264289.5518093,
+    "seen": 1790538884.141568,
+    "ast_hash": "5606a7fd3fb3dcd271ef5ddd1799668f",
+    "semantic_hash": "5606a7fd3fb3dcd271ef5ddd1799668f"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-pe.md": {
+    "mtime": 1790264289.5523162,
+    "seen": 1790538884.1415694,
+    "ast_hash": "a2b2dc08fa253053e0f61356a5031fd6",
+    "semantic_hash": "a2b2dc08fa253053e0f61356a5031fd6"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-pg.md": {
+    "mtime": 1790264289.5534706,
+    "seen": 1790538884.1415708,
+    "ast_hash": "5be64bddde61e475fbd267a808d9d7c7",
+    "semantic_hash": "5be64bddde61e475fbd267a808d9d7c7"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ph.md": {
+    "mtime": 1790264289.5540037,
+    "seen": 1790538884.1415718,
+    "ast_hash": "b2830017aed7814c4f880686f5688821",
+    "semantic_hash": "b2830017aed7814c4f880686f5688821"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-pk.md": {
+    "mtime": 1790264289.5545454,
+    "seen": 1790538884.1415732,
+    "ast_hash": "301cb987460d4f421139b6d58efd48dd",
+    "semantic_hash": "301cb987460d4f421139b6d58efd48dd"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-pw.md": {
+    "mtime": 1790264289.555082,
+    "seen": 1790538884.1415744,
+    "ast_hash": "d3ee0a2140e8cafb42ecaf6f5230e094",
+    "semantic_hash": "d3ee0a2140e8cafb42ecaf6f5230e094"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-py.md": {
+    "mtime": 1790264289.5560224,
+    "seen": 1790538884.1415756,
+    "ast_hash": "99fe1c030b1328c097dba03640cafb5a",
+    "semantic_hash": "99fe1c030b1328c097dba03640cafb5a"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-qa.md": {
+    "mtime": 1790264289.5560224,
+    "seen": 1790538884.1415768,
+    "ast_hash": "ac487a2fcdd377333fb875559edf0db2",
+    "semantic_hash": "ac487a2fcdd377333fb875559edf0db2"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-rs.md": {
+    "mtime": 1790264289.557024,
+    "seen": 1790538884.141578,
+    "ast_hash": "cd2694d2a45200086eba289bf974449f",
+    "semantic_hash": "cd2694d2a45200086eba289bf974449f"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ru.md": {
+    "mtime": 1790264289.558888,
+    "seen": 1790538884.1415792,
+    "ast_hash": "d73f9218eb854be656826ebb932c6653",
+    "semantic_hash": "d73f9218eb854be656826ebb932c6653"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-rw.md": {
+    "mtime": 1790264289.5594487,
+    "seen": 1790538884.1415803,
+    "ast_hash": "f8fc26b8d06fbd126a4863735e048fa4",
+    "semantic_hash": "f8fc26b8d06fbd126a4863735e048fa4"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-sa.md": {
+    "mtime": 1790264289.560007,
+    "seen": 1790538884.1415815,
+    "ast_hash": "0cbeba49646809f7afdc9520d0f68d87",
+    "semantic_hash": "0cbeba49646809f7afdc9520d0f68d87"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-sb.md": {
+    "mtime": 1790264289.5605414,
+    "seen": 1790538884.141583,
+    "ast_hash": "132acd63018c2bf5831f53cb5fdd0e26",
+    "semantic_hash": "132acd63018c2bf5831f53cb5fdd0e26"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-sc.md": {
+    "mtime": 1790264289.5616224,
+    "seen": 1790538884.141584,
+    "ast_hash": "b9bce555d3a0afd7514b383f245b0845",
+    "semantic_hash": "b9bce555d3a0afd7514b383f245b0845"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-sg.md": {
+    "mtime": 1790264289.5621634,
+    "seen": 1790538884.141585,
+    "ast_hash": "114b719daa63b2ab0c69421c5d7e2d6a",
+    "semantic_hash": "114b719daa63b2ab0c69421c5d7e2d6a"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-sl.md": {
+    "mtime": 1790264289.562693,
+    "seen": 1790538884.1415865,
+    "ast_hash": "f37d0c20686f2f02a913cf12b6c79aa3",
+    "semantic_hash": "f37d0c20686f2f02a913cf12b6c79aa3"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-sm.md": {
+    "mtime": 1790264289.56322,
+    "seen": 1790538884.1415877,
+    "ast_hash": "acc62deeeea1e162e07558b7eadf712c",
+    "semantic_hash": "acc62deeeea1e162e07558b7eadf712c"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-sn.md": {
+    "mtime": 1790264289.5642889,
+    "seen": 1790538884.1415887,
+    "ast_hash": "caef4f3ecf3d9b991f68d64a287630dd",
+    "semantic_hash": "caef4f3ecf3d9b991f68d64a287630dd"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-sr.md": {
+    "mtime": 1790264289.564828,
+    "seen": 1790538884.14159,
+    "ast_hash": "552d8aab0a2cc1103d2c74d61d5069b6",
+    "semantic_hash": "552d8aab0a2cc1103d2c74d61d5069b6"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-sv.md": {
+    "mtime": 1790264289.565361,
+    "seen": 1790538884.141591,
+    "ast_hash": "0e8bb0673cb6ef5583bd866aac56a3f4",
+    "semantic_hash": "0e8bb0673cb6ef5583bd866aac56a3f4"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-sz.md": {
+    "mtime": 1790264289.565909,
+    "seen": 1790538884.1415923,
+    "ast_hash": "30f8283c9899de14c338601a3bf827ab",
+    "semantic_hash": "30f8283c9899de14c338601a3bf827ab"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-td.md": {
+    "mtime": 1790264289.5669653,
+    "seen": 1790538884.1415937,
+    "ast_hash": "4ca831bb37a95ec3423a71f8dfab4a6a",
+    "semantic_hash": "4ca831bb37a95ec3423a71f8dfab4a6a"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-tg.md": {
+    "mtime": 1790264289.5675142,
+    "seen": 1790538884.141595,
+    "ast_hash": "22267e9ffb130060201330c121ba6a27",
+    "semantic_hash": "22267e9ffb130060201330c121ba6a27"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-th.md": {
+    "mtime": 1790264289.5680573,
+    "seen": 1790538884.141596,
+    "ast_hash": "c3d3c6781730ee008ea44318cd5452f2",
+    "semantic_hash": "c3d3c6781730ee008ea44318cd5452f2"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-tn.md": {
+    "mtime": 1790264289.5691333,
+    "seen": 1790538884.1415975,
+    "ast_hash": "afa13dacc2ce3fa2a4c90787476a7465",
+    "semantic_hash": "afa13dacc2ce3fa2a4c90787476a7465"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-to.md": {
+    "mtime": 1790264289.57023,
+    "seen": 1790538884.1415987,
+    "ast_hash": "587219912efcddb56151a0272b9f18df",
+    "semantic_hash": "587219912efcddb56151a0272b9f18df"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-tr.md": {
+    "mtime": 1790264289.5709229,
+    "seen": 1790538884.1416,
+    "ast_hash": "3d30616292148680db0a16caf7528b64",
+    "semantic_hash": "3d30616292148680db0a16caf7528b64"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-tt.md": {
+    "mtime": 1790264289.5719302,
+    "seen": 1790538884.141601,
+    "ast_hash": "7eff387ded1ee3188ce01beaaca231eb",
+    "semantic_hash": "7eff387ded1ee3188ce01beaaca231eb"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-tv.md": {
+    "mtime": 1790264289.5719302,
+    "seen": 1790538884.1416023,
+    "ast_hash": "d00943bcb7c74f24a673ccc6d220f1c9",
+    "semantic_hash": "d00943bcb7c74f24a673ccc6d220f1c9"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-tw.md": {
+    "mtime": 1790264289.57293,
+    "seen": 1790538884.1416035,
+    "ast_hash": "ffa2081eb2a4058eaa47dc145c5411fb",
+    "semantic_hash": "ffa2081eb2a4058eaa47dc145c5411fb"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-tz.md": {
+    "mtime": 1790264289.57293,
+    "seen": 1790538884.1416051,
+    "ast_hash": "a74e481fa10169e1a886f433f032147a",
+    "semantic_hash": "a74e481fa10169e1a886f433f032147a"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ua.md": {
+    "mtime": 1790264289.5740986,
+    "seen": 1790538884.1416063,
+    "ast_hash": "83ac898d9aa13bf710f9e2a5a30e30ad",
+    "semantic_hash": "83ac898d9aa13bf710f9e2a5a30e30ad"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ug.md": {
+    "mtime": 1790264289.5756426,
+    "seen": 1790538884.1416075,
+    "ast_hash": "a0786c1a0de80d463b375a8ca89f3836",
+    "semantic_hash": "a0786c1a0de80d463b375a8ca89f3836"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-uk.md": {
+    "mtime": 1790264289.5765703,
+    "seen": 1790538884.1416087,
+    "ast_hash": "198e81388dc05b322f7dc836961e0a31",
+    "semantic_hash": "198e81388dc05b322f7dc836961e0a31"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-us-co.md": {
+    "mtime": 1790264289.577089,
+    "seen": 1790538884.14161,
+    "ast_hash": "1ac1749b4483b516b68af0ca8f3f97bc",
+    "semantic_hash": "1ac1749b4483b516b68af0ca8f3f97bc"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-us-ct.md": {
+    "mtime": 1790264289.5783691,
+    "seen": 1790538884.141611,
+    "ast_hash": "9929c0c0acf103f5ba6b7ba2673f2f93",
+    "semantic_hash": "9929c0c0acf103f5ba6b7ba2673f2f93"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-us-de.md": {
+    "mtime": 1790264289.5795732,
+    "seen": 1790538884.1416128,
+    "ast_hash": "00674c33c2fb9adc70a3d9828e5178b0",
+    "semantic_hash": "00674c33c2fb9adc70a3d9828e5178b0"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-us-fl.md": {
+    "mtime": 1790264289.5803342,
+    "seen": 1790538884.1416142,
+    "ast_hash": "04d4dafea3450c111a62999ade54f57c",
+    "semantic_hash": "04d4dafea3450c111a62999ade54f57c"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-us-ia.md": {
+    "mtime": 1790264289.5816412,
+    "seen": 1790538884.1416154,
+    "ast_hash": "601390669bc0b6cc5a4866e043cd64c7",
+    "semantic_hash": "601390669bc0b6cc5a4866e043cd64c7"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-us-in.md": {
+    "mtime": 1790264289.5823622,
+    "seen": 1790538884.1416166,
+    "ast_hash": "3822c96c4bb4e1f2dde8f890828182e7",
+    "semantic_hash": "3822c96c4bb4e1f2dde8f890828182e7"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-us-ky.md": {
+    "mtime": 1790264289.5832474,
+    "seen": 1790538884.141618,
+    "ast_hash": "48421eb8c75cd3b5e5bed8dd18a11c13",
+    "semantic_hash": "48421eb8c75cd3b5e5bed8dd18a11c13"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-us-md.md": {
+    "mtime": 1790264289.583755,
+    "seen": 1790538884.1416192,
+    "ast_hash": "fe91cabc001bc48fd2bbaf4d44d4262e",
+    "semantic_hash": "fe91cabc001bc48fd2bbaf4d44d4262e"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-us-mn.md": {
+    "mtime": 1790264289.5849497,
+    "seen": 1790538884.1416202,
+    "ast_hash": "4c6c950791313db4650593d77f8286e3",
+    "semantic_hash": "4c6c950791313db4650593d77f8286e3"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-us-mt.md": {
+    "mtime": 1790264289.5854793,
+    "seen": 1790538884.1416216,
+    "ast_hash": "c3cbeb416c7bd5675a2752c156ea3ad7",
+    "semantic_hash": "c3cbeb416c7bd5675a2752c156ea3ad7"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-us-ne.md": {
+    "mtime": 1790264289.5860093,
+    "seen": 1790538884.1416228,
+    "ast_hash": "2219fde697fa289c1200f1e2fe95fa6b",
+    "semantic_hash": "2219fde697fa289c1200f1e2fe95fa6b"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-us-nh.md": {
+    "mtime": 1790264289.5872507,
+    "seen": 1790538884.141624,
+    "ast_hash": "db4daa73e125577b906ffb6cd9b732a0",
+    "semantic_hash": "db4daa73e125577b906ffb6cd9b732a0"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-us-nj.md": {
+    "mtime": 1790264289.5877867,
+    "seen": 1790538884.1416252,
+    "ast_hash": "1fa6d37df14efca51dc8c9075f443913",
+    "semantic_hash": "1fa6d37df14efca51dc8c9075f443913"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-us-or.md": {
+    "mtime": 1790264289.5883317,
+    "seen": 1790538884.1416264,
+    "ast_hash": "0f5e9e895420367d149153c4a78c33fa",
+    "semantic_hash": "0f5e9e895420367d149153c4a78c33fa"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-us-ri.md": {
+    "mtime": 1790264289.589568,
+    "seen": 1790538884.1416276,
+    "ast_hash": "50d71fa012017ddd2d002fb2137565f4",
+    "semantic_hash": "50d71fa012017ddd2d002fb2137565f4"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-us-tn.md": {
+    "mtime": 1790264289.590122,
+    "seen": 1790538884.1416287,
+    "ast_hash": "701e54eca8fb4ee26b5988e0dfb0463d",
+    "semantic_hash": "701e54eca8fb4ee26b5988e0dfb0463d"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-us-tx.md": {
+    "mtime": 1790264289.591143,
+    "seen": 1790538884.1416297,
+    "ast_hash": "138bdb4c7b6ab76a609face6511a8fe8",
+    "semantic_hash": "138bdb4c7b6ab76a609face6511a8fe8"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-us-ut.md": {
+    "mtime": 1790264289.5922918,
+    "seen": 1790538884.141631,
+    "ast_hash": "ecaf85b43406e8a2cede4c97fee93c4c",
+    "semantic_hash": "ecaf85b43406e8a2cede4c97fee93c4c"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-us-va.md": {
+    "mtime": 1790264289.593358,
+    "seen": 1790538884.1416323,
+    "ast_hash": "bbfd342f2b902e907ba83431ee4eeeda",
+    "semantic_hash": "bbfd342f2b902e907ba83431ee4eeeda"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-us.md": {
+    "mtime": 1790264289.5939908,
+    "seen": 1790538884.141656,
+    "ast_hash": "2dc0119d2205ad112d2d7fe1afbc792d",
+    "semantic_hash": "2dc0119d2205ad112d2d7fe1afbc792d"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-uy.md": {
+    "mtime": 1790264289.5945215,
+    "seen": 1790538884.141657,
+    "ast_hash": "a3262f14c70b24cce2bba8b90a70ffcd",
+    "semantic_hash": "a3262f14c70b24cce2bba8b90a70ffcd"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-uz.md": {
+    "mtime": 1790264289.595608,
+    "seen": 1790538884.1416588,
+    "ast_hash": "976f1f82af6a7a32139235574ed40548",
+    "semantic_hash": "976f1f82af6a7a32139235574ed40548"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-va.md": {
+    "mtime": 1790264289.596143,
+    "seen": 1790538884.14166,
+    "ast_hash": "65bbb9529ff4233e41f8803161e26e21",
+    "semantic_hash": "65bbb9529ff4233e41f8803161e26e21"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-vc.md": {
+    "mtime": 1790264289.5972652,
+    "seen": 1790538884.1416612,
+    "ast_hash": "2708ed7452d6832dbd7efd005de26353",
+    "semantic_hash": "2708ed7452d6832dbd7efd005de26353"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-vn.md": {
+    "mtime": 1790264289.5984445,
+    "seen": 1790538884.1416621,
+    "ast_hash": "324e0a865e7d9cbb521c2f8115ccf78c",
+    "semantic_hash": "324e0a865e7d9cbb521c2f8115ccf78c"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-vu.md": {
+    "mtime": 1790264289.598979,
+    "seen": 1790538884.1416636,
+    "ast_hash": "9ee3a9d5ac4324b494aedc89d5ba1bc2",
+    "semantic_hash": "9ee3a9d5ac4324b494aedc89d5ba1bc2"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ws.md": {
+    "mtime": 1790264289.5995133,
+    "seen": 1790538884.141665,
+    "ast_hash": "2ca49f577f0dcbd50cfb24a0df6cefe0",
+    "semantic_hash": "2ca49f577f0dcbd50cfb24a0df6cefe0"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-ye.md": {
+    "mtime": 1790264289.600036,
+    "seen": 1790538884.141666,
+    "ast_hash": "0a66af7dc926728731d0019661b74e02",
+    "semantic_hash": "0a66af7dc926728731d0019661b74e02"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-za.md": {
+    "mtime": 1790264289.600583,
+    "seen": 1790538884.1416674,
+    "ast_hash": "08a6d028a3fe2cc81c64260a68e2a3e5",
+    "semantic_hash": "08a6d028a3fe2cc81c64260a68e2a3e5"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-zm.md": {
+    "mtime": 1790264289.6011543,
+    "seen": 1790538884.1416686,
+    "ast_hash": "217b961517c2b0053b35c56ddbefe848",
+    "semantic_hash": "217b961517c2b0053b35c56ddbefe848"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/packs/privacy-zw.md": {
+    "mtime": 1790264289.6011543,
+    "seen": 1790538884.1416698,
+    "ast_hash": "cd950bd60ca0f915aa4755b020d2623a",
+    "semantic_hash": "cd950bd60ca0f915aa4755b020d2623a"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/portability.md": {
+    "mtime": 1790264289.6016831,
+    "seen": 1790538884.141671,
+    "ast_hash": "e82b5befe220a709c0ee73a79158b690",
+    "semantic_hash": "e82b5befe220a709c0ee73a79158b690"
+  },
+  "skills/regulatory-compliance-applicability-scan/references/sources-index.md": {
+    "mtime": 1790264289.6027398,
+    "seen": 1790538884.1416721,
+    "ast_hash": "2d27baaac0378d1b24696aeaf1350797",
+    "semantic_hash": "2d27baaac0378d1b24696aeaf1350797"
+  },
+  "skills/typescript-code-review/SKILL.md": {
+    "mtime": 1790264289.603826,
+    "seen": 1790538884.1416736,
+    "ast_hash": "9245cfff0cf1fff1c5608db02c5797d4",
+    "semantic_hash": "9245cfff0cf1fff1c5608db02c5797d4"
+  },
+  "skills/typescript-code-review/assets/report-template.md": {
+    "mtime": 1790264289.6048326,
+    "seen": 1790538884.1416745,
+    "ast_hash": "c72784f4669d810c6879356c9f2fd3c8",
+    "semantic_hash": "c72784f4669d810c6879356c9f2fd3c8"
+  },
+  "skills/typescript-code-review/references/architecture.md": {
+    "mtime": 1790264289.6066551,
+    "seen": 1790538884.1416757,
+    "ast_hash": "3529cdece5b65268480327dced85a113",
+    "semantic_hash": "3529cdece5b65268480327dced85a113"
+  },
+  "skills/typescript-code-review/references/code-quality.md": {
+    "mtime": 1790264289.6074982,
+    "seen": 1790538884.141677,
+    "ast_hash": "dfe883a7106840e849052a8545d48be3",
+    "semantic_hash": "dfe883a7106840e849052a8545d48be3"
+  },
+  "skills/typescript-code-review/references/concurrency-async-correctness.md": {
+    "mtime": 1790264289.6091528,
+    "seen": 1790538884.141678,
+    "ast_hash": "a0afd9bab612ed30449f270606a63242",
+    "semantic_hash": "a0afd9bab612ed30449f270606a63242"
+  },
+  "skills/typescript-code-review/references/dependency-supply-chain-security.md": {
+    "mtime": 1790264289.609644,
+    "seen": 1790538884.1416793,
+    "ast_hash": "2e8077a529ca01e21a85cbb88ece8125",
+    "semantic_hash": "2e8077a529ca01e21a85cbb88ece8125"
+  },
+  "skills/typescript-code-review/references/idioms-and-patterns.md": {
+    "mtime": 1790264289.6102118,
+    "seen": 1790538884.1416805,
+    "ast_hash": "4b8a7832b3ee258117efc2bc0e444284",
+    "semantic_hash": "4b8a7832b3ee258117efc2bc0e444284"
+  },
+  "skills/typescript-code-review/references/observability.md": {
+    "mtime": 1790264289.6107485,
+    "seen": 1790538884.1416817,
+    "ast_hash": "3927362ebe33de2cea4fe8f90a2f4ec6",
+    "semantic_hash": "3927362ebe33de2cea4fe8f90a2f4ec6"
+  },
+  "skills/typescript-code-review/references/performance.md": {
+    "mtime": 1790264289.6112833,
+    "seen": 1790538884.1416826,
+    "ast_hash": "ecbb7729f4a2e308380b6263bad55cdf",
+    "semantic_hash": "ecbb7729f4a2e308380b6263bad55cdf"
+  },
+  "skills/typescript-code-review/references/scalability-and-resilience.md": {
+    "mtime": 1790264289.6118405,
+    "seen": 1790538884.141684,
+    "ast_hash": "2c336eac66189821b2c336c266a42275",
+    "semantic_hash": "2c336eac66189821b2c336c266a42275"
+  },
+  "skills/typescript-code-review/references/security.md": {
+    "mtime": 1790264289.6123648,
+    "seen": 1790538884.141685,
+    "ast_hash": "76a4af0f8bd7c60a18e54af704d93988",
+    "semantic_hash": "76a4af0f8bd7c60a18e54af704d93988"
+  },
+  "skills/typescript-code-review/references/standards-compliance.md": {
+    "mtime": 1790264289.6129098,
+    "seen": 1790538884.1416862,
+    "ast_hash": "a5ad0e634107f6e0dcb5d6cdd2656cee",
+    "semantic_hash": "a5ad0e634107f6e0dcb5d6cdd2656cee"
+  },
+  "skills/typescript-code-review/references/testing.md": {
+    "mtime": 1790264289.6134305,
+    "seen": 1790538884.1416874,
+    "ast_hash": "dc9c4a50410859b44a1370537bf4d2c7",
+    "semantic_hash": "dc9c4a50410859b44a1370537bf4d2c7"
+  },
+  "skills/ui-system-review/SKILL.md": {
+    "mtime": 1790264289.6139672,
+    "seen": 1790538884.1416886,
+    "ast_hash": "37d3463d2f27e3e853deb384de187bb6",
+    "semantic_hash": "37d3463d2f27e3e853deb384de187bb6"
+  },
+  "skills/ui-system-review/assets/baseline-template.md": {
+    "mtime": 1790264289.6150389,
+    "seen": 1790538884.1416898,
+    "ast_hash": "747a62b2fb028b3983fe657b3ae3e34e",
+    "semantic_hash": "747a62b2fb028b3983fe657b3ae3e34e"
+  },
+  "skills/ui-system-review/assets/report-template.md": {
+    "mtime": 1790264289.6155727,
+    "seen": 1790538884.141691,
+    "ast_hash": "22762e10eb3e503a140a1dfcc47f2885",
+    "semantic_hash": "22762e10eb3e503a140a1dfcc47f2885"
+  },
+  "skills/ui-system-review/references/android-compose.md": {
+    "mtime": 1790264289.6160946,
+    "seen": 1790538884.1416924,
+    "ast_hash": "9cb6fd5a63be4f89a456ee177e3acdbf",
+    "semantic_hash": "9cb6fd5a63be4f89a456ee177e3acdbf"
+  },
+  "skills/ui-system-review/references/apple-swiftui.md": {
+    "mtime": 1790264289.6166265,
+    "seen": 1790538884.141693,
+    "ast_hash": "8d32ed97cbc2fe8c2b05c7c84bc017c1",
+    "semantic_hash": "8d32ed97cbc2fe8c2b05c7c84bc017c1"
+  },
+  "skills/ui-system-review/references/domains.md": {
+    "mtime": 1790264289.617154,
+    "seen": 1790538884.1416948,
+    "ast_hash": "b15534c764300d223acc015d60751bbe",
+    "semantic_hash": "b15534c764300d223acc015d60751bbe"
+  },
+  "skills/ui-system-review/references/stack-detection.md": {
+    "mtime": 1790264289.6176834,
+    "seen": 1790538884.141696,
+    "ast_hash": "9a0ebf422c44d7cdf7a84369c29eac85",
+    "semantic_hash": "9a0ebf422c44d7cdf7a84369c29eac85"
+  },
+  "skills/ui-system-review/references/web.md": {
+    "mtime": 1790264289.6187336,
+    "seen": 1790538884.141697,
+    "ast_hash": "9b26e28f58e63cc3e9de3ffe7db77528",
+    "semantic_hash": "9b26e28f58e63cc3e9de3ffe7db77528"
+  },
+  "docs/assets/favicon.svg": {
+    "mtime": 1790264289.0358706,
+    "seen": 1790538884.1416984,
+    "ast_hash": "ad1fb80e3860f5bfc55d08807af107e9",
+    "semantic_hash": "ad1fb80e3860f5bfc55d08807af107e9"
+  },
+  "docs/assets/logo.svg": {
+    "mtime": 1790264289.036872,
+    "seen": 1790538884.1416996,
+    "ast_hash": "ad1fb80e3860f5bfc55d08807af107e9",
+    "semantic_hash": "ad1fb80e3860f5bfc55d08807af107e9"
   }
 }
