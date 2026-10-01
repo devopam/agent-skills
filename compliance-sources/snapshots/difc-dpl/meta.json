@@ -1,0 +1,14 @@
+{
+  "id": "difc-dpl",
+  "primary_url": "https://www.difc.ae/business/laws-regulations/",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": null,
+  "status": "fetch_error",
+  "error": "HTTPError: HTTP Error 429: Too Many Requests",
+  "attempts": 3,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-difc",
+  "role": "primary",
+  "title": "DIFC Data Protection Law"
+}

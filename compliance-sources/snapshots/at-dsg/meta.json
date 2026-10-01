@@ -1,0 +1,14 @@
+{
+  "id": "at-dsg",
+  "primary_url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001597",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "e69ed9cc1fea6dd56779a226d6c38869405969bccb92a2ff60101123c4872612",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-at",
+  "role": "primary",
+  "title": "DSG Austria"
+}

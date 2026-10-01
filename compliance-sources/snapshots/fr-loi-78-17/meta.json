@@ -1,0 +1,14 @@
+{
+  "id": "fr-loi-78-17",
+  "primary_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000886460",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": null,
+  "status": "fetch_error",
+  "error": "HTTPError: HTTP Error 403: Forbidden",
+  "attempts": 3,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-fr",
+  "role": "primary",
+  "title": "Loi 78-17"
+}

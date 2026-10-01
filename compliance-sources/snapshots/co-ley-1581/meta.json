@@ -1,0 +1,14 @@
+{
+  "id": "co-ley-1581",
+  "primary_url": "https://www.funcionpublica.gov.co/eva/gestornormativo/",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": null,
+  "status": "fetch_error",
+  "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+  "attempts": 3,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-co",
+  "role": "primary",
+  "title": "Colombia Ley 1581"
+}

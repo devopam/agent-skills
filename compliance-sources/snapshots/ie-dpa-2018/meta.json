@@ -1,0 +1,14 @@
+{
+  "id": "ie-dpa-2018",
+  "primary_url": "https://www.irishstatutebook.ie/eli/2018/act/7/enacted/en/html",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "4d2270ecb254e42bbece5ed69cdecfc51a97ace301ac28ee71b6b548d17133fa",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-ie",
+  "role": "primary",
+  "title": "Data Protection Act 2018 IE"
+}

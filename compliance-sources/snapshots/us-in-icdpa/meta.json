@@ -1,0 +1,14 @@
+{
+  "id": "us-in-icdpa",
+  "primary_url": "https://iga.in.gov/",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "61d9d1265c828684df265d5139ee43f21d5325cb19aa861c7da7816dd28ac732",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-us-in",
+  "role": "primary",
+  "title": "Indiana ICDPA"
+}

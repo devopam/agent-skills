@@ -1,0 +1,14 @@
+{
+  "id": "us-va-vcdpa",
+  "primary_url": "https://law.lis.virginia.gov/vacode/title59.1/chapter53",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "bdbcc295757f036ca62e980308ead490fedbfbedb0ae7a46ea531290528d5be5",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-us-va",
+  "role": "primary",
+  "title": "VCDPA"
+}

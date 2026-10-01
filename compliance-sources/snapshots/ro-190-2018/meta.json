@@ -1,0 +1,14 @@
+{
+  "id": "ro-190-2018",
+  "primary_url": "https://legislatie.just.ro/",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": null,
+  "status": "fetch_error",
+  "error": "RemoteDisconnected: Remote end closed connection without response",
+  "attempts": 3,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-ro",
+  "role": "primary",
+  "title": "Law 190/2018"
+}

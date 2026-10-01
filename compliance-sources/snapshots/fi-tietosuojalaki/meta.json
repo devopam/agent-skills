@@ -1,0 +1,14 @@
+{
+  "id": "fi-tietosuojalaki",
+  "primary_url": "https://www.finlex.fi/fi/lainsaadanto/2018/1050",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "94c0670c8ddb0cb23957f3df7c0a214fef28b40df4a27d08adf3fd5e84af811d",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-fi",
+  "role": "primary",
+  "title": "Tietosuojalaki 1050/2018"
+}

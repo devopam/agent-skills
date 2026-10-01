@@ -1,0 +1,14 @@
+{
+  "id": "sg-pdpa",
+  "primary_url": "https://sso.agc.gov.sg/Act/PDPA2012",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": null,
+  "status": "fetch_error",
+  "error": "HTTPError: HTTP Error 403: Forbidden",
+  "attempts": 3,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-sg",
+  "role": "primary",
+  "title": "PDPA 2012"
+}

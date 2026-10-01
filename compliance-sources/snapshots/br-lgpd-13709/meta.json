@@ -1,0 +1,14 @@
+{
+  "id": "br-lgpd-13709",
+  "primary_url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": null,
+  "status": "fetch_error",
+  "error": "RemoteDisconnected: Remote end closed connection without response",
+  "attempts": 3,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-br",
+  "role": "primary",
+  "title": "LGPD"
+}

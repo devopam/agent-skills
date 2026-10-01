@@ -1,0 +1,14 @@
+{
+  "id": "ca-pipeda",
+  "primary_url": "https://laws-lois.justice.gc.ca/ENG/ACTS/P-8.6/index.html",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "289d3214f9f6eed0457814fe765ad73863076acbe47048f934439a4b56f6fc34",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-ca",
+  "role": "primary",
+  "title": "PIPEDA"
+}

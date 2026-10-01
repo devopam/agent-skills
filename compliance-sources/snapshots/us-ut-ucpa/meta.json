@@ -1,0 +1,14 @@
+{
+  "id": "us-ut-ucpa",
+  "primary_url": "https://le.utah.gov/xcode/Title13/Chapter61/13-61.html",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "aefa32dc7891ed52240e5ee5de08e1b13f99f48d6dcfa249934021d810ac411d",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-us-ut",
+  "role": "primary",
+  "title": "UCPA"
+}

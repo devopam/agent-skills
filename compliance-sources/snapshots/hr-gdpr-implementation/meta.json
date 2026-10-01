@@ -1,0 +1,14 @@
+{
+  "id": "hr-gdpr-implementation",
+  "primary_url": "https://narodne-novine.nn.hr/",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "54d2bfe003f7037b69c722566cca698f55317be92442660ad73c2dc512cf6fee",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-hr",
+  "role": "primary",
+  "title": "Croatian GDPR implementation"
+}

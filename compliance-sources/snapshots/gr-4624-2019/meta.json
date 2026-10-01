@@ -1,0 +1,14 @@
+{
+  "id": "gr-4624-2019",
+  "primary_url": "https://www.et.gr/",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "6b5837a7e55af89bbf9f3df0336ac6bf222bf8365249cb809e6701a2382ad705",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-gr",
+  "role": "primary",
+  "title": "Law 4624/2019"
+}

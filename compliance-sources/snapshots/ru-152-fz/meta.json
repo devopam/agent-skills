@@ -1,0 +1,14 @@
+{
+  "id": "ru-152-fz",
+  "primary_url": "http://pravo.gov.ru/",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "29d9d3bbed835c3af2fd106f5541477704f06d6a877a610d7badc8f557b6f411",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-ru",
+  "role": "primary",
+  "title": "152-FZ"
+}

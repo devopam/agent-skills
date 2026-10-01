@@ -1,0 +1,14 @@
+{
+  "id": "th-pdpa-2562",
+  "primary_url": "https://www.ratchakitcha.soc.go.th/",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": null,
+  "status": "fetch_error",
+  "error": "HTTPError: HTTP Error 403: Forbidden",
+  "attempts": 3,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-th",
+  "role": "primary",
+  "title": "Thailand PDPA B.E. 2562"
+}

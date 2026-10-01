@@ -1,0 +1,14 @@
+{
+  "id": "be-dpa-2018",
+  "primary_url": "https://economie.fgov.be/fr/legislation/loi-du-30-juillet-2018-0",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "f34ec6fed996cec3c7e9e70a7def67f5c50ee61626040d5f4c6f2604a5b192cc",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-be",
+  "role": "primary",
+  "title": "Belgian law 30 July 2018"
+}

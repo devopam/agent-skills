@@ -1,0 +1,14 @@
+{
+  "id": "us-ia-icdpa",
+  "primary_url": "https://www.legis.iowa.gov/",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "2088c93e9885d7c18877c6467aaa605b5b4bfde4bd0501f9863d461ec4f0b74d",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-us-ia",
+  "role": "primary",
+  "title": "Iowa ICDPA"
+}

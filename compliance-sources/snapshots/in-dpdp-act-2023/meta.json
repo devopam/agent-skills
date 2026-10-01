@@ -1,0 +1,14 @@
+{
+  "id": "in-dpdp-act-2023",
+  "primary_url": "https://www.indiacode.nic.in/",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": null,
+  "status": "fetch_error",
+  "error": "HTTPError: HTTP Error 403: Forbidden",
+  "attempts": 3,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-in",
+  "role": "primary",
+  "title": "DPDP Act 2023"
+}

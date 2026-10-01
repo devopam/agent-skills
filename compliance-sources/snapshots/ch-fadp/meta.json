@@ -1,0 +1,14 @@
+{
+  "id": "ch-fadp",
+  "primary_url": "https://www.fedlex.admin.ch/eli/cc/2022/491/en",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "e4c28057f78a8f668cc5464ff78155c9238e76e7168689904eb5ee21c42d2992",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-ch",
+  "role": "primary",
+  "title": "Swiss FADP / DSG"
+}

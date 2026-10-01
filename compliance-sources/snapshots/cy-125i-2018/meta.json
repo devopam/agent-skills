@@ -1,0 +1,14 @@
+{
+  "id": "cy-125i-2018",
+  "primary_url": "https://www.cylaw.org/",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "b204d4ff4bf90a3ce559565c970b2ea95a2a740c955f94af6b2c0cbb62c3c1a6",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-cy",
+  "role": "primary",
+  "title": "Cyprus Law 125(I)/2018"
+}

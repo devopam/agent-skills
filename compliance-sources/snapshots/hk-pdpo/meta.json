@@ -1,0 +1,14 @@
+{
+  "id": "hk-pdpo",
+  "primary_url": "https://www.elegislation.gov.hk/hk/cap486",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "5a57a8c6f5018c7103ee19b8120fe6deecaecdb4621084ba8e0bfc5152acd1a9",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-hk",
+  "role": "primary",
+  "title": "Hong Kong PDPO Cap. 486"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "cn-pipl",
+  "primary_url": "http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "6ba333ced417d9f1c1a8d1e4422b1d681e354e103ce24350dbeceaeef2629acb",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-cn",
+  "role": "primary",
+  "title": "PIPL"
+}

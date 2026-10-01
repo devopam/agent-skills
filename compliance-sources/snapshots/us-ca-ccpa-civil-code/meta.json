@@ -1,0 +1,14 @@
+{
+  "id": "us-ca-ccpa-civil-code",
+  "primary_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.100",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "92c15ed4da2841c459203dfa5259e541a6f52fb21a91bb03aac980c9a98e0f50",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-us",
+  "role": "primary",
+  "title": "CCPA/CPRA"
+}

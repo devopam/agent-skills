@@ -1,0 +1,14 @@
+{
+  "id": "lv-pdpl",
+  "primary_url": "https://likumi.lv/",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "b1ea218af2747a0e5c4f51609d54e3921d1b3496b2585132c1b4932f130923a7",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-lv",
+  "role": "primary",
+  "title": "Latvian PDPL"
+}

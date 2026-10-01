@@ -1,0 +1,14 @@
+{
+  "id": "mt-dpa",
+  "primary_url": "https://legislation.mt/",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": null,
+  "status": "fetch_error",
+  "error": "HTTPError: HTTP Error 403: Site Disabled",
+  "attempts": 3,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-mt",
+  "role": "primary",
+  "title": "Malta Cap. 586"
+}

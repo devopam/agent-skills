@@ -1,0 +1,14 @@
+{
+  "id": "uk-dpa-2018",
+  "primary_url": "https://www.legislation.gov.uk/ukpga/2018/12",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "9f5ce5ef7717161c8413ebf7b7f1f799082ba700ecf2c76bdbd7912d2466618f",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-uk",
+  "role": "primary",
+  "title": "Data Protection Act 2018"
+}

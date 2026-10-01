@@ -1,0 +1,14 @@
+{
+  "id": "jp-appi",
+  "primary_url": "https://www.ppc.go.jp/en/legal/",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "4af6991e3b93733810299c28630695f1d29df063103ee42c4dc2a6d4e5cc1733",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-jp",
+  "role": "primary",
+  "title": "APPI"
+}

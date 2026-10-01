@@ -1,0 +1,14 @@
+{
+  "id": "kr-pipa",
+  "primary_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=270351",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": null,
+  "status": "fetch_error",
+  "error": "URLError: <urlopen error timed out>",
+  "attempts": 3,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-kr",
+  "role": "primary",
+  "title": "PIPA"
+}

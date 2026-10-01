@@ -1,0 +1,14 @@
+{
+  "id": "tr-kvkk-6698",
+  "primary_url": "https://www.mevzuat.gov.tr/",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "fb55a6cefa25c312fa5233bd585a766c9d69260d9e56661e341b815d91950302",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-tr",
+  "role": "primary",
+  "title": "Turkey KVKK 6698"
+}

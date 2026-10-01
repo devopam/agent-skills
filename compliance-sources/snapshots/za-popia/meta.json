@@ -1,0 +1,14 @@
+{
+  "id": "za-popia",
+  "primary_url": "https://www.gov.za/documents/protection-personal-information-act",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "3d573f533126ed24b8092bcc75aa1050b409bc3b7c6c9220f6c2a41f87a74afd",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-za",
+  "role": "primary",
+  "title": "South Africa POPIA"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "ae-pdpl-45-2021",
+  "primary_url": "https://uaelegislation.gov.ae/en/legislations/1972",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": null,
+  "status": "fetch_error",
+  "error": "HTTPError: HTTP Error 403: Forbidden",
+  "attempts": 3,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-ae",
+  "role": "primary",
+  "title": "UAE PDPL"
+}

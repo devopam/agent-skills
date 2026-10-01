@@ -1,0 +1,14 @@
+{
+  "id": "ar-ley-25326",
+  "primary_url": "https://www.argentina.gob.ar/normativa",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "ac539811e5c224c1bcdb4969f977f54c708041cfb3d7eedc5dec3d3a485e2ab4",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-ar",
+  "role": "primary",
+  "title": "Argentina Ley 25.326"
+}

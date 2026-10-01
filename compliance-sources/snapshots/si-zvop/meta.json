@@ -1,0 +1,14 @@
+{
+  "id": "si-zvop",
+  "primary_url": "https://www.uradni-list.si/",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "96ad414b120ad087fb351df6fa0b6b139866c4f5f9be87bfea8e852dec11d094",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-si",
+  "role": "primary",
+  "title": "ZVOP"
+}

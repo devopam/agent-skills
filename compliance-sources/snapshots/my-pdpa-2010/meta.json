@@ -1,0 +1,14 @@
+{
+  "id": "my-pdpa-2010",
+  "primary_url": "https://www.pdp.gov.my/ppdpv1/en/akta/pdp-act-2010-en/",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "eca5a5f81ddf6cff333997e203c5cc43c62079816d0833c080c907e4bcaecb68",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-my",
+  "role": "primary",
+  "title": "Malaysia PDPA 2010"
+}

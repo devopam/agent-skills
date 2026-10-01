@@ -1,0 +1,14 @@
+{
+  "id": "is-90-2018",
+  "primary_url": "https://www.althingi.is/",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": null,
+  "status": "fetch_error",
+  "error": "HTTPError: HTTP Error 403: Forbidden",
+  "attempts": 3,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-is",
+  "role": "primary",
+  "title": "Iceland Act 90/2018"
+}

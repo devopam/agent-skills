@@ -1,0 +1,14 @@
+{
+  "id": "hu-infotv",
+  "primary_url": "https://njt.hu/",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": null,
+  "status": "fetch_error",
+  "error": "RemoteDisconnected: Remote end closed connection without response",
+  "attempts": 3,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-hu",
+  "role": "primary",
+  "title": "Hungarian DP act"
+}

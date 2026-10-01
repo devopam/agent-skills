@@ -1,0 +1,14 @@
+{
+  "id": "eg-law-151-2020",
+  "primary_url": "https://www.egypt.gov.eg/",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": null,
+  "status": "fetch_error",
+  "error": "URLError: <urlopen error timed out>",
+  "attempts": 3,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eg",
+  "role": "primary",
+  "title": "Egypt Law 151/2020"
+}

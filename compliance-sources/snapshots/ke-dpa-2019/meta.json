@@ -1,0 +1,14 @@
+{
+  "id": "ke-dpa-2019",
+  "primary_url": "https://new.kenyalaw.org/akn/ke/act/2019/24",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": null,
+  "status": "fetch_error",
+  "error": "HTTPError: HTTP Error 403: Forbidden",
+  "attempts": 3,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-ke",
+  "role": "primary",
+  "title": "Kenya DPA 2019"
+}

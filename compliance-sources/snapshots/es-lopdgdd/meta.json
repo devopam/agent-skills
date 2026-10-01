@@ -1,0 +1,14 @@
+{
+  "id": "es-lopdgdd",
+  "primary_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "39d089a6252be0e3aa75e0efe6e7db93b75e70bd5f86ac0e440ac1ac7de7b545",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-es",
+  "role": "primary",
+  "title": "LOPDGDD"
+}

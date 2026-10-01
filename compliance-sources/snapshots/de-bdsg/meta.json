@@ -1,0 +1,14 @@
+{
+  "id": "de-bdsg",
+  "primary_url": "https://www.gesetze-im-internet.de/bdsg_2018/BJNR209710017.html",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": null,
+  "status": "fetch_error",
+  "error": "URLError: <urlopen error timed out>",
+  "attempts": 3,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-de",
+  "role": "primary",
+  "title": "BDSG"
+}

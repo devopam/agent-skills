@@ -1,0 +1,14 @@
+{
+  "id": "id-uu-27-2022",
+  "primary_url": "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": null,
+  "status": "fetch_error",
+  "error": "HTTPError: HTTP Error 403: Forbidden",
+  "attempts": 3,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-id",
+  "role": "primary",
+  "title": "Indonesia UU 27/2022"
+}

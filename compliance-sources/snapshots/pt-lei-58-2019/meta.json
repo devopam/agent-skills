@@ -1,0 +1,14 @@
+{
+  "id": "pt-lei-58-2019",
+  "primary_url": "https://diariodarepublica.pt/",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "b0e2f80747e7e2d7145c1316a240249f1dabfe350da5fcdae30e40bb1f2ed42b",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-pt",
+  "role": "primary",
+  "title": "Lei 58/2019"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "adgm-dpr",
+  "primary_url": "https://www.adgm.com/legal-framework/",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "9e5101e52cc945b2757a1457c58a23892f49a59b9781e4dccfdbdd94e98fc490",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-adgm",
+  "role": "primary",
+  "title": "ADGM Data Protection Regulations"
+}

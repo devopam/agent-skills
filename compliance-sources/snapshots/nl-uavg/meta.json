@@ -1,0 +1,14 @@
+{
+  "id": "nl-uavg",
+  "primary_url": "https://wetten.overheid.nl/BWBR0040940",
+  "retrieved_at": "2026-10-01T12:06:11Z",
+  "content_hash": "18219cf09ca6815b2217a615be7cd054d5ba73ba4baf569012ba08854f00bae9",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-nl",
+  "role": "primary",
+  "title": "UAVG"
+}
