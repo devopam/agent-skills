@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: detect — over-mocking + weak assertion
 
 Tests the **Testing** domain's ability to catch a test that runs green

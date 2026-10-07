@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: fixture-bad-web-expected-findings
 
 Pass if the response:

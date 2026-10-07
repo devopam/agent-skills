@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: detect — SQL injection + weak password hashing
 
 Tests whether `python-code-review`'s Security domain catches two distinct,

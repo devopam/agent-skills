@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: not-covered-de-overlay
 
 Pass if the response:

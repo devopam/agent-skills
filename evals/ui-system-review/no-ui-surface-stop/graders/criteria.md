@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: no-ui-surface-stop
 
 Pass if the response:

@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: gap — diff-mode scope detection and respect
 
 Tests that a request phrased as "review my changes against main" is

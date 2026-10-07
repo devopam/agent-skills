@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: audit-unsafe-pull-request-target
 
 Pass if the response:

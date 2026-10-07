@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: gap-handoff-to-ci-cd-plumber
 
 Pass if the response:

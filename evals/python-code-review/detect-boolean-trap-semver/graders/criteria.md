@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: detect — boolean trap + semver misclassification
 
 Tests the **Architecture** domain's API/interface-design expansion — two

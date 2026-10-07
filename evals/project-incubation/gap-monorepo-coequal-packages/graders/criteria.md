@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: gap — monorepo with coequal packages
 
 Tests the skill's monorepo-specific flow (Phase 1's structural fork +

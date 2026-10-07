@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading: privacy-tw-pending-amendment
 
 Pass if the response:

@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: blast-radius-unfocused-diff
 
 Pass if the response:

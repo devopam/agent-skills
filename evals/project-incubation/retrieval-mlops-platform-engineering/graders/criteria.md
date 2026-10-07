@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: retrieval — MLOps / ML Platform Engineering
 
 Tests whether `project-incubation` picks the right category for an

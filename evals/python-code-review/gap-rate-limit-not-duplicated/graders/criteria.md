@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: gap — rate limiting is owned once, not duplicated
 
 Tests a domain-boundary decision made during authoring: rate limiting /

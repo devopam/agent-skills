@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: gap-overall-scorecard-verdict
 
 Pass if the response:

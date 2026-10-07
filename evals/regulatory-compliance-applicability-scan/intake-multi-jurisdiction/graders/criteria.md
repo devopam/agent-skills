@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: intake-multi-jurisdiction
 
 Pass if the response:

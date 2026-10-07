@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: major-economy-now-covered
 
 Pass if the response:

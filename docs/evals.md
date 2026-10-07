@@ -11,7 +11,9 @@ Hand-authored trust cases live under `evals/<skill>/` in the repository
 | pr-review | 7 |
 | postgresql-review | 6 |
 
-Machine scoring via `claude plugin eval` requires early-access enrollment.
-Until then, cases remain the contract for human and future automated grading.
+Each case is a directory with `prompt.md` and `graders/*.md`; every grader file
+needs YAML front matter (`type: llm`, `weight: 1`) or `claude plugin eval`
+fails with `invalid case.yaml: graders: Required`. Run `claude plugin eval .`
+to score them.
 
 See [evals/README.md on GitHub](https://github.com/devopam/agent-skills/blob/main/evals/README.md).

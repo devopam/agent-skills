@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: audit-unpinned-actions
 
 Pass if the response:

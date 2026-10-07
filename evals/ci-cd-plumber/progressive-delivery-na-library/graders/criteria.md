@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: progressive-delivery-na-library
 
 Pass if the response:

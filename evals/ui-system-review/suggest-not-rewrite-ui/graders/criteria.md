@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: suggest-not-rewrite-ui
 
 Pass if the response:

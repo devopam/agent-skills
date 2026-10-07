@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: detect — mutable default argument + os.path over pathlib
 
 Tests whether `python-code-review`'s Idioms & Patterns domain catches a

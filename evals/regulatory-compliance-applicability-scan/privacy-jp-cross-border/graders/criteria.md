@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading: privacy-jp-cross-border
 
 Pass if the response:

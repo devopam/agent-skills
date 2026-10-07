@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: critical-workload-not-implemented
 
 Pass if the response:

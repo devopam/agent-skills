@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: pre-submit-hooks-not-run
 
 Pass if the response:

@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: inception-github-actions-python
 
 Pass if the response:

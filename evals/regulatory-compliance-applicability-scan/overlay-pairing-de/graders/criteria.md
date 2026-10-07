@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: overlay-pairing-de
 
 Pass if the response:

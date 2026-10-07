@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: gap — audit against a stale baseline
 
 Tests the 6-month preferred-libraries staleness policy specifically

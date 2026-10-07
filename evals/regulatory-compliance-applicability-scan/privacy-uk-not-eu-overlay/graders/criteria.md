@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading: privacy-uk-not-eu-overlay
 
 Pass if the response:

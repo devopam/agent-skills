@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: retrieval — ML / AI Model Development
 
 Tests whether `project-incubation` picks the right category for a

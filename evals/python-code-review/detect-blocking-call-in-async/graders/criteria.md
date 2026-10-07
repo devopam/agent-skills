@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: detect — blocking calls inside an async function
 
 Tests whether `python-code-review` correctly attributes a blocking-call-

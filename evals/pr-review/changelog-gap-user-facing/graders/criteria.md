@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: changelog-gap-user-facing
 
 Pass if the response:

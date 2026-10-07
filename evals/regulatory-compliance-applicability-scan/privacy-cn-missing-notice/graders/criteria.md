@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: privacy-cn-missing-notice
 
 Pass if the response:

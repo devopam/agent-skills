@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: mixed-icon-libraries
 
 Pass if the response:

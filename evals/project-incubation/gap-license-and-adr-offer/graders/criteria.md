@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: gap-license-and-adr-offer
 
 Pass if the response:

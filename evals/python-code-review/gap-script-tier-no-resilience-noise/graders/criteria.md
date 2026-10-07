@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: gap — tier-gating suppresses irrelevant noise
 
 Tests that `python-code-review`'s tier system actually changes what gets
