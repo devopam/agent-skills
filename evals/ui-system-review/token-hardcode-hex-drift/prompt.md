@@ -12,3 +12,5 @@ Web pack confirmed. Evidence from the tree:
 - User: "Audit UI consistency."
 
 Produce findings and scores focused on tokens/theme.
+
+The project to review is in the current working directory.

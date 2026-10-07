@@ -16,3 +16,5 @@ src/routes/orders.js  (GET/POST /orders, POST /orders/:id/refund)
 src/routes/auth.js    (POST /login, POST /logout)
 package.json          ("scripts": { "start": "node server.js" })   # no test script, no test files
 ```
+
+The project to review is in the current working directory.

@@ -10,3 +10,5 @@ can query with SQL for reporting. Nothing needs to be real-time — a report
 that's a day old is totally fine. Small team, prototype stage for now.
 
 What's the right way to structure this?
+
+(Non-interactive run: you cannot ask follow-up questions. State your assumptions, then complete the skill's flow as far as it can go without user input, including the category you select and your concrete recommendations.)

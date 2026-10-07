@@ -12,3 +12,5 @@ Web pack confirmed. Evidence:
 - Screens import icons from all three interchangeably.
 
 User: "Review icon usage as part of UI system audit."
+
+The project to review is in the current working directory.

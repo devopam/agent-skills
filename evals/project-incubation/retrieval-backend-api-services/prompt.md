@@ -10,3 +10,5 @@ number of third-party integrators over time who we can't force to upgrade
 on our schedule. No compliance requirements yet, but that might change.
 
 Help me set this repo up properly.
+
+(Non-interactive run: you cannot ask follow-up questions. State your assumptions, then complete the skill's flow as far as it can go without user input, including the category you select and your concrete recommendations.)

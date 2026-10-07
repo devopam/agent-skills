@@ -13,3 +13,5 @@ from it.
 
 What should I use for the retry logic and for the report-processing step,
 and why?
+
+(Non-interactive run: you cannot ask follow-up questions. State your assumptions, then complete the skill's flow as far as it can go without user input, including the category you select and your concrete recommendations.)

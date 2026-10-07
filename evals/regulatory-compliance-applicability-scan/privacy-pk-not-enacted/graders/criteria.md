@@ -5,7 +5,7 @@ weight: 1
 
 # Grading criteria: Pakistan comprehensive PDP — not enacted
 
-Pass if the response:
+Pass if the response satisfies ALL of the following. Judge substance, not form; the sandbox has no repository files, so do not penalise a response for saying so.
 
 - Report states **Not covered** (or equivalent) because no comprehensive enacted PDP statute
 - Does **not** treat draft Personal Data Protection Bill as in-force law

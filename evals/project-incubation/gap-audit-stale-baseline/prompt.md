@@ -11,3 +11,5 @@ ago, with a preferred-libraries snapshot date also from 9 months ago. The
 repo's structure and principles still look fine on a quick look. Nothing
 about the project's LLM/agent status has changed (it has none, then or
 now).
+
+The project to review is in the current working directory.

@@ -9,3 +9,5 @@ scored report." Stack detection already confirmed as Web pack; form factors
 responsive desktop/mobile.
 
 Produce the audit report.
+
+The project to review is in the current working directory.

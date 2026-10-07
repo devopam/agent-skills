@@ -12,3 +12,5 @@ Web pack confirmed. Evidence:
   same primary-action role.
 
 User: "Why does our UI feel inconsistent?"
+
+The project to review is in the current working directory.

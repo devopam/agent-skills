@@ -9,3 +9,5 @@ Workflows are mediocre (some pins, some not). User: "Audit CI/CD and give
 me a scored report."
 
 Produce the audit report.
+
+The project to review is in the current working directory.

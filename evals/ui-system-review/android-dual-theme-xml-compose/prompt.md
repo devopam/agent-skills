@@ -12,3 +12,5 @@ Android/Compose pack confirmed. Evidence:
 - No `WindowSizeClass` / adaptive usage; product claims tablet support.
 
 User: "Audit our Android UI system."
+
+The project to review is in the current working directory.

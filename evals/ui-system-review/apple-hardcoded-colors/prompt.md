@@ -13,3 +13,5 @@ Apple/SwiftUI pack confirmed. Evidence:
   `NavigationSplitView`.
 
 User: "Audit UI system consistency for iOS."
+
+The project to review is in the current working directory.

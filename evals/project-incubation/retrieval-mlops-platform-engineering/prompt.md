@@ -12,3 +12,5 @@ takes over, and how do we decide when to kick off a retrain automatically
 rather than someone remembering to do it manually.
 
 Help me set this repo up properly.
+
+(Non-interactive run: you cannot ask follow-up questions. State your assumptions, then complete the skill's flow as far as it can go without user input, including the category you select and your concrete recommendations.)

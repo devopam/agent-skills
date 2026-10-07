@@ -10,3 +10,5 @@ paying customers to start, growing over time. Need to think about
 multi-tenancy from day one. Team is small right now.
 
 How should I set this repo up?
+
+(Non-interactive run: you cannot ask follow-up questions. State your assumptions, then complete the skill's flow as far as it can go without user input, including the category you select and your concrete recommendations.)

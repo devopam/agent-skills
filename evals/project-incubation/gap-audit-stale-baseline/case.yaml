@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: project-incubation-gap-audit-stale-baseline
+context:
+  scaffold_script: fixture.sh

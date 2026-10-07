@@ -11,3 +11,5 @@ keep working when someone's on a flight with no signal, syncing up once
 they land.
 
 Help me set this repo up properly.
+
+(Non-interactive run: you cannot ask follow-up questions. State your assumptions, then complete the skill's flow as far as it can go without user input, including the category you select and your concrete recommendations.)

@@ -11,3 +11,5 @@ to send webhooks to a couple of partner companies when certain things
 happen. No real UI here, this is all backend plumbing between systems.
 
 What's the right setup?
+
+(Non-interactive run: you cannot ask follow-up questions. State your assumptions, then complete the skill's flow as far as it can go without user input, including the category you select and your concrete recommendations.)

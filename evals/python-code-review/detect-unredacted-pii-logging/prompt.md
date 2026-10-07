@@ -1,6 +1,6 @@
 ---
 name: python-code-review-detect-unredacted-pii-logging
-max_turns: 10
+max_turns: 25
 allowed_tools: [Read, Glob, Grep, Skill]
 ---
 

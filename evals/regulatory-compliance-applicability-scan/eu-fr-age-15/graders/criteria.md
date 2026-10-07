@@ -5,7 +5,7 @@ weight: 1
 
 # Grading criteria: France child consent age 15
 
-Pass if the response:
+Pass if the response satisfies ALL of the following. Judge substance, not form; the sandbox has no repository files, so do not penalise a response for saying so.
 
 - Notes French national age **15** under Loi 78-17 (not default 16 alone)
 - Pairs with GDPR Art. 8

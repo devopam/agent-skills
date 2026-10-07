@@ -9,3 +9,5 @@ database, tests, the works) — it's been running for a while, but nobody
 ever ran project-incubation on it, so there's no
 docs/project-incubation-baseline.md. Can you check it against best
 practices?
+
+The project to review is in the current working directory.

@@ -11,3 +11,5 @@ project for now — just me and one other engineer. No compliance
 requirements. We haven't decided on transport or auth yet.
 
 Please walk me through setting this repo up.
+
+(Non-interactive run: you cannot ask follow-up questions. State your assumptions, then complete the skill's flow as far as it can go without user input, including the category you select and your concrete recommendations.)
