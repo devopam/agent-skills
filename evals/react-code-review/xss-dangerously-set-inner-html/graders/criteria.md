@@ -13,3 +13,5 @@ Pass if the response:
 Fail if:
 
 - No security finding on that pattern
+
+Grounding: the finding must reference the supplied code (e.g. the unsanitized `dangerouslySetInnerHTML` in `Comment.jsx`) with file/line or identifier; a generic statement of the category without citing the snippet does not pass.

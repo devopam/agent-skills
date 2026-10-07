@@ -1,6 +1,6 @@
 ---
 name: pr-review
-description: Reviews a local change set or open PR for pre-submit readiness — local quality gates (hooks, lint, tests), intent and blast radius, test coverage for the change, docs/changelog hygiene, CI readiness, and diff-scoped security footguns — producing a merge-readiness report. Use before opening or updating a PR, when reviewing someone else's PR, or when you want to catch rework triggers before CI does.
+description: Reviews a local change set or open PR for pre-submit readiness — local quality gates (hooks, lint, tests), intent and blast radius, test coverage for the change, docs/changelog hygiene, CI readiness, and diff-scoped security footguns — producing a merge-readiness report. Use before opening or updating a PR, when reviewing someone else's PR, or when you want to catch rework triggers before CI does. Also use when asked "is this ready to open/merge?" or "ready for a PR?".
 ---
 
 # PR Review

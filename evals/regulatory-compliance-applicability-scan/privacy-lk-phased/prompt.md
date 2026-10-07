@@ -1,7 +1,7 @@
 ---
 name: regulatory-compliance-applicability-scan-privacy-lk-phased
 max_turns: 10
-allowed_tools: [Read, Glob, Grep, Skill]
+allowed_tools: [Read, Glob, Grep, Skill, WebSearch, WebFetch]
 ---
 
 You are applying the regulatory-compliance-applicability-scan skill.

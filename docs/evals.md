@@ -19,7 +19,9 @@ Hand-authored trust cases live under `evals/<skill>/` in the repository
 Each case is a directory with `prompt.md` and `graders/*.md`; every grader file
 needs YAML front matter (`type: llm`, `weight: 1`) or `claude plugin eval`
 fails with `invalid case.yaml: graders: Required`. Run `claude plugin eval .`
-to score them.
+to score them (requires a Claude Code build that ships `claude plugin eval`; verified
+with 2.1.292. Where the command is unavailable or gated to early access, the cases
+remain the human-readable contract).
 
 Conventions:
 
@@ -34,3 +36,8 @@ Conventions:
 - Results are written to `evals/results/` (git-ignored).
 
 See [evals/README.md on GitHub](https://github.com/devopam/agent-skills/blob/main/evals/README.md).
+
+- Code-review cases embed their target code in the prompt, and the rubric
+  requires findings grounded in that code.
+- Cases that test commencement/current legal status allow `WebSearch` and
+  `WebFetch` so the skill can re-verify live law.

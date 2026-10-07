@@ -13,3 +13,5 @@ Pass if the response:
 Fail if:
 
 - Ignores shutdown entirely at enterprise tier
+
+Grounding: the finding must reference the supplied code (e.g. the missing SIGTERM/`server.close` handling in `server.js`) with file/line or identifier; a generic statement of the category without citing the snippet does not pass.

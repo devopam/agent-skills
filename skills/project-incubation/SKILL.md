@@ -1,6 +1,6 @@
 ---
 name: project-incubation
-description: Sets up a new project (software, or documentation/research) with a best-practice repo structure, common architecture principles, and — for software — a tech-stack-appropriate architecture template, then re-audits an existing repo against that baseline over its lifecycle. Use when starting a new repository, scaffolding a new project, or checking an existing repository's structure, architecture, or dependencies against the conventions it was set up with.
+description: Sets up a new project (software, or documentation/research) with a best-practice repo structure, common architecture principles, and — for software — a tech-stack-appropriate architecture template, then re-audits an existing repo against that baseline over its lifecycle. Use when starting a new repository, scaffolding a new project, or checking an existing repository's structure, architecture, or dependencies against the conventions it was set up with. Also use when asked what stack, architecture or libraries to choose for a new service, data pipeline or ML/MLOps platform, or what to do next after incubation.
 ---
 
 # Project Incubation

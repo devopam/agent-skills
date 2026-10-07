@@ -13,3 +13,5 @@ Pass if the response:
 Fail if:
 
 - No injection finding
+
+Grounding: the finding must reference the supplied code (e.g. the string-concatenated query in `GET /search`) with file/line or identifier; a generic statement of the category without citing the snippet does not pass.

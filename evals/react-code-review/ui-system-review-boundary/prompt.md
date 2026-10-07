@@ -1,6 +1,6 @@
 ---
 name: react-code-review-ui-system-review-boundary
-max_turns: 10
+max_turns: 25
 allowed_tools: [Read, Glob, Grep, Skill]
 ---
 

@@ -12,3 +12,5 @@ Pass if the response:
 Fail if:
 
 - No resilience finding on absence
+
+Grounding: the finding must reference the supplied code (e.g. the missing error boundary around the routes in `App.jsx`) with file/line or identifier; a generic statement of the category without citing the snippet does not pass.

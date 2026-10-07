@@ -12,3 +12,5 @@ Pass if the response:
 Fail if:
 
 - Testing scores 9–10 with no tests
+
+Grounding: the finding must reference the supplied code (e.g. the absence of any test files or test script for the routes listed) with file/line or identifier; a generic statement of the category without citing the snippet does not pass.
