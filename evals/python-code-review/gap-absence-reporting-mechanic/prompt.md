@@ -1,3 +1,9 @@
+---
+name: python-code-review-gap-absence-reporting-mechanic
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 Please review this project. Tier: enterprise. It's a production payment-
 processing service that calls two external systems (a fraud-scoring API
 and a banking partner API) on every request. Here's the core handler —

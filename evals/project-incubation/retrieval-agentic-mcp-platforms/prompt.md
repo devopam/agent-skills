@@ -1,3 +1,9 @@
+---
+name: project-incubation-retrieval-agentic-mcp-platforms
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 I'm starting a brand new repo for an MCP server that exposes a handful of
 tools wrapping our internal ticketing system's API, so Claude and other MCP
 clients can create/update/search tickets. It'll run as a small team's side

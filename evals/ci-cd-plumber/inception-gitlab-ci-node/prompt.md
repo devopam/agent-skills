@@ -1,3 +1,9 @@
+---
+name: ci-cd-plumber-inception-gitlab-ci-node
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 You are applying the ci-cd-plumber skill to a new repository that has no
 CI config and no `docs/ci-cd-baseline.md`. The user says: "Set up CI/CD
 for this Node service. We use GitLab (self-managed), pnpm for packages,

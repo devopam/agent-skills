@@ -1,3 +1,9 @@
+---
+name: python-code-review-detect-boolean-trap-semver
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 Please review this file for issues. Context: this is a small, standalone
 utility library published to PyPI. The function below already exists in
 the current released version with the signature

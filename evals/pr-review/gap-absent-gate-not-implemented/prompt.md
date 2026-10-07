@@ -1,3 +1,9 @@
+---
+name: pr-review-gap-absent-gate-not-implemented
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 Pre-submit review. The repo's own `CONTRIBUTING.md` documents that
 contributors should run `pre-commit run --all-files` before opening a
 PR, but there is no `.pre-commit-config.yaml` in the repo at all — the

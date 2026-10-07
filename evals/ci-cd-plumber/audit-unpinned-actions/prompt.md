@@ -1,3 +1,9 @@
+---
+name: ci-cd-plumber-audit-unpinned-actions
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 You are applying the ci-cd-plumber skill. The repo has
 `.github/workflows/ci.yml` that uses `actions/checkout@v4` and
 `actions/setup-python@v5` (tag pins, not SHAs), workflow-level

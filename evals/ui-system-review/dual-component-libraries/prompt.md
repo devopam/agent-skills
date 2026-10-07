@@ -1,3 +1,9 @@
+---
+name: ui-system-review-dual-component-libraries
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 Web pack confirmed. Evidence:
 
 - `package.json` depends on both `@mui/material` and `@chakra-ui/react`.

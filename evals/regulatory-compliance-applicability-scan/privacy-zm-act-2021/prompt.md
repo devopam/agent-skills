@@ -1,4 +1,5 @@
 ---
+name: regulatory-compliance-applicability-scan-privacy-zm-act-2021
 max_turns: 10
 allowed_tools: [Read, Glob, Grep, Skill]
 ---

@@ -1,3 +1,9 @@
+---
+name: ui-system-review-fixture-bad-web-expected-findings
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 Run ui-system-review Web pack against the fixture at
 `evals/ui-system-review/fixtures/bad-web-app/`.
 

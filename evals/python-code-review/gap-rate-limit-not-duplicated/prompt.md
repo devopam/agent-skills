@@ -1,3 +1,9 @@
+---
+name: python-code-review-gap-rate-limit-not-duplicated
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 Please review this project. Tier: web. This is the entire login endpoint —
 treat it as representative; there is no rate limiting or brute-force
 throttling anywhere in the project, on this or any other endpoint.

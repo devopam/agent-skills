@@ -1,3 +1,9 @@
+---
+name: ui-system-review-mixed-icon-libraries
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 Web pack confirmed. Evidence:
 
 - Dependencies include `lucide-react`, `@heroicons/react`, and

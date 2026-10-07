@@ -1,3 +1,9 @@
+---
+name: project-incubation-retrieval-data-analytics-platforms
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 I want to set up a new repo for a data pipeline that pulls data from a few
 external APIs nightly, cleans it up, and lands it somewhere our analysts
 can query with SQL for reporting. Nothing needs to be real-time — a report

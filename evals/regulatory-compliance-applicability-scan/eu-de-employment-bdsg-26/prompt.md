@@ -1,4 +1,5 @@
 ---
+name: regulatory-compliance-applicability-scan-eu-de-employment-bdsg-26
 max_turns: 10
 allowed_tools: [Read, Glob, Grep, Skill]
 ---

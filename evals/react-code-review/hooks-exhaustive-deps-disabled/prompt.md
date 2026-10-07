@@ -1,4 +1,5 @@
 ---
+name: react-code-review-hooks-exhaustive-deps-disabled
 max_turns: 10
 allowed_tools: [Read, Glob, Grep, Skill]
 ---

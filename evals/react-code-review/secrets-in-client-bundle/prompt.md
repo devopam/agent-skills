@@ -1,4 +1,5 @@
 ---
+name: react-code-review-secrets-in-client-bundle
 max_turns: 10
 allowed_tools: [Read, Glob, Grep, Skill]
 ---

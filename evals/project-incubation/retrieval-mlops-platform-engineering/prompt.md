@@ -1,3 +1,9 @@
+---
+name: project-incubation-retrieval-mlops-platform-engineering
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 We already have a fraud-detection model trained and serving production
 traffic — that part's done. What we need now is the operational side: how
 do we know when it's gone stale (fraudsters keep changing their behavior

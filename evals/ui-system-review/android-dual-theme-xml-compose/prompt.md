@@ -1,3 +1,9 @@
+---
+name: ui-system-review-android-dual-theme-xml-compose
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 Android/Compose pack confirmed. Evidence:
 
 - Compose screens use raw `Color(0xFF6200EE)` in places.

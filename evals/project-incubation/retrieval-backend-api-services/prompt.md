@@ -1,3 +1,9 @@
+---
+name: project-incubation-retrieval-backend-api-services
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 We're building a REST API that our mobile app and a couple of partner
 companies will call. It's a fresh repo, greenfield. We expect a good
 number of third-party integrators over time who we can't force to upgrade

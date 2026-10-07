@@ -1,3 +1,9 @@
+---
+name: project-incubation-gap-audit-stale-baseline
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 Please re-run project-incubation on this repo to check it's still in good
 shape. For context: `docs/project-incubation-baseline.md` already exists —
 it records this as a Backend & API Services project, incubated 9 months

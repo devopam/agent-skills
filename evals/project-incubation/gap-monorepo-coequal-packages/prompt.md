@@ -1,3 +1,9 @@
+---
+name: project-incubation-gap-monorepo-coequal-packages
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 New repo, structured as a monorepo with a pnpm workspace. It has
 `apps/web` (a React SPA that only talks to our own `apps/api`), `apps/api`
 (our own REST backend, owns the database), and `infra/` (Terraform for

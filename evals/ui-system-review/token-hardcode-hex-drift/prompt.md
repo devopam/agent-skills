@@ -1,3 +1,9 @@
+---
+name: ui-system-review-token-hardcode-hex-drift
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 Web pack confirmed. Evidence from the tree:
 
 - `src/theme/tokens.css` defines `--color-primary` and a spacing scale.

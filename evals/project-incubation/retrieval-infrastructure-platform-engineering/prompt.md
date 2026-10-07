@@ -1,3 +1,9 @@
+---
+name: project-incubation-retrieval-infrastructure-platform-engineering
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 Our platform team is setting up the shared infrastructure-as-code and
 Kubernetes deployment tooling that every product team at our company will
 build on top of — provisioning the EKS cluster, VPC, and IAM roles, plus a
