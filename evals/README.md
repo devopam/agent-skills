@@ -29,4 +29,4 @@ Machine scoring needs `claude plugin eval` early access where available.
 
 Each case is `evals/<skill>/<case>/prompt.md` (front matter incl. a unique
 `name: <skill>-<case>`) plus `graders/criteria.md` (`type: llm`) and
-`graders/skill-fired.md`. Run `claude plugin eval .`; see `docs/evals.md`.
+`graders/skill-fired.md`. Run `claude plugin eval . --scaffold`; see `docs/evals.md`.

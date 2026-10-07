@@ -18,7 +18,7 @@ Hand-authored trust cases live under `evals/<skill>/` in the repository
 
 Each case is a directory with `prompt.md` and `graders/*.md`; every grader file
 needs YAML front matter (`type: llm`, `weight: 1`) or `claude plugin eval`
-fails with `invalid case.yaml: graders: Required`. Run `claude plugin eval .`
+fails with `invalid case.yaml: graders: Required`. Run `claude plugin eval . --scaffold`
 to score them (requires a Claude Code build that ships `claude plugin eval`; verified
 with 2.1.292. Where the command is unavailable or gated to early access, the cases
 remain the human-readable contract).
@@ -41,3 +41,15 @@ See [evals/README.md on GitHub](https://github.com/devopam/agent-skills/blob/mai
   requires findings grounded in that code.
 - Cases that test commencement/current legal status allow `WebSearch` and
   `WebFetch` so the skill can re-verify live law.
+- Cases that describe repository files (UI audits, CI/CD audits, existing-repo
+  audits) ship a `fixture.sh` + `case.yaml` (`context.scaffold_script`) that
+  builds the files in the empty sandbox workspace. These need `--scaffold`;
+  only pass it for suites you authored. `fixture.sh` must be self-contained
+  (heredocs), since the script runs in an empty workspace.
+- postgresql-review cases supply the MCPg tool results inline in the prompt;
+  the plugin declares no MCP server, so there is nothing to mock.
+- Inception cases that need user answers are marked non-interactive in the
+  prompt, since a single turn cannot complete the interview.
+- Keep rubrics short: a numbered "Pass if" list plus a one-line "Fail if".
+  Long rubrics with "Should not show" lists made the judge fail responses that
+  clearly met the requirements.
