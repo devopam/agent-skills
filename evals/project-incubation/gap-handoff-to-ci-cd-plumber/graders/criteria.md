@@ -7,9 +7,7 @@ weight: 1
 
 Pass if the response:
 
-1. Points to **ci-cd-plumber** (or equivalent explicit CI/CD incubation)
-   rather than inventing a full pipeline inside project-incubation.
-2. Notes the incubation baseline can feed language/stack context.
-3. Does not claim project-incubation owns production pipeline design.
+1. Names `ci-cd-plumber` (or its CI/CD inception mode) as the owner of pipeline design and works from it, rather than presenting the pipeline as part of project-incubation.
+2. Uses the incubation baseline for language and stack context (for example Python, FastAPI, Backend & API Services).
 
-Fail if it fully designs OIDC/SBOM/release workflows inside incubation only.
+Fail if it claims project-incubation itself owns production pipeline design, or ignores the baseline and asks for stack details the baseline already records.
