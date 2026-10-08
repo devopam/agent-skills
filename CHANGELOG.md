@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.18.0] - 2026-10-08
+
+### Fixed
+- **`claude plugin eval` now loads every case.** Grader files lacked `type`/`weight` front matter, so all cases failed with `invalid case.yaml: graders: Required`.
+
+### Changed
+- Evals restructured to `evals/<skill>/<case>/prompt.md` + `graders/*.md` (149 cases); the 65 flat `.md` cases are converted. Case names are unique (`<skill>-<case>`).
+- Each case that starts a fresh task has a `skill-fired` grader (`tool_used: Skill`, with-only arm).
+- Cases that describe repo files ship `fixture.sh` + `case.yaml` scaffolds (run with `--scaffold`); code-review cases embed target code; postgresql cases supply MCPg results inline.
+- Stale cases removed or refreshed (`not-covered-japan`, `not-covered-de-overlay`, Cuba as the unpacked-jurisdiction example).
+- Skill trigger descriptions extended for python-code-review, pr-review, project-incubation, ci-cd-plumber, postgresql-review and regulatory-compliance-applicability-scan.
+- python-code-review: rate limiting is reported once, under Security. project-incubation: ADR offer is an explicit question; a license recommendation is always stated.
+- Docs: `docs/evals.md` and `evals/README.md` describe the layout, `--scaffold`, and rubric guidance.
+- Plugin version **0.18.0**.
+
+### Notes
+- Latest measured results are mixed: roughly three quarters of cases passed in the last full pass, about nine cases are flaky across runs, and `pr-review-merge-ready-clean` does not reliably fire its skill. See `RELEASE-NOTES-v0.18.0.md`.
+
 ## [0.17.0] - 2026-09-24
 
 ### Added
