@@ -15,3 +15,5 @@ change) that I'm intentionally leaving out of scope for this review.
 def format_currency(amount, currency="USD"):
     return f"{amount:.2f} {currency}"
 ```
+
+The repository is in the current working directory; my change is committed on the current branch and `main` is the base.

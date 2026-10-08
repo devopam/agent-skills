@@ -11,3 +11,5 @@ the AWS resources both of those run on). All three ship on independent
 schedules and are owned by different people on the team.
 
 Help me set this repo up properly.
+
+(Non-interactive run: you cannot ask follow-up questions. State your assumptions, then complete the skill's flow as far as it can go without user input, including the category you select for each package and your concrete recommendations.)
