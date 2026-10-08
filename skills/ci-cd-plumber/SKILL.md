@@ -1,6 +1,6 @@
 ---
 name: ci-cd-plumber
-description: Scaffolds production-grade CI/CD pipelines and audits existing ones for structure, security, speed, reproducibility, progressive delivery, and release documentation. Use when setting up CI/CD for a new project, hardening or reviewing an existing pipeline, improving release automation, or generating/checking changelogs and release notes.
+description: Scaffolds production-grade CI/CD pipelines and audits existing ones for structure, security, speed, reproducibility, progressive delivery, and release documentation. Use when setting up CI/CD for a new project, hardening or reviewing an existing pipeline, improving release automation, or generating/checking changelogs and release notes. Also use for questions such as whether a project needs canary/blue-green or other delivery strategies, and for pipeline security reviews of workflow YAML.
 ---
 
 # CI/CD Plumber

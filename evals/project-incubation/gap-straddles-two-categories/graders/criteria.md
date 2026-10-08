@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: gap — project straddles two categories
 
 Tests the skill's **multi-category** flow (Phase 2's primary + secondary

@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: detect — unredacted PII/secret in logs + swallowed traceback
 
 Tests whether `python-code-review`'s Observability domain catches a real

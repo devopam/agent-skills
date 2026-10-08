@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: gap-absent-gate-not-implemented
 
 Pass if the response:

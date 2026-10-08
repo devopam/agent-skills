@@ -53,7 +53,7 @@ outage, not until someone reads a stack trace.
 | Statelessness / horizontal-scaling readiness | No | Yes | Yes |
 | Readiness probe present (HA consequence — cross-ref [architecture.md](architecture.md#health-readiness-and-startup-probes)) | No | Yes | Yes |
 | Graceful degradation / backpressure | No | Yes | Yes |
-| Rate limiting (cross-ref [security.md](security.md#rate-limiting-and-brute-force-defense)) | No | Yes | Yes |
+| Rate limiting — **owned by Security; cross-reference only, never a separate finding here** ([security.md](security.md#rate-limiting-and-brute-force-defense)) | No | Yes | Yes |
 | Distributed task queue for background work (Celery/RQ/Dramatiq) | No | Optional | Yes |
 | Idempotency on retried/at-least-once operations (cross-ref [integration-event-driven-systems.md](../../project-incubation/references/stacks/integration-event-driven-systems.md#delivery-semantics-exactly-once-vs-at-least-once-vs-at-most-once)) | No | Optional | Yes |
 | HA infra, DR strategy, sharding, chaos hooks (documentation-presence only) | No | No | Yes |
@@ -98,6 +98,11 @@ For example: a Flask service that calls three downstream APIs with
 and no retry logic gets three separate `NOT IMPLEMENTED` findings — one
 per pattern — each naming the specific call sites at risk, not a single
 vague "improve resilience" note.
+
+**Exception — rate limiting.** A missing rate limit / brute-force defense is
+reported once, under Security. Do not raise a second `NOT IMPLEMENTED`
+finding for it in this domain; at most mention "see Security: rate limiting"
+in one line, with no separate severity or score impact.
 
 This shapes the scoring guide too: **a codebase with zero resilience
 patterns present scores low even when nothing is actively on fire.**

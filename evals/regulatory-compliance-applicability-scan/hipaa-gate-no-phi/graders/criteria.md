@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: hipaa-gate-no-phi
 
 Pass if the response:

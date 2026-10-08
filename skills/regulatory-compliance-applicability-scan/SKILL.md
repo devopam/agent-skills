@@ -4,6 +4,7 @@ description: >
   Scan a project for likely applicability of domain and privacy regulations.
   Suggests requirements grounded in primary legal instruments; does not certify compliance.
   Global privacy jurisdiction packs (near-exhaustive practical inventory) plus fintech and healthcare domain packs.
+  Use when asked about privacy/data-protection law (GDPR, UK, CCPA and others), PCI, HIPAA, or "are we compliant?" for a codebase.
 ---
 
 # Regulatory compliance applicability scan

@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: token-hardcode-hex-drift
 
 Pass if the response:

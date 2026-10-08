@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading: privacy-ru-localization-verify
 
 Pass if the response:

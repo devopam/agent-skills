@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: retrieval — Cross-Cutting Utility Libraries
 
 Tests whether `project-incubation` reads and applies

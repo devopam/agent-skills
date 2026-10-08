@@ -1,3 +1,9 @@
+---
+name: regulatory-compliance-applicability-scan-hipaa-gate-no-phi
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 User asked for domain-healthcare-pharma and privacy-us.
 Repo: consumer step-counter app, no “HIPAA”, no BAA, no covered entity language, no clinical PHI — only optional “wellness” heart-rate from phone sensors.
 

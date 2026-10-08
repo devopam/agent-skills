@@ -1,3 +1,9 @@
+---
+name: project-incubation-retrieval-frontend-client-applications
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 We're building a mobile expense-tracking app. It talks only to Plaid's
 API for bank data and a third-party auth provider — we're not building or
 hosting any backend of our own, and we have no plans to. We do want it to
@@ -5,3 +11,5 @@ keep working when someone's on a flight with no signal, syncing up once
 they land.
 
 Help me set this repo up properly.
+
+(Non-interactive run: you cannot ask follow-up questions. State your assumptions, then complete the skill's flow as far as it can go without user input, including the category you select and your concrete recommendations.)

@@ -1,3 +1,9 @@
+---
+name: postgresql-review-critical-workload-not-implemented
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 MCPg readiness passed for whole database (schema `public`). `check_database_health`
 returns mostly ok. `audit_database` flags a role with `BYPASSRLS` on a
 multi-tenant table that has RLS policies defined but not FORCE-enabled

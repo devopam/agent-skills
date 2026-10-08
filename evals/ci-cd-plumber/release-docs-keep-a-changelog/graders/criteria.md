@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: release-docs-keep-a-changelog
 
 Pass if the response:

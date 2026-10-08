@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: evidence-required-no-invent
 
 Pass if the response:

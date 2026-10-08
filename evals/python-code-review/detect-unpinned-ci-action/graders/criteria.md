@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: detect — untrusted unpinned Action + stale PyPI token
 
 Tests the **Dependency & Supply Chain Security** domain specifically —

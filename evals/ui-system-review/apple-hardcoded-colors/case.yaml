@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: ui-system-review-apple-hardcoded-colors
+context:
+  scaffold_script: fixture.sh

@@ -1,3 +1,9 @@
+---
+name: pr-review-blast-radius-unfocused-diff
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 PR review mode. The diff touches three unrelated things in one PR:
 (1) a rename of a public API parameter in the payments module used by
 external integrators, (2) an unrelated CSS tweak to a marketing page,

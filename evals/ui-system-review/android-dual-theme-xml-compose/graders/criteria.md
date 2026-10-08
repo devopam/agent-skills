@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: android-dual-theme-xml-compose
 
 Pass if the response:

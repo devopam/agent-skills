@@ -4,7 +4,7 @@ A collection of [Agent Skills](https://agentskills.io/) — portable,
 version-controlled procedural knowledge for AI coding agents, following the
 open Agent Skills spec.
 
-**Current version:** `0.17.0` (see [CHANGELOG.md](CHANGELOG.md)).
+**Current version:** `0.18.0` (see [CHANGELOG.md](CHANGELOG.md)).
 
 **Documentation:** [devopam.github.io/agent-skills](https://devopam.github.io/agent-skills/) · **Agent index:** [llms.txt](https://devopam.github.io/agent-skills/llms.txt)
 
@@ -37,7 +37,7 @@ Point any agentskills.io-compliant agent at this repo (or copy `skills/<name>/`)
 ### Claude Code plugin
 
 [`.claude-plugin/plugin.json`](.claude-plugin/plugin.json) — validate with
-`claude plugin validate .`. Plugin version tracks **0.17.0**.
+`claude plugin validate .`. Plugin version tracks **0.18.0**.
 
 ## Evals
 

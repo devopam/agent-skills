@@ -1,0 +1,9 @@
+---
+name: regulatory-compliance-applicability-scan-privacy-uy-ley-18331
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
+You are applying the regulatory-compliance-applicability-scan skill.
+
+Scenario: Product targets Uruguay customers; privacy policy silent on database registration.

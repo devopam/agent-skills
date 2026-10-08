@@ -1,6 +1,6 @@
 ---
 name: project-incubation
-description: Sets up a new project (software, or documentation/research) with a best-practice repo structure, common architecture principles, and — for software — a tech-stack-appropriate architecture template, then re-audits an existing repo against that baseline over its lifecycle. Use when starting a new repository, scaffolding a new project, or checking an existing repository's structure, architecture, or dependencies against the conventions it was set up with.
+description: Sets up a new project (software, or documentation/research) with a best-practice repo structure, common architecture principles, and — for software — a tech-stack-appropriate architecture template, then re-audits an existing repo against that baseline over its lifecycle. Use when starting a new repository, scaffolding a new project, or checking an existing repository's structure, architecture, or dependencies against the conventions it was set up with. Also use when asked what stack, architecture or libraries to choose for a new service, data pipeline or ML/MLOps platform, or what to do next after incubation.
 ---
 
 # Project Incubation
@@ -243,6 +243,12 @@ and create: `README.md`, `LICENSE` (ask which license fits, using
 recommend MIT if the user has no preference), `CONTRIBUTING.md`,
 `CHANGELOG.md`, `docs/`, `.gitignore`, `.gitattributes`, `.editorconfig`.
 
+Always state the license recommendation explicitly in the same message (for
+example "I recommend MIT unless you'd prefer another — here are the options")
+and list the chooser's main alternatives. If the user can't answer right now,
+write `LICENSE` provisionally with the recommended license and flag it for
+confirmation; do not leave `LICENSE` unaddressed.
+
 *(software path)* Also `src/` (per the language-appropriate layout named
 in the reference doc), `scripts/` (strictly for executables — not a
 dumping ground for anything else), `tests/`, and a CI stub with the
@@ -304,6 +310,9 @@ If Phase 3 produced a real architecture-template decision, offer to write
 an Architecture Decision Record for it using
 [`assets/adr-template.md`](assets/adr-template.md). Not mandatory — some
 projects are too small to want one — but always offer it; don't assume no.
+Phrase it as an explicit question ("Want me to write an ADR for this
+choice?") and do not pre-emptively dismiss it as unnecessary for a small
+project; let the user decide.
 
 ### Phase 9: Wrap up
 

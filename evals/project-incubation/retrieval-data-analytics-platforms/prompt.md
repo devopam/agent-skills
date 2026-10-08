@@ -1,6 +1,14 @@
+---
+name: project-incubation-retrieval-data-analytics-platforms
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 I want to set up a new repo for a data pipeline that pulls data from a few
 external APIs nightly, cleans it up, and lands it somewhere our analysts
 can query with SQL for reporting. Nothing needs to be real-time — a report
 that's a day old is totally fine. Small team, prototype stage for now.
 
 What's the right way to structure this?
+
+(Non-interactive run: you cannot ask follow-up questions. State your assumptions, then complete the skill's flow as far as it can go without user input, including the category you select and your concrete recommendations.)

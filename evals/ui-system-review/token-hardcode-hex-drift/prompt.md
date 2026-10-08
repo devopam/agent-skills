@@ -1,3 +1,9 @@
+---
+name: ui-system-review-token-hardcode-hex-drift
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 Web pack confirmed. Evidence from the tree:
 
 - `src/theme/tokens.css` defines `--color-primary` and a spacing scale.
@@ -6,3 +12,5 @@ Web pack confirmed. Evidence from the tree:
 - User: "Audit UI consistency."
 
 Produce findings and scores focused on tokens/theme.
+
+The project to review is in the current working directory.

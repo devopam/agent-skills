@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: detect — Django N+1 query
 
 Tests the **Performance** domain's Django-specific N+1 detection and its

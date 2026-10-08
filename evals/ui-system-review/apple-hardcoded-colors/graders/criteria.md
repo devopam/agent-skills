@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: apple-hardcoded-colors
 
 Pass if the response:

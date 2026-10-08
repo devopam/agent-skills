@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: audit-scorecard-shape
 
 Pass if the response:

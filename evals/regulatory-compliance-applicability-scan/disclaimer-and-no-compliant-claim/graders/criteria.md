@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: disclaimer-and-no-compliant-claim
 
 Pass if the response:

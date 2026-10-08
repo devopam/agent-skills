@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: readiness-wrong-schema
 
 Pass if the response:

@@ -1,3 +1,9 @@
+---
+name: ui-system-review-dual-component-libraries
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 Web pack confirmed. Evidence:
 
 - `package.json` depends on both `@mui/material` and `@chakra-ui/react`.
@@ -6,3 +12,5 @@ Web pack confirmed. Evidence:
   same primary-action role.
 
 User: "Why does our UI feel inconsistent?"
+
+The project to review is in the current working directory.

@@ -24,3 +24,9 @@ Machine scoring needs `claude plugin eval` early access where available.
 - **typescript:** strict tsconfig, floating promises, lockfile, no-certify, sibling pointer
 - **nodejs:** CORS/headers, SQL injection, sync fs, graceful shutdown, missing tests
 - **react:** XSS innerHTML, exhaustive-deps, error boundaries, stale fetch, client secrets, ui-system boundary
+
+## Layout
+
+Each case is `evals/<skill>/<case>/prompt.md` (front matter incl. a unique
+`name: <skill>-<case>`) plus `graders/criteria.md` (`type: llm`) and
+`graders/skill-fired.md`. Run `claude plugin eval . --scaffold`; see `docs/evals.md`.

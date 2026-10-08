@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: gap — existing repo, no baseline record
 
 Tests the third routing branch in `SKILL.md`'s mode-detection logic:

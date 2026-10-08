@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: audit-baseline-close-out
 
 Pass if the response:

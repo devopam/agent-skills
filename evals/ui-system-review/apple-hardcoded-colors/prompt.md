@@ -1,3 +1,9 @@
+---
+name: ui-system-review-apple-hardcoded-colors
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 Apple/SwiftUI pack confirmed. Evidence:
 
 - `App/Theme` is empty; views use `Color.blue`, `Color.red`, and
@@ -7,3 +13,5 @@ Apple/SwiftUI pack confirmed. Evidence:
   `NavigationSplitView`.
 
 User: "Audit UI system consistency for iOS."
+
+The project to review is in the current working directory.

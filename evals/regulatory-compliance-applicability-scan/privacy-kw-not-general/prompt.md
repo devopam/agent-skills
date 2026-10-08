@@ -1,0 +1,9 @@
+---
+name: regulatory-compliance-applicability-scan-privacy-kw-not-general
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
+You are applying the regulatory-compliance-applicability-scan skill.
+
+Scenario: User asks for Kuwait general data protection applicability (not telecom-specific).

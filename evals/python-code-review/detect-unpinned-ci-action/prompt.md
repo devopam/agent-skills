@@ -1,3 +1,9 @@
+---
+name: python-code-review-detect-unpinned-ci-action
+max_turns: 25
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 Please review this GitHub Actions workflow for issues:
 
 ```yaml

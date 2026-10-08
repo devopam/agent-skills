@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: readiness-fail-no-mcpg
 
 Pass if the response:

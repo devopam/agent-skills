@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: suggest-not-apply-ddl
 
 Pass if the response:

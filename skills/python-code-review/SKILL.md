@@ -1,6 +1,6 @@
 ---
 name: python-code-review
-description: Reviews Python code across 11 domains — standards compliance, code quality, security, dependency/supply-chain security, performance, concurrency & async correctness, idioms & patterns, architecture, observability, scalability & resilience, and testing — producing a scored report. Use when reviewing Python code for quality, security, or production-readiness, before a commit or PR, or for a periodic project health check.
+description: Reviews Python code across 11 domains — standards compliance, code quality, security, dependency/supply-chain security, performance, concurrency & async correctness, idioms & patterns, architecture, observability, scalability & resilience, and testing — producing a scored report. Use when reviewing Python code for quality, security, or production-readiness, before a commit or PR, or for a periodic project health check. Also use when asked to "review this file/diff/project" or "review my changes (against main)" for Python code, at any tier (script, web, enterprise), including one-off scripts, small libraries, versioning/semver and API-signature changes, and rate-limit or auth endpoints.
 ---
 
 # Python Code Review

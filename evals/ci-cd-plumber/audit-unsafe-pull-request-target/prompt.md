@@ -1,3 +1,9 @@
+---
+name: ci-cd-plumber-audit-unsafe-pull-request-target
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 You are applying the ci-cd-plumber skill. The repo's
 `.github/workflows/pr-preview.yml` triggers on `pull_request_target`,
 checks out the PR head ref (`ref: ${{ github.event.pull_request.head.sha }}`),

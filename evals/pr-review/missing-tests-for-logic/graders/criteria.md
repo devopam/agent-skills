@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: missing-tests-for-logic
 
 Pass if the response:

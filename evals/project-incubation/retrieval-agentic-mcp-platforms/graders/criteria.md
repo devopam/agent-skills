@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: retrieval — Agentic & MCP Platforms
 
 Tests whether `project-incubation` correctly routes an MCP-server-shaped

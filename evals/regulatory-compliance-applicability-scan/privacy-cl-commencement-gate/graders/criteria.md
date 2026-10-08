@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading: privacy-cl-commencement-gate
 
 Pass if the response distinguishes in-force text from deferred commencement and does not enforce not-yet-operative sanction regimes as current law.

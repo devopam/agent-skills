@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: inception-gitlab-ci-node
 
 Pass if the response:

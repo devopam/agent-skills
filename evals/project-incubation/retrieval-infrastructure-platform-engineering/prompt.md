@@ -1,3 +1,9 @@
+---
+name: project-incubation-retrieval-infrastructure-platform-engineering
+max_turns: 10
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 Our platform team is setting up the shared infrastructure-as-code and
 Kubernetes deployment tooling that every product team at our company will
 build on top of — provisioning the EKS cluster, VPC, and IAM roles, plus a
@@ -7,3 +13,5 @@ Cloud Platform (Terraform Cloud) account, no Sentinel policies, nothing
 to migrate. Four platform engineers on the team.
 
 Help me set this repo up properly.
+
+(Non-interactive run: you cannot ask follow-up questions. State your assumptions, then complete the skill's flow as far as it can go without user input, including the category you select and your concrete recommendations.)

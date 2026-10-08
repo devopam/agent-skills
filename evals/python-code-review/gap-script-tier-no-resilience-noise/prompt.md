@@ -1,3 +1,9 @@
+---
+name: python-code-review-gap-script-tier-no-resilience-noise
+max_turns: 25
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
 Please review this project. It's a one-off script I run manually on my
 own laptop a couple times a month to reconcile a CSV export against a
 database — not a service, no CI, nobody else runs it. Tier: script.

@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: gap — the absence-reporting mechanic
 
 Tests `python-code-review`'s most distinctive mechanic, unique to the

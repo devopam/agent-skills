@@ -1,3 +1,8 @@
+---
+type: llm
+weight: 1
+---
+
 # Grading criteria: degraded-mode-with-consent
 
 Pass if the response:
