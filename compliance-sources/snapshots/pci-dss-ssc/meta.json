@@ -1,0 +1,14 @@
+{
+  "id": "pci-dss-ssc",
+  "primary_url": "https://www.pcisecuritystandards.org/standards/",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "939c89cdd0088c0ff90e1315066ae7ecf06e9c193ef492e8facc2b1ef39f76cd",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "domain-fintech",
+  "role": "primary",
+  "title": "PCI DSS"
+}

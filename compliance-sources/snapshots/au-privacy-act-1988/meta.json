@@ -1,0 +1,14 @@
+{
+  "id": "au-privacy-act-1988",
+  "primary_url": "https://www.legislation.gov.au/C2004A03712/latest/text",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "a6cbe9d4cf42ed701609c1a12a4edc6926ed78ff7af7f9da71831dcbf95e88b4",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-au",
+  "role": "primary",
+  "title": "Privacy Act 1988"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "us-de-dpdpa",
+  "primary_url": "https://delcode.delaware.gov/",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "f35843bfca97d6db99f3d3bfde8ce23f9e93be8805565a59e1b46caf6be0ec06",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-us-de",
+  "role": "primary",
+  "title": "Delaware DPDPA"
+}

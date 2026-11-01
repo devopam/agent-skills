@@ -1,0 +1,14 @@
+{
+  "id": "sa-pdpl-sdaia",
+  "primary_url": "https://sdaia.gov.sa/en/Research/Pages/DataProtection.aspx",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "60f587ff5fb9e08e30cc60a0f7802748835fd955f8cfa16a8b64f4e142c0148c",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-sa",
+  "role": "primary",
+  "title": "Saudi PDPL"
+}

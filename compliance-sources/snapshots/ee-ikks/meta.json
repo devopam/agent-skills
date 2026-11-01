@@ -1,0 +1,14 @@
+{
+  "id": "ee-ikks",
+  "primary_url": "https://www.riigiteataja.ee/",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "7496440177fb0507e5dcb4c40da1bf78926997276436320f8c391b7d3e26cca4",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-ee",
+  "role": "primary",
+  "title": "Estonian PDPA"
+}

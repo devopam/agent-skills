@@ -1,0 +1,14 @@
+{
+  "id": "us-ct-ctdpa",
+  "primary_url": "https://portal.ct.gov/ag/sections/privacy/the-connecticut-data-privacy-act",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "f1b08441e3b19e5f70c082bbbff531d9b45f4d9f21c0b8d54eccdea75866172a",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-us-ct",
+  "role": "primary",
+  "title": "CTDPA"
+}

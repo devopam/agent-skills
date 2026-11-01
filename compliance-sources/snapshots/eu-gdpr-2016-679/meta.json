@@ -1,0 +1,14 @@
+{
+  "id": "eu-gdpr-2016-679",
+  "primary_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "50de6d42e8c84789f35876b002c8d6eba6ceeaafce7cc576a6f2a92a1cc1c736",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu",
+  "role": "primary",
+  "title": "GDPR"
+}

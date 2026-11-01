@@ -1,0 +1,14 @@
+{
+  "id": "dk-databeskyttelsesloven",
+  "primary_url": "https://www.retsinformation.dk/",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "8df29deca36f7e82b5a14b49d401c2f8d523e1b46810c1e3703fa82722d272e4",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-dk",
+  "role": "primary",
+  "title": "Databeskyttelsesloven"
+}

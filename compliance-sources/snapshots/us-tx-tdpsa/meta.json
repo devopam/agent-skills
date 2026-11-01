@@ -1,0 +1,14 @@
+{
+  "id": "us-tx-tdpsa",
+  "primary_url": "https://www.texasattorneygeneral.gov/consumer-protection/file-consumer-complaint/consumer-privacy-rights/texas-data-privacy-and-security-act",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "12e5bb5042ccbf84ae7d859236cafc9efdc42655daf1f7e795d49f2e29bd9ad3",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-us-tx",
+  "role": "primary",
+  "title": "TDPSA"
+}

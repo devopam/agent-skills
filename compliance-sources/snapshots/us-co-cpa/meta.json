@@ -1,0 +1,14 @@
+{
+  "id": "us-co-cpa",
+  "primary_url": "https://coag.gov/office-sections/consumer-protection/consumer-credit-unit/colorado-privacy-act",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "2ba4b253415c2b4235e5440409796e0069cc2cdf0c324c8f63c0df9c2d1d652d",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-us-co",
+  "role": "primary",
+  "title": "Colorado CPA"
+}

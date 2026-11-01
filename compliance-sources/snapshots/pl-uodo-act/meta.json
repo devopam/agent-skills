@@ -1,0 +1,14 @@
+{
+  "id": "pl-uodo-act",
+  "primary_url": "https://eli.gov.pl/eli/DU/2018/1000/ogl",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "0fb17d825568ee7b02fee95857e08bfd5437bdcb3259d4b54c90e050932ad18f",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-pl",
+  "role": "primary",
+  "title": "Polish DP Act 2018"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "lu-2018-gdpr",
+  "primary_url": "https://legilux.public.lu/",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "7ab41bbe1188b9a12c6c59396c1dc757ffe9283316876f79a5f00c5719f5d07c",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-lu",
+  "role": "primary",
+  "title": "Luxembourg law 1 Aug 2018"
+}

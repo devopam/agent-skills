@@ -1,0 +1,14 @@
+{
+  "id": "edpb-guidelines-index",
+  "primary_url": "https://www.edpb.europa.eu/our-work-tools/general-guidance/gdpr-guidelines-recommendations-best-practices_en",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "f96ac8f4b06e6d57d80c22fc0a1ba23b0f453c1c42e6a68def8e7dcc1aa72b1a",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu",
+  "role": "interpretation_aid",
+  "title": "EDPB guidelines"
+}

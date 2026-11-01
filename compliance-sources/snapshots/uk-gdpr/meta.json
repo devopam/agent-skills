@@ -1,0 +1,14 @@
+{
+  "id": "uk-gdpr",
+  "primary_url": "https://www.legislation.gov.uk/eur/2016/679",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "fd26cd839a51935e62dfa15846c31e9d87d720f85fab59596bcd402ce544428e",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-uk",
+  "role": "primary",
+  "title": "UK GDPR"
+}

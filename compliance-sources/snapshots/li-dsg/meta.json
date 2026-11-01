@@ -1,0 +1,14 @@
+{
+  "id": "li-dsg",
+  "primary_url": "https://www.gesetze.li/",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "f01b7fae73a8a90f2f48a219b8deb5fe27679ccd8487ad513fb83d3932b1c994",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-li",
+  "role": "primary",
+  "title": "Liechtenstein DSG"
+}

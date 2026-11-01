@@ -1,0 +1,14 @@
+{
+  "id": "cz-110-2019",
+  "primary_url": "https://www.zakonyprolidi.cz/",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "a692400e1afaf8b2d14c7c8b3e6d8615e091de3b0a07dc442370d3e240a72593",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-cz",
+  "role": "primary",
+  "title": "Act 110/2019 Sb."
+}

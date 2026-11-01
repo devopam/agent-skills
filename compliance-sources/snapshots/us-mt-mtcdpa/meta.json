@@ -1,0 +1,14 @@
+{
+  "id": "us-mt-mtcdpa",
+  "primary_url": "https://leg.mt.gov/",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "8f7d7c52aafad8053ce6cc8d319b7756313da86b298a05a2fef3e68ee26adb10",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-us-mt",
+  "role": "primary",
+  "title": "Montana MTCDPA"
+}

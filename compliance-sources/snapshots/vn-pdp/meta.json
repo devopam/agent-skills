@@ -1,0 +1,14 @@
+{
+  "id": "vn-pdp",
+  "primary_url": "https://vanban.chinhphu.vn/",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "e3a972b81f9429a33ded93f531f5d0915be9f7f5d54e8b1a2fe4a72c0d4b2308",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-vn",
+  "role": "primary",
+  "title": "Vietnam PDP"
+}

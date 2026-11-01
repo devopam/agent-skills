@@ -1,0 +1,14 @@
+{
+  "id": "nz-privacy-act-2020",
+  "primary_url": "https://www.legislation.govt.nz/act/public/2020/31/en/latest/",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "5538c95378c3a4c293ae4ea8c8dcfdb24928b9b6ae238f1b5e3c9025e61ac23e",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-nz",
+  "role": "primary",
+  "title": "NZ Privacy Act 2020"
+}

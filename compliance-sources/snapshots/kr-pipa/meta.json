@@ -1,0 +1,14 @@
+{
+  "id": "kr-pipa",
+  "primary_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=270351",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "7146fc8dc9d842ccebd36345e4f62234f7abdfe1eede3504053d594b1f413c51",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-kr",
+  "role": "primary",
+  "title": "PIPA"
+}

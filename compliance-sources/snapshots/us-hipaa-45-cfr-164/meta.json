@@ -1,0 +1,14 @@
+{
+  "id": "us-hipaa-45-cfr-164",
+  "primary_url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "849e6c2ff2589670bb56bda868eec8ec6a67a2771a202dce97d7d60c56b778fe",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "domain-healthcare-pharma",
+  "role": "primary",
+  "title": "45 CFR Part 164"
+}

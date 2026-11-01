@@ -1,0 +1,14 @@
+{
+  "id": "ru-152-fz",
+  "primary_url": "http://pravo.gov.ru/",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": null,
+  "status": "fetch_error",
+  "error": "URLError: <urlopen error timed out>",
+  "attempts": 3,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-ru",
+  "role": "primary",
+  "title": "152-FZ"
+}

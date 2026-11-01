@@ -1,0 +1,14 @@
+{
+  "id": "ua-pdp",
+  "primary_url": "https://zakon.rada.gov.ua/",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": null,
+  "status": "fetch_error",
+  "error": "URLError: <urlopen error timed out>",
+  "attempts": 3,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-ua",
+  "role": "primary",
+  "title": "Ukraine Personal Data Protection Law"
+}

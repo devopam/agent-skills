@@ -1,0 +1,14 @@
+{
+  "id": "us-fl-fdbr",
+  "primary_url": "https://www.flsenate.gov/",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "e3dc24ed572d79c69a23d8cdbde15a43276abb537e4cf48eb8d608c598242b92",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-us-fl",
+  "role": "primary",
+  "title": "Florida FDBR"
+}

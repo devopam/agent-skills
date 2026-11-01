@@ -1,0 +1,14 @@
+{
+  "id": "no-personopplysningsloven",
+  "primary_url": "https://lovdata.no/lov/2018-06-15-38",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "323e855dfe1a69c916055cb29090b32d2a44bfff6a4fa92294d64b49e5ae7965",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-eu-no",
+  "role": "primary",
+  "title": "Personopplysningsloven"
+}

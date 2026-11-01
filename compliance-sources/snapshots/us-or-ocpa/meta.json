@@ -1,0 +1,14 @@
+{
+  "id": "us-or-ocpa",
+  "primary_url": "https://www.oregonlegislature.gov/",
+  "retrieved_at": "2026-11-01T12:22:11Z",
+  "content_hash": "90119ac5061b7e5f5c8ee59cbd25383f6d50f5ed8512c35104006d1b3af0062b",
+  "status": "ok",
+  "error": null,
+  "attempts": 1,
+  "previous_hash": null,
+  "changed": false,
+  "pack": "privacy-us-or",
+  "role": "primary",
+  "title": "Oregon OCPA"
+}
